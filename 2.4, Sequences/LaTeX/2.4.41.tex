@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.4.41]
+		The union of a countable number of countable sets is countable.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $S = \bigcup_{i \in \mathbb{N}}^{\aleph_0} A_i$ where the cardinality for $A_i$ is at most $\aleph_0$. Then the sequence $\{a_{ij}\} = a_{i0}$, $a_{i1}$, $a_{i2}$, $\dots$ exists for $A_i$. Thus, all elements in $S$ can be listed in two dimensions as \newline \indent $a_{00}, a_{01}, a_{02}, \dots$ \newline \indent $a_{10}, a_{11}, a_{12}, \dots$ \newline \indent $a_{20}, a_{21}, a_{22}, \dots$ \newline \indent \indent $\vdots$ \newline The sequence $\{s_{ij}\}$ consisting of all elements of all elements in $S$ exists. This sequence can be derived by tracing the diagonal paths along the two dimensional list for $S$, \newline \indent $\{s_{ij}\} = a_{00}$, $a_{01}$, $a_{10}$, $a_{20}$, $a_{11}$, $a_{02}$, $\dots$. \newline $\therefore |S| = \aleph_0$, and indeed the union of a countable number of countable sets is countable.
+	\end{proof}
+
+\end{document}

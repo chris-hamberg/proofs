@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.7a]
+		Let A be a set with universal set U. U dominates set union such that $A \cup U = U$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cup U$. By the definition of set union, \newline $(x \in A) \lor (x \in U)$. Regardless of the truth value for $x \in A$, we know $x \in U$ is always true because $U$ is the universe. Therefore by logical domination $(x \in A) \lor (x \in U) \equiv x \in U$. It directly follows from the definitions that $A \cup U = U$. Thus proves the set domination law for the union of sets.
+	\end{proof}
+
+\end{document}

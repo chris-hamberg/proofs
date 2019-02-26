@@ -1,0 +1,28 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.4.20]
+		$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \frac{n}{n+1}$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \sum_{k=1}^{n} (\frac{1}{k} - \frac{1}{k+1})$ = \newline
+		$(\frac{1}{n} - \frac{1}{n+1}) + (\frac{1}{n-1} - \frac{1}{n}) + 
+		(\frac{1}{n-2} - \frac{1}{n-1}) + \dots + 
+		(\frac{1}{1} - \frac{1}{2})
+		$ By Theorem 2.4.19, that is, $-\frac{1}{n+1} + \frac{1}{1} = \frac{(-1) + (n+1)}{n+1} = \frac{n}{n+1}$.
+	\end{proof}
+
+\end{document}

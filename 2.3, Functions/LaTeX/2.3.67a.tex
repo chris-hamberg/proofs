@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.67a]
+		Let A, and B be sets with universal set U. Let $f_{A \cap B}$ be the characteristic function $f_{A \cap B}: U \implies \{0, 1\}$. Let $f_{A}$ be the characteristic function $f_{A}: U \implies \{0, 1\}$. Let $f_{B}$ be the characteristic function \newline $f_{B}: U \implies \{0, 1\}$. $f_{A \cap B}(x) = f_{A}(x) \times f_{B}(x)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cap B$. By the definition for characteristic functions, $f_{A \cap B}(x) = 1$. Since the definition for set intersection says that \newline $(x \in A) \land (x \in B)$, we know by the definition for characteristic functions that $f_{A}(x) = f_{B}(x) = 1$. Thus, it follows immediately by the multiplicative identity law from the field axioms that $f_{A \cap B}(x) = f_{A}(x) \times f_{B}(x)$.
+		
+		Suppose it were not the case that $x$ were an element in $A \cap B$. That is, $x \notin (A \cap B) \equiv [(x \notin A) \lor (x \notin B)]$, by DeMorgans law. By the definition for characteristic functions, $f_{A \cap B}(x) = 0$. Also, again by the definition for characteristic functions we know that ($f_{A}(x) = 0) \lor (f_{B}(x) = 0)$. Without loss of generality we can suppose $f_{A}(x) = 0$. It follows immediately from the multiplicative property of zero that $f_{A \cap B}(x) = 0 \times f_{B}(x) = 0$. Thus, $f_{A \cap B}(x) = f_{A}(x) \times f_{B}(x)$.
+	\end{proof}
+
+\end{document}

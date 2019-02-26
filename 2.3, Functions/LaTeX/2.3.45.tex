@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.45]
+		Let x be a real number. \newline $(x - 1) < \floor{x} \le x \le \ceil{x} < (x + 1)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Notice that $\epsilon = x - \floor{x}$, so $(0 \le \epsilon < 1)$. It is important to note too, that multiplying this inequality by $-1$ on every side yields $(0 \ge -\epsilon > -1) = (-1 < -\epsilon \le 0)$. Finally, note that $\sigma = \ceil{x} - x$, so $(0 \le \sigma < 1)$. But these inequalities together state that $-1 < -\epsilon \le 0 \le \sigma < 1$. Since this inequality is true, by adding $x$ to every side we find that the following statement is also true: $(x - 1) < \floor{x} \le x \le \ceil{x} < (x + 1)$.
+		
+	\end{proof}
+
+\end{document}

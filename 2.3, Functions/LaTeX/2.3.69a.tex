@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.69a]
+		Let x be a real number. $\ceil{\floor{x}} = \floor{x}$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $n$ be the integer such that $n \le x < n+1$. By the properties for floor functions, $\floor{x} = n$. So $\ceil{\floor{x}} = \ceil{n}$. Since $n-1 < n \le n$ is a tautology, by the properties for ceiling functions it must be the case that $\ceil{n} = n$. But $n = \floor{x}$, so $\ceil{\floor{x}} = \floor{x}$.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.50]
+		Let x be a real number. \newline $\floor{-x} = -\ceil{x}$, and $\ceil{-x} = -\floor{x}$.
+	\end{theorem*}
+	
+	\begin{proof}
+		By the properties of ceiling functions, \newline $\ceil{x} = n \iff (n-1) < x \le n$. Multiplying every side of this inequality by $-1$ yields $(-n + 1) > -x \ge -n$. By the properties of floor functions, this means that $\floor{-x} = -n$. And of course since $-1 \times \ceil{x} = -n$, we have $-n = \floor{-x} = -\ceil{x}$.
+		
+		By the properties of floor functions, \newline $\floor{x} = n \iff n \le x < (n+1)$. Multiplying every side of this inequality by $-1$ yields $-n \ge -x > (-n-1)$. By the properties of ceiling functions, this means that $\ceil{-x} = -n$. And of course since $-1 \times \floor{x} = -n$, we have $-n = \ceil{-x} = -\floor{x}$.
+	\end{proof}
+
+\end{document}

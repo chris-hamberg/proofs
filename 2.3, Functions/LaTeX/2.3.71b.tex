@@ -1,0 +1,31 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.71b]
+		Let x be a positive real number. $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{x}}$.
+	\end{theorem*}
+	
+	\begin{proof}
+		By the properties for floor functions, \newline $\ceil{\sqrt{x}} \iff n-1 < \sqrt{x} \le n$. Squaring the inequalities we can determine the value for the floor of $x$. Thus, there are two cases under consideration $(i)$ $\ceil{x} = n^{2} - 2n$, or $(ii)$ $\ceil{x} = n^{2}$.
+		\newline
+		\newline
+		\indent $(i)$ Suppose that $\ceil{x} = n^{2} - 2n$. It follows that, \newline \indent $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{n^{2} - 2n}} = \ceil{\sqrt{n^{2} - 2n} - \sqrt{1} + \sqrt{1}} = \newline \indent \ceil{\sqrt{n^{2} - 2n - 1} + 1} = \ceil{\sqrt{(n-1)^{2}} + 1} = \ceil{(n-1)+1} = n$. Since \indent $n = \ceil{\sqrt{x}}$, in this case it is proved that $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{x}}$.
+		\newline
+		\newline
+		\indent
+		$(ii)$ Suppose that $\ceil{x} = n^{2}$. It follows that $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{n^{2}}} = \ceil{n}$. \indent Since $n$ is an integer, $n$ is the smallest integer that is greater than or \indent equal to $n$. So $\ceil{n} = n$, by the definition for ceiling functions. Because \indent $n = \ceil{\sqrt{x}}$, in this case it is proved that $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{x}}$.
+	\end{proof}
+
+\end{document}

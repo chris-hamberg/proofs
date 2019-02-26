@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.38a]
+		Let A, and B be sets. The symmetric difference of sets is associative such that $(A \oplus B) = (B \oplus A)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		By Theorem 2.2.35, $A \oplus B = (A \cup B) - (A \cap B)$. Because set union is associative, and because set intersection is associative, we have \newline $(B \cup A) - (B \cap A)$. Again, according to Theorem 2.2.35, that is $B \oplus A$.
+	\end{proof}
+
+\end{document}

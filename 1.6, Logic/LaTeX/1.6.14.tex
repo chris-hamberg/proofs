@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.14]
+		If x is a rational number and x $\neq$ 0, then $\frac{1}{x}$ is rational.
+	\end{theorem*}
+	
+	\begin{proof}
+		It is trivial to express $x$ as $x = \frac{x}{1}$. Since $x$ is rational, by the definition of ration numbers there exist integers $a$ and $b$ such that $\frac{x}{1} = \frac{a}{b}$. By equivalence we have $\frac{b}{a} = \frac{1}{x}$, so $\frac{1}{x}$ is rational by definition whenever $x$ is a nonzero rational number.
+	\end{proof}
+
+\end{document}

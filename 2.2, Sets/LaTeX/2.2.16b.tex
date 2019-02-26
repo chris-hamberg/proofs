@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.16b]
+		Let A and B bet sets. $A \subseteq (A \cup B)$
+	\end{theorem*}
+	
+	\begin{proof}
+		All of the elements in A are a subset of $A \cup B$ by the definition of set union. Therefore it trivially follows that $A \subseteq (A \cup B)$.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.20]
+		Let $f$ be the function f: $\mathbb{R} \implies \mathbb{R}$, such that \newline $\forall x ((x \in \mathbb{R}) \implies (f(x) > 0))$. Let g be the function $g: \mathbb{R} \implies \mathbb{R}$ defined by g(x) = 1/f(x). f(x) is strictly increasing if and only if g(x) is strictly decreasing.
+	\end{theorem*}
+	
+	\begin{proof}
+		Suppose there exist real numbers $x$ and $y$ such that $x < y$, and suppose that $f(x) < f(y)$. $f$ is a strictly increasing real-valued function by definition. It follows that $g(x) = 1/f(x) > g(y) = 1/f(y)$, which is the definition for strictly decreasing real-valued functions.
+		
+		Conversely, suppose there exist real numbers $x$ and $y$ such that $x < y$, and suppose that $g(x) > g(y)$. $g$ is a strictly decreasing real-valued function by definition. It follows that $f(x) = 1/g(x) < f(y) = 1/f(y)$, which is the definition for strictly increasing real-valued functions.
+		
+		Thus, $f(x)$ is strictly increasing if and only if $g(x)$ is strictly decreasing.
+	\end{proof}
+
+\end{document}

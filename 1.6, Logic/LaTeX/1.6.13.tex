@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.13]
+		If x is an irrational number, then $\frac{1}{x}$ is irrational.
+	\end{theorem*}
+	
+	\begin{proof}
+		By the contrapositive. Suppose that $\frac{1}{x}$ is a rational number. By definition there exist integers $a$ and $b$ such that  $\frac{1}{x} = \frac{a}{b}$. Logical equivalence has it that $x = \frac{b}{a}$, thus rational.
+	\end{proof}
+
+\end{document}

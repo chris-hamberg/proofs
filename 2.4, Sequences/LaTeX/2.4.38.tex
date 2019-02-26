@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.4.38]
+		Let A, and B be sets with equal cardinality. \newline $|P(A)| = |P(B)|$. 
+	\end{theorem*}
+	
+	\begin{proof}
+		The cardinality of a power set is $2$ to the power of the set cardinality. By the hypothesis, $|A| = |B| = n$. Therefore, $|P(A)| = 2^{n}$, and \newline $|P(B)| = 2^{n}$.
+	\end{proof}
+
+\end{document}

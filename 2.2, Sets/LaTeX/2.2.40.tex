@@ -1,0 +1,58 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.40]
+		Let A, B, and C be sets. The symmetric difference for sets is associative such that $(A \oplus B) \oplus C = A \oplus (B \oplus C)$.
+	\end{theorem*}
+
+	\begin{proof}
+		Let $x$ be an element in $(A \oplus B) \oplus C$. By the definition for the symmetric difference of sets,
+		$x \in [(A \oplus B) \cap \overline{C}] \cup [\overline{(A \oplus B)} \cap C]$. 
+		By Theorem 2.2.36, $x$ is an element in 
+		$\{[(A - B) \cup (B - A)] \cap \overline{C}\} \cup \{\overline{[(A - B) \cup (B - A)]} \cap C\}$. 
+		And by Theorem 2.2.19,
+		$\{[(A \cap \overline{B}) \cup (B \cap \overline{A})] \cap \overline{C}\} \cup \{\overline{[(A \cap \overline{B}) \cup (B \cap \overline{A})]} \cap C]\}$. 
+		Applying DeMorgans law for sets to the subset that is the right-hand side of the union in this superset, twice, produces the following logical superset equivalence,
+		$x \in \{[(A \cap \overline{B}) \cup (B \cap \overline{A})] \cap \overline{C}\} \cup \{[(\overline{A} \cup B) \cap (\overline{B} \cup A)] \cap C]\}$.
+		Then, distributing the terms in the subset that is the right-hand side of the union of this superset gives the logical subset equivalence,
+		$[(\overline{A} \cup B) \cap (\overline{B} \cup A)] \cap C \equiv \{[\overline{A} \cap (\overline{B} \cup A)] \cup [B \cap (\overline{B} \cup A)]\} \cap C$. The subset terms must be distributed further,
+		$\{[(\overline{A} \cap \overline{B}) \cup (\overline{A} \cap A)] \cup [(B \cap \overline{B}) \cup (B \cap A)]\} \cap C$.
+		By the negation, and identity laws,
+		$[(\overline{A} \cup B) \cap (\overline{B} \cup A)] \cap C \equiv [(\overline{A} \cap \overline{B}) \cup (B \cap A)] \cap C$. Distributing $C$, $[(\overline{A} \cup B) \cap (\overline{B} \cup A)] \cap C \equiv (C \cap \overline{A} \cap \overline{B}) \cup (C \cap B \cap A)$.
+		Finally, carrying out distribution on the subset that is the left-hand side of the union of the superset gives us the logically equivalent superset statement \newline
+		$(A \cap \overline{B} \cap \overline{C}) \cup (B \cap \overline{A} \cap \overline{C}) \cup (C \cap \overline{A} \cap \overline{B}) \cup (C \cap B \cap A)$.
+		
+		Now let $x$ be an element in $A \oplus (B \oplus C)$. By the definition for the symmetric difference of sets,
+		$x \in [A \cap \overline{(B \oplus C)}] \cup [\overline{A} \cap (B \oplus C)]$. 
+		By Theorem 2.2.36, $x$ is an element in 
+		$\{A \cap \overline{[(B-C)\cup(C-B)]} 
+		\} \cup \{\overline{A} \cap [(B-C)\cup(C-B)]\}$.
+		And by Theorem 2.2.19, $\{A \cap \overline{[(B \cap \overline{C}) \cup (C \cap \overline{B})]} 
+		\} \cup \{\overline{A} \cap [(B \cap \overline{C})\cup(C \cap \overline{B})]\}$.
+		Applying DeMorgans laws for sets to the subset that is the left-hand side of the union of this superset, twice, produces the following logical superset equivalence,
+		$x \in \{A \cap [(\overline{B} \cup C) \cap (\overline{C} \cup B)] 
+		\} \cup \{\overline{A} \cap [(B \cap \overline{C})\cup(C \cap \overline{B})]\}$.
+		Then, distributing the terms in the subset that is the left-hand side of the union of this superset gives the logical subset equivalence
+		$A \cap [(\overline{B} \cup C) \cap (\overline{C} \cup B)] \equiv A \cap \{[\overline{B} \cap (\overline{C} \cup B)] \cup [C \cap (\overline{C} \cup B)]
+		\}$.
+		The subset terms must be distributed further, 
+		$A \cap \{[(\overline{B} \cap \overline{C}) \cup (\overline{B} \cap B)] \cup [(C \cap \overline{C}) \cup (C \cap B)]\}$. By the negation, and identity laws, 
+		$A \cap [(\overline{B} \cup C) \cap (\overline{C} \cup B)] \equiv A \cap [(\overline{B} \cap \overline{C}) \cup (C \cap B)]$.
+		Distributing $A$, $A \cap [(\overline{B} \cup C) \cap (\overline{C} \cup B)] \equiv (A \cap \overline{B} \cap \overline{C}) \cup (A \cap C \cap B)$.
+		Finally, carrying out distribution on the subset that is the right-hand side of the union of the superset gives us the logically equivalent superset statement \newline
+		$(A \cap \overline{B} \cap \overline{C}) \cup (A \cap C \cap B) \cup (\overline{A} \cap B \cap \overline{C}) \cup (\overline{A} \cap C \cap \overline{B})$.
+		
+		Because $x \in [(A \cap \overline{B} \cap \overline{C}) \cup (A \cap C \cap B) \cup (\overline{A} \cap B \cap \overline{C}) \cup (\overline{A} \cap C \cap \overline{B})]$, whenever $x$ is an element in $(A \oplus B) \oplus C$ and $x$ is an element in $A \oplus (B \oplus C)$, it follows that $(A \oplus B) \oplus C= A \oplus (B \oplus C) \therefore$ the symmetric difference for sets is indeed, associative.
+	\end{proof}
+
+\end{document}

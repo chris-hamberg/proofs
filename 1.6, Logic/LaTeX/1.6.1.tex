@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.1]
+		Let x and y be integers. If x and y are odd, then x + y is even.
+	\end{theorem*}
+	
+	\begin{proof}
+		By definition, there exists integers $m$ and $n$ such that $x = 2m + 1$ and $y = 2n + 1$. $2m + 1 + 2n + 1 = 2(m + n + 1)$. $m + n + 1$ is an integer $k$ because the sum of integers is an integer $\therefore$ $\space$ $x + y = 2k$ is even by definition.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.24]
+		Let $f$ be the function $f: \mathbb{R} \implies \mathbb{R}$ defined by $f(x) = e^{x}$. $f(x)$ is not invertible.
+	\end{theorem*}
+	
+	\begin{proof}
+		The inverse function of $f(x) = e^{x}$ is $f(x)^{-1} = \log_{e}x$. But \newline logarithmic functions are undefined for negative-valued domains. Thus, $f(x)$ is not bijective, and $f(x)$ is not invertible.
+	\end{proof}
+
+\end{document}

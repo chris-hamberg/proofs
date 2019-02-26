@@ -1,0 +1,27 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.15]
+		Let A and B be sets. $\overline{A \cup B} = \overline{A} \cap \overline{B}.$
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $\overline{A \cup B}$. By the definition of set \newline complementation we have $\lnot [x \in (A \cup B)]$. By the definition of set union, \newline $\lnot [(x \in A) \lor (x \in B)]$. Applying DeMorgans law (from logic) to the logical operations we get $\lnot(x \in A) \land \lnot(x \in B) \equiv (x \in \overline{A}) \land (x \in \overline{B})$. This is the definition of $x \in (\overline{A} \cap \overline{B})$. Therefore $\overline{A \cup B} \subseteq (\overline{A} \cap \overline{B})$. 
+		
+		Now suppose $x$ were an element in $\overline{A} \cap \overline{B}$. Then by definition \newline $(x \in \overline{A}) \land (x \in \overline{B}) \equiv \lnot (x \in A) \land \lnot (x \in B)$. By DeMorgans law (from logic) we have $\lnot [(x \in A) \lor (x \in B)]$. Since this is the definition for set union it follows that $\lnot [x \in (A \cup B)]$. Finally, applying the definition of set complementation we arrive at $x \in \overline{A \cup B}$. Therefore $(\overline{A} \cap \overline{B}) \subseteq \overline{A \cup B}$.
+		
+		Because $\overline{A \cup B} \subseteq (\overline{A} \cap \overline{B})$ and $(\overline{A} \cap \overline{B}) \subseteq \overline{A \cup B}$ the sets are equivalent by definition. That is,  $\overline{A \cup B} = (\overline{A} \cap \overline{B})$. Thereby proving DeMorgans law for sets, that the complement of the union of two sets is equivalent to the intersection of those set complements.
+		
+	\end{proof}
+
+\end{document}

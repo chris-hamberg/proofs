@@ -1,0 +1,23 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.4]
+		The additive inverse of an even number is an even number.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $n$ be an even number. There exists an integer $k$ such that 
+		\newline $n = 2k$, by definition. The additive inverse of $n$ is $-2k$. By commutativity of addition, $-2k = 2(-k)$, and $-k$ is an integer because the product of integers is an integer $\therefore$ $\space$ $-n$ is an even number by definition.
+	\end{proof}
+
+\end{document}

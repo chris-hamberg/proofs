@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.17]
+		Let A, B, and C be sets. $\overline{A \cap B \cap C} = \overline{A} \cup \overline{B} \cup \overline {C}$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $\overline{A \cap B \cap C}$. By the definitions for set \newline complementation and logical negation we have \newline $x \notin (A \cap B \cap C) \equiv \lnot (x \in A \cap B \cap C)$. By the definition of set intersection that is $\lnot [(x \in A) \land (x \in B) \land (x \in C)]$. Using DeMorgans law (from logic) we can distribute the logical negation across the conjunctions giving us the expression $\lnot (x \in A) \lor \lnot (x \in B) \lor \lnot (x \in C)$. Carrying out those logical negations on each respective term, and again by the definition for set complementation we have $(x \in \overline{A}) \lor (x \in \overline{B}) \lor (x \in \overline{C})$. This is the definition of $\overline{A} \cup \overline{B} \cup \overline{C}$. Hence, $\overline{A \cap B \cap C} \subseteq \overline{A} \cup \overline{B} \cup \overline{C}$.
+		
+		Now suppose the converse case, where x is an element of $\overline{A} \cup \overline{B} \cup \overline{C}$. As already stated in the previous paragraph the definition for this expression is $(x \in \overline{A}) \lor (x \in \overline{B}) \lor (x \in \overline{C})$. By the definitions for complementation and logical negation that is $\lnot (x \in A) \lor \lnot (x \in B) \lor \lnot (x \in C)$. Using DeMorgans law (from logic) we can factor out the logical negations such that $\lnot [(x \in A) \land (x \in B) \land (x \in C)]$. Which, by the arguments given in the first paragraph we know is equivalent to $\overline{A \cap B \cap C}$. Thus, $\overline{A} \cup \overline{B} \cup \overline{C} \subseteq \overline{A \cap B \cap C}$.
+		
+		It immediately follows from the definition of set equivalence that \newline $\overline{A \cap B \cap C} = \overline{A} \cup \overline{B} \cup \overline{C}$
+	\end{proof}
+
+\end{document}

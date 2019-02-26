@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.4.43]
+		The set of all finite bit strings is countable.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $\{a_{n-1}\}$ be the sequence of bits for any finite bit string $a($base-$2)$ of length $n$. The unique base-$2$ expansion for $\{a_{n-1}\}$ is the integer \newline $a($base-$10)$ $= 
+		\sum_{i \in \mathbb{N}}^{n-1} a_{i}2^{i}$. Also, this integer can be converted to the unique base-$2$ bit string for $a($base-$10)$ by $a($base-$2)$ $= \sum_{i \in \mathbb{N}}^{n-1}$ $[a($base-$10)($mod $2^{i+1})]10^{i}$. Hence, there exists a one-to-one correspondence between $\mathbb{Z}$ and the set of all finite bit strings. So the cardinality for the set of all finite bit strings is $\aleph_0$. It follows that the set of all finite bit strings is countably infinite, by definition.
+	\end{proof}
+
+\end{document}

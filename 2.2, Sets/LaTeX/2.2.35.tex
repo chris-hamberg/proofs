@@ -1,0 +1,27 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.35]
+		Let A, and B be sets. $A \oplus B = (A \cup B) - (A \cap B)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \oplus B$. This is logically defined as \newline $[(x \in A) \land (x \notin B)] \lor [(x \notin A) \land (x \in B)]$. By the definition for set difference $x$ is an element in $(A - B) \cup (B - A)$ which by Theorem 2.2.19 can be expressed as 
+		$(A \cap \overline{B}) \cup (B \cap \overline{A})$. By Theorem 2.2.23, which proves that set unions are distributive over set intersections, the following expression is equivalent $[A \cup (B \cap \overline{A})] \cap [\overline{B} \cup (B \cap \overline{A})]$. Again, by Theorem 2.2.23, we have $[(A \cup B) \cap (A \cup \overline{A})] \cap [(\overline{B} \cup B) \cap (\overline{B} \cup \overline{A})]$. Let the logical definition for this expression be represented in two propositional variables $p \land q$ such that: \newline \indent $p \equiv \{[(x \in A) \lor (x \in B)] \land [(x \in A) \lor (x \notin A)]\} \newline \indent q \equiv \{[(x \notin B) \lor (x \in B)] \land [(x \notin B) \lor (x \notin A)]\}$. \newline By the logical law of identity $p \equiv (x \in A) \lor (x \in B)$, and \newline $q \equiv (x \notin B) \lor (x \notin A)$. So we have $[(x \in A) \lor (x \in B)] \land [(x \notin B) \lor (x \notin A)]$. Applying DeMorgans law to the right-hand side of the conjunction we get \newline $[(x \in A) \lor (x \in B)] \land \lnot [(x \in B) \land (x \in A)]$. Then by  definition, $x$ is an element in $(A \cup B) \cap \overline{(A \cap B)}$, and according to Theorem 2.2.19 $x$ is an element in $(A \cup B) - (A \cap B)$.
+		
+		Proving the converse case is trivial. Let $x$ be an element in \newline $(A \cup B) - (A \cap B)$. By Theorem 2.2.19 $x$ is an element in $(A \cup B) \cap \overline{(A \cap B)}$. By definition we have, $[(x \in A) \lor (x \in B)] \land \lnot [(x \in B) \land (x \in A)]$. By DeMorgans law, $[(x \in A) \lor (x \in B)] \land [(x \notin B) \lor (x \notin A)]$. Let this logical formula be represented in two propositional variables $p \land q$ such that $p \equiv (x \in A) \lor (x \in B)$ and $q \equiv (x \notin B) \lor (x \notin A)$. By the logical law of identity $p \land T \equiv T$, and $q \land T \equiv T$. By the negation law of logic, $(x \notin B) \lor (x \in B) \equiv T$, and $(x \in A) \lor (x \notin A) \equiv T$. Therefore, \newline \indent $p \equiv \{[(x \in A) \lor (x \in B)] \land [(x \in A) \lor (x \notin A)]\} \newline \indent q \equiv \{[(x \notin B) \lor (x \in B)] \land [(x \notin B) \lor (x \notin A)]\}$. \newline By definition, $x$ is an element in $[(A \cup B) \cap (A \cup \overline{A})] \cap [(\overline{B} \cup B) \cap (\overline{B} \cup \overline{A})]$. By Theorem 2.2.23, factoring $A$ out of the left-hand side of the intersection, and factoring $\overline{B}$ out of the right-hand side of the intersection, the following expression is equivalent $[A \cup (B \cap \overline{A})] \cap [\overline{B} \cup (B \cap \overline{A})]$. Again, by Theorem 2.2.23, factoring $(B \cap \overline{A})$ out of the intersection we have the following equivalent expression $(A \cap \overline{B}) \cup (B \cap \overline{A})$. Which, by Theorem 2.2.19 is equivalently stated as $(A - B) \cup (B - A)$, defined by $[(x \in A) \land (x \notin B)] \lor [(x \notin A) \land (x \in B)]$. But this is the formal definition for the symmetric difference of sets, so $x$ must be an element in $A \oplus B$.
+		
+		Since $A \oplus B \subseteq (A \cup B) - (A \cap B)$ and $(A \cup B) - (A \cap B) \subseteq A \oplus B$, it follows immediately that $A \oplus B = (A \cup B) - (A \cap B)$.
+	\end{proof}
+
+\end{document}

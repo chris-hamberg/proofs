@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.6]
+		The product of two odd numbers is odd.
+	\end{theorem*}
+	
+	\begin{proof}
+		Suppose that $x$ and $y$ are odd numbers. By definition, there exist integers $m$ and $n$ such that $x = 2m + 1$ and $y = 2n + 1$. $xy = (2m + 1)(2n + 1) = 2m2n + 2m + 2n + 1 = 2(mn + m + n) + 1$. $mn + m + n$ is an integer because the sum of integers is an integer. Thus, xy is odd by definition.
+	\end{proof}
+
+\end{document}

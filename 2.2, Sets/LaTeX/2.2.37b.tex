@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.37b]
+		Let A be a subset of the universal set U. $A \oplus \emptyset = A$.
+	\end{theorem*}
+	
+	\begin{proof}
+		By Theorem 2.2.35, $A \oplus \emptyset = (A \cup \emptyset) - (A \cap \emptyset)$. By set identity, and by set domination, that is $A - \emptyset$, which by Theorem 2.2.19 means $A \cap \overline{\emptyset}$. Because $\overline{\emptyset} = U$, we have by set identity that $A \oplus \emptyset = A$.
+	\end{proof}
+
+\end{document}

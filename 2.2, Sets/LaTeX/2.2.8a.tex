@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.8a]
+		Let A be a set. A is idempotent such that $A \cup A = A$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cup A$. By the definition of set union we have, \newline $(x \in A) \lor (x \in A)$. The logical idempotent law says \newline $(x \in A) \lor (x \in A) \equiv (x \in A)$ which is precisely $A \cup A = A$ by definition. Thus proves the idempotent law for the union of sets.
+	\end{proof}
+
+\end{document}

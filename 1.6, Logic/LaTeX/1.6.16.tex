@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.16]
+		Let m and n be integers. If the product mn is even, then m is even or n is even.
+	\end{theorem*}
+	
+	\begin{proof}
+		By the contrapositive. Suppose the negation of the consequent; that is, $m$ is odd and $n$ is odd. By definition, there exist integers $k$ and $j$ such that $m = 2k + 1$ and $n = 2j + 1$. Thus, $mn = (2k + 1)(2j + 1) = 2(kj + k + j) + 1$. The factor $kj + k + j$ is an integer, and so the product $mn$ is odd by definition.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,22 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.41]
+		Let A, B, and C be sets. If $A \oplus C = B \oplus C$, then $A = B$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$A \oplus C = B \oplus C \equiv (A \cap \overline{C}) \cup (C \cap \overline{A}) = (B \cap \overline{C}) \cup (C \cap \overline{B}) \implies \newline (A \cap \overline{C}) \cup (\overline{A} \cap C) = (B \cap \overline{C}) \cup (\overline{B} \cap C)$, by commutativity for the intersection of sets. By Theorem 2.2.19, that is $(A-C) \cup (\overline{A} - \overline{C}) = (B - C) \cup (\overline{B} - \overline{C})$. By Theorem 2.2.24, $(A - \overline{A}) - C = (B - \overline{B}) - C$. Or rather, \newline $(A \cap A) - C = (B \cap B) - C \equiv A - C = B - C$, by Theorem 2.2.19. By the definition for set difference, for an element $x$ in $(A \oplus C = B \oplus C)$, $[(x \in A) \land (x \notin C)] = [(x \in B) \land (x \notin C)]$. Since $x \notin C \equiv T$ by reason of the hypothesis, we have $[(x \in A) \land T] = [(x \in B) \land T]$. The logical identity for which is $(x \in A) = (x \in B)$. Thus, $(A \oplus C = B \oplus C) \implies A = B$.
+	\end{proof}
+
+\end{document}

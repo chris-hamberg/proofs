@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.23]
+		Let A, B, and C be sets. $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$, such that set union is distributive over set intersection.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cup (B \cap C)$. The logical definition being \newline $(x \in A) \lor [(x \in B) \land (x \in C)]$. By the logical law for distribution of disjunction over conjunction we have $[(x \in A) \lor (x \in B)] \land [(x \in A) \lor (x \in C)]$. By definition, $x$ is an element in $(A \cup B) \cap (A \cup C)$.
+		
+		Proving the converse, let $x$ be an element in $(A \cup B) \cap (A \cup C)$. The logical definition being $[(x \in A) \lor (x \in B)] \land [(x \in A) \lor (x \in C)]$. By the logical law for distribution we can factor out the term $x \in A$ over the conjunction. Thus, $(x \in A) \lor [(x \in B) \land (x \in C)]$, and $x$ is an element in $A \cup (B \cap C)$ by definition.
+		
+		Since $A \cup (B \cap C) \subseteq (A \cup B) \cap (A \cup C)$ and \newline $(A \cup B) \cap (A \cup C) \subseteq A \cup (B \cap C)$, it follows immediately from the definition of set equality that $A \cup (B \cap C) = (A \cup B) \cap (A \cup C)$. Therefore, set union is indeed distributive over set intersection.
+	\end{proof}
+
+\end{document}

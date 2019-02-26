@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.4.37]
+		Let A, and B be sets such that $A \subseteq B$. If A is \newline uncountable, then B is uncountable.
+	\end{theorem*}
+	
+	\begin{proof}
+		By the hypothesis, $|A| > \aleph_0$ by the definition for countability since $A$ is uncountable. By the definition for subset, the cardinality of $B$ is at least the cardinality of $A$. Therefore the least cardinality for $B$ is $|B| > \aleph_0$, and it follows that $B$ is uncountable.
+	\end{proof}
+
+\end{document}

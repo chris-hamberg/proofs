@@ -1,0 +1,28 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.48a]
+		Let x be a real number, and let n be an integer. \newline $x \le n \iff \ceil{x} \le n$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Direct form by the contrapositive. Suppose $\ceil{x} > n$. Since $\ceil{x}$ and $n$ are integers, $\ceil{x} - 1 \ge n$. By the properties of ceiling functions we have the following tautology, $\ceil{x} = \ceil{x} \iff \ceil{x} \ge x > \ceil{x} - 1$. Combining these two inequalities yields $\ceil{x} \ge x > \ceil{x} - 1 \ge n$. This says, $x > n$. Since this statement following from the negation of the direct consequent is itself the negation of the direct hypothesis, $x \le n \implies \ceil{x} \le n$, is true.
+		
+		Converse form by the contrapositive. Suppose $x > n$. Note that $\ceil{x} \ge x$, by the properties of the ceiling function. So if $x > n$, then $\ceil{x} \ge x > n$, and $\ceil{x} > n$. Since this statement is the negation of the converse hypothesis following directly from negation of the converse consequent, \newline $x \le n \impliedby \ceil{x} \le n$, is true.
+		
+		Thus proves, the biconditional statement $x \le n \iff \ceil{x} \le n$. 
+	\end{proof}
+
+\end{document}

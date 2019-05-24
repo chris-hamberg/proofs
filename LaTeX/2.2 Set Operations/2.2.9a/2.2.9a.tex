@@ -1,0 +1,33 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.9a]
+		Let A be a set with universal set U. $A \cup \overline{A} = U$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cup \overline{A}$. By the definition for set union and the complement 
+		of sets we have $(x \in A) \lor (x \notin A)$. The right-hand side of this disjunction is 
+		equivalent to $x \in (U \cap \overline{A})$ according to the definition for set complementation. 
+		That is, $(x \in U) \land (x \notin A)$. So the original disjunction is the same as 
+		$(x \in A) \lor [(x \in U) \land (x \notin A)]$. We must distribute the left-hand side of this 
+		disjunction over the conjunction occurring in the right-hand side. We get 
+		$[(x \in A) \lor (x \in U)] \land [(x \in A) \lor (x \notin A)]$. By the logical law of negation 
+		the identity for the right-hand side of this conjunction is true. The left-hand side of this 
+		conjunction is dominated by $U$, according to Theorem 2.2.7a. Therefore the statement 
+		$x \in A \cup \overline{A}$ can be equivalently stated as $(x \in U) \land T$; the logical identity 
+		of which is $x \in U$. Thus proving the set complementation law for the union of sets, 
+		$A \cup \overline{A} = U$.
+	\end{proof}
+
+\end{document}

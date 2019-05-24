@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.22f]
+		Let f be the function defined by f(x) = $\ceil{\frac{x}{2}}$. \newline f(x) is $\Theta(x)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		If $x \ge 1$ then $|\ceil{\frac{x}{2}}| \le |x|$, for all $x$. So $f(x)$ is $\mathcal{O}(x)$ with constant witnesses $C = 1$ and $k = 1$. By the properties for ceiling functions, \newline $\ceil{x} \ge x$. This of course means that $\ceil{\frac{x}{2}} \ge \frac{1}{2}x$. If $x \ge 1$, then $|\ceil{\frac{x}{2}}| \ge \frac{1}{2}|x|$. Thus, $f(x)$ is $\Omega(x)$ with constant witnesses $C = \frac{1}{2}$ and $k = 1$. It follows immediately that $f(x)$ is $\Theta(x)$.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,17 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, margin=0.5in}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+
+\begin{document}\noindent
+	$\verb|Prove that | \ceil*{x} + \ceil*{y} - \ceil*{x + y} = (0 \lor 1)\verb|, whenever | x   \verb| and | y \verb| are real numbers.|$
+	\begin{proof}
+		$\verb|There are three cases under consideration: | (x $\space$ \oplus $\space$ y) \in \mathbb{Z}, $\space$ (x $\space$ \land $\space$ y) \in \mathbb{Z} \verb|, and | (x $\space$ \land $\space$ y) \in \mathbb{R} - \mathbb{Z}. \newline \newline \verb|Suppose the case | (x $\space$ \oplus $\space$ y) \in \mathbb{Z} \verb|, and |x \in \mathbb{Z} \verb|. Then | y \in \mathbb{R} - \mathbb{Z}, \verb| and | \ceil*{y} = \ceil*{n + \epsilon} \verb| where | n \in \mathbb{Z} \verb| such that | \newline n < y < n + 1\verb|, and | \epsilon \in \mathbb{R} \verb| such that | 0 < \epsilon < 1. \verb| It follows that | \ceil*{x} + \ceil*{y} - \ceil*{x + y} = (x + n + 1) - (x + n + 1)\newline  = 0. \verb| Without loss of generality, this holds whenever | x, y = y, x. \newline \newline \verb|Suppose the case that | x,y \in \mathbb{Z} 
+		\verb|. Then | \ceil*{y} = \ceil*{n + \epsilon} \verb| where | n,\epsilon \in \mathbb{Z} \verb| such that | y = n \verb|, and | \epsilon = 0. \verb| It follows| \newline \verb|that | \ceil*{x} + \ceil*{y} - \ceil*{x + y} = (x + n + 0) - (x + n + 0) = 0. \newline \newline \verb|Now consider the case where | (x $\space$ \land $\space$ y) \in \mathbb{R} - \mathbb{Z}. \verb| This means that | \ceil{x} $\space$+$\space$ \ceil{y} - \ceil{x $\space$ + $\space$ y} = \newline \ceil{m + \epsilon} + \ceil{n + \sigma} - \ceil{m + n + \epsilon + \sigma}, \verb| where | m,n \in \mathbb{Z} \verb| and | \epsilon,\sigma \in \mathbb{R} \verb|, such that | m < x < m+1, $\space$ $\space$ n < y < n+1, \newline 0 < \epsilon < 1, \verb| and | 0 < \sigma < 1. \verb| Within this case, there are two cases to consider: | \epsilon + \sigma > 1 \verb|, and | \epsilon + \sigma \le 1. \newline \newline \verb|If | \epsilon + \sigma > 1, \verb| then | \ceil{m + \epsilon} + \ceil{n + \sigma} - \ceil{m + n + \epsilon + \sigma} = (m + 1) + (n + 1) - (m + n + 2) = 0. \newline \verb|Because | \ceil{\epsilon + \sigma} = 2 \verb|, whenever | \epsilon + \sigma > 1. \newline \newline \verb|If | \epsilon + \sigma \le 1, \verb| then |\ceil{m + \epsilon} + \ceil{n + \sigma} - \ceil{m + n + \epsilon + \sigma} = (m + 1) + (n + 1) - (m + n + 1) = 1. \newline \verb|Because | \ceil{\epsilon + \sigma} = 1 \verb|, whenever | \epsilon + \sigma \le 1. \newline \newline \therefore $\space$ $\space$ \ceil{x} + \ceil{y} - \ceil{x + y} = (0 $\space$ \lor $\space$ 1) \verb|, whenever x and y are real numbers.|
+		$ 
+	\end{proof}	
+\end{document}

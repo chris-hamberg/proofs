@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.4]
+		Let f be the function defined by f(x) = $2^{x} + 17$. \newline f(x) is $\mathcal{O}(3^{x})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = 3^{x}$. $17 < 3^{3}$, and clearly \newline $2^{x} \le 3^{x}$, for all $x \ge 3$. So $2^{x} + 17 \le 3^{x} + 3^{x}$, for all $x > 3$. It follows from the definitions of $f$ and $g$ that $|f(x)| \le 2|g(x)|$, for all $x > 3$. Therefore, by definition, $f(x)$ is $\mathcal{O}(3^{x})$ with constant witnesses $C = 2$, and $k = 3$.
+	\end{proof}
+
+\end{document}

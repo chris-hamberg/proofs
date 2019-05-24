@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.7b]
+		Let f be the function defined by f(x) = $3x^{3} + (\log x)^{4}$. \newline f(x) is $\mathcal{O}(x^{3})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x^{3}$. $f(x)$ is the sum of functions. The function $3x^{3}$ in the sum of functions $f(x)$ is less than or equal to $3 \cdot g(x)$, for all $x \in \mathbb{R}$ Therefore, $3x^{3}$ is $\mathcal{O}(g(x))$ with constant witnesses $C = 3$, and any $k \in \mathbb{R}$.
+		If $x \ge 1$, then the function $(\log x)^{4}$ is less than $g(x)$. Therefore, $(\log x)^{4}$ is $\mathcal{O}(g(x))$ with constant witnesses $C = 1$, and $k = 1$. By the theorem stating that the bounding function for the sum of functions is the maximum bounding function of those functions, it follows that $f(x)$ is $\mathcal{O}(x^{3})$ with constant witnesses $C = 3$ and $k = 1$.
+	\end{proof}
+
+\end{document}

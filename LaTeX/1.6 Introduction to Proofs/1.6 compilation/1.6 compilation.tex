@@ -1,0 +1,320 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+
+\section*{1.6 Introduction to Proofs}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.1 ================================
+\begin{theorem*}[\textbf{1.6.1}]
+    Let x and y be integers. If x and y are odd, then x + y is even.
+\end{theorem*}
+
+\begin{proof}
+    By definition, there exists integers $m$ and $n$ such that $x = 2m + 1$ and 
+    $y = 2n + 1$. $2m + 1 + 2n + 1 = 2(m + n + 1)$. $m + n + 1$ is an integer $k$ because the 
+    sum of integers is an integer $\therefore$ $\space$ $x + y = 2k$ is even by definition.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.2 =================================
+\begin{theorem*}[\textbf{1.6.2}]
+    Let x and y be integers. If x and y are even then x + y is even.
+\end{theorem*}
+
+\begin{proof}
+    By definition, there exist integers $m$ and $n$ such that $2m = x$ and $2n = y$. 
+    $2m + 2n = 2(m + n)$. $m + n$ is an integer $k$ because the sum of integers is an integer. 
+    Thus, $x + y = 2k$ is even, by definition.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.3 =================================
+\begin{theorem*}[\textbf{1.6.3}]
+    If n is an even integer, then $n^2$ is an even integer.
+\end{theorem*}
+
+\begin{proof}
+    By definition, there exists an integer $k$ such that $n = 2k$. \newline 
+    $(2k)^2 = 4k^2 = 2(2k^2)$. $2k^2$ is an integer $\therefore$ $\space$ $n^2$ is even, by 
+    definition.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.4 =================================
+\begin{theorem*}[\textbf{1.6.4}]
+    The additive inverse of an even number is an even number.
+\end{theorem*}
+
+\begin{proof}
+    Let $n$ be an even number. There exists an integer $k$ such that 
+    \newline $n = 2k$, by definition. The additive inverse of $n$ is $-n = -2k$. By commutativity of 
+    multiplication, $-2k = 2(-k)$, and $-k$ is an integer because the product of integers is an integer 
+    $\therefore$ $\space$ $-n$ is an even number by definition.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 1.6.5 =================================
+\begin{theorem*}[\textbf{1.6.5}]
+    Let m, n, and p be integers. If m + n and n + p are even integers, then m + p is even.
+\end{theorem*}
+
+\begin{proof}
+    By the hypothesis there exist integers $k$ and $j$ such that $m + n = 2k$, and
+    $n + p = 2j$. So $m + n + n + p = 2k + 2j$. Subtracting $2n$ from both sides produces
+    $m + p = 2k + 2j - 2n = 2(k + j - n)$. Since $k + j - n$ is an integer, $m + p$ is an 
+    integer and even by definition.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.6 =================================
+\begin{theorem*}[\textbf{1.6.6}]
+    The product of two odd numbers is odd.
+\end{theorem*}
+
+\begin{proof}
+    Suppose that $x$ and $y$ are odd numbers. By definition, there exist integers $m$ and $n$ 
+    such that $x = 2m + 1$ and $y = 2n + 1$. 
+    $xy = (2m + 1)(2n + 1) = 2m2n + 2m + 2n + 1 = 2(mn + m + n) + 1$. 
+    $mn + m + n$ is an integer because the sum of integers is an integer. Thus, xy is odd by 
+    definition.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 1.6.8 =================================
+\begin{theorem*}[\textbf{1.6.8}]
+    If n is a perfect square, then n + 2 is not a perfect square.
+\end{theorem*}
+
+\begin{proof}
+    Let $n$ be a perfect square. Assume $n + 2$ is a perfect square for the purpose of 
+    contradiction. By the definition of perfect square, $\sqrt{n}$ has to be an integer, and 
+    by our assumption there exists an integer $m$ such that $m^2 = n + 2$. So the 
+    equivalence $m^2 - (\sqrt{n})^2 = 2$ must be the difference of squares 
+    $(m + \sqrt{n})(m - \sqrt{n}) = 2$. Since the sum or difference of integers is an integer 
+    it follows that the factors of $2$, $(m + \sqrt{n})$ and $(m - \sqrt{n})$, have to be 
+    integers. Because $2$ is prime those integer factors can only be elements in 
+    $\{-2, -1, 1, 2\}$. Thus, there are exactly two possibilities:
+    \\ \\ \indent \indent $(i)$ $m^2 - (\sqrt{n})^2 = (2)(1)$,
+    \\ \indent \indent or $(ii)$ $m^2 - (\sqrt{n})^2 = (-1)(-2).$
+    \\ \\ In case $(i)$, without loss of generality, we have 
+    a system of linear 
+    equations in two variables $m$ and $\sqrt{n}$: 
+    \\ \\ \indent \indent \indent \indent \indent \indent \indent \indent \indent $m + \sqrt{n} = 2
+    \\ \indent \indent \indent \indent \indent \indent \indent \indent \indent m - \sqrt{n} = 1$
+    \\ \\
+    The matrix of coefficients 
+    $A = \left[\begin{smallmatrix}
+        1 & 1 \\
+        1 & -1 
+    \end{smallmatrix}\right]$, the inverse for which is
+    $A^{-1} = \left[\begin{smallmatrix}
+        0.5 & 0.5 \\
+        0.5 & -0.5
+    \end{smallmatrix}\right]$. The product of $A^{-1}$ and the matrix of solutions
+    yields $m = 1.5$, which is not in $\mathbb{Z}$;
+    contradicting the assumption that $m^2$ was a perfect square.
+    \\ \\ In case $(ii)$, we are presented with a similar system of linear equations.
+    The only difference in this system compared to $(i)$ is the matrix of solutions 
+    $S = \left[\begin{smallmatrix}
+        -1 \\
+        -2
+    \end{smallmatrix}\right]$. $A^{-1}S$ yields $m = -1.5$, which is not in $\mathbb{Z}$,
+    a contradiction. The assumption that $m^2$ was a perfect square must be false in this case, 
+    as well.
+    \\ \\Since the assumption proves false in all possible cases, it is not possbile that 
+    both $m^2 = n + 2$, and $n$ are perfect squares.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 1.6.9 =================================
+\begin{theorem*}[\textbf{1.6.9}]
+    The sum of an irrational number and a rational number is irrational.
+\end{theorem*}
+
+\begin{proof}
+    By contradiction. Suppose that $m$ and $n$ are rational numbers. By definition, there exist integers
+    $a$, $b$, $c$, and $d$ such that $m = \frac{a}{b}$ and $n = \frac{c}{d}$. Let $x$ be an irrational 
+    number such that the sum of a rational number and an irrational number can be expressed as 
+    $m + x = n$ and $n + (-m) = x$. In terms of $a$, $b$, $c$, and $d$ we have 
+    $\frac{-a}{b} + \frac{c}{d} = \frac{-ad}{bd} + \frac{cb}{bd} = \frac{-ad + cb}{bd} = x$. Note that 
+    the sum of products of integers is an integer. But this is impossible because $x$ is irrational; 
+    thus a contradiction.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.10 ================================
+\begin{theorem*}[\textbf{1.6.10}]
+    The product of two rational numbers is rational.
+\end{theorem*}
+
+\begin{proof}
+    Let $m$ and $n$ be rational numbers. By definition there exist integers $a$, $b$, $c$, and $d$ such 
+    that $m = \frac{a}{b}$ and $n = \frac{c}{d}$. The product of $m$ and $n$ is $\frac{ac}{bd}$. Since 
+    the product of integers is an integer, $ac$ and $bd$ are integers. Thus $mn$ is rational by 
+    definition.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.12 ================================
+\begin{theorem*}[\textbf{1.6.12}]
+    The product of a nonzero rational number and an irrational number is irrational.
+\end{theorem*}
+
+\begin{proof}
+    For the purpose of contradiction, suppose that the product of a nonzero rational number and an 
+    irrational number is rational. This can be expressed as 
+    $\frac{a}{b} \space \cdot \space x = \frac{c}{d}$, where $a$, $b$, $c$, and $d$ are integers and $x$ 
+    is irrational. Since $a \neq 0$ we equivalently have 
+    $x = \frac{c}{d} \space \cdot \space \frac{b}{a} = \frac{cb}{da}$. A contradiction.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.13 ================================
+\begin{theorem*}[\textbf{1.6.13}]
+    If x is an irrational number, then $\frac{1}{x}$ is irrational.
+\end{theorem*}
+
+\begin{proof}
+    By the contrapositive. Suppose that $\frac{1}{x}$ is a rational number. By definition there exist 
+    integers $a$ and $b$ such that  $\frac{1}{x} = \frac{a}{b}$. Logical equivalence has it that 
+    $x = \frac{b}{a}$, thus rational.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 1.6.14 ================================
+\begin{theorem*}[\textbf{1.6.14}]
+    If x is a rational number and x $\neq$ 0, then $\frac{1}{x}$ is rational.
+\end{theorem*}
+
+\begin{proof}
+    It is trivial to express $x$ as $x = \frac{x}{1}$. Since $x$ is rational, by the definition of 
+    ration numbers there exist integers $a$ and $b$ such that $\frac{x}{1} = \frac{a}{b}$. By 
+    equivalence we have $\frac{b}{a} = \frac{1}{x}$, so $\frac{1}{x}$ is rational by definition 
+    whenever $x$ is a nonzero rational number.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.15 ================================
+\begin{theorem*}[\textbf{1.6.15}]
+    Let x and y be real numbers. If x + y $\ge$ 2, then \newline (x $\ge$ 1) $\lor$ (y $\ge$ 1).
+\end{theorem*}
+
+\begin{proof}
+    By the contrapositive. Suppose it were the case that \newline $(x < 1) \land (y < 1)$. We can 
+    simply add the inequalities: $x + y < 1 + 1 = 2$. This is the logical negation for the direct 
+    form hypothesis, by DeMorgans law. Thus concludes the proof.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.16 ================================
+\begin{theorem*}[\textbf{1.6.16}]
+    Let m and n be integers. If the product mn is even, then m is even or n is even.
+\end{theorem*}
+
+\begin{proof}
+    By the contrapositive. Suppose the negation of the consequent; that is, $m$ is odd and $n$ is odd. 
+    By definition, there exist integers $k$ and $j$ such that $m = 2k + 1$ and $n = 2j + 1$. Thus, 
+    $mn = (2k + 1)(2j + 1) = 2(kj + k + j) + 1$. The factor $kj + k + j$ is an integer, and so the 
+    product $mn$ is odd by definition.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.17 ================================
+\begin{theorem*}[\textbf{1.6.17}]
+    Let n be an integer. If $n^{3}$ + 5 is odd, then n is even.
+\end{theorem*}
+
+\begin{proof}
+    By the contrapositive. Suppose that $n$ is odd. By definition there exists and integer $k$ such 
+    that $n = 2k + 1$. By the Binomial Theorem, 
+    $(2k + 1)^{3} + 5 = 5 + \sum\limits_{i=0}^3 {3 \choose i} 2k^{(3-i)} = 2(4k^{3} - 6k^{2} + 3k + 3)$. 
+    That is an integer factor with a coefficient of 2, even by definition.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 1.6.18 ================================
+\begin{theorem*}[\textbf{1.6.18}]
+    Let n be an integer. If 3n + 2 is even, then n is even.
+\end{theorem*}
+
+\begin{proof}
+    By the contrapositive. Suppose $n$ is odd. By the definition of odd numbers there exist an integer
+    $k$ such that $n = 2k + 1$. We have \newline $3(2k + 1) + 2 = 2(3k + 2) + 1$. Since $3k + 2$ is an 
+    integer $3n + 2$ is odd by definition.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 1.6.25 ================================
+\begin{theorem*}[\textbf{1.6.25}]
+    There does not exist a rational number r such that \newline $r^{3}$ + r + 1 = 0.
+\end{theorem*}
+
+\begin{proof}
+    By contradiction. Assume that there exists a rational number $r$ \newline satisfying the 
+    equation $r^{3} + r + 1 = 0$. By definition there exist integers $a$ and $b$ 
+    ($b$ is nonzero,) such that 
+    $\frac{a^{3}}{b^{3}} + \frac{a}{b} + 1 = a^{3} + ab^{2} + b^{3} = 0$. 
+    Clearly $a^{3} = -(ab^{2} + b^{3})$ and $b^{3} = -(a^{3} + ab^{2})$. So we have 
+    $-(ab^{2} + b^{3}) + ab^{2} - (a^{3} + ab^{2}) = 0$. Simplifying we find that 
+    $-a^{3} -ab^{2} - b^{3} = a^{3} + ab^{2} + b^{3}$. This can only happen when $b = 0$, but 
+    $b = 0$ is a contradiction because $b$ is a divisor in $r$.
+\end{proof}
+
+
+\end{document}

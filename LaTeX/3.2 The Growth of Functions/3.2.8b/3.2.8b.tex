@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.8b]
+		Let f be the function defined by f(x) = $3x^{5} + (\log x)^{4}$. \newline f(x) is $\mathcal{O}(x^{5})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x^{5}$. If $x \ge 2$, then
+		\newline \newline \indent \indent
+		$f(x) = 3x^{5} + (\log x)^{4} \le 3x^{5} + 4x \le 3x^{5} + x^{5} = 4x^{5}$. \newline \newline Therefore $|f(x)| \le 4|g(x)|$, for all $x > 2$, and $f(x)$ is $\mathcal{O}(x^{5})$ with constant witnesses $C = 4$, and $k = 2$.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.2f]
+		Let f be the function defined by f(x) = $\floor{x} \ceil{x}$. \newline f(x) is $\mathcal{O}(x^{2}).$
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x^{2}$. By the properties for floor functions, $\floor{x} \le x$. By the properties for ceiling functions, $\ceil{x} < (x+1)$. $(x+1) \le 2x$, for all $x \ge 1$, and clearly it must be the case that $\ceil{x} \le 2x$. Multiplying these inequalities we get $\floor{x} \ceil{x} \le x \cdot 2x$, for all $x \ge 1$. For all $x > 1$, by the definitions for $f$ and $g$, we have the definition of big-O, $|f(x)| \le 2|g(x)|$. Therefore, $f(x)$ is $\mathcal{O}(x^{2})$ with constant witnesses $C = 2$, and $k = 1$.
+	\end{proof}
+
+\end{document}

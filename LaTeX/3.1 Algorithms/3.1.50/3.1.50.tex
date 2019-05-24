@@ -1,0 +1,50 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\algnewcommand{\IfThenElse}[3]{% \IfThenElse{<if>}{<then>}{<else>}
+	\State \algorithmicif\ #1\ \algorithmicthen\ #2\ \algorithmicelse\ #3}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.50}
+		
+		\caption{Insertion sort using the reversed linear search technique.}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{reversed insertion sort}{$a_1$, $a_2$, $\dots$, $a_n$: list of comparable entries}
+			
+			\For {$j = 2$ to $n$}
+				\State $i \gets j$
+				\While {$(i \ne 1)$ and $(a_{i-1} > a_j)$} \Comment {RLS starting from $a_{j-1}$.}
+					\State $i \minuseq 1$
+				\EndWhile \Comment {End linear search.}
+				\State $element \gets a_j$ \Comment {Insertion.}
+				\For {$k = 0$ to $(j-i-1)$}
+					\State $a_{(j-k)} \gets a_{(j-k-1)}$
+				\EndFor
+				\State $a_i \gets element$ \Comment {End insertion.}
+			\EndFor
+			\State \textbf{return} $a_1$, $a_2$, $\dots$, $a_n$
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

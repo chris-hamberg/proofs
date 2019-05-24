@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.21c]
+		Let f be the function defined by f(n) = $n^{2^{n}} + n^{n^{2}}$. \newline f(n) is $\mathcal{O}(n^{2^{n}})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		From the definition for logarithmic functions it follows that \newline $\log_n (n^{2^{n}}) + \log_n (n^{n^{2}}) = 2^n + n^2$. $2^n$ and $n^2$ are in the set of reference functions. Also, $n^2 \le 2^n$, for all $n > 5$. So, $\max(n^{2^{n}}, n^{n^{2}}) = n^{2^{n}}$. Since the bounding function for a sum of functions is the maximum bounding function in the addends of that sum, and because $f$ is the sum of functions $n^{2^{n}} + n^{n^{2}}$, $\max(n^{2^{n}}, n^{n^{2}}) = n^{2^{n}}$ is the bounding function for $f$. Hence, $f(n)$ is $\mathcal{O}(n^{2^{n}})$.
+	\end{proof}
+
+\end{document}

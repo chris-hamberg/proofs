@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.20c]
+		Let f be the function defined by \newline f(n) = $(n^n + n2^n + 5^n)(n! + 5^n)$. f(n) is $\mathcal{O}(n!n^n)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$f$ is the product of functions $(f_1 f_2)$ where $f_1(n) = n^n + n2^n + 5^n$ and $f_2(n) = n! + 5^n$. If $n \ge 5$, then \newline \newline \indent $f_1(n) = n^n + n2^n + 5^n \le n^n + n^n + n^n = 3n^n$. \newline \newline Thus, $f_1(n)$ is $\mathcal{O}(n^n)$ with constant witnesses $C = 3$ and $k = 5$. Now, if $n \ge 12$, then \newline \newline \indent $f_2(n) = n! + 5^n \le n! + n! = 2n!$. \newline \newline So, $f_2(n)$ is $\mathcal{O}(n!)$ with constant witnesses $C = 2$, and $k = 12$. Since the bounding function for the product of functions is the product of those functions bounding functions, $f(n)$ is $\mathcal{O}(n!n^n)$.
+	\end{proof}
+
+\end{document}

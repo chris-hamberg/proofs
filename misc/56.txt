@@ -1,0 +1,37 @@
+procedure modular exponentiation(b: integer, n=(a[k]...a[1]a[1])(base 2), m: positive integers):
+	x = 1
+	power = b mod m
+	for i = 0 to (k-1):
+		if a[i] == 1 then x = (x * power) mod m
+		power = (power * power) mod m
+{x = b^n mod m}
+
+This algorithm executes the loop k times. k = log n (because n = 2^k). So the running time as the function
+of n is O(log n) with respect to the loop.
+
+The worst-case occurs when the binary expansion of n is a[i] = 1, for i = 0 to (n-1). In this case, all of the 
+squares will be in the product (x * power) mod m.
+
+x <= m and power <= m (because both x and power are reduced mod m at every iteration). So (x * power) <= m^2
+and (power * power) <= m^2. This means that the running times of (x * power) and (power * power) are bounded
+from above by m^2.
+
+The running time of the binary multiplication algorithm is a function of the length of the binary expansions of its 
+inputs. Since the binary expansion of m = 2^c => c = log m, for some positive integer c, the running time for 
+binary multiplication of m^2 is O((log m)^1.585), (the time complexity of binary multiplication is given in the text 
+as O(n^1.585) in general.)
+
+######################## 
+The running time of the division algorithm is given in the text as O(n^2) for n-bit integers, and m^2 mod m = 0
+= m mod m. So m^2 mod m must be O((log m)^2). ** FIGURE THIS OUT :: m^2 mod m has (2^c)^2 length bit string.
+########################
+
+m^2 mod m :: m^2 = (2^c)^2 = 2^2c. 2c = log m^2; m^2 has a (2c)-bit binary expansion. So m^2 mod m is O((log m^2)^2).
+(log m^2)^2 = (2 log m)^2 = 4 (log m)^2. m^2 mod m is O((log m)^2).
+
+We can ignore the running time for multiplication since (log m)^1.585 <= (log m)^2, and (x * power) mod m
+and (power * power) mod m are each the sum of real-valued functions.
+
+We can ignore the assigment statement out side of the loop, power = b mod m, because log b log m 
+(which is given in the text) is less than log n (log m)^2. The running time 
+of the loop and the work that it does is (log m)^2 log n. Therefore, f(n) is O((log m)^2 log n).

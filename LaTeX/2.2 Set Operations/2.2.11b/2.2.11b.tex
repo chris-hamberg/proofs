@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.11b]
+		Let A and B be sets. The intersection of A and B is commutative.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cap B$. By the definition of intersection, $(x \in A) \land (x \in B)$. 
+		Because logical conjunction is commutative, the definition is equivalently stated as 
+		$(x \in B) \land (x \in A)$. Meaning that $x \in (B \cap A)$. So $A \cap B = B \cap A$, and indeed 
+		the intersection of two sets is commutative.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.1e]
+		Let f be the function defined by f(x) = $\floor{x}$. \newline f(x) is $\mathcal{O} (x)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x$. The floor function of $x$ is less than $x$ by the properties for floor functions. So $|\floor{x}| \le |x|$ is true for all $x \in \mathbb{R}$. Therefore, $|f(x)| \le 1|g(x)|$, for all $x \in \mathbb{R}$. It follows from the definition of big-O notation that $f(x)$ is $\mathcal{O} (x)$ with constant witnesses $C = 1$, and any $k \in \mathbb{R}$.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.5]
+		Let m, n, and p be integers. If m + n and n + p are even integers, then m + p is even.
+	\end{theorem*}
+	
+	\begin{proof}
+		For the purpose of contraposition suppose that $m + p$ is odd. By definition there exists 
+		an integer $x$ such that $2x + 1 = m + p$. Let $k$, $j$, and $n$ be integers such that 
+		$k + j - n = x$. We have $m + p = 2(k + j - n) + 1 = 2k + 2j - 2n - 1$. Adding $2n$ to both 
+		sides we get $m + p + 2n = 2(k + j) - 1$. This sum is odd, so at least one of the terms in 
+		$(m + n) + (p + n)$ has to be odd; that is, the negation of the hypothesis by DeMorgans law.
+	\end{proof}
+
+\end{document}

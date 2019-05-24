@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.20a]
+		Let f be the function defined by \newline f(n) = $(n^{3} + n^{2} \log n)(\log n + 1) + (17 \log n + 19)(n^{3} + 2)$. \newline f(n) is $\mathcal{O}(n^{3} \log n)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$f$ is the sum of functions $(f_1 + f_2)$ where \newline $f_1(n) = (n^{3} + n^{2} \log n)(\log n + 1)$ and $f_2(n) = (17 \log n + 19)(n^{3} + 2)$. Each of $f_1$, and $f_2$ are polynomials. $f_1(n) = n^{3} \log n + n^{3} + n^{2} (\log n)^{2} + n^{2} \log n$, and $f_2(n) = 17n^{3} \log n + 34 \log n + 19n^{3} + 38$. Since a $k\textsuperscript{th}$ degree polynomial is $\mathcal{O}(k)$, $f_1(n)$ is $\mathcal{O}(n^3 \log n)$ and $f_2(n)$ is $\mathcal{O}(n^{3} \log n)$. It follows from the fact that the maximum bounding function in a sum of functions is the bounding function for the sum, that $f(n)$ is $\mathcal{O}(n^3 \log n)$.
+	\end{proof}
+
+\end{document}

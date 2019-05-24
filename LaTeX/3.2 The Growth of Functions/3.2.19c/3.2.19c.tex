@@ -1,0 +1,27 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.19c]
+		Let f be the function defined by \newline $f(n) = (n! + 2^{n})(n^{3} + \log(n^{2} + 1))$. The tightest bound from above for f(n) is $\mathcal{O}(n!n^{3})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$f(n)$ is the product of functions $(f_1 f_2)(n)$, where $f_1(n) = (n! + 2^{n})$ and $f_2(n) = (n^{3} + \log(n^{2} + 1))$.
+		\newline \indent Consider $f_1$. $f_1$ is the sum of functions $(f_1^\prime + f_1^{\prime\prime})$ where $f_1^\prime(n) = n!$, and $f_1^{\prime\prime}(n) = 2^{n}$. $f_1^\prime$ and $f_1^{\prime\prime}$ are in the set of reference functions, therefore they are their own bounds. Now, the bounding function for the sum of functions is the maximum bounding function in the addends of the sum. So $(f_1^\prime + f_1^{\prime\prime})(n) = f_1(n)$ is $\mathcal{O}(n!)$.
+		\newline \indent $f_2$ is the sum of functions $(f_2^\prime + f_2^{\prime\prime})$ where $f_2^\prime(n) = n^{3}$, and $f_2^{\prime\prime}(n) = \log(n^{2} + 1)$. $f_2^\prime$ is in the set of reference functions, therefore it is its own bound. $f_2^{\prime\prime}(n) = \log(n^{2} + 1) \le n^{3}$ so $(f_2^\prime + f_2^{\prime\prime})$ is $\mathcal{O}(n^{3})$ (because the bounding function for the sum of functions is the maximum bounding function in the addends of the sum.) Hence, $f_2$ is $\mathcal{O}(n^{3})$.
+		\newline \indent Because the bounding function for the product of functions is the product of the bounding functions for each function in the product, it follows that $f(n)$ is $\mathcal{O}(n!n^{3})$.
+	\end{proof}
+
+\end{document}

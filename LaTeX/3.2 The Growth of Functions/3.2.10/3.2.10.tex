@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.10]
+		Let f be the function defined by f(x) = $x^3$. Let $g$ be the function defined by g(x) = $x^{4}$. f(x) is $\mathcal{O}(g(x))$, but $g(x)$ is not $\mathcal{O}(f(x))$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$f(x)$ is $\mathcal{O}(g(x))$ with constant witnesses $C = 1$, and $k = 1$, by the definition of big-O. That is, $|f(x)| \le C|g(x)|$, for all $x > 1$. \newline \indent If $g(x)$ were $\mathcal{O}(f(x))$, then there would exist constant witnesses $C$ and $k$ such that $|g(x)| \le C|f(x)|$. For $x > 1$, we would have $x^{4} \le C \cdot x^{3}$, which implies that $x \le C$. But no constant $C$ exists satisfying the unbounded domain for $x$. Therefore it is not the case that $g(x)$ is $\mathcal{O}(f(x))$.
+	\end{proof}
+
+\end{document}

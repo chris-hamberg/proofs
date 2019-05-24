@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.18]
+		Let f be the function defined by f(k, n) = $1^{k} + 2^{k} + \dots + n^{k}$, where k and n are positive integers. f(k, n) is $\mathcal{O}(n^{k+1})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		If f(k, n) is $\mathcal{O}(n^{k+1})$, then there exist constant witnesses $C$ and $j$ such that $|1^{k} + 2^{k} + \dots + n^{k}| \le C|n^{k+1}|$, for all $n > j$. If $j = 1$, then \newline \newline \indent $f(k, n) = \left( 1^{k} + 2^{k} + \dots + n^{k} \right) \le \left( n^{k} + n^{k} + \dots + n^{k} \right) = n(n^{k}) = n^{k+1}$ \newline \newline Thus, $\left( 1^{k} + 2^{k} + \dots + n^{k} \right) \le n^{k+1}$, for all $n > 1$. So $|f(k, n)| \le |n^{k+1}|$, for all $n > 1$. It follows that $f(k, n)$ is $\mathcal{O}(n^{k+1})$ with constant witnesses $C = 1$ and $j = 1$.
+	\end{proof}
+
+\end{document}

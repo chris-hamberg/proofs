@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.16c]
+		Let A and B be sets. $(A - B) \subseteq A$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A - B$. $A - B$ is equivalent to the statement 
+		$A \cap \overline{B}$, and thus by definition we have $(x \in A) \land (x \notin B)$. 
+		We can infer by the simplification rule that $x \in A$. It therefore follows immediately 
+		from the definition that $(A - B) \subseteq A$.
+	\end{proof}
+
+\end{document}

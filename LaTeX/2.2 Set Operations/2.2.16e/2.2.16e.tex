@@ -1,0 +1,43 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.16e]
+		Let A and B be sets. $A \cup (B - A) = A \cup B$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cup (B - A)$. Note that 
+		$(B - A) \equiv (B \cap \overline{A})$. So by definition we have 
+		$(x \in A) \lor [(x \in B) \land (x \notin A)]$. Distributing logical disjunction over 
+		logical conjunction yields \newline 
+		$[(x \in A) \lor (x \in B)] \land [(x \in A) \lor (x \notin A)]$. Which by logical negation 
+		and by logical identity reduces to $(x \in A) \lor (x \in B)$, that is the very definition for 
+		$A \cup B$.
+		
+		Suppose the converse case in which  $x$ is an element of $A \cup B$. That is, of course as 
+		already stated, defined as $(x \in A) \lor (x \in B)$. Note the fact that the conjunction of 
+		this proposition with another true proposition is true. Let $p$ be that proposition, 
+		$(x \in A)$. Then $p \lor \lnot p \equiv (x \in A) \lor (x \notin A) \equiv T$, and thus we 
+		can make the following statement 
+		$[(x \in A) \lor (x \in B)] \land [(x \in A) \lor (x \notin A)]$, which holds. Factoring the 
+		term $(x \in A)$ out on the logical operators gives the form 
+		$(x \in A) \lor [(x \in B) \land (x \notin A)]$. This statement is the definition for 
+		$A \cup (B - A)$.
+		
+		Since $A \cup (B - A) \subseteq A \cup B$ and 
+		$A \cup B \subseteq A \cup (B - A)$, 
+		\newline 
+		$A \cup (B - A) = A \cup B$ by definition.
+	\end{proof}
+
+\end{document}

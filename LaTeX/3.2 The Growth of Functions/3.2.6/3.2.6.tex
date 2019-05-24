@@ -1,0 +1,27 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.6]
+		Let f be the function defined by $f(x) = \frac{x^{3} + 2x}{2x + 1}$. \newline f(x) is $\mathcal{O}(x^{2})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x^{2}$. If $x \ge 1$, then \newline \newline \indent $f(x) = \left(\frac{x^{3} + 2x}{2x + 1}\right) \le \left(\frac{x^{3} + 2x}{2x} = \frac{x^{3}}{2x} + 1 \right) \le \left(\frac{x^{3}}{x} + 1 \right) \le \left( x^{2} + 1 \right)$.
+		\newline
+		\newline
+		Clearly, if $x > 1$, then $x^{2} + 1 \le 2x^{2}$. So $|f(x)| \le 2|g(x)|$, for all $x > 1$. It follows from the definition that $f(x)$ is $\mathcal{O}(x^{2})$ with constant witnesses $C = 2$, and $k = 1$.
+	\end{proof}
+
+\end{document}

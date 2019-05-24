@@ -1,0 +1,47 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\algnewcommand{\IfThenElse}[3]{% \IfThenElse{<if>}{<then>}{<else>}
+	\State \algorithmicif\ #1\ \algorithmicthen\ #2\ \algorithmicelse\ #3}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.31}
+		
+		\caption{Find the first duplicate term in a sequence of integers}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{duplicate term}{$a_1$, $a_2$, $\dots$, $a_n$: sequence of integers}
+			
+			\For {$index = 2$ to $n$}
+				\For {$i = 1$ to $(index-1)$}
+					\If {$a_i = a_{index}$}\Comment {$a_{index}$ is the first duplicate term.} 
+						\State \textbf{return} $a_{index}, index$
+					\EndIf
+				\EndFor
+			\EndFor
+			
+			\State \textbf{return} $\bot$ \Comment{No duplicate terms exist.}
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

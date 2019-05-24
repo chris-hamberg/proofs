@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.37d]
+		Let A be a subset of a universal set U. $A \oplus \overline{A} = U$.
+	\end{theorem*}
+	
+	\begin{proof}
+		By Theorem 2.2.35, $A \oplus \overline{A} = (A \cup \overline{A}) - (A \cap \overline{A})$. 
+		By the set complementation laws that is $U - \emptyset$. Rather, 
+		$U \cap \overline{\emptyset}$ by Theorem 2.2.19. Since $\overline{\emptyset} = U$ we have 
+		$U \cap U$, which is obviously $U$, by the idempotent law. Thus, 
+		$A \oplus \overline{A} = U$.
+	\end{proof}
+
+\end{document}

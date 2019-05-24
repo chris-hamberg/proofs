@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.19a]
+		Let f be the function defined by f(n) = $(n^{2} + 8)(n + 1)$. \newline f(n) is $\mathcal{O}(n^{3})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$f(n)$ is the product of functions $(f^\prime f^{\prime\prime})(n)$ where $f^\prime(n) = (n^{2} + 8)$, and $f^{\prime\prime} = (n + 1)$. Since a $k \textsuperscript{th}$ degree polynomial is $\mathcal{O}(x^{k})$, it follows that $f^\prime(n)$ is $\mathcal{O}(n^{2})$, and $f^{\prime\prime}(n)$ is $\mathcal{O}(n)$. The upper bound for a product of functions is the product of the bounding functions for each function occurring in the product of functions. Hence, the upper bound for $f(n)$ is $\mathcal{O}(n(n^{2}))$. This means that $f(n)$ is $\mathcal{O}(n^{3})$.
+	\end{proof}
+
+\end{document}

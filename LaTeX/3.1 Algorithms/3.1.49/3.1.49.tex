@@ -1,0 +1,60 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\algnewcommand{\IfThenElse}[3]{% \IfThenElse{<if>}{<then>}{<else>}
+	\State \algorithmicif\ #1\ \algorithmicthen\ #2\ \algorithmicelse\ #3}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.49}
+		
+		\caption{Optimized insertion sort using the binary search technique. The time complexity for regular insertion sort $\mathcal{O}(n^{2})$ reduced to $\mathcal{O} (n \log n)$.}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{binary insertion sort}{$a_1$, $a_2$, $\dots$, $a_n$: list of comparable entries}
+			
+			\For {$j = 2$ to $n$}
+				\State $start \gets 1$
+				\State $end \gets j$
+				
+				\While {$start < end$} \Comment {Binary search.}
+					\State $midpoint \gets \floor{\frac{(start + end)}{2}}$
+					\If {$a_j > a_{midpoint}$}
+						\State $start \gets (midpoint+1)$
+					\Else
+						\State $end \gets midpoint$
+					\EndIf
+				\EndWhile \Comment {End binary search.}
+				\State $element \gets a_j$\Comment {Insert.}
+				\For {$k = 0$ to $(j - start - 1)$} 
+					\State $a_{(j-k)} \gets a_{(j-k-1)}$
+				\EndFor
+			
+				\State $a_{start} \gets element$ \Comment {End insert.}
+				
+			\EndFor
+			
+			\State \textbf{return} $a_1$, $a_2$, $\dots$, $a_n$
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

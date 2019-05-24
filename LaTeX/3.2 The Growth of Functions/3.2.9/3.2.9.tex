@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.9]
+		Let f be the function defined by f(x) = $x^{2} + 4x + 17$. \newline f(x) is $\mathcal{O}(x^{3})$, but $x^{3}$ is not $\mathcal{O}(f(x))$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x^{3}$. $f(x)$ is $\mathcal{O}(x^{2})$, by the theorem that states that a polynomial of degree $n$ is $\mathcal{O}(x^{n})$. Therefore $f(x)$ is $\mathcal{O}(g(x))$. \newline \indent If $x \ge 2$, then $f(x) \le x^{2} + 4x^{2} + x^{2} = 6x^{2}$. By the definition of big-O, if $g(x)$ is $\mathcal{O}(f(x))$, then $|x^{3}| \le |f(x)| \le 6x^{2}$. That is, $x^{3} \le 6x^{2}$, and $x \le 6$. Clearly it is not the case that $g(x)$ is $\mathcal{O}(f(x))$.
+	\end{proof}
+
+\end{document}

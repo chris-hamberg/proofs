@@ -1,0 +1,59 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, margin=0.5in}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\begin{document}
+
+	$\newline\noindent\verb|algorithm deferred acceptance|(M_1, M_2,\ldots,M_n:\verb|sequence of n lengthed sequences where i=2 to n is a|\newline \verb|preference list, i=1 is the subject; |W_1, W_2,\ldots,W_n:\verb|sequence of n lengthed sequences where i=2 to n|\newline\verb|is a preference list, i=1 is the subject|)$
+	
+	$\newline\indent C, P, i = (), \emptyset, 0$
+	
+	$\verb|while | i \neq n$
+	
+	$\indent\indent \forall_{1\le\delta\le n} \in\mathbb{N}\verb| |($
+	
+	$\indent\indent\indent\indent M_{\delta_{1}} \notin \{x \mid \left\langle x,y \right\rangle \in C\} \implies ($
+	
+	$\indent\indent\indent\indent\indent\indent (M_{\delta_{2}} \in P \implies$
+
+	$\indent\indent\indent\indent\indent\indent\indent\indent \forall_{1 \le \lambda \le i} \in \mathbb{N}($
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent(C_{\lambda_{2}} = M_{\delta_{2}}) \implies (\phi = C_{\lambda})$
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent )$
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent \forall_{1 \le \omega \le n} \in \mathbb{N} ($
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent (W_{\omega} = M_{\delta_{2}}) \implies (\xi = \omega)$
+		
+	$\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent )$
+		
+	$\indent\indent\indent\indent\indent\indent\indent\indent \forall_{1 \le \theta \le (n-1)} \in \mathbb{N}(($
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent (W_{\xi_{(\theta+1)}} = \phi) \implies (\phi = W_{\xi _{(\theta+1)}})) \lor ($
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent (W_{\xi_{(\theta+1)}} = M_{\delta_{1}}) \implies (\phi = W_{\xi_{(\theta+1)}})$
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent\indent\indent ))$
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent C_{\lambda} = (\phi, M_{\delta_{2}})$
+	
+	$\indent\indent\indent\indent\indent\indent ) \lor ($
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent i += 1$
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent C_i = \left\langle M_{\delta_{1}}, M_{\delta_{2}} \right\rangle$
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent P = P \cup \{ M_{\delta_{2}}\}$
+	
+	$\indent\indent\indent\indent\indent\indent\indent\indent )$
+	
+	$\indent\indent\indent\indent\indent\indent M_{\delta} = M_{\delta_{1}},M_{\delta_{3}},M_{\delta_{4}},\ldots,M_{\delta_{\mid M_{\delta} \mid}}))$
+	
+	$\verb|return | C$
+\end{document}

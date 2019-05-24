@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.16d]
+		Let A and B be sets. $A \cap (B - A) = \emptyset$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cap (B - A)$. Note that 
+		$(B - A) \equiv (B \cap \overline{A})$. Because set intersection is associative we can 
+		drop the parentheses, giving us $A \cap B \cap \overline{A}$. This is logically defined 
+		as $(x \in A) \land (x \in B) \land (x \notin A) \equiv \bot$. Because this statement is 
+		false $\forall x$ in the domain, $A \cap (B - A)$ is empty.
+	\end{proof}
+
+\end{document}

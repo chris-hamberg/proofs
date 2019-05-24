@@ -1,0 +1,54 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\algnewcommand{\IfThenElse}[3]{% \IfThenElse{<if>}{<then>}{<else>}
+	\State \algorithmicif\ #1\ \algorithmicthen\ #2\ \algorithmicelse\ #3}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.43}
+		
+		\caption{List insertion based on linear search for a sorted list.}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{linear insert}{$x$: object; $a_1$, $a_2$, $\dots$, $a_n$: sorted list of objects}
+			
+			\State $i \gets 1$
+			
+			\While {$(i \le n)$ and $(x > a_i)$} \Comment {Find the index for x}
+				\State $i \pluseq 1$
+			\EndWhile
+			
+			\If {$x \le a_i$} \Comment {Make room for x}
+				\For {$k = (n+1)$ to $(i-1)$}
+					\State $a_k \gets a_{k-1}$
+				\EndFor
+			\EndIf
+			
+			\State {$a_i \gets x$}
+			
+			\State \textbf{return} $a_1$, $a_2$, $\dots$, $a_{n+1}$
+			
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

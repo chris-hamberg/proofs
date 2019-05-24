@@ -1,0 +1,30 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+\begin{theorem*}[2.2.41]
+    Let A, B, and C be sets. If $A \oplus C = B \oplus C$, then $A = B$.
+\end{theorem*}
+
+\begin{proof} By contraposition. Note that the statement $A \oplus C = B \oplus C$ is by 
+definition $(A \cap \overline{C}) \cup (\overline{A} \cap C) = 
+(B \cap \overline{C}) \cup (\overline{B} \cap C)$. Assume there exists an element $x$ 
+such that $x \in A$ and $x \notin B$. Thus, $A \not\subseteq B$. By the hypothesis, $x$ 
+has to be in $(A \cap \overline{C})$ and cannot be in $(\overline{A} \cap C)$. This means 
+that $x$ is not in $C$. Neither can $x$ be in $(B \cap \overline{C})$. And since 
+$x \notin C$, $x$ cannot be in $(\overline{B} \cap C)$. So $x$ is in  $A \oplus C$ but not 
+$B \oplus C$. Therefore, $A \oplus C \not\subseteq B \oplus C$. The implication, if 
+$B \not\subseteq A$, then $B \oplus C \not\subseteq A \oplus C$, trivially follows without 
+loss of generality. Conclusively, $A \neq B$ implies $A \oplus C \neq B \oplus C$.
+\end{proof}
+
+\end{document}

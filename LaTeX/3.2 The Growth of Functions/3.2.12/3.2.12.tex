@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.12]
+		x $\log x$ is $\mathcal{O}(x^{2})$, but $x^{2}$ is not $\mathcal{O}(x \log x)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$\log x \le x$, for all $x$ in the domain of logarithmic functions. Thus, it follows that $x \log x \le x^{2}$, for all $x > 1$. Therefore $x \log x$ is $\mathcal{O}(x^{2})$ with constant witnesses $C = 1$, and $k = 1$. \newline \indent If $x^{2}$ were $\mathcal{O}(x \log x)$, then $x^{2} \le C \cdot x \log x$, for all $x > 1$. But $C \cdot x \log x$ is a strictly decreasing function with respect to $x^{2}$. So this is impossible for the unbounded domain of $x$. Therefore, $x^{2}$ is not $\mathcal{O}(x \log x)$.
+	\end{proof}
+
+\end{document}

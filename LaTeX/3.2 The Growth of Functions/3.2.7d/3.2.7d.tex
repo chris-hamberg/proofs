@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.7d]
+		Let f be the function defined by f(x) = $\frac{x^{4} + 5 \log x}{x^{4} + 1}$. \newline f(x) is $\mathcal{O}(1)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = 1$. If $x \ge 1$, then \newline \newline \indent
+		$\left( \frac{x^{4} + 5 \log x}{x^{4} + 1} \right) = \left( \frac{x^{4}}{x^{4} + 1} + \frac{5 \log x}{x^{4} + 1} \right) \le \left( 1 + \frac{5 \log x}{x^{4} + 1} \right) \le \left( 1 + \frac{5x}{x^{4}} \right) \le \left( 1 + \frac{5}{x^{3}} \right)$. \newline \newline The function $1 + \frac{5}{x^{3}}$ is strictly decreasing with respect to $g(x)$, and never exceeding $2$. Therefore, $|f(x)| \le 2|g(x)|$, for all $x > 1$. Thus, $f(x)$ is $\mathcal{O}(1)$ with constant witnesses $C = 2$, and $k = 1$.
+	\end{proof}
+
+\end{document}

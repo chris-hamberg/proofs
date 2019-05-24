@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.20b]
+		Let f be the function defined by $f(n) = (2^n + n^2)(n^3 + 3^n)$. $f(x)$ is $\mathcal{O}(6^n)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(n) = 6^n$. If $n \ge 4$, then \newline \newline \indent $f(n) = \left( 2^n n^3 + 2^n 3^n + n^2 n^3 + 3^n n^2 \right) \le \left( 2^n 3^n + 2^n 3^n + 2^n 3^n + 2^n 3^n \right).$ \newline \newline $4(2^n 3^n) = 4(6^n)$, so $f(n)$ is $\mathcal{O}(6^n)$ with constant witnesses $C = 4$ and $k = 4$.
+	\end{proof}
+
+\end{document}

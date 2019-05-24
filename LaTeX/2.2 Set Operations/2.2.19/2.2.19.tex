@@ -1,0 +1,34 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.19]
+		Let A, and B be sets. $A - B = A \cap \overline{B}$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A - B$. By the definition for set difference, 
+		$(x \in A) \land (x \notin B)$. By the definition for set complementation this is the 
+		same as $(x \in A) \land (x \in \overline{B})$. Which is exactly the definition for 
+		$x \in (A \cap \overline{B})$.
+		
+		Proving the converse trivially follows by reversing our steps in the direct form. Suppose 
+		there exists an element $x$ such that $x \in (A \cap \overline{B})$. By the definition for 
+		set intersection we have $(x \in A) \land (x \in \overline{B})$. By the definition for set 
+		complementation we arrive at the definition for set difference \newline 
+		$(x \in A) \land (x \notin B)$. Therefore $x \in (A - B)$.
+		
+		Since $(A - B) \subseteq (A \cap \overline{B})$ and $(A \cap \overline{B}) \subseteq (A - B)$, 
+		by the definition for set equality we have $(A - B) = (A \cap \overline{B})$.
+	\end{proof}
+
+\end{document}

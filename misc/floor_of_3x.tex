@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, margin=0.5in}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}\noindent
+	
+	\begin{lemma} $ \verb|Suppose | \floor*{x} = \floor*{n + \psi} \verb| where | n \in \mathbb{Z} \verb| such that | n \le x < n+1 \verb|, and | \psi \in \mathbb{R} \verb| such that | \newline 0 \le \psi < 1 \verb|. Then | \floor*{x} = n + \floor*{\psi} = n + 0 = n. $
+	\end{lemma}
+	
+	\begin{theorem} $ \verb|Let | x \verb| be a real number. Then | \floor*{3x} = \floor*{x} + \floor*{x + \frac{1}{3}} + \floor*{x + \frac{2}{3}} \verb|.|$
+	\end{theorem}	
+		
+	\begin{proof} $ \verb|There are three cases under consideration for this proof.| \newline \newline (i): 0 \le \psi < \frac{1}{3} \verb|.| \newline \newline \verb|In this case we find that | 0 \le 3\psi < 1 \verb|, | \frac{1}{3} \le \psi + \frac{1}{3} < \frac{2}{3} \verb|, and |  \frac{2}{3} \le \psi + \frac{2}{3} < 1 \verb|. Thus, | \floor*{3\psi} = 0 \verb|, | \newline \floor*{\psi + \frac{1}{3}} = 0 \verb|, and | \floor*{\psi + \frac{2}{3}} = 0 \verb|. Consequently, | \floor*{3x} = 3n + 0 \verb|, | \floor*{x + \frac{1}{3}} = n + 0 \verb|, and | \floor*{x + \frac{2}{3}} = n + 0 \verb|. | \newline \verb|By Lemma 1, | \floor*{x} = n \verb|. Since | 3n + 0 = n + (n + 0) + (n + 0) \verb|, it follows that | \newline \floor*{3x} = \floor*{x} + \floor*{x + \frac{1}{3}} + \floor*{x + \frac{2}{3}} \verb|, if | 0 \le \psi < \frac{1}{3} \verb|.| \newline \newline (ii): \frac{1}{3} \le \psi < \frac{2}{3} \verb|.| \newline \newline \verb|In this case we find that | 1 \le 3\psi < 2 \verb|, | \frac{2}{3} \le \psi + \frac{1}{3} < 1 \verb|, and | 1 \le \psi + \frac{2}{3} < 1\frac{1}{3} \verb|. Thus, | \floor{3\psi} = 1 \verb|, | \newline \floor*{\psi + \frac{1}{3}} = 0 \verb|, and | \floor*{\psi + \frac{2}{3}} = 1 \verb|. Consequently, | \floor*{3x} = 3n + 1 \verb|, | \floor*{x + \frac{1}{3}} = n + 0 \verb|, and | \floor*{x + \frac{2}{3}} = n + 1 \verb|.| \newline \verb|By Lemma 1, | \floor*{x} = n \verb|. Since | 3n+1 = n + (n + 0) + (n + 1) \verb|, it follows that | \newline \floor*{3x} = \floor*{x} + \floor*{x + \frac{1}{3}} + \floor*{x + \frac{2}{3}} \verb|, if | \frac{1}{3} \le \psi < \frac{2}{3} \verb|.| \newline \newline (iii): \frac{2}{3} \le \psi < 1 \verb|.| \newline \newline \verb|In this case we find that | 2 \le 3\psi < 3 \verb|, | 1 \le \psi + \frac{1}{3} < 1\frac{1}{3} \verb|, and | 1\frac{1}{3} \le \psi + \frac{2}{3} < 1\frac{2}{3} \verb|. Thus, | \floor*{3\psi} = 2 \verb|, | \newline \floor*{\psi + \frac{1}{3}} = 1 \verb|, and | \floor*{\psi + \frac{2}{3}} = 1 \verb|. Consequently, | \floor*{3x} = 3n + 2 \verb|, | \floor*{x + \frac{1}{3}} = n + 1 \verb|, and | \floor*{x + \frac{2}{3}} = n + 1 \verb|.| \newline \verb|By Lemma 1, | \floor*{x} = n \verb|. Since | 3n + 2 = n + (n + 1)  + (n + 1) \verb|, it follows that| \newline \floor*{3x} = \floor*{x} + \floor*{x + \frac{1}{3}} + \floor*{x + \frac{2}{3}} \verb|, if | \frac{2}{3} \le \psi < 1 \verb|.| \newline \newline \verb|The theorem is true | \forall \psi \in [0, 1) \verb| | \therefore \verb| If | x = n + \psi \in \mathbb{R} \verb|, then | \floor*{3x} = \floor*{x} + \floor*{x + \frac{1}{3}} + \floor*{x + \frac{2}{3}} \verb|.| $ 
+	\end{proof}
+\end{document}

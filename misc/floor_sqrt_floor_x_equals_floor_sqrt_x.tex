@@ -1,0 +1,14 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, margin=0.5in}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\begin{document}\noindent
+	$ \verb|Prove that if | x \verb| is a positive real number, then | \floor*{\sqrt{\floor*{x}}} = \floor*{\sqrt{x}}. $
+	\begin{proof} $
+	\floor*{\sqrt{x}} = n \verb| if and only if | n \le \sqrt{x} < n+1 \verb|. That is, | n^{2} \le x < (n+1)^{2} $\space$ $\space$ \equiv $\space$ $\space$ n^{2} \le x < n^{2} + 2n + 1 \verb|.|\newline \verb|Then there are two case under consideration. Case |(i): $\space$ $\space$ \floor*{x} = n^{2} \verb|, or case | (ii): $\space$ $\space$ \floor*{x} = n^{2} + 2n. \newline \newline (i): \floor*{x} = n^{2} \verb| if and only if | n^{2} \le x < n^{2}+1 \verb|. Consequently, | \floor*{\sqrt{\floor*{x}}} = \floor*{\sqrt{n^{2}}} = \floor*{n} = n \verb|. Since it has | \newline \verb|already been established that | \floor*{\sqrt{x}} = n \verb|, then in this case it follows that | \floor*{\sqrt{\floor*{x}}} = \floor*{\sqrt{x}} \verb|.| \newline \newline (ii): \floor*{x} = n^{2} + 2n \verb| if and only if | n^{2} + 2n \le x < n^{2} + 2n + 1 \verb|. It follows that | \floor*{\sqrt{\floor*{x}}} = \floor*{\sqrt{n^{2}+2n}} = \newline \floor*{\sqrt{n^{2}+2n} + \sqrt{1} - \sqrt{1}} = \floor*{\sqrt{n^{2}+2n+1}-1} = \floor*{\sqrt{(n+1)^{2}}-1} = \floor*{(n+1)-1} = n \verb|. Since |\floor*{\sqrt{x}} = n \verb|, and| \newline  \floor*{\sqrt{\floor*{x}}} = n \verb|, in this case it follows that | \floor*{\sqrt{x}} = \floor*{\sqrt{\floor*{x}}} \verb|.| \newline \newline \therefore \verb| if | x \verb| is a positive real number, then | \floor*{\sqrt{\floor*{x}}} = \floor*{\sqrt{x}}. $
+	\end{proof} 
+\end{document}

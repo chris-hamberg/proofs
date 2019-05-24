@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, margin=0.5in}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage{mathtools}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\usepackage{setspace}
+\setstretch{2.5}
+
+\begin{document}\noindent
+	$\verb|Find a formula for | \sum\limits_{k=0}^m \floor{\sqrt{k}}\verb|, when | m \verb| is a positive integer.|$
+	
+	\begin{theorem}
+		$\sum\limits_{k=0}^m\floor{\sqrt{k}} = \floor{\sqrt{m}}[\frac{1}{6}(\floor{\sqrt{m}}-1)(4\floor{\sqrt{m}}+1)+(m-\floor{\sqrt{m}}^2+1)]\newline$
+	\end{theorem}
+
+	\begin{proof}
+		$\verb|Whenever | \sum\limits_{k=0}^m\floor{\sqrt{k}}\verb|, |\floor{\sqrt{k}}=n\verb| if and only if | n\le\sqrt{k}<n\verb|. It follows that | n^2\le k<n^2+2n+1\verb|.| \newline\verb|This means there are | 2\floor{\sqrt{k}}+1 \verb| integers |\floor{\sqrt{k}}\verb|, for each unique | \floor{\sqrt{k}}<\floor{\sqrt{m}}\verb| in | \sum\limits_{k=0}^m\floor{\sqrt{k}}\verb|. In other words,|\newline\left(\sum\limits_{k=0}^m\floor{\sqrt{k}}\right) -f(m) = \floor{\sqrt{0}}(2\floor{\sqrt{0}}+1)+\floor{\sqrt{1}}(2\floor{\sqrt{1}}+1)+\floor{\sqrt{2}}(2\floor{\sqrt{2}}+1)+\ldots+(\floor{\sqrt{m}}-1)[2(\floor{\sqrt{m}}-1)+1)\verb|,|\newline\verb|where |f(m)\verb| is the function expressing the summation of values |\floor{\sqrt{k}} \verb| for all | k \verb| in | \sum\limits_{k=0}^m\floor{\sqrt{k}}\verb| if and only|\newline\verb|if | \floor{\sqrt{k}} = \floor{\sqrt{m}}\verb|. Hence, |\left(\sum\limits_{k=0}^m\floor{\sqrt{k}}\right) - f(m) = \sum\limits_{k=0}^{\floor{\sqrt{m}}-1} k(2k+1)\verb|.|\newline\newline f(m) = \floor{\sqrt{m}}(m - \floor{\sqrt{m}}^2 + 1)\verb|. To see this, note that | \floor{\sqrt{m}} \verb| is the value that occurs everywhere in the|\newline\verb|sequence predicated of | \sum\limits_{k=0}^m\floor{\sqrt{k}} \verb|, whenever | \floor{\sqrt{k}} = \floor{\sqrt{m}} \verb|. | (m - \floor{\sqrt{m}}^2 + 1) \verb| is the number of times that value | \newline \floor{\sqrt{m}} \verb| occurs. So we have the value | \floor{\sqrt{m}}\verb| in the sequence | (m - \floor{\sqrt{m}}^2 +1) \verb| times, for all | k \verb| if and only if | \newline \floor{\sqrt{k}} = \floor{\sqrt{m}}\verb|. We add | 1 \verb| to | m-\floor{\sqrt{m}}^2 \verb| because if | m \verb| is a perfect square, then | m-\floor{\sqrt{m}}^2 = 0\verb|; but | \newline \floor{\sqrt{m}} \verb| is guaranteed to occur at least once, for an upper limit | m \verb|.| \newline \newline  \left(\sum\limits_{k=0}^{\floor{\sqrt{m}}-1}2k^2+k\right)+f(m) = 2\left(\sum\limits_{k=0}^{\floor{\sqrt{m}}-1}k^2\right)+ \left(\sum\limits_{k=0}^{\floor{\sqrt{m}}-1}k\right) + f(m)\verb|, a summation of squares, and the summation of| \newline \verb|integers in | \floor{\sqrt{m}}-1\verb|. By definition, then | \sum\limits_{k=0}^{m}\floor{\sqrt{k}} = 2\left(\frac{\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)[2(\floor{\sqrt{m}}-1)+1]}{6}\right)+\frac{\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)}{2}+f(m)\verb|.|\newline \newline \verb|Performing some algebra, we can derive the equation. |\newline \sum\limits_{k=0}^m\floor{\sqrt{k}} = \frac{2}{6}\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)[2(\floor{\sqrt{m}}-1)+1]+\frac{3}{6}\floor{\sqrt{m}}(\floor{\sqrt{m}}-1) + f(m) = \newline \frac{1}{6}\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)[2(2\floor{\sqrt{m}}-2 + 1)+3]+f(m)\verb|. Because | f(m) = m\floor{\sqrt{m}} - \floor{\sqrt{m}}^3 + \floor{\sqrt{m}} \verb|, factoring out | \floor{\sqrt{m}} \newline \verb|and simplifying, yields the equation |\sum\limits_{k=0}^m\floor{\sqrt{k}} = \floor{\sqrt{m}}[\frac{1}{6}(\floor{\sqrt{m}}-1)(4\floor{\sqrt{m}}+1)+(m-\floor{\sqrt{m}}^2+1)]
+		$
+	\end{proof}
+
+\end{document}

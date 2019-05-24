@@ -1,0 +1,78 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\algnewcommand{\IfThenElse}[3]{% \IfThenElse{<if>}{<then>}{<else>}
+	\State \algorithmicif\ #1\ \algorithmicthen\ #2\ \algorithmicelse\ #3}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.59}
+		
+		\caption{Solve the deferred acceptance/stable marriage problem. $M_x$ is a preference list such that $M_{x_1}$ is a man, and the elements $M_{x_2}$, $M_{x_3}$, $\dots$, $M_{x_y}$ are ranked  preference women. The output match list is the most stable system.}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{deferred acceptance}{$M_1$, $M_2$, $\dots$, $M_n$: a list of preference lists; $W_1$, $W_2$, $\dots$, $W_n$: a list of preference lists}
+			
+			\State $match$ $list \gets $ empty list
+			\State $P \gets \emptyset$
+			\State $\circledcirc \gets 0$
+			
+			\While {$\circledcirc \ne n$}
+				\For {$\triangle = 1$ to $n$}
+					\State $man \gets M_{\triangle_{1}}$
+					
+					\If {$man \notin \{m|\langle m, w \rangle \in match$ $list\}$}
+					
+						\State $lady \gets M_{\triangle_{2}}$
+						\If {$lady \in P$} \Comment {$lady$ already paired.}
+							\State$\forall \phi ([(0 < \phi \le \circledcirc) \in \mathbb{N}\land (match$ $list_{\phi_{2}} = lady)] \implies \newline \indent \indent \indent \indent \indent
+							preference \gets match$ $list_\phi$)
+							
+							\State
+							$\forall \lambda ([(0 < \lambda \le n) \in \mathbb{N} \land (W_\lambda = lady)] \implies \delta \gets \lambda)$
+							
+							
+							\State
+							$\forall \lambda ([(1 < \lambda \le n) \in \mathbb{N} \land \newline \indent \indent \indent \indent \indent  \{(W_{\delta_{\lambda}} = preference) \lor (W_{\delta_{\lambda}} = man)\}] \implies \indent \indent \indent \indent \indent preference \gets W_{\delta_{\lambda}})$
+							
+							\State $match$ $list_\phi \gets \langle preference, lady\rangle$
+						\Else
+							\State $\circledcirc \pluseq 1$
+							\State $match$ $list_\circledcirc \gets \langle man, lady \rangle$
+							\State $P \gets P \cup \{lady\}$
+							\State $M_\triangle \gets M_{\triangle_{1}}$, $M_{\triangle_{3}}$,
+							$M_{\triangle_{4}}$,
+							$\dots$,
+							$M_{\triangle_{(|M_\triangle|-1)}}$
+						\EndIf
+						
+					\EndIf
+					
+				\EndFor
+			
+			\EndWhile
+			
+			\State \textbf{return} $match$ $list$
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

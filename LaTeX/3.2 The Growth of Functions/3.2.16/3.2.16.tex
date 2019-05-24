@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.16]
+		If f is a function such that f(x) is $\mathcal{O}(x)$, then f(x) is $\mathcal{O}(x^{2})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		If $f(x)$ is $\mathcal{O}(x)$, then there exists constant witnesses $C$ and $k$ such that $|f(x)| \le C|x|$, for all $x > k$. Clearly, $C|x| \le C|x^{2}|$. Thus, $|f(x)| \le C|x^{2}|$, for all $x > k$. It follows that $f(x)$ is $\mathcal{O}(x^{2})$.
+	\end{proof}
+
+\end{document}

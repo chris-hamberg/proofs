@@ -1,0 +1,23 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.3]
+		If n is an even integer, then $n^2$ is an even integer.
+	\end{theorem*}
+	
+	\begin{proof}
+		By definition, there exists an integer $k$ such that $n = 2k$. \newline 
+		$(2k)^2 = 4k^2 = 2(2k^2)$. $2k^2$ is an integer $\therefore$ $\space$ $n^2$ is even, by 
+		definition.
+	\end{proof}
+
+\end{document}

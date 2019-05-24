@@ -1,0 +1,47 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.38b]
+		Let A, and B be sets. The symmetric difference of sets is subject to absorption such that 
+		$(A \oplus B) \oplus B = A$.
+	\end{theorem*}
+
+	\begin{proof}
+		By Theorem 2.2.35, $(A \oplus B) \oplus B = [(A \oplus B) \cup B] - [(A \oplus B) \cap B]$. 
+		By Theorem 2.2.19 that is $[(A \oplus B) \cup B] \cap \overline{[(A \oplus B) \cap B]}$, 
+		and by DeMorgans law $[(A \oplus B) \cup B] \cap [\overline{(A \oplus B)} \cup \overline{B}]$. 
+		Again, by Theorem 2.2.35, that is \newline 
+		$\{[(A \cup B) - (A \cap B)] \cup B\} \cap 
+		\{\overline{[(A \cup B) - (A \cap B)]} \cup \overline{B}\}$. By Theorem 2.2.19, 
+		$\{[(A \cup B) \cap \overline{(A \cap B)}] \cup B\} \cap 
+		\{\overline{[(A \cup B) \cap \overline{(A \cap B)}]} \cup \overline{B}\}$. Applying 
+		DeMorgans law, three times in succession we get \newline 
+		$\{[(A \cup B) \cap (\overline{A} \cup \overline{B})] \cup B\} \cap 
+		\{[(\overline{A} \cap \overline{B}) \cup (A \cap B)] \cup \overline{B}\}$. By distribution 
+		and association we make the following equivalent statement, \newline 
+		$[(A \cup B \cup B) \cap (\overline{A} \cup \overline{B} \cup B)] \cap 
+		\{[(\overline{A} \cap \overline{B}) \cup \overline{B}] \cup [(A \cap B) \cup \overline{B}]\}$. 
+		Now this expression shall be reduced. By the idempotent law, the complementation law, 
+		set absorption, and distribution we have \newline 
+		$[(A \cup B) \cap (\overline{A} \cup U)] \cap 
+		\{\overline{B} \cup [(A \cup \overline{B}) \cap (B \cup \overline{B})]\}$. By complementation 
+		and domination we make the following equivalent statement, \newline 
+		$[(A \cup B) \cap U] \cap \{\overline{B} \cup [(A \cup \overline{B}) \cap U]\}$. By set 
+		identity, and the idempotent law that is $(A \cup B) \cap (A \cup \overline{B})$. Factoring 
+		out $A$ by the law of distribution, and by the set complementation laws, and by set identity 
+		we find that \newline $A \cup (B \cap \overline{B}) \equiv A \cup \emptyset \equiv A$
+		
+		$\therefore (A \oplus B) \oplus B = A$.
+	\end{proof}
+
+\end{document}

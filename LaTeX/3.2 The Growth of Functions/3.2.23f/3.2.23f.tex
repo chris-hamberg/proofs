@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.23f]
+		Let f be the function defined by f(x) = $\floor{x} \ceil{x}$. \newline f(x) is $\Theta(x^2)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$x - \floor{x} = \epsilon$, and $x - \epsilon = \floor{x}$. $\ceil{x} - x = \sigma$, and $x + \sigma = \ceil{x}$. Thus, $f(x) = (x - \epsilon)(x + \sigma) = x^2 + x\sigma - x\epsilon - \epsilon \sigma = x^2 + x(\sigma - \epsilon) - \epsilon \sigma$. Now the following inequality can be established $f(x) = x^2 + x(\sigma - \epsilon) - \epsilon \sigma \le x^2 + x^2 - x \le 2x^2$. This means, $|f(x)| \le 2|x^2|$, for all $x \in \mathbb{R}$. Thus, $f(x)$ is $\mathcal{O}(x^2)$ with constant witnesses $C_1 = 2$ and any $k \in \mathbb{R}$. \newline \indent Now certainly $2x^2 \ge x^2$, and obviously $2x^2 + 2x(\sigma - \epsilon) - 2\epsilon \sigma \ge x^2$. Thus, $x^2 + x(\sigma - \epsilon) - \epsilon \sigma \ge \frac{1}{2} \cdot x^2$, for all $x \in \mathbb{R}$. It trivially follows that $\frac{1}{2}|x^2| \le |f(x)|$, for all $x \in \mathbb{R}$. So $f(x)$ is $\Omega(x^2)$ with constant witnesses $C_2 = \frac{1}{2}$, and any $k \in \mathbb{R}$. \newline \indent Since we have $C_2|x^2| \le |f(x)| \le C_1|x^2|$, for $x > k$, by definition it follows that $f(x)$ is $\Theta(x^2)$.
+	\end{proof}
+
+\end{document}

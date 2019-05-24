@@ -1,0 +1,36 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.21]
+		Let A, B, and C be sets. $A \cup (B \cup C) = (A \cup B) \cup C$, such that set union is 
+		associative.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cup (B \cup C)$. The logical definition being \newline 
+		$(x \in A) \lor [(x \in B) \lor (x \in C)]$. It trivially follows from the associative 
+		law for logical disjunction that $[(x \in A) \lor (x \in B)] \lor (x \in C)$. Hence, $x$ 
+		is an element of $(A \cup B) \cup C$.
+		
+		In the converse case, let $x$ be an element of $(A \cup B) \cup C$. The logical definition 
+		being $[(x \in A) \lor (x \in B)] \lor (x \in C)$. It trivially follows from the associative 
+		law for logical disjunction that $(x \in A) \lor [(x \in B) \lor (x \in C)]$. Hence, $x$ is 
+		an element of $A \cup (B \cup C) $.
+		
+		Since $A \cup (B \cup C) \subseteq (A \cup B) \cup C$ and 
+		$(A \cup B) \cup C \subseteq A \cup (B \cup C)$ it follows immediately from the definition 
+		for set equality that \newline $A \cup (B \cup C) = (A \cup B) \cup C$. Thus, the union of 
+		three sets is indeed associative.
+	\end{proof}
+
+\end{document}

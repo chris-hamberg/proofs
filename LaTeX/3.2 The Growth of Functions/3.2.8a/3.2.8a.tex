@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.8a]
+		Let f be the function defined by f(x) = $2x^{2} + x^{3} \log x$. \newline f(x) is $\mathcal{O}(x^{4})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x^{4}$. If $x \ge 1$, then
+		\newline \newline \indent \indent
+		$f(x) = \left( 2x^{2} + x^{3} \log x \right) \le \left( 2x^{2} + x^{4} \right) \le \left( 2x^{4} + x^{4} \right) = 3x^{4}$. \newline \newline Thus, $|f(x)| \le 3|g(x)|$, for all $x > 1$, and therefore $f(x)$ is $\mathcal{O}(x^{4})$ with constant witnesses $C = 3$, and $k = 1$.
+	\end{proof}
+
+\end{document}

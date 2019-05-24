@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.18b]
+		Let A, B and C be sets. $(A \cap B \cap C) \subseteq (A \cap B)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $(A \cap B \cap C)$. The definition of this expression is 
+		$(x \in A) \land (x \in B) \land (x \in C)$. From that, obviously 
+		$(x \in A) \land (x \in B)$, being the definition for $(A \cap B)$. It necessarily 
+		follows that $(A \cap B \cap C) \subseteq (A \cap B)$.
+	\end{proof}
+
+\end{document}

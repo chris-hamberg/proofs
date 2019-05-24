@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.10b]
+		Let A be a set. $\emptyset - A = \emptyset$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $\emptyset - A \equiv \emptyset \cap \overline{A}$. Because this expression 
+		is defined as $(x \in \emptyset) \land (x \notin A)$ the supposition 
+		$\exists x (x \in (\emptyset - A))$ immediately contradicts $x \in \emptyset$. Meaning that no such 
+		$x$ could possibly exist. It follows that $(\emptyset - A)$ must be empty. Hence, 
+		$\emptyset - A = \emptyset$
+	\end{proof}
+
+\end{document}

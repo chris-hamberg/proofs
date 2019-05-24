@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, margin=0.5in}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+\usepackage{mathtools}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+
+\begin{document}\noindent
+	$ \verb|Prove that | \floor*{x} + \floor*{y} + \floor*{x + y} \le \floor*{2x} + \floor*{2y}, \verb| for all real numbers x and y.|$
+	\begin{proof}
+		$ \verb|Let | f \verb| be a function, | f: \mathbb{R} \times \mathbb{R} \rightarrow \mathbb{Z} \verb| such that | f(x, y) = \floor*{x} + \floor{y} + \floor{x + y} \verb|, and let | g \verb| be a function, | \newline g: \mathbb{R} \times \mathbb{R} \rightarrow \mathbb{Z} \verb| such that | g(x, y) = \floor*{2x} + \floor*{2y}. \newline \newline \verb|Suppose | \floor*{x} = \floor*{m + \epsilon} \verb| where | m \in \mathbb{Z} \verb| such that | m \le x < m+1 \verb|, and | \epsilon \in \mathbb{R} \verb| such that | 0 \le \epsilon < 1. \newline \verb|Also, suppose | \floor*{y} = \floor*{n + \sigma} \verb| where | n \in \mathbb{Z} \verb| such that | n \le y < n+1 \verb|, and | \sigma \in \mathbb{R} \verb| such that | 0 \le \sigma < 1. \newline \newline \verb|It follows that | \floor*{x} = m + \floor*{\epsilon} = m \verb|, because | \floor*{\epsilon} = 0. $\space$ \floor*{x + y} = m + n + \floor{\epsilon + \sigma}. \verb| And, | \newline \floor*{2x} = \floor*{2(m + \epsilon)} = \floor*{2m + 2\epsilon} = 2m + \floor*{2\epsilon}. \newline \newline \verb|There are two cases to consider in this proof.| \newline \newline (i) \verb| If | \epsilon + \sigma \ge 1, \verb| then | \floor*{\epsilon + \sigma} = 1. \verb| In this case | \floor*{x + y} = m + n + 1 \verb|, and it follows that | \newline f(x, y) = 2m + 2n + 1. \verb| Whenever | \epsilon + \sigma \ge 1 \verb|, at least one of the following statements is true: | \frac{1}{2} \le \epsilon < 1 \verb|, or| \newline \frac{1}{2} \le \sigma < 1. \verb| While it is possible that both of these statements are true we need only consider the case| \newline \verb|where at most one of these statements is true (because the value at | g(x, y) \verb| in the former exceeds the| \newline \verb|value of | g(x, y) \verb| in the latter, and the proof is satisfied by the latter.) So let | \frac{1}{2} \le \epsilon < 1. \verb| Then | \newline \floor*{2\epsilon} = 1, \verb| and | \floor*{2x} = 2m+1 \verb|. This means that | g(x, y) \verb| is at least | 2m+2n+1 = f(x, y). \newline \newline (ii) \verb| If | \epsilon + \sigma < 1 \verb|, then | \floor*{\epsilon + \sigma} = 0. \verb| So | \floor*{x + y} = m + n \verb|, and it follows that | f(x, y) = 2m + 2n \verb|. In this case,| \newline \verb|not both of, but only one of | \frac{1}{2} \le \epsilon < 1, \verb| or | \frac{1}{2} \le \sigma < 1 \verb| can be true, or neither statement can be true.| \newline \verb|If either one of these statements are true, then | g(x, y) = 2m + 2n + 1 > 2m + 2n = f(x, y) \verb| If neither of those| \newline \verb|statements are true, then | g(x, y) = 2m + 2n = f(x, y). \newline \newline \therefore $\space$ $\space$ \floor*{x} + \floor*{y} + \floor*{x + y} \le \floor*{2x} + \floor*{2y}, \verb| for all real numbers x and y.| $
+		\end{proof}
+	
+\end{document}

@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, margin=0.5in}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+\begin{document}\noindent
+	$ \verb|Show that a set | S \verb| is infinite if and only if there is a proper subset | A \verb| of | S \verb| such that there is a | \newline \verb|one-to-one correspondence between | A\verb| and | \verb S \verb|.|
+	$
+	\begin{proof}
+		$\verb|Let | S \verb| be a set and let | A \verb| be a proper subset of | S \verb| such that | f: S \rightarrow A \verb| is a bijection. For the| \newline \verb|purpose of contradiction, suppose | S \verb| is finite. Then | A \verb| is also finite, and has fewer elements than | S \verb|.| \newline \verb|Thus, by the Pigeonhole Principle, there is some element | a \in A \verb| such that | f \verb| maps two distinct elements| \newline \verb|of | S \verb| to | a \verb|. This contradicts the fact that | f \verb| was a bijection. Since the assumption that | S \verb| was finite| \newline \verb|led to a contradiction, then | S \verb| must be infinite.| \newline \newline \verb|Suppose | S \verb| is a countably infinite set. Then we may list the distinct elements of | S \verb| indexed by | i \in \mathbb{N} : \newline S = \{s_{1}, s_{2}, s_{3}, ...\} \verb|. Define a function | f: S \rightarrow \{s_{2}, s_{3}, s_{4}, ...\} \verb| by | f(s_{n}) = s_{n+1} \verb|. Then | f \verb| is evidently a bijection.| \newline f \verb| is surjective because | s_{k} = f(s_{k-1}) \verb|. | f \verb| is injective because if | s_{i} \ne s_{j} \verb|, then | s_{i+1} \ne s_{j + 1} \verb|. Furthermore,| \newline \{s_{2}, s_{3}, s_{4}, ...\} \verb| is a proper subset of | S \verb|, so we are finished.| \newline \newline \verb|Suppose | S \verb| is any infinite set. Then | S \verb| has a countable subset | A \verb|. By the above, we may suppose| \newline A = \{a_{1}, a_{2}, a_{3}, ...\} \verb|. Define a function | f: S \rightarrow (S - A) \cup \{a_{2}, a_{3}, a_{4}, ...\} \verb| by | \newline \newline \verb|    | f(s) = s \verb|, if | s \verb| is in | S - A \newline \verb|    | f(a_{n}) = a_{n+1} \verb|, if | a \verb| is in | A \verb|.| \newline \newline \verb|Then | f \verb| is a bijection on | S-A \verb|, and | f \verb| is a bijection between | A \verb| and | \{a_{2}, a_{3}, a_{4}, ...\} \verb| by the same argument | \newline \verb|as above. Clearly | S-A \cup \{a_{2}, a_{3}, a_{4}, ...\} \verb| is a proper subset of | f \verb|, so we are done.| 
+		$
+	\end{proof}
+\end{document}

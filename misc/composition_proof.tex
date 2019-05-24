@@ -1,0 +1,22 @@
+\documentclass{article}
+\usepackage{geometry}
+\geometry{legalpaper, margin=0.5in}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+
+\begin{document}\noindent
+	\verb|Suppose that |$f$ \verb|is an invertible function from Y to Z and| $g$ \verb|is an invertible function from X to Y.| \newline
+	\verb|Show that the inverse of the composition| 
+	$f$ $\circ$ $g$
+	\verb|is given by| $($$f$ $\circ$ $g$$)$$^{-1}$ $=$ $g^{-1}$ $\circ$ $f^{-1}$\verb|.|
+	\begin{proof}
+		
+	\verb|Since| $f$\verb|:Y| $\rightarrow$ \verb|Z, and |$g$\verb|:X| $\rightarrow$ \verb|Y, it follows from the definition of composition and from the| \newline \verb|definition of function that| $\forall$$x$ $\exists$$y$ $\exists$$z$ $($ $($$x$ $\in$ \verb|X, |$y$ $\in$ \verb|Y, |$z$ $\in$ \verb|Z|$)$ $\rightarrow$ $($$($$f$ $\space$ $\circ$ $\space$ $g$$)$$($$x$$)$ $=$ $f$$($$y$$)$ $=$ $z$$)$ $)$\verb|.| $f$\verb| and |$g$ \verb|are| \newline \verb|invertible, so| $\forall$$x$ $\exists$$y$ $\exists$$z$ $($ $($$x$ $\in$ \verb|X, |$y$ $\in$ \verb|Y, |$z$ $\in$ \verb|Z|$)$ $\rightarrow$ $[$$($$f$$^{-1}$$($$($$f$ $\circ$ $g$$)$$($$x$$)$$)$ $=$ $g$$($$x$$)$ $=$ $y$$)$ $\land$ $($$g$$^{-1}$$($$y$$)$ $=$ $x$$)$$]$ $)$\verb|. Hence,| \newline $\forall$$z$ $\exists$$x$ $($ $($$z$ $\in$ \verb|Z, |$x$ $\in$ \verb|X|$)$ $\rightarrow$ $g$$^{-1}$$($$f$$^{-1}$$($$z$$)$$)$ $=$ $x$ $)$\verb|, and by the definition of composition,| $g$$^{-1}$$($$f$$^{-1}$$)$ $=$ $g$$^{-1}$ $\circ$ $f$$^{-1}$\verb|.| \newline
+	\newline
+	$($$f$ $\circ$ $g$$)$$^{-1}$$($$($$f$ $\circ$ $g$$)$$)$ $=$ $\iota$$_{x}$\verb|. Since| $\forall$$x$ $($ $\iota$$_{x}$$($$x$$)$ $=$ $($$g$$^{-1}$ $\circ$ $f$$^{-1}$$)$$($$x$$)$ $=$ $x$ $)$\verb|, it follows that| $\iota$$_{x}$ $=$ $g$$^{-1}$ $\circ$ $f$$^{-1}$\verb|.| \newline
+	\newline
+	$\therefore$ $\space$ $($$f$ $\circ$ $g$$)$$^{-1}$ $=$ $g$$^{-1}$ $\circ$ $f$$^{-1}$ 
+	\end{proof}
+\end{document}

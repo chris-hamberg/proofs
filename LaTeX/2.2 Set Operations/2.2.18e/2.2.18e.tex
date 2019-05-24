@@ -1,0 +1,41 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.18e]
+		Let A, B, and C be sets. $(B - A) \cup (C - A) = (B \cup C) - A$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $(B - A) \cup (C - A)$. This is the same as saying 
+		$x \in [(B \cap \overline{A}) \cup (C \cap \overline{A})]$. By definition, \newline 
+		$[(x \in B) \land (x \in \overline{A})] \lor [(x \in C) \land (x \in \overline{A})]$. By 
+		the associative property for logical conjunction, and factoring out the term 
+		$(x \in \overline{A})$, we get \newline 
+		$[(x \in B) \lor (x \in C)] \land (x \in \overline{A})$. This statement is the definition 
+		for \newline $(B \cup C) - A$.
+		
+		Proving the converse case, suppose that $x$ is an element in $(B \cup C) - A$. Note that 
+		the expression is equivalent to $(B \cup C) \cap \overline{A}$. Thus we have the following 
+		definition, $[(x \in B) \lor (x \in C)] \land (x \in \overline{A})$. By logical distribution 
+		for conjunction over disjunction 
+		$[(x \in B) \land (x \in \overline{A})] \lor [(x \in C) \land (x \in \overline{A})]$. This 
+		statement defines the expression $x \in [(B \cap \overline{A}) \cup (C \cap \overline{A})]$. 
+		Which, as argued in the first paragraph, is logically equivalent to 
+		$x \in [(B - A) \cup (C - A)]$.
+		
+		Since $[(B - A) \cup (C - A)] \subseteq [(B \cup C) - A]$ and \newline 
+		$[(B \cup C) - A] \subseteq [(B - A) \cup (C - A)]$. It immediately follows from the definition 
+		of set equivalence that $(B - A) \cup (C - A) = (B \cup C) - A$.
+	\end{proof}
+
+\end{document}

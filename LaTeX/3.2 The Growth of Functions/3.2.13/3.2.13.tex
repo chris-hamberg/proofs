@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.13]
+		Let f be the function defined by f(n) = $2^{n}$, and let g be the function defined by g(n) = $3^{n}$. f(n) is $\mathcal{O}(g(n))$, but g(n) is not $\mathcal{O}(f(n))$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$f(n)$ is $\mathcal{O}(g(n))$ trivially follows from the fact that $|2^{n}| \le |3^{n}|$, for all $n > 1$. \newline \indent If it were that $g(x) \in \mathcal{O}(f(x))$, then there would exists constant witnesses $C$ and $k$ such that $3^{n} \le C \cdot 2^{n}$, for all $n > k$. This inequality also means that $\left( \frac{3}{2} \right)^{n} \le C$, for all $n > k$. Clearly, no constant $C$ exists such that $\left( \frac{3}{2} \right)^{n} \le C$, for all $n > k$. Thus, $g(n) \notin \mathcal{O}(f(n))$.
+	\end{proof}
+
+\end{document}

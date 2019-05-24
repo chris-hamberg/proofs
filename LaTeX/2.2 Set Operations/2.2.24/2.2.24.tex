@@ -1,0 +1,53 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.24]
+		Let A, B, and C be sets. $(A - B) - C = (A - C) - (B - C)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $(A - B) - C$. By the definition for set difference we have 
+		$[(x \in A) \land (x \notin B)] \land (x \notin C)$.  Now, the logical identity for the 
+		proposition $(x \notin B)$ is $(x \notin B) \lor \bot \equiv (x \notin B)$, and since 
+		\newline $(x \in C) \equiv \bot$ by reason of the hypothesis, it necessarily follows 
+		from logical identity that $(x \notin B) \equiv [(x \notin B) \lor (x \in C)]$. Thus, 
+		by these facts, the law of logical commutativity, and the law of logical association we 
+		make the logically equivalent statement with respect to the definition given by the first 
+		expression, $[(x \in A) \land (x \notin C)] \land [(x \notin B) \lor (x \in C)]$. Since 
+		the right-hand side of the conjunction is true and in its proper logical identity, if it 
+		were double negated, it would remain intact by the law of double negation. Thus applying 
+		first a negation by DeMorgans law, and second a negation directly on the propositional 
+		statement, we have 
+		$[(x \in A) \land (x \notin C)] \land \lnot [(x \in B) \land (x \notin C)]$. By the 
+		definition for set difference and set complementation $x$ is an element in 
+		$(A - C) \cap \overline{(B - C)}$. Which is equivalent to the expression 
+		$(A - C) - (B - C)$, by Theorem 2.2.19.
+		
+		To prove the converse case, let $x$ be an element in $(A - C) - (B - C)$. By Theorem 2.2.19  
+		$(A - C) \cap \overline{(B - C)}$ is an equivalent expression. This expression containing 
+		the element $x$ is defined by 
+		\newline $[(x \in A) \land (x \notin C)] \land \lnot [(x \in B) \land (x \notin C)]$. 
+		Applying DeMorgans law to the statement on the right-hand side of the conjunction we get 
+		\newline $[(x \in A) \land (x \notin C)] \land [(x \notin B) \lor (x \in C)]$. Note that as 
+		demonstrated in the first paragraph we have the following identity 
+		$[(x \notin B) \lor (x \in C)] \equiv (x \notin B)$. Thus, by that fact, the law of logical 
+		commutativity, and by the law of logical association it follows that the identity of our 
+		statement is \newline $[(x \in A) \land (x \notin B)] \land (x \notin C)$. This is the 
+		definition for $x \in [(A - B) - C]$.
+		
+		Since $(A - B) - C \subseteq (A - C) - (B - C)$ and 
+		\newline $(A - C) - (B - C) \subseteq (A - B) - C$, it follows immediately from the 
+		definition for set equality that $(A - B) - C = (A - C) - (B - C)$
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.21a]
+		Let f be the function f(n) = $n \log(n^2 + 1) + n^2 \log n$. \newline f(n) is $\mathcal{O}(n^2 \log n)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$f(n)$ is $\mathcal{O}(n^2 \log n)$ follows directly from the fact that a $k^\textsuperscript{th}$ degree polynomial is $\mathcal{O}(x^k)$. Since $n \log(n^2 + 1) + n^2 \log n$ is a $2^\textsuperscript{nd}$ degree polynomial in $n^2 \log n$ with a constant coefficient $1$, $f(n)$ is $\mathcal{O}(n^2 \log n)$.
+	\end{proof}
+
+\end{document}

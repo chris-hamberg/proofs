@@ -1,0 +1,69 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\algnewcommand{\IfThenElse}[3]{% \IfThenElse{<if>}{<then>}{<else>}
+	\State \algorithmicif\ #1\ \algorithmicthen\ #2\ \algorithmicelse\ #3}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.57}
+		
+		\caption{Time-block optimization scheduler, by earliest time-block end times. Takes as input a list of $2$-tuples in the form of \newline $\langle start$ $time$, $end$ $time \rangle$.}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{greedy scheduler}{$a_1$, $a_2$, $\dots$, $a_n$: list of 2-tuples}
+			\newline \Comment {Sort the list in nondecreasing order, by the 2nd position tuple elements.}
+			
+			\For {$j = 2$ to $n$} 
+				\State $i \gets 1$
+				
+				\While {$a_{j_2} > a_{i_2}$}
+					\State $i \pluseq 1$
+				\EndWhile
+				
+				\State $element \gets a_j$
+				
+				\For {$k = 0$ to $(j-i-1)$}
+					\State $a_{(j-k)} \gets a_{(j-k-1)}$
+				\EndFor
+				
+				\State $a_i \gets element$
+				
+			\EndFor \Comment {List is sorted. End insertion sort.}
+			
+			\State $b \gets [a_1]$ \Comment{$a_1$ has the least start time of all elements in $a$}
+			\State $bindex \gets 1$
+			
+			\For {$i = 2$ to $n$} \Comment {Find the optimal schedule.}
+				\If {$a_{i_1} \ge b_{{bindex}_2}$}
+					\State $bindex \pluseq 1$
+					\State $b_{bindex} \gets a_i$
+				\EndIf
+			\EndFor
+			
+			\State \textbf{return} $b_1$, $b_2$, $\dots$, $b_m$
+			
+			
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

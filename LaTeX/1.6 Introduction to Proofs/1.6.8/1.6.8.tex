@@ -1,0 +1,58 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+\begin{theorem*}[\textbf{1.6.8}]
+    If n is a perfect square, then n + 2 is not a perfect square.
+\end{theorem*}
+
+\begin{proof}
+    Let $n$ be a perfect square. Assume $n + 2$ is a perfect square for the purpose of 
+    contradiction. By the definition of perfect square, $\sqrt{n}$ has to be an integer, and 
+    by our assumption there exists an integer $m$ such that $m^2 = n + 2$. So the 
+    equivalence $m^2 - (\sqrt{n})^2 = 2$ must be the difference of squares 
+    $(m + \sqrt{n})(m - \sqrt{n}) = 2$. Since the sum or difference of integers is an integer 
+    it follows that the factors of $2$, $(m + \sqrt{n})$ and $(m - \sqrt{n})$, have to be 
+    integers. Because $2$ is prime those integer factors can only be elements in 
+    $\{-2, -1, 1, 2\}$. Thus, there are exactly two possibilities:
+    \\ \\ \indent \indent $(i)$ $m^2 - (\sqrt{n})^2 = (2)(1)$,
+    \\ \indent \indent or $(ii)$ $m^2 - (\sqrt{n})^2 = (-1)(-2).$
+    \\ \\ In case $(i)$, without loss of generality, we have 
+    a system of linear 
+    equations in two variables $m$ and $\sqrt{n}$: 
+    \\ \\ \indent \indent \indent \indent \indent \indent \indent \indent \indent $m + \sqrt{n} = 2
+    \\ \indent \indent \indent \indent \indent \indent \indent \indent \indent m - \sqrt{n} = 1$
+    \\ \\
+    The matrix of coefficients 
+    $A = \left[\begin{smallmatrix}
+        1 & 1 \\
+        1 & -1 
+    \end{smallmatrix}\right]$, the inverse for which is
+    $A^{-1} = \left[\begin{smallmatrix}
+        0.5 & 0.5 \\
+        0.5 & -0.5
+    \end{smallmatrix}\right]$. The product of $A^{-1}$ and the matrix of solutions
+    yields $m = 1.5$, which is not in $\mathbb{Z}$;
+    contradicting the assumption that $m^2$ was a perfect square.
+    \\ \\ In case $(ii)$, we are presented with a similar system of linear equations.
+    The only difference in this system compared to $(i)$ is the matrix of solutions 
+    $S = \left[\begin{smallmatrix}
+        -1 \\
+        -2
+    \end{smallmatrix}\right]$. $A^{-1}S$ yields $m = -1.5$, which is not in $\mathbb{Z}$,
+    a contradiction. The assumption that $m^2$ was a perfect square must be false in this case, 
+    as well.
+    \\ \\Since the assumption proves false in all possible cases, it is not possbile that 
+    both $m^2 = n + 2$, and $n$ are perfect squares.
+\end{proof}
+
+\end{document}

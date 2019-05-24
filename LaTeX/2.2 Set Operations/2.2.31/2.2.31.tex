@@ -1,0 +1,30 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.31]
+		Let A, and B be subsets of a universal set U. \newline 
+		$A \subseteq B \iff \overline{B} \subseteq \overline{A}$.
+	\end{theorem*}
+	
+	\begin{proof}
+		The proposition $A \subseteq B$ is equivalent to the universally quantified statement 
+		$\forall x ( x \in A \implies x \in B)$. It is tautological that the propositional 
+		function in this statement is logically equivalent to its contrapositive form 
+		(satisfying the biconditional requirement.) That is,  
+		$\forall x (x \notin B \implies x \notin A)$ is the logically equivalent statement. 
+		By the definition for set complementation that is 
+		$\forall x (x \in \overline{B} \implies x \in \overline{A})$. By universal generalization 
+		\newline $A \subseteq B \iff \overline{B} \subseteq \overline{A}$.
+	\end{proof}
+
+\end{document}

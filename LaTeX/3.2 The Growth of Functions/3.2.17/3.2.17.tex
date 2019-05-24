@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.17]
+		Let f, g, and h be functions such that f(x) is $\mathcal{O}(g(x))$, and g(x) is $\mathcal{O}(h(x))$. f(x) is $\mathcal{O}(h(x))$.
+	\end{theorem*}
+	
+	\begin{proof}
+		$f(x)$ is $\mathcal{O}(h(x))$ trivially follows from the definition of big-O. If $f(x)$ is $\mathcal{O}(g(x))$, then there exist constant witnesses $C$ and $k$ such that \newline $|f(x)| \le C|g(x)|$, for all $x > k$. Likewise, if $g(x)$ is $\mathcal{O}(h(x))$, then there exist constant witnesses $C^\prime$ and $k$ such that $|g(x)| \le C^\prime |h(x)|$, for all $x > k$. Thus, $C|g(x)| \le C \cdot C^\prime |h(x)|$, for all $x > k$.
+		It follows that \newline $|f(x)| \le C|g(x)| \le C \cdot C^\prime|h(x)|$, for all $x > k$. Let $C^{\prime\prime} = C \cdot C^\prime$. Then $|f(x)| \le C^{\prime\prime}|h(x)|$, for all $x > k$. Hence $f(x)$ is $\mathcal{O}(h(x))$ with constant witnesses $C^{\prime\prime}$ and $k$.
+	\end{proof}
+
+\end{document}

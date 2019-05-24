@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.8d]
+		Let f be the function defined by f(x) = $\frac{x^{3} + 5 \log x}{x^{4} + 1}$. \newline f(x) is $\mathcal{O}(1)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = 1$. If $x \ge 1$, then 
+		\newline \newline \indent
+		$f(x) = \left( \frac{x^{3} + 5 \log x}{x^{4} + 1} \right) \le \left( \frac{x^{3} + 5 \log x}{x^{4}} \right) = \left( \frac{x^{3}}{x^{4}} + \frac{5 \log x}{x^{4}} \right) \le \left( \frac{x^{3}}{x^{4}} + \frac{5x}{x^{4}} \right) = \left( \frac{1}{x} + \frac{5}{x^{3}} \right)$. \newline \newline If $x \ge 1$, then $\frac{1}{x} + \frac{5}{x^{3}}$ is a decreasing function of $x$ with respect to $6 \cdot g(x)$. Hence, $|f(x)| \le 6|g(x)|$, for all $x > 1$. It follows that $f(x)$ is $\mathcal{O}(1)$ with constant witnesses $C = 6$, and $k = 1$.
+	\end{proof}
+
+\end{document}

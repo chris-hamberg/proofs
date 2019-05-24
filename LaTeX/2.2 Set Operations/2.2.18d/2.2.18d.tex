@@ -1,0 +1,29 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.18d]
+		Let A, B, and C be sets. $(A - C) \cap (C - B) = \emptyset$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $(A - C) \cap (C - B)$. This is equivalently stated as 
+		$x \in [(A \cap \overline{C}) \cap (C \cap \overline{B})]$. Since set intersection is 
+		associative the inner parentheses can be eliminated, 
+		$x \in (A \cap \overline{C} \cap C \cap \overline{B})$. An expression the definition for which 
+		is $(x \in A) \land (x \in \overline{C}) \land (x \in C) \land (x \in \overline{B})$. But by the 
+		logical law of negation this definition states 
+		$(x \in A) \land \bot \land (x \in \overline{B}) \equiv \bot$. Meaning 
+		$\lnot \exists x (x \in (A - C) \cap (C - B))$. In other words, the intersection is indeed empty.
+	\end{proof}
+
+\end{document}

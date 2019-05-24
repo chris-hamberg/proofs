@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.2c]
+		Let f be the function defined by f(x) = x $\log x$. \newline f(x) is $\mathcal{O}(x^{2}).$
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x^{2}$. $\log x \le x$ is true for all $x$ in the domain of any logarithmic function. Certainly, $x \log x \le x^{2}$, for all $x > 0$. From the domain of $f$, and from the definitions for $f$ and $g$, that is $|f(x)| \le 1|g(x)|$, for all $x > 0$. Therefore, $f(x)$ is $\mathcal{O}(x^{2})$ with constant witnesses $C = 1$, and $k = 0$.
+	\end{proof}
+
+\end{document}

@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.21b]
+		Let f be the function defined by \newline $f(n) = (n \log n + 1)^2 + (\log n + 1)(n^2 + 1)$. $f(n)$ is $\mathcal{O}(n^2 (\log n)^2)$
+	\end{theorem*}
+	
+	\begin{proof}
+		$f$ is the sum of functions $(f_1 + f_2)$ where $f_1(n) = (n \log n + 1)^2$, and $f_2(n) = (\log n + 1)(n^2 + 1)$. \newline \indent Consider $f_1$. $f_1$ is the product of functions $(f_1^\prime f_1^\prime)$ where $f_1^\prime(n) = \newline n \log n + 1$. By the fact that the bounding function for the sum of functions is the maximum bounding function in the addends, $f_1^\prime(n)$ is $\mathcal{O}(n \log n)$. Since the bounding function for the product of functions is the product of the bounding functions for those functions, $f_1(n) = (f_1^\prime f_1^\prime)(n)$ is $\mathcal{O}((n \log n)^2) =  \mathcal{O}(n^2 (\log n)^2)$.
+		\newline \indent $f_2$ is the product of functions $(f_2^\prime f_2^{\prime \prime})$ where $f_2^\prime(n) = \log n + 1$ and $f_2^{\prime \prime}(n) = n^2 + 1$. Both of these functions are binomials, and since a $k^\textsuperscript{th}$ degree polynomial is $\mathcal{O}(x^k)$, $f_2^\prime(n)$ is $\mathcal{O}(\log n)$, and $f_2^{\prime \prime}(n)$ is $\mathcal{O}(n^2)$. Thus, $f_2(n)$ is $\mathcal{O}(n^2 \log n)$.
+		\newline \indent The tightest bounding function for $f$ is the maximum of the bounding functions for $f_1$ and $f_2$. So $f(n)$ is $\mathcal{O}(n^2 (\log n)^2)$.
+	\end{proof}
+
+\end{document}

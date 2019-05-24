@@ -1,0 +1,59 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.28}
+		
+		\caption{Locate an element from a finite list of increasing integers by recursively splitting the list into four search space partitions.}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{quaternary search}{$term$: integer; $a_0$, $a_1$, $\dots$, $a_n$: finite list of increasing integers; $index = 0$: integer}
+			
+			\State $endpoint \gets \floor{\frac{n}{4}}$
+			
+			\If {$endpoint = 0$} \Comment {Bottom of recursion stack reached}
+				\If {$term = a_0$}
+					\State \textbf{return} $index$
+				\ElsIf {$term = a_1$}
+					\State \textbf{return} $index + 1$
+				\Else
+					\State \textbf{return} $index + 2$
+				\EndIf
+			\ElsIf {$term < a_{endpoint}$} \Comment {Recur into search partitions}
+				\State \textbf{return} QUATERNARY SEARCH$(\newline \indent \indent \indent \indent \indent \indent \indent term, \newline \indent \indent \indent \indent \indent \indent \indent a_0, a_1, \dots, a_{(endpoint-1)},\newline \indent \indent \indent \indent \indent \indent \indent index)$
+				
+			\ElsIf {$a_{endpoint} \le term < a_{(endpoint \times 2)}$}
+				\State \textbf{return} QUATERNARY SEARCH$(\newline \indent \indent \indent \indent \indent \indent \indent term,\newline \indent \indent \indent \indent \indent \indent \indent a_{endpoint}, a_{(endpoint+1)}, \dots, a_{(endpoint \times 2)-1}, \newline \indent \indent \indent \indent \indent \indent \indent index + endpoint)$
+				
+			\ElsIf{$a_{(endpoint \times 2)} \le term < a_{(endpoint \times 3)}$}
+				\State \textbf{return} QUATERNARY SEARCH$(\newline \indent \indent \indent \indent \indent \indent \indent term,\newline \indent \indent \indent \indent \indent \indent \indent a_{(endpoint \times 2)}, a_{(endpoint \times 2)+1)}, \dots, a_{(endpoint \times 3)-1}, \newline \indent \indent \indent \indent \indent \indent \indent index + (endpoint \times 2)$
+				
+			\ElsIf {$a_{(endpoint \times 3)} \le term$}
+				\State \textbf{return} QUATERNARY SEARCH$(\newline \indent \indent \indent \indent \indent \indent \indent term,\newline \indent \indent \indent \indent \indent \indent \indent a_{(endpoint \times 3)}, a_{(endpoint \times 3)+1}, \dots, a_n,\newline \indent \indent \indent \indent \indent \indent \indent index+(endpoint \times 3))$
+			\Else
+				\State \textbf{return} $\bot$ \Comment {The term was never in the list}
+			\EndIf
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

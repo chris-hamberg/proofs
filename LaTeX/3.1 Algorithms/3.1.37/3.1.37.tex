@@ -1,0 +1,55 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\algnewcommand{\IfThenElse}[3]{% \IfThenElse{<if>}{<then>}{<else>}
+	\State \algorithmicif\ #1\ \algorithmicthen\ #2\ \algorithmicelse\ #3}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.37}
+		
+		\caption{Bubble Sort that halts when the elements are ordered.}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{optimized bubble sort}{$a_1$, $a_2$, $\dots$, $a_n$: sequence of integers}
+			
+			\For {$i = 1$ to $(n-1)$}
+				\State $swap$ $counter \gets 0$
+				
+				\For {$j = 1$ to $n-i$}
+					\If {$a_j > a_{j+1}$}
+						\State $temp \gets a_j$
+					 	\State $a_j \gets a_{j+1}$
+					 	\State $a_{j+1} \gets temp$
+						\State $swap$ $counter \pluseq 1$
+					\EndIf
+				\EndFor
+				\If {$\lnot$ $swap$ $counter$}
+					\State $break$
+				\EndIf
+			\EndFor
+			
+			\State \textbf{return} $a_1$, $a_2$, $\dots$, $a_n$
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

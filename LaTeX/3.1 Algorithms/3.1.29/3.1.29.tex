@@ -1,0 +1,48 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+\algnewcommand{\IfThenElse}[3]{% \IfThenElse{<if>}{<then>}{<else>}
+	\State \algorithmicif\ #1\ \algorithmicthen\ #2\ \algorithmicelse\ #3}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.29}
+		
+		\caption{Find a mode from a list of nondecreasing integers.}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{mode}{$a_1$, $a_2$, $\dots$, $a_n$: list of nondecreasing integers}
+			
+			\State $mode \gets \bot$
+			\State $count \gets 1$
+			\State $frequency \gets 1$
+			\For {$i = 1$ to $n-1$}
+				\IfThenElse {$a_i \ne a_{i+1}$} {$count = 1$} {$count \pluseq 1$}
+				\If {$count > frequency$} \Comment {Found new sublist mode.}
+					\State $mode \gets a_i$
+					\State $frequency \gets count$ \Comment {Set mode in memory.}
+				\EndIf
+			\EndFor
+			\State \textbf{return} $mode$
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

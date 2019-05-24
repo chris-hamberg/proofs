@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.1d]
+		Let f be the function defined by f(x) = 5 $\log x$. \newline f(x) is $\mathcal{O} (x)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x$. It is clear that the inequality $|5 \log x| \le 5|x|$ is true for all $x > 1$. Therefore, $|f(x)| \le 5|g(x)|$, for all $x > 1$. It follows from the definition of big-O notation that $f(x)$ is $\mathcal{O} (x)$ with constant witnesses $C = 5$, and $k = 1$.
+	\end{proof}
+
+\end{document}

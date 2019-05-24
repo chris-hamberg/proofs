@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.3]
+		Let f be the function defined by f(x) = $x^{4} + 9x^{3} + 4x + 7$. \newline f(x) is $\mathcal{O}(x^{4})$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x^{4}$. If $x \ge 2$, then \newline $x^{4} + 9x^{3} + 4x + 7 \le x^{4} + 9x^{4} + 4x^{4} + x^{4} = 15x^{4}$. Thus, $|f(x)| \le 15|g(x)|$, for all $x > 2$. It immediately follows from the definition that $f(x)$ is $\mathcal{O}(x^{4})$ with constant witnesses $C = 15$, and $k = 2$.
+	\end{proof}
+
+\end{document}

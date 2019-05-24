@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.14e]
+		Let f be the function defined by f(x) = $x^{3}$, and let g be the function defined by g(x) = $3^{x}$. f(x) is $\mathcal{O}(g(x))$.
+	\end{theorem*}
+	
+	\begin{proof}
+		If $f(x)$ is $\mathcal{O}(g(x))$, then there exists constant witnesses $C$ and $k$ such that $x^{3} \le C \cdot 3^{x}$, for all $x > k$. If $C = 1$ and $k = 1$, $x^{3}$ is a decreasing function with respect to $3^{x}$. Thus, $f(x)$ is $\mathcal{O}(g(x))$.
+	\end{proof}
+
+\end{document}

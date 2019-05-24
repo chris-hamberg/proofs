@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.8b]
+		Let A be a set. A is idempotent such that $A \cap A = A$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $x$ be an element in $A \cap A$. By the definition for set intersection we have 
+		$(x \in A) \land (x \in A)$. The logical idempotent law says \newline 
+		$(x \in A) \land (x \in A) \equiv (x \in A)$. That is the definition of $A \cap A = A$. 
+		Thus proves the idempotent law for the intersection of sets.
+	\end{proof}
+
+\end{document}

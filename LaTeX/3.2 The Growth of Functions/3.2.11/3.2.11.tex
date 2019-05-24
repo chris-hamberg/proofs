@@ -1,0 +1,26 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.11]
+		Let f be the function defined by f(x) = $3x^{4} + 1$, and let g be the function defined by g(x) = $\frac{x^{4}}{2}$. f(x) is $\Theta (g(x))$.
+	\end{theorem*}
+	
+	\begin{proof}
+		If $x \ge 1$, then $x^{4} \le 6x^{4}$. Dividing both sides by two, $\frac{x^{4}}{2} \le 3x^{4}$. Of course $|\frac{x^{4}}{2}| \le |3x^{4} + 1|$, for all $x > 1$. Therefore $f(x)$ is $\Omega (g(x))$ with constant witnesses $C = 1$, and $k = 1$.
+		\newline \indent If $x \ge 1$, then $6x^{4} + 2 \le 8x^{4}$. Multiplying both sides by $\frac{1}{2}$, \newline $3x^{4} + 1 \le 8 \cdot \frac{x^{4}}{2}$. Of course $|3x^{4} + 1| \le 8 |\frac{x^{4}}{2}|$, for all $x > 1$. So $f(x)$ is $\mathcal{O}(g(x))$ with constant witnesses $C = 8$, and $k = 1$.
+		\newline \indent Because $f(x)$ is $\Omega (g(x))$, and $f(x)$ is $\mathcal{O}(g(x))$, it follows that $f(x)$ is $\Theta (g(x))$.
+	\end{proof}
+
+\end{document}

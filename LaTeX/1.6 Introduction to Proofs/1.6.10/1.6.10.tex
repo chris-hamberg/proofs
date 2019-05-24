@@ -1,0 +1,25 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.10]
+		The product of two rational numbers is rational.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $m$ and $n$ be rational numbers. By definition there exist integers $a$, $b$, $c$, and $d$ such 
+		that $m = \frac{a}{b}$ and $n = \frac{c}{d}$. The product of $m$ and $n$ is $\frac{ac}{bd}$. Since 
+		the product of integers is an integer, $ac$ and $bd$ are integers. Thus $mn$ is rational by 
+		definition.
+	\end{proof}
+
+\end{document}

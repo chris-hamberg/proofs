@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.23b]
+		Let f be the function defined by f(x) = $x^2 + 1000$. \newline f(x) is $\Theta(x^2)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Obviously $f(x) = x^2 + 1000 \ge x^2$, for all $x \in \mathbb{R}$. So $f(x)$ is $\Omega(x^2)$ with constant witnesses $C = 1$ and any $k \in \mathbb{R}$. Now, $x^2 + x^2$ cannot exceed $x^2 + 1000$ unless $x \ge \ceil{\sqrt{1000}} = 32$. Thus, $|f(x)| \le 2|x^2|$ for all $x > 32$. So $f(x)$ is $\mathcal{O}(x^2)$ with constant witnesses $C = 2$ and $k = 32$. Finally, we have $|x^2| \le |f(x)| \le 2|x^2|$, for all $x > 32$. Therefore, $f(x)$ is $\Theta(x^2)$ with constant witnesses $C_1 = 1$, $C_2 = 2$, and $k = 32$.
+	\end{proof}
+
+\end{document}

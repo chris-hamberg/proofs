@@ -1,0 +1,28 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[1.6.9]
+		The sum of an irrational number and a rational number is irrational.
+	\end{theorem*}
+	
+	\begin{proof}
+		By contradiction. Suppose that $m$ and $n$ are rational numbers. By definition, there exist integers
+		$a$, $b$, $c$, and $d$ such that $m = \frac{a}{b}$ and $n = \frac{c}{d}$. Let $x$ be an irrational 
+		number such that the sum of a rational number and an irrational number can be expressed as 
+		$m + x = n$ and $n + (-m) = x$. In terms of $a$, $b$, $c$, and $d$ we have 
+		$\frac{-a}{b} + \frac{c}{d} = \frac{-ad}{bd} + \frac{cb}{bd} = \frac{-ad + cb}{bd} = x$. Note that 
+		the sum of products of integers is an integer. But this is impossible because $x$ is irrational; 
+		thus a contradiction.
+	\end{proof}
+
+\end{document}

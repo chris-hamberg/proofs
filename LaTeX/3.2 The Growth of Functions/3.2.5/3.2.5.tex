@@ -1,0 +1,24 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.5]
+		Let f be the function defined by f(x) = $\frac{x^{2} + 1}{x + 1}$. \newline f(x) is $\mathcal{O}(x)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x$. $\frac{x^{2} + 1}{x + 1}$ is a sum of functions which can be found by the equation $\newline \newline \indent \frac{x^{2} + 1}{x + 1} = \frac{x^{2} - 1 + 2}{x + 1} = \frac{x^{2} - 1}{x + 1} + \frac{2}{x + 1} = \frac{(x + 1)(x - 1)}{x + 1} + \frac{2}{x + 1} = (x-1) + \frac{2}{x + 1}$. \newline \newline Now clearly $(x-1) \le g(x)$ for all $x \in \mathbb{R}$. So the inequality $|(x-1)| \le |g(x)|$ holds, and it follows that $(x - 1)$ is $\mathcal{O}(g(x))$ with constant witnesses $C = 1$, and any $k \in \mathbb{R}$. The other term in the sum of functions, $\frac{2}{x + 1}$, is a decreasing function with respect to $g(x)$, for all $x \ge 1$. So if $x > 1$, then $\frac{2}{x + 1} \le x$. This means that $|\frac{2}{x + 1}| \le |g(x)|$, for all $x > 1$, and the function $\frac{2}{x + 1}$ is $\mathcal{O}(g(x))$ with constant witnesses $C = 1$, and $k = 1$. By the corollary that follows from the theorem stating that the bounding function for a sum of functions is the maximum of the bounding functions for each of those functions, it follows that $f(x)$ is $\mathcal{O}(x)$ with constant witnesses $C = 1$, and $k = 1$.
+	\end{proof}
+
+\end{document}

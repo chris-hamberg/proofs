@@ -14,13 +14,32 @@
 \begin{document}
 	
 	\begin{theorem*}[2.3.67b]
-		Let A, and B be sets with universal set U. Let $f_{A \cup B}$ be the characteristic function $f_{A \cup B}: U \implies \{0, 1\}$. Let $f_{A}$ be the characteristic function $f_{A}: U \implies \{0, 1\}$. Let $f_{B}$ be the characteristic function \newline $f_{B}: U \implies \{0, 1\}$. \newline $f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x)$.
+		Let A, and B be sets with universal set U. Let $f_{A \cup B}$ be the characteristic 
+		function $f_{A \cup B}: U \implies \{0, 1\}$. Let $f_{A}$ be the characteristic 
+		function $f_{A}: U \implies \{0, 1\}$. Let $f_{B}$ be the characteristic function 
+		\newline $f_{B}: U \implies \{0, 1\}$. \newline 
+		$f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x)$.
 	\end{theorem*}
 	
 	\begin{proof}
-		First suppose that $x$ were not an element in $A \cup B$. It follows from the definition for characteristic functions that $f_{A \cup B}(x) = 0$. Also, by the definition for set union $x$ is in neither $A$ nor $B$, so $f_{A}(x) = 0$, and $f_{B}(x) = 0$. Thus, $f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 0 + 0 - 0 \times 0 = 0$. Therefore, $f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x)$.
+		First suppose that $x$ were not an element in $A \cup B$. It follows from the definition 
+		for characteristic functions that $f_{A \cup B}(x) = 0$. Also, by the definition for set 
+		union $x$ is in neither $A$ nor $B$, so $f_{A}(x) = 0$, and $f_{B}(x) = 0$. Thus, 
+		$f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 0 + 0 - 0 \times 0 = 0$. Therefore, 
+		$f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x)$.
 		
-		Now suppose it were the case that $x$ was an element in $A \cup B$. It follows from the definition for characteristic functions that $f_{A \cup B}(x) = 1$. Also, by the definition for set union $(x \in A) \lor (x \in B)$. Hence, there are three cases to consider here. \newline \newline \indent $(i)$ Suppose $(x \in A)$ and $(x \notin B)$. By the definition for characteristic \indent functions we have $f_{A}(x) = 1$ and $f_{B}(x) = 0$. Thus, \newline \indent $f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1 + 0 - 1 \times 0 = 1$. \newline \newline \indent $(ii)$ Suppose $(x \notin A)$ and $(x \in B)$. Without loss of generality this case \indent has the same result as case $(i)$. \newline \newline \indent $(iii)$ If $x$ is in the intersection of $A$ and $B$ we have \newline \indent $f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1 + 1 - 1 \times 1 = 1$. \newline \newline Since $f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1$ for all three possible cases, thus concludes the proof.
+		Now suppose it were the case that $x$ was an element in $A \cup B$. It follows from the 
+		definition for characteristic functions that $f_{A \cup B}(x) = 1$. Also, by the definition 
+		for set union $(x \in A) \lor (x \in B)$. Hence, there are three cases to consider here. 
+		\newline \newline \indent $(i)$ Suppose $(x \in A)$ and $(x \notin B)$. By the definition 
+		for characteristic \indent functions we have $f_{A}(x) = 1$ and $f_{B}(x) = 0$. Thus, 
+		\newline \indent $f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1 + 0 - 1 \times 0 = 1$. 
+		\newline \newline \indent $(ii)$ Suppose $(x \notin A)$ and $(x \in B)$. Without loss of 
+		generality this case \indent has the same result as case $(i)$. \newline \newline \indent 
+		$(iii)$ If $x$ is in the intersection of $A$ and $B$ we have \newline \indent 
+		$f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1 + 1 - 1 \times 1 = 1$. \newline \newline 
+		Since $f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1$ for all three 
+		possible cases, thus concludes the proof.
 	\end{proof}
 
 \end{document}

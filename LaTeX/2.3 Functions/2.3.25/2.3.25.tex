@@ -12,11 +12,14 @@
 \begin{document}
 	
 	\begin{theorem*}[2.3.25]
-		Let $f$ be a function $f: \mathbb{R} \implies \mathbb{R}$ defined by $f(x) = |x|$. $f(x)$ is not invertible.
+		Let $f$ be a function $f: \mathbb{R} \implies \mathbb{R}$ defined by $f(x) = |x|$. $f(x)$ 
+		is not invertible.
 	\end{theorem*}
 	
 	\begin{proof}
-		Let $x$ be a postive real number. $f(-x) = f(x) = x$. If $f$ had an inverse then $f^{-1}(x) = x = -x$, but this is not a function by definition. Also, $f^{-1}$ is not a function by contradiction since $\lnot \exists x ((x \in \mathbb{R}) \land (x = -x))$. Thus, $f$ is not a bijection, and $f$ is not invertible.
+		Let $x$ be a postive real number. $f(x) = y$ and $f(-x) = y$. If $f$ had an inverse then 
+		$f^{-1}(y) = x$ or $f^{-1}(y) = -x$, so $f^{-1}$ is not a function by definition. Which
+		concludes the proof.
 	\end{proof}
 
 \end{document}

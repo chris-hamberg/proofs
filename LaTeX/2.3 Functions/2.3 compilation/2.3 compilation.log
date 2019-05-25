@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2020/dev/Debian) (preloaded format=pdflatex 2019.5.21)  24 MAY 2019 15:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2020/dev/Debian) (preloaded format=pdflatex 2019.5.21)  25 MAY 2019 01:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -234,27 +234,324 @@ Overfull \hbox (0.25755pt too wide) in paragraph at lines 20--21
  [] 
  []
 
-
-Overfull \hbox (0.25755pt too wide) in paragraph at lines 28--29
+LaTeX Font Info:    Try loading font information for U+msa on input line 26.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 26.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 46--47
  [] 
  []
 
 [25
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (/home/chris/Documents/Discrete Mathematics and Its Applications/LaTeX/2.3 Functions/2.3 compilation/2.3 compilation.aux) ) 
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 87--88
+ [] 
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 103--104
+ [] 
+ []
+
+[26]
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 150--151
+ [] 
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 174--175
+ [] 
+ []
+
+[27]
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 211--212
+ [] 
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 229--230
+ [] 
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 247--248
+ [] 
+ []
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 276--285
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--285
+
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 287--288
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--306
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--306
+
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 308--309
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--324
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 319--324
+
+ []
+
+[29]
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 344--345
+ [] 
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 361--362
+ [] 
+ []
+
+[30]
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 399--400
+ [] 
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 425--426
+ [] 
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 458--467
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 458--467
+
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 469--470
+ [] 
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 490--491
+ [] 
+ []
+
+[32] [33]
+Underfull \hbox (badness 10000) in paragraph at lines 561--573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--573
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 561--573
+
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 575--576
+ [] 
+ []
+
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 607--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--641
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 607--641
+
+ []
+
+[35]
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 673--674
+ [] 
+ []
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 698--737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--737
+
+ []
+
+[37]
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 753--754
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 763--788
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 763--788
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 763--788
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 763--788
+
+ []
+
+[38]
+Underfull \hbox (badness 10000) in paragraph at lines 807--835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 807--835
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 807--835
+
+ []
+
+[39]
+Underfull \hbox (badness 10000) in paragraph at lines 846--865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 846--865
+
+ []
+
+
+Overfull \hbox (0.25755pt too wide) in paragraph at lines 867--868
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 877--896
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 877--896
+
+ []
+
+[40]
+Underfull \hbox (badness 10000) in paragraph at lines 908--937
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 908--937
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 908--937
+
+ []
+
+[41] (/home/chris/Documents/Discrete Mathematics and Its Applications/LaTeX/2.3 Functions/2.3 compilation/2.3 compilation.aux) ) 
 Here is how much of TeX's memory you used:
- 3473 strings out of 492616
- 49354 string characters out of 6131867
- 125393 words of memory out of 5000000
- 7351 multiletter control sequences out of 15000+600000
- 4544 words of font info for 17 fonts, out of 8000000 for 9000
+ 3518 strings out of 492616
+ 50001 string characters out of 6131867
+ 132393 words of memory out of 5000000
+ 7376 multiletter control sequences out of 15000+600000
+ 9545 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,4n,30p,405b,111s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on "/home/chris/Documents/Discrete Mathematics and Its Applications/LaTeX/2.3 Functions/2.3 compilation/2.3 compilation.pdf" (1 page, 17580 bytes).
+ 55i,8n,30p,405b,146s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on "/home/chris/Documents/Discrete Mathematics and Its Applications/LaTeX/2.3 Functions/2.3 compilation/2.3 compilation.pdf" (17 pages, 159146 bytes).
 PDF statistics:
- 16 PDF objects out of 1000 (max. 8388607)
- 10 compressed objects within 1 object stream
+ 103 PDF objects out of 1000 (max. 8388607)
+ 72 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

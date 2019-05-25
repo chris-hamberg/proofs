@@ -18,22 +18,31 @@
 	\end{theorem*}
 	
 	\begin{proof}
-		Let $n$ be an integer satisfying the properties for ceiling functions with respect to $x$ such that
-		$\ceil{\frac{x}{4}} = n$. Thus establishes the fact, $4n - 4 < x \le 4n$. We shall proceed by analyzing the statement $\ceil{\ceil{\frac{x}{2}} \div 2} = n$. If $\ceil{\ceil{\frac{x}{2}} \div 2} = \ceil{\frac{x}{4}}$ is true, then $\ceil{\ceil{\frac{x}{2}} \div 2} = n$ will be defined, by the properties of ceiling functions, as $4n - 4 < x \le 4n$; since this is the case for $\ceil{\frac{x}{4}} = n$.
+		Let $n$ be an integer satisfying the properties for ceiling functions with respect to $x$ 
+		such that $\ceil{\frac{x}{4}} = n$. Thus establishes the fact, $4n - 4 < x \le 4n$. We 
+		shall proceed by analyzing the statement $\ceil{\ceil{\frac{x}{2}} \div 2} = n$. If 
+		$\ceil{\ceil{\frac{x}{2}} \div 2} = \ceil{\frac{x}{4}}$ is true, then 
+		$\ceil{\ceil{\frac{x}{2}} \div 2} = n$ will be defined, by the properties of ceiling 
+		functions, as $4n - 4 < x \le 4n$; since this is the case for $\ceil{\frac{x}{4}} = n$.
 		\newline
 		\newline
-		First $\ceil{\ceil{\frac{x}{2}} \div 2} = n$ says that $2n - 2 < \ceil{\frac{x}{2}} \le 2n$. By the properties for ceiling functions, this is equivalently stated as $(i)$ $\ceil{\frac{x}{2}} = 2n - 1$, or (logical) $(ii)$ $\ceil{\frac{x}{2}} = 2n$.
+		First $\ceil{\ceil{\frac{x}{2}} \div 2} = n$ says that $2n - 2 < \ceil{\frac{x}{2}} \le 2n$. 
+		By the properties for ceiling functions, this is equivalently stated as 
+		$(i)$ $\ceil{\frac{x}{2}} = 2n - 1$, or (logical) $(ii)$ $\ceil{\frac{x}{2}} = 2n$.
 		\newline
 		\newline
-		\indent $(i)$ $\ceil{\frac{x}{2}} = 2n - 1$, by the properties for ceiling functions, states that \indent $4n - 4 < x \le 4n - 2$.
+		\indent $(i)$ $\ceil{\frac{x}{2}} = 2n - 1$, by the properties for ceiling functions, states 
+		that \indent $4n - 4 < x \le 4n - 2$.
 		\newline
 		\newline
-		\indent $(ii)$ $\ceil{\frac{x}{2}} = 2n$, by the properties for ceiling functions, states that \newline \indent $4n - 2 < x \le 4n$.
+		\indent $(ii)$ $\ceil{\frac{x}{2}} = 2n$, by the properties for ceiling functions, states 
+		that \newline \indent $4n - 2 < x \le 4n$.
 		\newline
 		\newline
 		The statement $4n - 4 < x \le 4n - 2$ or (logical) $4n - 2 < x \le 4n$ is the same as 
-		$4n - 4 < x \le 4n$. Thus, $\ceil{\ceil{\frac{x}{2}} \div 2} = n$, is indeed defined by $4n - 4 < x \le 4n$. Because both sides of the equation have the same definition, the statement $\ceil{\ceil{\frac{x}{2}} \div 2} = \ceil{\frac{x}{4}}$, is true.
-		
+		$4n - 4 < x \le 4n$. Thus, $\ceil{\ceil{\frac{x}{2}} \div 2} = n$, is indeed defined by 
+		$4n - 4 < x \le 4n$. Because both sides of the equation have the same definition, the statement 
+		$\ceil{\ceil{\frac{x}{2}} \div 2} = \ceil{\frac{x}{4}}$, is true.
 	\end{proof}
 
 \end{document}

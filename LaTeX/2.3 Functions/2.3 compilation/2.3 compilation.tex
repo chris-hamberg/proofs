@@ -22,10 +22,918 @@
 
 
 % ============================== Theorem 2.3.20 ================================
+\begin{theorem*}[\textbf{2.3.20}]
+    Let $f$ be the function f: $\mathbb{R} \implies \mathbb{R}$, such that \newline 
+    $\forall x ((x \in \mathbb{R}) \implies (f(x) > 0))$. Let g be the function 
+    $g: \mathbb{R} \implies \mathbb{R}$ defined by g(x) = 1/f(x). f(x) is strictly increasing 
+    if and only if g(x) is strictly decreasing.
+\end{theorem*}
 
-
+\begin{proof}
+    Suppose there exist real numbers $x$ and $y$ such that $x < y$, and suppose that 
+    $f(x) < f(y)$. $f$ is a strictly increasing real-valued function by definition. It 
+    follows that $g(x) = 1/f(x) > g(y) = 1/f(y)$, which is the definition for strictly 
+    decreasing real-valued functions.
+    
+    Conversely, suppose there exist real numbers $x$ and $y$ such that $x < y$, and suppose that 
+    $g(x) > g(y)$. $g$ is a strictly decreasing real-valued function by definition. It follows that 
+    $f(x) = 1/g(x) < f(y) = 1/f(y)$, which is the definition for strictly increasing real-valued 
+    functions.
+    
+    Thus, $f(x)$ is strictly increasing if and only if $g(x)$ is strictly decreasing.
+\end{proof}
 \begin{center}
     \rule{5.4in}{1pt}
 \end{center}
+
+
+% ============================== Theorem 2.3.21 ================================
+\begin{theorem*}[\textbf{2.3.21}]
+    Let $f$ be the function f: $\mathbb{R} \implies \mathbb{R}$, such that \newline 
+    $\forall x ((x \in \mathbb{R}) \implies (f(x) > 0))$. Let g be the function 
+    $g: \mathbb{R} \implies \mathbb{R}$ defined by g(x) = 1/f(x). f(x) is strictly decreasing 
+    if and only if g(x) is strictly increasing.
+\end{theorem*}
+
+\begin{proof}
+    Suppose there exist real numbers $x$ and $y$ such that $x < y$, and suppose that 
+    $f(x) > f(y)$. $f$ is a strictly decreasing real-valued function by definition. It follows 
+    that $g(x) = 1/f(x) < g(y) = 1/f(y)$, which is the definition for strictly increasing 
+    real-valued functions.
+    
+    Conversely, suppose there exist real numbers $x$ and $y$ such that $x < y$, and suppose that 
+    $g(x) < g(y)$. $g$ is a strictly increasing real-valued function by definition. It follows 
+    that $f(x) = 1/g(x) > f(y) = 1/f(y)$, which is the definition for strictly decreasing 
+    real-valued functions.
+    
+    Thus, $f(x)$ is strictly decreasing if and only if $g(x)$ is strictly increasing.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.24 ================================
+\begin{theorem*}[\textbf{2.3.24}]
+    Let $f$ be the function $f: \mathbb{R} \implies \mathbb{R}$ defined by 
+    $f(x) = e^{x}$. $f(x)$ is not invertible.
+\end{theorem*}
+
+\begin{proof}
+    The inverse function of $f(x) = e^{x}$ is $f(x)^{-1} = \log_{e}x$. But \newline 
+    logarithmic functions are undefined for negative-valued domains. Thus, $f(x)$ is not 
+    bijective, and $f(x)$ is not invertible.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.25 ================================
+\begin{theorem*}[\textbf{2.3.25}]
+    Let $f$ be a function $f: \mathbb{R} \implies \mathbb{R}$ defined by $f(x) = |x|$. $f(x)$ 
+    is not invertible.
+\end{theorem*}
+
+\begin{proof}
+    Let $x$ be a postive real number. $f(x) = y$ and $f(-x) = y$. If $f$ had an inverse then 
+    $f^{-1}(y) = x$ or $f^{-1}(y) = -x$, so $f^{-1}$ is not a function by definition. Which
+    concludes the proof.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.29a ================================
+\begin{theorem*}[\textbf{2.3.29a}]
+    Let f be a function $f: B \implies C$, and let g be a function $g: A \implies B$. If both 
+    f and g are injective, then $f \circ g$ is injective.
+\end{theorem*}
+
+\begin{proof}
+    By the contrapositive. Let the domain of discourse be $A$. 
+    \newline Suppose it were not the case that $(f \circ g)$ were injective. Then by the 
+    \newline definition for injective functions, the following universally quantified 
+    \newline statement is true, 
+    $\lnot \forall a \forall b ((f \circ g)(a) = (f \circ g)(b) \implies (a = b))$. Note that 
+    the composition of functions $(f \circ g)(x)$ is defined by $f(g(x))$. Thus, we have the 
+    equivalent universal quantification 
+    $\lnot \forall a \forall b (f(g(a)) = f(g(b)) \implies (a = b))$. In other words, it is not 
+    the case that $f$ is injective, by the definition for injective functions. Also, because 
+    $f = f$, $\lnot \forall a \forall b (g(a) = g(b) \implies (a = b))$ is a logically 
+    equivalent universal quantification. That is, it is not the case that $g$ is injective, by the 
+    definition for injective functions. Since the contrapositive follows directly from the negation 
+    of the conclusion, it is necessarily the case that if both f and g are injective, then 
+    $f \circ g$ is injective.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.29b ================================
+\begin{theorem*}[\textbf{2.3.29b}]
+    Let f be a function $f: B \implies C$, and let g be a function $g: A \implies B$. If both f 
+    and g are surjective, then $f \circ g$ is surjective.
+\end{theorem*}
+
+\begin{proof}
+    Let $C$ be the domain of discourse. By the hypothesis, and by the definition for surjective 
+    functions, the following universally quantified \newline statement must be true, 
+    $\forall c \exists b (f(b) = c)$. Note that $g(x)$ is in the domain of $f$, for every $x$ 
+    in the domain of $g$, by the definition of $g$. It immediately follows from the general 
+    definition for functions that $\forall c \exists a (f(g(a)) = c)$ must be a logically 
+    equivalent universal quantification. Since the composition of \newline functions 
+    $(f \circ g)(x)$ is defined by $f(g(x))$, it follows directly from the \newline hypothesis 
+    that $f \circ g$ is surjective, by the definition for surjective functions.  
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.30 ================================
+\begin{theorem*}[\textbf{2.3.30}]
+    Let f and $f \circ g$ be injective functions. g is injective.
+\end{theorem*}
+
+\begin{proof}
+    By the contrapositive. Suppose that $g$ were not injective. Then by the definition for 
+    injective functions we have the following universally quantified statement, with the domain 
+    of discourse being the domain of $g$, \newline 
+    $\lnot \forall a \forall b ((g(a) = g(b)) \implies (a = b))$. Because $f = f$, this 
+    statement is logically equivalent to 
+    $\lnot \forall a \forall b ((f(g(a)) = f(g(b))) \implies (a = b))$. By the \newline 
+    definition for the compositions of functions we can also draw this equivalence, 
+    $\lnot \forall a \forall b ((f \circ g)(a) = (f \circ g)(b)) \implies (a = b))$. That is, 
+    it is not the case that $f \circ g$ is injective, by the definition for injective functions. 
+    So it follows directly from the negation of the statement "$g$ is injective," that 
+    $f \circ g$ is not injective. Thus, if $f$ and $(f \circ g)$ are injective functions, then 
+    $g$ is indeed injective.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.36a ===============================
+\begin{theorem*}[\textbf{2.3.36a}]
+    Let f be the function $f: A \implies B$. Let S, and T be subsets of A. 
+    $f(S \cup T) = f(S) \cup f(T)$.
+\end{theorem*}
+
+\begin{proof}
+    By the definition for the image of a set $(S \cup T)$ under the function $f$ we have 
+    $f(S \cup T) = \{t | \exists s \in S \cup T (t = f(s))\} 
+    \equiv \{f(s) | s \in (S \cup T)\}$. Since $\{f(s) | s \in (S \cup T)\}$ is a set, from 
+    this we can write $f(S \cup T) \equiv 
+    \newline \{f(s) | (s \in S)\} \cup \{f(s) | (s \in T)\}$. The right-hand side of this 
+    equivalence is the set $f(S) \cup f(T)$, by the definition for the image of a set $S$ or 
+    $T$ under the function $f \therefore f(S \cup T) = f(S) \cup f(T)$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.36b ===============================
+\begin{theorem*}[\textbf{2.2.36b}]
+    Let f be the function $f: A \implies B$. Let S, and T be subsets of A. 
+    $f(S \cap T) \subseteq f(S) \cap f(T)$.
+\end{theorem*}
+
+\begin{proof}
+    Let $a$ be an element in $A$ such that $f(a) \in f(S \cap T)$. Hence, by the definition 
+    for the image of $(S \cap T)$ under the function $f$, $a \in (S \cap T)$. The set 
+    intersection is defined as $(a \in S) \land (a \in T)$. Of course \newline 
+    $[f(a) \in f(S)] \land [f(a) \in f(T)]$. That is, $f(a) \in [f(S) \cap f(T)]$, and indeed 
+    $f(S \cap T) \subseteq f(S) \cap f(T)$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.40a ===============================
+\begin{theorem*}[\textbf{2.3.40a}]
+    Let f be the function $f: A \implies B$. Let S, and T be subsets of B. 
+    $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$.
+\end{theorem*}
+
+\begin{proof}
+    By the definition for the inverse image of the set $(S \cup T)$ under the function 
+    $f^{-1}$, we have $f^{-1}(S \cup T) = \{a \in A | f(a) \in (S \cup T)\}$. Then 
+    equivalently, 
+    $f^{-1}(S \cup T) \equiv \{a \in A | f(a) \in S\} \cup \{a \in A | f(a) \in T\}$. 
+    This is the formal definition for $f^{-1}(S \cup T) = f^{-1}(S) \cup f^{-1}(T)$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.40b ===============================
+\begin{theorem*}[\textbf{2.3.40b}]
+    Let f be the function $f: A \implies B$. Let S, and T be subsets of B. 
+    $f^{-1}(S \cap T) = f^{-1}(S) \cap f^{-1}(T)$.
+\end{theorem*}
+
+\begin{proof}
+    By the definition for the inverse image of the set $(S \cap T)$ under the function 
+    $f^{-1}$, we have $f^{-1}(S \cap T) = \{a \in A | f(a) \in (S \cap T)\}$. Then 
+    \newline equivalently, 
+    $f^{-1}(S \cap T) \equiv \{a \in A | f(a) \in S\} \cap \{a \in A | f(a) \in T\}$. This 
+    is the formal definition for $f^{-1}(S \cap T) = f^{-1}(S) \cap f^{-1}(T)$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.41 ================================
+\begin{theorem*}[\textbf{2.3.41}]
+    Let f be the function $f: A \implies B$. Let S be a subset of B. 
+    $f^{-1}(\overline{S}) = \overline{f^{-1}(S)}$.
+\end{theorem*}
+
+\begin{proof}
+    By the definition for the inverse image of $\overline{S}$ under the function $f^{-1}$, 
+    we have  $f^{-1}(\overline{S}) \equiv \{a \in A|f(a) \in \overline{S}\}$. Factoring the 
+    complementation out from the right-hand side of the equivalence, 
+    $f^{-1}(\overline{S}) \equiv \overline{\{a \in A | f(a) \in S}\}$. But this statement is the 
+    negation of the formal definition for the inverse image of $S$ under the function $f^{-1}$. 
+    In other words, $f^{-1}(\overline{S}) = \overline{f^{-1}(S)}$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.42 ================================
+\begin{theorem*}[\textbf{2.3.42}]
+    Let x be a real number. $\floor{x + \frac{1}{2}}$ is the closest integer to x, except when 
+    x is midway between two integers, when it is the larger of these two integers.
+\end{theorem*}
+
+\begin{proof}
+    By cases. Let $n$ be the integer such that $n \le x < n+1$ and \newline 
+    $\floor{x + \frac{1}{2}} = \floor{n + \epsilon + \frac{1}{2}}$. $\epsilon$ is the decimal 
+    part of $x$. \newline \newline $(i)$ If $\epsilon \ge \frac{1}{2}$, then 
+    $\epsilon + \frac{1}{2} \ge \frac{1}{2} + \frac{1}{2}$. That is, if 
+    $\epsilon + \frac{1}{2} \ge 1$, then \newline  
+    $\floor{x + \frac{1}{2}} \ge \floor {(x - \epsilon) + 1} = n + 1$.
+    \newline \newline $(ii)$ If $\epsilon < \frac{1}{2}$, then $\epsilon + \frac{1}{2} < 1$. 
+    That is, if $\epsilon + \frac{1}{2} < 1$, then \newline 
+    $\floor{x + \frac{1}{2}} = \floor{n + (\epsilon + \frac{1}{2})} = n$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.43 ================================
+\begin{theorem*}[\textbf{2.3.43}]
+    Let x be a real number. $\ceil{x - \frac{1}{2}}$ is the closest integer to x, except when 
+    x is midway between two integers, when it is the smaller of these two integers.
+\end{theorem*}
+
+\begin{proof}
+    By cases. Let $n$ be the integer such that $n \le x < n+1$ and \newline 
+    $\ceil{x - \frac{1}{2}} = \ceil{(n + \epsilon) - \frac{1}{2})}$. $\epsilon$ is the decimal 
+    part of $x$.
+    \newline \newline $(i)$ If $\epsilon > \frac{1}{2}$, then 
+    $\epsilon - \frac{1}{2} > \frac{1}{2} - \frac{1}{2} = 0$. So 
+    $\ceil{(n + \epsilon) - \frac{1}{2}} = n + 1.$ \newline \newline $(ii)$ If 
+    $\epsilon \le \frac{1}{2}$, then $\epsilon - \frac{1}{2} \le 0$. So 
+    $(n - 1) \le [(n + \epsilon) - \frac{1}{2}] < n$, and $\ceil{x - \frac{1}{2}} = n$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.44 ================================
+\begin{theorem*}[\textbf{2.3.44}]
+    Let x be a real number. $\ceil{x} - \floor{x} = 1$, if $x \notin \mathbb{Z}$. \newline 
+    $\ceil{x} - \floor{x} = 0$, if $x \in \mathbb{Z}$. 
+\end{theorem*}
+
+\begin{proof}
+    By cases. \newline \newline
+    $(i)$ Suppose $x \notin \mathbb{Z}$. $\ceil{x} = \floor{x} + 1$. Thus, 
+    $\ceil{x} - \floor{x} = (\floor{x} + 1) - \floor{x} = 1$. \newline \newline 
+    $(ii)$ Suppose $x \in \mathbb{Z}$. $\ceil{x} = \floor{x} = x$. Thus, 
+    $\ceil{x} - \floor{x} = x - x = 0$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.45 ================================
+\begin{theorem*}[\textbf{2.3.45}]
+    Let x be a real number. \newline $(x - 1) < \floor{x} \le x \le \ceil{x} < (x + 1)$.
+\end{theorem*}
+
+\begin{proof}
+    Notice that $\epsilon = x - \floor{x}$, so $(0 \le \epsilon < 1)$. It is important to note 
+    too, that multiplying this inequality by $-1$ on every side yields 
+    $(0 \ge -\epsilon > -1) = (-1 < -\epsilon \le 0)$. Finally, note that 
+    $\sigma = \ceil{x} - x$, so $(0 \le \sigma < 1)$. But these inequalities together state 
+    that $-1 < -\epsilon \le 0 \le \sigma < 1$. Since this inequality is true, by adding $x$ to 
+    every side we find that the following statement is also true: 
+    $(x - 1) < \floor{x} \le x \le \ceil{x} < (x + 1)$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.46 ================================
+\begin{theorem*}[\textbf{2.3.46}]
+    Let x be a real number, and let m be an integer. \newline $\ceil{x + m} = \ceil{x} + m$.
+\end{theorem*}
+
+\begin{proof}
+    By the definition of the ceiling function, we have the follow tautology.
+    $\ceil{x} = \ceil{x} \iff (\ceil{x} - 1) < x \le \ceil{x}$. \newline Adding the integer 
+    $m$ to every side of this inequality gives the following resultant tautology, by 
+    definition, \newline
+    $\ceil{x + m} = \ceil{x} + m \iff (\ceil{x} + m) - 1 < x + m \le \ceil{x} + m$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.47a ===============================
+\begin{theorem*}[\textbf{2.3.47a}]
+    Let x be a real number, and let n be an integer. \newline $x < n \iff \floor{x} < n$.
+\end{theorem*}
+
+\begin{proof}
+    $\floor{x} \le x$, by the properties of the floor function. So if $x < n$, then 
+    $\floor{x} \le x < n$, and of course $\floor{x} < n$.
+    
+    Proving the converse, suppose $\floor{x} < n$. Since $\floor{x}$ and $n$ are integers, 
+    $\floor{x} + 1 \le n$. Now, by the properties of the floor function, we have the following 
+    tautology, $\floor{x} = \floor{x} \iff \floor{x} \le x < \floor{x} + 1$. Since we know 
+    that $\floor{x} + 1 \le n$, it must be that $\floor{x} \le x < \floor{x} + 1 \le n$. This 
+    statement says that $x < n$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.47b ===============================
+\begin{theorem*}[\textbf{2.3.47b}]
+    Let x be a real number, and let n be an integer. \newline $n < x \iff n < \ceil{x}$.
+\end{theorem*}
+
+\begin{proof}
+    $x \le \ceil{x}$, by the properties of the ceiling function. So if $n < x$, then 
+    $n < x \le \ceil{x}$, and $n < \ceil{x}$.
+    
+    Proving the converse, suppose $n < \ceil{x}$. Since $n$ and $\ceil{x}$ are integers, 
+    $n \le \ceil{x} - 1$. By the properties of ceiling functions we have the following 
+    tautology, $\ceil{x} = \ceil{x} \iff \ceil{x} - 1 < x \le \ceil{x}$. Combining these 
+    two inequalities yields $n \le \ceil{x} - 1 < x \le \ceil{x}$. Thus, $n < x$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.48a ===============================
+\begin{theorem*}[\textbf{2.3.48a}]
+    Let x be a real number, and let n be an integer. \newline $x \le n \iff \ceil{x} \le n$.
+\end{theorem*}
+
+\begin{proof}
+    Direct form by the contrapositive. Suppose $\ceil{x} > n$. Since $\ceil{x}$ and $n$ are 
+    integers, $\ceil{x} - 1 \ge n$. By the properties of ceiling functions we have the 
+    following tautology, $\ceil{x} = \ceil{x} \iff \ceil{x} \ge x > \ceil{x} - 1$. Combining 
+    these two inequalities yields $\ceil{x} \ge x > \ceil{x} - 1 \ge n$. This says, $x > n$. 
+    Since this statement following from the negation of the direct consequent is itself the 
+    negation of the direct hypothesis, $x \le n \implies \ceil{x} \le n$, is true.
+    
+    Converse form by the contrapositive. Suppose $x > n$. Note that $\ceil{x} \ge x$, by the 
+    properties of the ceiling function. So if $x > n$, then $\ceil{x} \ge x > n$, and 
+    $\ceil{x} > n$. Since this statement is the negation of the converse hypothesis following 
+    directly from negation of the converse consequent, \newline 
+    $x \le n \impliedby \ceil{x} \le n$, is true.
+    
+    Thus proves, the biconditional statement $x \le n \iff \ceil{x} \le n$. 
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.48b ===============================
+\begin{theorem*}[\textbf{2.3.48b}]
+    Let x be a real number, and let n be an integer. \newline $n \le x \iff n \le \floor{x}$.
+\end{theorem*}
+
+\begin{proof}
+    By the direct form contrapositive. Suppose $n > \floor{x}$. Since $n$ and $\floor{x}$ are 
+    integers, $n \ge \floor{x} + 1$. Now, by the properties of the floor function, we have the 
+    following tautology, $\floor{x} = \floor{x} \iff \floor{x} + 1 > x \ge \floor{x}$. 
+    Combining these two inequalities yields $n \ge \floor{x} + 1 > x \ge \floor{x}$ This 
+    statement says that $n > x$.
+    
+    Proving the converse form by the contrapositive. Note that $x \ge \floor{x}$, by the 
+    properties of the floor function. So if $n > x$, then $n > x \ge \floor{x}$, and of course 
+    $n > \floor{x}$.
+    
+    $\therefore n \le x \iff n \le \floor{x}$
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.49 ================================
+\begin{theorem*}[\textbf{2.3.49}]
+    Let n be an integer. If n is even, then $\floor{\frac{n}{2}} = \frac{n}{2}$. \newline If 
+    n is odd, then $\floor{\frac{n}{2}} = \frac{(n - 1)}{2}$.
+\end{theorem*}
+
+\begin{proof}
+    By cases. \newline \newline $(i)$ Since $n$ is even,  there exists an integer $k$ such 
+    that $n = 2k$. \newline $\floor{\frac{n}{2}} = \floor{\frac{2k}{2}} = \floor{k} = k$. 
+    Also, $\frac{n}{2} = \frac{2k}{2} = k$. So $k = \floor{\frac{n}{2}} = \frac{n}{2}$.
+    \newline
+    \newline
+    $(ii)$ Since $n$ is odd, there exists an integer $k$ such that $n = 2k + 1$. \newline 
+    $\floor{\frac{n}{2}} = \floor{\frac{2k + 1}{2}} = \floor{k + \frac{1}{2}} = k$. Also, 
+    $\frac{(n-1)}{2} = \frac{[(2k + 1) - 1]}{2} = \frac{2k}{2} = k$. \newline So, 
+    $k = \floor{\frac{n}{2}} = \frac{(n - 1)}{2}$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.50 ================================
+\begin{theorem*}[\textbf{2.3.50}]
+    Let x be a real number. \newline $\floor{-x} = -\ceil{x}$, and $\ceil{-x} = -\floor{x}$.
+\end{theorem*}
+
+\begin{proof}
+    By the properties of ceiling functions, \newline $\ceil{x} = n \iff (n-1) < x \le n$. 
+    Multiplying every side of this inequality by $-1$ yields $(-n + 1) > -x \ge -n$. By the 
+    properties of floor functions, this means that $\floor{-x} = -n$. And of course since 
+    $-1 \times \ceil{x} = -n$, we have $-n = \floor{-x} = -\ceil{x}$.
+    
+    By the properties of floor functions, \newline $\floor{x} = n \iff n \le x < (n+1)$. 
+    Multiplying every side of this inequality by $-1$ yields $-n \ge -x > (-n-1)$. By the 
+    properties of ceiling functions, this means that $\ceil{-x} = -n$. And of course since 
+    $-1 \times \floor{x} = -n$, we have $-n = \ceil{-x} = -\floor{x}$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.66 ================================
+\begin{theorem*}[\textbf{2.3.66}]
+    Let f be the invertible function $f: Y \implies Z$, and let \newline g be the invertible 
+    function $g: X \implies Y$. The inverse of the composition $f \circ g$ is given by 
+    $(f \circ g)^{-1} = g^{-1} \circ f^{-1}$.
+\end{theorem*}
+
+\begin{proof}
+    By Theorem 2.3.29a and Theorem 2.3.29b, and by the definition for bijective functions, 
+    $f \circ g$ is invertible. Thus, $(f \circ g)^{-1} \circ (f \circ g) = \iota_X$. 
+    
+    What remains to be determined is whether $(g^{-1} \circ f^{-1}) \circ (f \circ g) = \iota_X$. 
+    Let $x$ be an element in the domain of $g$ such that 
+    $((g^{-1} \circ f^{-1}) \circ (f \circ g))(x) = x$. By the definition for the composition of 
+    functions, that is $g^{-1}(f^{-1}(f(g(x)))) = x$. Clearly, 
+    $(g^{-1} \circ f^{-1}) \circ (f \circ g) = \iota_X$.
+    
+    Thus, the inverse of the composition $f \circ g$ is indeed given by \newline 
+    $(f \circ g)^{-1} = g^{-1} \circ f^{-1}$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.67a ===============================
+\begin{theorem*}[\textbf{2.3.67a}]
+    Let A, and B be sets with universal set U. Let $f_{A \cap B}$ be the characteristic 
+    function $f_{A \cap B}: U \implies \{0, 1\}$. Let $f_{A}$ be the characteristic function 
+    $f_{A}: U \implies \{0, 1\}$. Let $f_{B}$ be the characteristic function \newline 
+    $f_{B}: U \implies \{0, 1\}$. $f_{A \cap B}(x) = f_{A}(x) \times f_{B}(x)$.
+\end{theorem*}
+
+\begin{proof}
+    Let $x$ be an element in $A \cap B$. By the definition for characteristic functions, 
+    $f_{A \cap B}(x) = 1$. Since the definition for set intersection says that \newline 
+    $(x \in A) \land (x \in B)$, we know by the definition for characteristic functions that 
+    $f_{A}(x) = f_{B}(x) = 1$. Thus, it follows immediately by the multiplicative identity law 
+    from the field axioms that $f_{A \cap B}(x) = f_{A}(x) \times f_{B}(x)$.
+    
+    Suppose it were not the case that $x$ were an element in $A \cap B$. That is, 
+    $x \notin (A \cap B) \equiv [(x \notin A) \lor (x \notin B)]$, by DeMorgans law. By the 
+    definition for characteristic functions, $f_{A \cap B}(x) = 0$. Also, again by the definition 
+    for characteristic functions we know that ($f_{A}(x) = 0) \lor (f_{B}(x) = 0)$. Without loss 
+    of generality we can suppose $f_{A}(x) = 0$. It follows immediately from the multiplicative 
+    property of zero that $f_{A \cap B}(x) = 0 \times f_{B}(x) = 0$. Thus, 
+    $f_{A \cap B}(x) = f_{A}(x) \times f_{B}(x)$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.67b ===============================
+\begin{theorem*}[\textbf{2.3.67b}]
+    Let A, and B be sets with universal set U. Let $f_{A \cup B}$ be the characteristic 
+    function $f_{A \cup B}: U \implies \{0, 1\}$. Let $f_{A}$ be the characteristic 
+    function $f_{A}: U \implies \{0, 1\}$. Let $f_{B}$ be the characteristic function 
+    \newline $f_{B}: U \implies \{0, 1\}$. \newline 
+    $f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x)$.
+\end{theorem*}
+
+\begin{proof}
+    First suppose that $x$ were not an element in $A \cup B$. It follows from the definition 
+    for characteristic functions that $f_{A \cup B}(x) = 0$. Also, by the definition for set 
+    union $x$ is in neither $A$ nor $B$, so $f_{A}(x) = 0$, and $f_{B}(x) = 0$. Thus, 
+    $f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 0 + 0 - 0 \times 0 = 0$. Therefore, 
+    $f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x)$.
+    
+    Now suppose it were the case that $x$ was an element in $A \cup B$. It follows from the 
+    definition for characteristic functions that $f_{A \cup B}(x) = 1$. Also, by the definition 
+    for set union $(x \in A) \lor (x \in B)$. Hence, there are three cases to consider here. 
+    \newline \newline \indent $(i)$ Suppose $(x \in A)$ and $(x \notin B)$. By the definition 
+    for characteristic \indent functions we have $f_{A}(x) = 1$ and $f_{B}(x) = 0$. Thus, 
+    \newline \indent $f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1 + 0 - 1 \times 0 = 1$. 
+    \newline \newline \indent $(ii)$ Suppose $(x \notin A)$ and $(x \in B)$. Without loss of 
+    generality this case \indent has the same result as case $(i)$. \newline \newline \indent 
+    $(iii)$ If $x$ is in the intersection of $A$ and $B$ we have \newline \indent 
+    $f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1 + 1 - 1 \times 1 = 1$. \newline \newline 
+    Since $f_{A \cup B}(x) = f_{A}(x) + f_{B}(x) - f_{A}(x) \times f_{B}(x) = 1$ for all three 
+    possible cases, thus concludes the proof.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.67c ===============================
+\begin{theorem*}[\textbf{2.3.67c}]
+    Let A be a set with universal set U. Let $f_{A}$ be the \newline characteristic function 
+    $f_{\overline{A}}: U \implies \{0, 1\}$. $f_{\overline{A}}(x) = 1 - f_{A}(x)$.
+\end{theorem*}
+
+\begin{proof}
+    Let $x$ be an element in $A$. Then clearly $x \notin \overline{A}$. By the definition for 
+    characteristic functions $f_{\overline{A}}(x) = 0$, and $f_{A}(x) = 1$. It follows 
+    immediately that $f_{\overline{A}}(x) = 1 - f_{A}(x)$.
+    
+    Now suppose $(x \notin A) \land (x \in \overline{A})$ By the definition for characteristic 
+    functions that is $f_{\overline{A}}(x) = 1$, and $f_{A}(x) = 0$. It follows immediately 
+    that $f_{\overline{A}}(x) = 1 - f_{A}(x)$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.67d ===============================
+\begin{theorem*}[\textbf{2.3.67d}]
+    Let A, and B be sets with universal set U. Let $f_{A \oplus B}$ be the characteristic 
+    function $f_{A \oplus B}: U \implies \{0, 1\}$. Let $f_{A}$ be the characteristic function 
+    $f_{A}: U \implies \{0, 1\}$. Let $f_{B}$ be the characteristic function \newline 
+    $f_{B}: U \implies \{0, 1\}$. $f_{A \oplus B}(x) = f_{A}(x) + f_{B}(x) - 2f_{A}(x)f_{B}(x)$.
+\end{theorem*}
+
+\begin{proof}
+    There are two major cases to consider, each consisting of two sub cases. The major cases are 
+    where $x$ is an element in $A \oplus B$, and the negation of that statement.
+    \newline
+    \newline
+    $(i)$ Let $x$ be an element in $A \oplus B$. By the definition for \newline characteristic 
+    functions, $f_{A \oplus B}(x) = 1$. Since the definition for set symmetric difference says 
+    $[(x \in A) \land (x \notin B)] \lor [(x \notin A) \land (x \in B)]$, there are two sub cases 
+    that need to be taken under consideration. \newline \newline \indent $(a)$ Suppose 
+    $(x \in A) \land (x \notin B)$. By the definition for characteristic \indent functions 
+    $f_{A}(x) = 1$ and $f_{B}(x) = 0$. This means that \newline \indent 
+    $f_{A}(x) + f_{B}(x) - 2f_{A}(x)f_{B}(x) = 1 + 0 - 2(1)(0)$ = 1. 
+    \newline \newline \indent $(b)$ Suppose $(x \notin A) \land (x \in B)$. Without loss of 
+    generality we arrive \indent at the same result as that of case $(a)$.
+    \newline
+    \newline
+    Thus, if $x$ is an element in $A \oplus B$, 
+    $f_{A \oplus B}(x) = f_{A}(x) + f_{B}(x) - 2f_{A}(x)f_{B}(x)$.
+    \newline
+    \newline
+    $(ii)$ Suppose it were not the case that $x$ were an element in $A \oplus B$. Then $(c)$ $x$ 
+    must either be an element in the intersection of $A$ and $B$, or $(d)$ $x$ must be in the 
+    universe minus $A \cup B$.
+    \newline
+    \newline \indent $(c)$ Suppose $x \in (A \cap B)$. By the definition for characteristic \newline 
+    \indent functions $f_{A \oplus B}(x) = 0$, $f_{A}(x) = 1$ and $f_{B}(x) = 1$. Thus, \newline 
+    \indent $f_{A}(x) + f_{B}(x) - 2f_{A}(x)f_{B}(x) = 1 + 1 - 2(1)(1) = 0$.
+    \newline \newline \indent $(d)$ Suppose $x \in [U - (A \cup B)$. In this case, by the definition 
+    for \newline \indent characteristic functions, $f_{A \oplus B}(x) = 0$, $f_{A}(x) = 0$ and 
+    $f_{B}(x) = 0$. So, \indent $f_{A}(x) + f_{B}(x) - 2f_{A}(x)f_{B}(x) = 0 + 0 - 2(0)(0) = 0$.
+    \newline
+    \newline
+    Thus, if $x$ is not an element in $A \oplus B$, 
+    $f_{A \oplus B}(x) = f_{A}(x) + f_{B}(x) - 2f_{A}(x)f_{B}(x)$ is still a true statement; 
+    concludes the proof.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.68 ================================
+\begin{theorem*}[\textbf{2.3.68}]
+    Let f be a function $f: A \implies B$, where A and B are finite sets, and $|A| = |B|$. f 
+    is injective if and only if f is surjective.
+\end{theorem*}
+
+\begin{proof}
+    Direct form by the contrapositive. Suppose the negation of the \newline statement given by 
+    the definition for surjective functions, $\exists y \forall x (f(x) \ne y)$. This statement 
+    can only be true if either $|A| < |B|$ (contradicting the \newline hypothesis,) or $\exists 
+    x \exists y ((f(x) = f(y)) \land (x \ne y))$. Since contradiction is $\bot$ by the law for 
+    logical negation, by the identity law for logical disjunction, $f$ is defined as not 
+    injective. Thus, if $f$ is injective, then $f$ is surjective.
+    
+    Converse form by the contrapositive. Suppose the negation of the \newline statement given 
+    by the definition for injective functions, \newline 
+    $\exists x \exists y ((f(x) = f(y)) \land (x \ne y))$. 
+    This statement can only be true if either $|A| > |B|$ (contradicting the hypothesis,) or 
+    $\exists y \forall x (f(x) \ne y)$. Since \newline contradiction is $\bot$ by the law for 
+    logical negation, by the identity law for logical disjunction, $f$ is defined as not 
+    surjective. Thus, if $f$ is surjective, then $f$ is injective.
+    
+    $\therefore \forall x \forall y ((f(x) = f(y)) \implies 
+    (x = y)) \iff \forall y \exists x (f(x) = y)$, whenever $f$ is a function $f: A \implies B$, 
+    where $A$ and $B$ are finite sets, and $|A| = |B|$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.69a ===============================
+\begin{theorem*}[\textbf{2.3.69a}]
+    Let x be a real number. $\ceil{\floor{x}} = \floor{x}$.
+\end{theorem*}
+
+\begin{proof}
+    Let $n$ be the integer such that $n \le x < n+1$. By the properties for floor functions, 
+    $\floor{x} = n$. So $\ceil{\floor{x}} = \ceil{n}$. Since $n-1 < n \le n$ is a tautology, 
+    by the properties for ceiling functions it must be the case that $\ceil{n} = n$. 
+    But $n = \floor{x}$, so $\ceil{\floor{x}} = \floor{x}$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.69c ===============================
+\begin{theorem*}[\textbf{2.3.69c}]
+    Let x and y be real numbers. \newline $\ceil{x} + \ceil{y} - \ceil{x + y} = 0$, or $1$.		
+\end{theorem*}
+
+\begin{proof}
+    By cases. There are two possible cases to take into consideration. \newline $(i)$ $x$ or 
+    $y$ (or both) are integers in real numbers, or $(ii)$ neither $x$ nor $y$ is an integer.
+    \newline
+    \newline
+    $(i)$ Suppose $x$ or $y$ (or both) are integers in real numbers. Since at least one of 
+    these numbers $x$ or $y$ must be an integer, and because addition is commutative, without 
+    loss of generality it can be supposed that $y$ is certainly an integer.	Then since $y$ is 
+    an integer, the smallest integer greater than or equal to $y$, is $y$. So by the 
+    definition for ceiling functions, $\ceil{y} = y$. By that fact, and by Theorem 2.3.46, 
+    $\ceil{x} + \ceil{y} - \ceil{x + y} = \ceil{x} + \ceil{y} - \ceil{x} + \ceil{y} = 0$.
+    \newline
+    \newline
+    $(ii)$ Suppose that neither $x$ nor $y$ is an integer. Then let $\epsilon$ and $\sigma$ be 
+    real numbers such that $\ceil{x} - x = \epsilon$, and $\ceil{y} - y = \sigma$. By Theorem 
+    2.3.44, $\ceil{x} = \floor{x} + 1$, and $\ceil{y} = \floor{y} + 1$. Naturally, 
+    $x = \floor{x} + (1 - \epsilon)$, and $y = \floor{y} + (1 - \sigma)$. Thus, 
+    $\ceil{x} + \ceil{y} - \ceil{x + y} = 
+    (\floor{x}+1) + (\floor{y}+1) - \ceil{\floor{x} + (1 - \epsilon) + \floor{y} + (1 - \sigma)}$. 
+    Rearranging these terms according to the usual rules for arithmetic yields 
+    $(\floor{x} + \floor{y} + 2) - \ceil{\floor{x} + \floor{y} + [2 - (\epsilon + \sigma)]}$. 
+    Now, there are two possible sub cases to consider regarding this expression. Either 
+    $(a)$ $\epsilon + \sigma \ge 1$, or $(b)$ $\epsilon + \sigma < 1$.
+    \newline
+    \newline
+    \indent $(a)$ Suppose 
+    $\epsilon + \sigma \ge 1$. This means that $1 \ge 2 - (\epsilon + \sigma)$. By  \newline 
+    \indent Theorem 2.3.69a we get the following equation, \newline \indent 
+    $(\floor{x} + \floor{y} + 2) - \ceil{\floor{x} + \floor{y} + [2 - (\epsilon + \sigma)]} =$ 
+    \newline \indent $(\floor{x} + \floor{y} + 2) - (\floor{x} + \floor{y} + 1) = 1$.
+    \newline
+    \newline
+    \indent $(b)$ Suppose $\epsilon + \sigma < 1$. This means that $1 < 2 - (\epsilon + \sigma)$. 
+    By \newline \indent Theorem 2.3.69a we get the following equation, \newline \indent 
+    $(\floor{x} + \floor{y} + 2) - \ceil{\floor{x} + \floor{y} + [2 - (\epsilon + \sigma)]} =$ 
+    \newline \indent $(\floor{x} + \floor{y} + 2) - (\floor{x} + \floor{y} + 2) = 0$.
+    \newline
+    \newline
+    $\therefore \ceil{x} + \ceil{y} - \ceil{x + y} = 0$, or $1$, whenever $x$ and $y$ are real 
+    numbers.
+\end{proof}
+
+\pagebreak
+
+% ============================== Theorem 2.3.70a ===============================
+\begin{theorem*}[\textbf{2.3.70a}]
+    Let x be a real number. $\floor{\ceil{x}} = \ceil{x}$.
+\end{theorem*}
+
+\begin{proof}
+    Let $n$ be the integer such that $n - 1 < x \le n$. By the properties for ceiling 
+    functions, $\ceil{x} = n$. So $\floor{\ceil{x}} = \floor{n}$. Since $n \le n < n + 1$ is 
+    a tautology, by the properties for floor functions it must be the case that 
+    $\floor{n} = n$. But $n = \ceil{x}$. So $\floor{\ceil{x}} = \ceil{x}$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.70c ===============================
+\begin{theorem*}[\textbf{2.3.70c}]
+    Let x be a real number. $\ceil{\ceil{\frac{x}{2}} \div 2} = \ceil{\frac{x}{4}}$.
+\end{theorem*}
+
+\begin{proof}
+    Let $n$ be an integer satisfying the properties for ceiling functions with respect to $x$ 
+    such that $\ceil{\frac{x}{4}} = n$. Thus establishes the fact, $4n - 4 < x \le 4n$. We 
+    shall proceed by analyzing the statement $\ceil{\ceil{\frac{x}{2}} \div 2} = n$. If 
+    $\ceil{\ceil{\frac{x}{2}} \div 2} = \ceil{\frac{x}{4}}$ is true, then 
+    $\ceil{\ceil{\frac{x}{2}} \div 2} = n$ will be defined, by the properties of ceiling 
+    functions, as $4n - 4 < x \le 4n$; since this is the case for $\ceil{\frac{x}{4}} = n$.
+    \newline
+    \newline
+    First $\ceil{\ceil{\frac{x}{2}} \div 2} = n$ says that $2n - 2 < \ceil{\frac{x}{2}} \le 2n$. 
+    By the properties for ceiling functions, this is equivalently stated as 
+    $(i)$ $\ceil{\frac{x}{2}} = 2n - 1$, or (logical) $(ii)$ $\ceil{\frac{x}{2}} = 2n$.
+    \newline
+    \newline
+    \indent $(i)$ $\ceil{\frac{x}{2}} = 2n - 1$, by the properties for ceiling functions, states 
+    that \indent $4n - 4 < x \le 4n - 2$.
+    \newline
+    \newline
+    \indent $(ii)$ $\ceil{\frac{x}{2}} = 2n$, by the properties for ceiling functions, states 
+    that \newline \indent $4n - 2 < x \le 4n$.
+    \newline
+    \newline
+    The statement $4n - 4 < x \le 4n - 2$ or (logical) $4n - 2 < x \le 4n$ is the same as 
+    $4n - 4 < x \le 4n$. Thus, $\ceil{\ceil{\frac{x}{2}} \div 2} = n$, is indeed defined by 
+    $4n - 4 < x \le 4n$. Because both sides of the equation have the same definition, the statement 
+    $\ceil{\ceil{\frac{x}{2}} \div 2} = \ceil{\frac{x}{4}}$, is true.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.70e ===============================
+\begin{theorem*}[\textbf{2.3.70e}]
+    Let x, and y be real numbers. 
+    $\floor{x} + \floor{y} + \floor{x + y} \le \floor{2x} + \floor{2y}.$
+\end{theorem*}
+
+\begin{proof}
+    There are four possible cases that could be considered in this proof, but only two of 
+    those cases require consideration. Case $(i)$ demonstrating the minimum possible amount 
+    occurring on the right-hand side will establish truth for equality expressed by the 
+    theorem. Case $(ii)$ demonstrating the maximum possible amount occurring on the right-hand 
+    side will establish truth for inequality expressed by the theorem. In all cases the 
+    left-hand side remains relatively constant.
+    
+    First we establish the necessary preliminary facts. Let $\epsilon$ and $\sigma$ be real 
+    numbers such that $x - \floor{x} = \epsilon$, and $y - \floor{y} = \sigma$. Of course, 
+    $x - \epsilon = \floor{x}$. By the properties for floor functions we know that 
+    $x-\epsilon \le x < (x - \epsilon) + 1$. And, again by the properties for floor functions,
+    $2(x-\epsilon) \le 2x < 2[(x - \epsilon) + 1] \implies \floor{2x}$. This means that $(i)$ 
+    $\floor{2x} = 2x-2\epsilon$, or (logical) $(ii)$ $\floor{2x} = 2x - 2\epsilon + 2$. 
+    Without loss of generality, all of these equations remain true whenever predicated of $y$ 
+    and $\sigma$. Also, note that the left-hand side has a constant form, 
+    $\floor{x} + \floor{y} + \floor{x + y} = 2(x + y) - 2(\epsilon + \sigma)$.
+    \newline
+    \newline
+    \indent $(i)$ Suppose it were the case that $\floor{2x} = 2x-2\epsilon$, and 
+    $\floor{2y} = 2y-2\sigma$. \indent These are the least amounts possible for the right-hand 
+    side of the \newline \indent inequality expressed by the theorem. The sum being 
+    $2(x + y) - 2(\epsilon + \sigma)$, \indent equal to the left-hand side. In this case 
+    $(i)$ the theorem proves true.
+    \newline
+    \newline
+    \indent $(ii)$ Suppose it were the case that $\floor{2x} = 2x - 2\epsilon + 2$, and 
+    \newline \indent $\floor{2y} = 2y - 2\sigma + 2$. These are the greatest amounts possible 
+    for the \indent right-hand side of the inequality expressed by the theorem. The sum 
+    \newline \indent being $2(x + y + 2) - 2(\epsilon + \sigma)$. This is clearly greater than 
+    the left-hand \indent side. In this case $(ii)$ the theorem proves true.
+    \newline
+    \newline
+    Since the entire range of all possible values are covered by cases $(i)$ and $(ii)$, and 
+    the statement remains true throughout, it is proven that \newline 
+    $\floor{x} + \floor{y} + \floor{x + y} \le \floor{2x} + \floor{2y}.$
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.71a ===============================
+\begin{theorem*}[\textbf{2.3.71a}]
+    Let x be a positive real number. $\floor{\sqrt{\floor{x}}} = \floor{\sqrt{x}}$.
+\end{theorem*}
+
+\begin{proof}
+    By the properties for floor functions, \newline 
+    $\floor{\sqrt{x}} = n \iff n \le \sqrt{x} < n + 1.$ Squaring the inequalities we can 
+    determine the value for the floor of $x$. So there are two cases under consideration, 
+    \newline $(i)$ $\floor{x} = n^2$, or $(ii)$ $\floor{x} = n^{2} + 2n$.
+    \newline
+    \newline \indent
+    $(i)$ Suppose that $\floor{x} = n^{2}$. It follows that 
+    $\floor{\sqrt{\floor{x}}} = \floor{\sqrt{n^2}} = \floor{n}$. \indent Since $n$ is an 
+    integer, $n$ is the largest integer less than or equal to $n$. So \indent 
+    $\floor{n} = n$, by the definition for floor functions. Because $n = \floor{\sqrt{x}}$, 
+    in this \indent case it is proved that $\floor{\sqrt{\floor{x}}} = \floor{\sqrt{x}}$.
+    \newline
+    \newline \indent
+    $(ii)$ Suppose that $\floor{x} = n^{2} + 2n$. Then, \newline \indent 
+    $\floor{\sqrt{\floor{x}}} = \floor{\sqrt{n^{2} + 2n}} = 
+    \floor{\sqrt{n^2 + 2n} + \sqrt{1} - \sqrt{1}} = \newline \indent 
+    \floor{\sqrt{n^2 + 2n + 1} - 1} = \floor{\sqrt{(n+1)^2} + 1} = \floor{(n+1) -1} = n$. 
+    Since \indent $n = \floor{\sqrt{x}}$, in this case it is proved that 
+    $\floor{\sqrt{\floor{x}}} = \floor{\sqrt{x}}$.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.3.71b ===============================
+\begin{theorem*}[\textbf{2.3.71b}]
+    Let x be a positive real number. $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{x}}$.
+\end{theorem*}
+
+\begin{proof}
+    By the properties for floor functions, \newline $\ceil{\sqrt{x}} \iff n-1 < \sqrt{x} \le n$. 
+    Squaring the inequalities we can determine the value for the floor of $x$. Thus, there are 
+    two cases under consideration $(i)$ $\ceil{x} = n^{2} - 2n$, or $(ii)$ $\ceil{x} = n^{2}$.
+    \newline
+    \newline
+    \indent $(i)$ Suppose that $\ceil{x} = n^{2} - 2n$. It follows that, \newline \indent 
+    $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{n^{2} - 2n}} = 
+    \ceil{\sqrt{n^{2} - 2n} - \sqrt{1} + \sqrt{1}} = \newline \indent 
+    \ceil{\sqrt{n^{2} - 2n - 1} + 1} = \ceil{\sqrt{(n-1)^{2}} + 1} = \ceil{(n-1)+1} = n$. 
+    Since \indent $n = \ceil{\sqrt{x}}$, in this case it is proved that 
+    $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{x}}$.
+    \newline
+    \newline
+    \indent
+    $(ii)$ Suppose that $\ceil{x} = n^{2}$. It follows that 
+    $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{n^{2}}} = \ceil{n}$. \indent Since $n$ is an integer, 
+    $n$ is the smallest integer that is greater than or \indent equal to $n$. So $\ceil{n} = n$, 
+    by the definition for ceiling functions. Because \indent $n = \ceil{\sqrt{x}}$, in this case 
+    it is proved that $\ceil{\sqrt{\ceil{x}}} = \ceil{\sqrt{x}}$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.3.72 ================================
+\begin{theorem*}[\textbf{2.3.72}]
+    Let x be a real number. 
+    $\floor{3x} = \floor{x} + \floor{x + \frac{1}{3}} + \floor{x + \frac{2}{3}}$.
+\end{theorem*}
+
+\begin{proof}
+    By cases. Let $\epsilon$ be a real number such that $x - \floor{x} = \epsilon$. Clearly, 
+    $3x - \floor{3x} = 3\epsilon$. There are three possible cases that must be proved, 
+    \newline $(i)$ $0 \le \epsilon < \frac{1}{3}$, $(ii)$ 
+    $\frac{1}{3} \le \epsilon < \frac{2}{3}$, and $(iii)$ $\frac{2}{3} \le \epsilon < 1$.
+    \newline
+    \newline
+    $(i)$ Suppose $0 \le \epsilon < \frac{1}{3}$. Since $\epsilon + \frac{2}{3} < 1$, every 
+    term on the right-hand side is equal to $x - \epsilon$. That is $3x - 3\epsilon$. But 
+    $\floor{3x} = 3x - 3\epsilon$. Therefore, both sides of the equation are equal in this case.
+    \newline
+    \newline
+    $(ii)$ Suppose $\frac{1}{3} \le \epsilon < \frac{2}{3}$. We know that 
+    $\frac{1}{3} + \epsilon < 1$, and $\frac{2}{3} + \epsilon < \frac{4}{3}$. So the first two 
+    terms on the right-hand side must be equal to $x - \epsilon$, and the last term equals 
+    $(x - \epsilon) + 1$. That is $(3x - 3\epsilon) + 1$. Now, 
+    $\floor{3x} = \floor{(3x - 3\epsilon) + 3\epsilon}$. By the inequality, 
+    $1 \le 3\epsilon < 2$. This means that $\floor{3x} = (3x - 3\epsilon) + 1$. Hence, both 
+    sides of the equation are equal in this case.
+    \newline
+    \newline
+    $(iii)$ Suppose $\frac{2}{3} \le \epsilon < 1$. We know that 
+    $1 \le \frac{1}{3} + \epsilon < \frac{1}{3} + 1$, and \newline 
+    $\frac{4}{3} \le \frac{2}{3} + \epsilon < \frac{2}{3} + 1$. Clearly the first term in the 
+    right-hand side of the equation is equal to $x - \epsilon$ since $\epsilon$ is less than 
+    1. The remaining two terms are equal to $(x - \epsilon) + 1$, since 
+    $2(\frac{2}{3}) \le 2\epsilon < 2$. Now, 
+    $\floor{3x} = \floor{(3x - 3\epsilon) + 3\epsilon)}$, and we know that 
+    $2 \le 3\epsilon < 3$, by the inequality. So $\floor{3x} = (3x - 3\epsilon) + 2$, which is 
+    exactly the same as the right-hand side of the equation.
+\end{proof}
 
 \end{document}

@@ -14,16 +14,23 @@
 \begin{document}
 	
 	\begin{theorem*}[2.3.66]
-		Let f be the invertible function $f: Y \implies Z$, and let \newline g be the invertible function $g: X \implies Y$. The inverse of the composition $f \circ g$ is given by $(f \circ g)^{-1} = g^{-1} \circ f^{-1}$.
+		Let f be the invertible function $f: Y \implies Z$, and let \newline g be the invertible 
+		function $g: X \implies Y$. The inverse of the composition $f \circ g$ is given by 
+		$(f \circ g)^{-1} = g^{-1} \circ f^{-1}$.
 	\end{theorem*}
 	
 	\begin{proof}
-		By Theorem 2.3.29a and Theorem 2.3.29b, and by the definition for bijective functions, $f \circ g$ is invertible. Thus, $(f \circ g)^{-1} \circ (f \circ g) = \iota_X$. 
+		By Theorem 2.3.29a and Theorem 2.3.29b, and by the definition for bijective functions, 
+		$f \circ g$ is invertible. Thus, $(f \circ g)^{-1} \circ (f \circ g) = \iota_X$. 
 		
-		What remains to be  determined is whether $(g^{-1} \circ f^{-1}) \circ (f \circ g) = \iota_X$. Let $x$ be an element in the domain of $g$ such that $((g^{-1} \circ f^{-1}) \circ (f \circ g))(x) = x$. By the definition for the composition of functions, that is $g^{-1}(f^{-1}(f(g(x)))) = x$. Clearly, $(g^{-1} \circ f^{-1}) \circ (f \circ g) = \iota_X$.
+		What remains to be determined is whether $(g^{-1} \circ f^{-1}) \circ (f \circ g) = \iota_X$. 
+		Let $x$ be an element in the domain of $g$ such that 
+		$((g^{-1} \circ f^{-1}) \circ (f \circ g))(x) = x$. By the definition for the composition of 
+		functions, that is $g^{-1}(f^{-1}(f(g(x)))) = x$. Clearly, 
+		$(g^{-1} \circ f^{-1}) \circ (f \circ g) = \iota_X$.
 		
-		Thus, the inverse of the composition $f \circ g$ is indeed given by \newline $(f \circ g)^{-1} = g^{-1} \circ f^{-1}$.
-		
+		Thus, the inverse of the composition $f \circ g$ is indeed given by \newline 
+		$(f \circ g)^{-1} = g^{-1} \circ f^{-1}$.
 	\end{proof}
 
 \end{document}

@@ -16,7 +16,18 @@
 	\end{theorem*}
 	
 	\begin{proof}
-		By the contrapositive. Suppose that $g$ were not injective. Then by the definition for injective functions we have the following universally quantified statement, with the domain of discourse being the domain of $g$, \newline $\lnot \forall a \forall b ((g(a) = g(b)) \implies (a = b))$. Because $f = f$, this statement is logically equivalent to $\lnot \forall a \forall b ((f(g(a)) = f(g(b))) \implies (a = b))$. By the \newline definition for the compositions of functions we can also draw this equivalence, $\lnot \forall a \forall b ((f \circ g)(a) = (f \circ g)(b)) \implies (a = b))$. That is, it is not the case that $f \circ g$ is injective, by the definition for injective functions. So it follows directly from the negation of the statement "$g$ is injective," that $f \circ g$ is not injective. Thus, if $f$ and $(f \circ g)$ are injective functions, then $g$ is indeed injective.
+		By the contrapositive. Suppose that $g$ were not injective. Then by the definition for 
+		injective functions we have the following universally quantified statement, with the domain 
+		of discourse being the domain of $g$, \newline 
+		$\lnot \forall a \forall b ((g(a) = g(b)) \implies (a = b))$. Because $f = f$, this 
+		statement is logically equivalent to 
+		$\lnot \forall a \forall b ((f(g(a)) = f(g(b))) \implies (a = b))$. By the \newline 
+		definition for the compositions of functions we can also draw this equivalence, 
+		$\lnot \forall a \forall b ((f \circ g)(a) = (f \circ g)(b)) \implies (a = b))$. That is, 
+		it is not the case that $f \circ g$ is injective, by the definition for injective functions. 
+		So it follows directly from the negation of the statement "$g$ is injective," that 
+		$f \circ g$ is not injective. Thus, if $f$ and $(f \circ g)$ are injective functions, then 
+		$g$ is indeed injective.
 	\end{proof}
 
 \end{document}

@@ -18,9 +18,15 @@
 	\end{theorem*}
 	
 	\begin{proof}
-		By the direct form contrapositive. Suppose $n > \floor{x}$. Since $n$ and $\floor{x}$ are integers, $n \ge \floor{x} + 1$. Now, by the properties of the floor function, we have the following tautology, $\floor{x} = \floor{x} \iff \floor{x} + 1 > x \ge \floor{x}$. Combining these two inequalities yields $n \ge \floor{x} + 1 > x \ge \floor{x}$ This statement says that $n > x$.
+		By the direct form contrapositive. Suppose $n > \floor{x}$. Since $n$ and $\floor{x}$ are 
+		integers, $n \ge \floor{x} + 1$. Now, by the properties of the floor function, we have the 
+		following tautology, $\floor{x} = \floor{x} \iff \floor{x} + 1 > x \ge \floor{x}$. 
+		Combining these two inequalities yields $n \ge \floor{x} + 1 > x \ge \floor{x}$ This 
+		statement says that $n > x$.
 		
-		Proving the converse form by the contrapositive. Note that $x \ge \floor{x}$, by the properties of the floor function. So if $n > x$, then $n > x \ge \floor{x}$, and of course $n > \floor{x}$.
+		Proving the converse form by the contrapositive. Note that $x \ge \floor{x}$, by the 
+		properties of the floor function. So if $n > x$, then $n > x \ge \floor{x}$, and of course 
+		$n > \floor{x}$.
 		
 		$\therefore n \le x \iff n \le \floor{x}$
 	\end{proof}

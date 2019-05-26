@@ -1,0 +1,393 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\ord}{\langle}{\rangle}
+
+\setcounter{page}{42}
+
+\begin{document}
+
+\section*{2.4 Sequences and Summations}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.4.19 ================================
+\begin{theorem*}[\textbf{2.4.19}]
+    Let $\{a_n\}$ be a sequence of real numbers.
+    $$\sum_{j=1}^{n} (a_j - a_{j-1}) = a_n - a_0$$.
+\end{theorem*}
+
+\begin{proof}
+    $$\sum_{j=1}^n (a_j - a_{j-1}) =
+    (a_n - a_{n-1}) + (a_{n-1} - a_{n-2}) + \dots + (a_1 - a_0)$$ 
+    By associativity for addition from the field axioms for real numbers, that is 
+    $$a_n + (-a_{n-1} + a_{n-1}) + (-a_{n-2} + a_{n-2}) + (-a_{n-3} + a_{n-3}) + 
+    \dots + (-a_1 + a_1) + -a_0$$ 
+    Clearly the inner terms cancel out. Thus, 
+    $$\sum_{j=1}^{n} (a_j - a_{j-1}) = a_n - a_0$$
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.4.20 ================================
+\begin{theorem*}[\textbf{2.4.20}]
+    $$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \frac{n}{n+1}$$
+\end{theorem*}
+
+\begin{proof}
+    The identity of $\left(\frac{1}{k(k+1)}\right)$ is 
+    $\left(\frac{1}{k} - \frac{1}{(k+1)}\right)$. This can be 
+    demonstrated by the equation  
+    $$k\left(\frac{1}{k} - \frac{1}{(k+1)}\right) = \left(\frac{k+1}{k+1} - \frac{k}{k+1}\right)
+    = \left(\frac{k + 1 - k}{k+1}\right) = \left(\frac{1}{k+1}\right)$$ Dividing both sides of this equation by $k$ gives the desired
+    identity such that
+    $$\sum_{k=1}^n \frac{1}{k(k+1)} = \sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right)$$
+    The sequence for which is the telescopic summation
+    $$\left(\frac{1}{n} - \frac{1}{n+1}\right) + \left(\frac{1}{n-1} - \frac{1}{n}\right) + 
+    \left(\frac{1}{n-2} - \frac{1}{n-1}\right) + \dots + \left(\frac{1}{1} - \frac{1}{2}\right)$$ 
+    Thus, by Theorem 2.4.19
+    $$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \left(-\frac{1}{n+1} + \frac{1}{1}\right) = \left(\frac{(-1) + (n+1)}{n+1}\right) = \frac{n}{n+1}$$
+\end{proof}
+
+\pagebreak
+
+
+% ============================= Theorem 2.4.21a ================================
+\begin{theorem*}[\textbf{2.4.21a}]
+    The summation of odd numbers from 1 to n is $n^{2}$.
+\end{theorem*}
+
+\begin{proof}
+    The summation of odd numbers from $1$ to $n$ is given by, $$\sum_{k=1}^{n} 2k - 1$$
+    by the
+    definition for odd numbers. The identity of $2k - 1$ is the difference of squares 
+    $k^2 - (k-1)^2$. This identity can be demonstrated by the statement 
+    $$k^2 - (k-1)^2 = [k + (k-1)][k - (k-1)] = (2k - 1)[k + (-k + 1)] = (2k-1)1$$ 
+    So the summation of odd numbers from $1$ to $n$ is the telescoping summation
+    $$\sum_{k=1}^{n} k^2 - (k-1)^2$$
+    By Theorem 2.4.19, that is $n^2 - 0^2 = n^2$. Thus, 
+    $$\sum_{k=1}^{n} 2k - 1 = n^2$$ 
+    and indeed the summation of odd numbers from $1$ to $n$ is $n^2$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================= Theorem 2.4.21b ================================
+\begin{theorem*}[\textbf{2.4.21b}]
+    The summation of natural numbers from 1 to n is $$\frac{n(n+1)}{2}$$
+\end{theorem*}
+
+\begin{proof}
+    From Theorem 2.4.21a we know that $$\sum_{k=1}^{n} 2k - 1 = n^{2}$$
+    This is the same as saying 
+    $$n^{2} = \left(-n + \sum_{k=1}^{n} 2k \right) \equiv \left(\sum_{k=1}^{n} 2k \right) = (n^{2} + n) = n(n + 1)$$ 
+    We can factor the coefficient $2$ out of the term of summation, 
+    $$2 \sum_{k=1}^{n} k = n(n+1)$$
+    And of course dividing both sides by $2$ gives 
+    $$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$ 
+    Thus, indeed, the summation of natural numbers 
+    from 1 to n is $\frac{n(n+1)}{2}$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.4.22 ================================
+\begin{theorem*}[\textbf{2.4.22}]
+    The sum of squares from 1 to n is $$\frac{n(n+1)(2n+1)}{6}$$.
+\end{theorem*}
+
+\begin{proof}
+    Let $\{a_n\}$ be the sequence of integers from $1$ to $n$. The formula for the 
+    summation of squares from $1$ to $n$ can be derived from the cube of $n$. By 
+    theorem 2.4.19, $$n^3 = \sum_{k=1}^{n} k^3 - (k-1)^3$$ This summation is 
+    telescopic, and thus collapses to $n^3 - (1 - 1)^3 = n^3$. The expansion for 
+    $(k-1)^3$ in that term of summation is $k^{3} - 3k^{2} + 3k - 1$, by the Binomial 
+    Theorem. Thus, yielding the algebraic identity 
+    $$k^{3} - (k - 1)^{3} = 3k^{2} - 3k + 1$$ Hence, 
+    $n^{3} = \sum_{k=1}^{n} 3k^{2} - 3k + 1$, and by the field axioms,
+    $$n^{3} = \left(3\sum_{k=1}^{n} k^{2}\right) - \left(3\sum_{k=1}^{n} k\right) + \left(\sum_{k=1}^{n} 1\right)$$
+    Note that $(\sum_{k=1}^n 1) = n(1)$, and by Theorem 2.4.21b, 
+    $(3\sum_{k=1}^{n} k) = 3(\frac{n(n+1)}{2})$. Thus, 
+    $$n^{3} + 3\frac{n(n+1)}{2} - n = 3\sum_{k=1}^{n} k^{2}$$
+    Eliminating the coefficient 
+    $3$ from the right-hand side by division gives us the sum of squares in terms of an 
+    equation, $$\frac{1}{3}\left(n^{3} + 3\frac{n(n+1)}{2} - n\right) = \sum_{k=1}^{n} k^{2}$$ 
+    All that is left to do is to simplify the left-hand side 
+    $\frac{1}{3}[n^{3} + 3\frac{n(n+1)}{2} - n] = \frac{2n^{3} + 3n^{2} + 3n - 2n}{6}$. 
+    Factoring $\frac{1}{6}n$ gives 
+    $\frac{1}{6}n(2n^{2} + 3n + 3 - 2) = \frac{1}{6}n(2n^{2} + 2n + n + 1)$. Factoring $2n$
+    out of the first two terms in the sum, $\frac{1}{6}n[2n(n + 1) + (n + 1)]$. The 
+    simplification process is complete by factoring $(n+1)$ out of the sum, \\ 
+    $\frac{1}{6}n(n+1)(2n+1)$. Thus, the sum of squares $$\sum_{k=1}^{n} k^{2} = 
+    \frac{n(n+1)(2n+1)}{6}$$
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.4.25 ================================
+\begin{theorem*}[\textbf{2.4.25}]
+    Let m be a positive integer. The closed form formula for $\sum_{k=0}^{m} \floor{\sqrt{k}}$ 
+    is $\floor{\sqrt{m}}[\frac{1}{6}(\floor{\sqrt{m}}-1)(4\floor{\sqrt{m}}+1) + 
+    (m - \floor{\sqrt{m}}^{2} + 1)]$.
+\end{theorem*}
+
+\begin{proof}
+    By the properties for floor functions, there exists an integer $n = \floor{\sqrt{k}}$ 
+    if and only if $n^{2} \le k < n^{2} + 2n + 1$. Thus, each integer value 
+    $n < \floor{\sqrt{m}}$ occurs exactly $2n + 1$ times, in the terms of summation. The value
+    $n = \floor{\sqrt{m}}$ occurs exactly $(m - \floor{\sqrt{m}}^{2} + 1)$ times. Subtracting 
+    those terms $n = \floor{\sqrt{m}}$ from $\sum_{k=0}^{m} \floor{\sqrt{k}}$ produces the 
+    sequence $$\floor{\sqrt{0}}(2\floor{\sqrt{0}} + 1) + \dots + 
+    (\floor{\sqrt{m}}-1)[2(\floor{\sqrt{m}}-1) + 1]$$
+    Summarily expressed as $$\sum_{n=0}^{\floor{\sqrt{m}}-1} n(2n + 1)$$ Thus,
+    $$\sum_{k=0}^{m} \floor{\sqrt{k}} = 
+    \left(\sum_{n=0}^{\floor{\sqrt{m}}-1} n(2n + 1)\right) + 
+    \floor{\sqrt{m}}(m - \floor{\sqrt{m}}^{2} + 1)$$
+    That is, the summation of squares, and integers
+    $$\sum_{k=0}^{m} \floor{\sqrt{k}} = 
+    \left(2\sum_{n=0}^{\floor{\sqrt{m}}-1} n^{2}\right) + 
+    \left(\sum_{n=0}^{\floor{\sqrt{m}}-1} n\right) + 
+    [\floor{\sqrt{m}}(m - \floor{\sqrt{m}}^{2} + 1)]$$
+    By Theorem 2.4.22, and by Theorem 2.4.21b
+    $$\sum_{k=0}^{m} \floor{\sqrt{k}} = 
+    \left\{\frac{2}{6}\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)[2(\floor{\sqrt{m}}-1)+1]\right\}+$$
+    $$\left\{\frac{3}{6}\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)\right\} + \floor{\sqrt{m}}(m - 
+    \floor{\sqrt{m}}^{2} + 1)$$
+    Factoring $\frac{1}{6}\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)$ out of the first two terms 
+    yields 
+    $$\frac{1}{6}\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)\{2[2(\floor{\sqrt{m}}-1)+1] +3\}+
+    \floor{\sqrt{m}}(m - \floor{\sqrt{m}}^{2} + 1)$$
+    And by arithmetic simplification that is
+    $$\frac{1}{6}\floor{\sqrt{m}}(\floor{\sqrt{m}}-1)(4\floor{\sqrt{m}} + 1) + 
+    \floor{\sqrt{m}}(m - \floor{\sqrt{m}}^{2} + 1)$$
+    Factoring $\floor{\sqrt{m}}$ from the outer sum completes the derivation
+    $$\sum_{k=0}^{m} \floor{\sqrt{k}} = 
+    \floor{\sqrt{m}}\left[\frac{1}{6}(\floor{\sqrt{m}}-1)(4\floor{\sqrt{m}}+1) + 
+    (m - \floor{\sqrt{m}}^{2} + 1)\right]$$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.4.26 ================================
+\begin{theorem*}[\textbf{2.4.26}]
+    Let m be a positive integer. The closed form formula for $\sum_{k=0}^{m} \floor{\sqrt[3]{k}}$ 
+    is $\floor{\sqrt[3]{m}}
+    [\frac{1}{4}(\floor{\sqrt[3]{m}}^{2} - \floor{\sqrt[3]{m}})(3\floor{\sqrt[3]{m}}+1)+
+    (m - \floor{\sqrt[3]{m}}^{3} + 1)]$.
+\end{theorem*}
+
+\begin{proof}
+    By the properties for floor functions there exists an integer $n_k = \floor{\sqrt[3]{k}}$ such 
+    that $n_{k}^{3} \le k < n_{k}^{3} + 3n_{k}^{2} + 3n_k + 1$. This means that each value less 
+    than $\floor{\sqrt[3]{m}}$ in the terms of summation occurs exactly 
+    $3\floor{\sqrt[3]{k}}^{2} + 3\floor{\sqrt[3]{k}} + 1$ times. The maximum value in the terms of 
+    summation occurs $(m - \floor{\sqrt[3]{m}}^{3} + 1)$ times. Subtracting those terms consisting 
+    of the maximum value produces the sequence
+    $$n_0(3n_{0}^{2} + 3n_0 + 1) + 
+    n_1(3n_{1}^{2} + 3n_{1} + 1) + 
+    \dots +
+    n_{\floor{\sqrt[3]{m}} - 1}
+    (3n_{\floor{\sqrt[3]{m}}-1}^{2} + 3_{\floor{\sqrt[3]{m}}-1} + 1)$$
+    Summarily expressed as
+    $$\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n(3n^2 + 3n + 1)$$
+    Thus,
+    $$\sum_{k=0}^{m} \floor{\sqrt[3]{k}} = 
+    \left(\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n(3n^{2} + 3n + 1)\right) + 
+    \floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$$ 
+    That is, the summation of cubes, squares, and integers
+    $$\sum_{k=0}^{m} \floor{\sqrt[3]{k}} =
+    \left(3\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n^{3}\right) + 
+    \left(3\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n^{2}\right) + 
+    \left(\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n\right) +$$
+    $$\floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$$
+    By the closed form formula for each individual summation we have, 
+    $$\sum_{k=0}^{m} \floor{\sqrt[3]{k}} = 
+    \left\{\frac{3}{4}\floor{\sqrt[3]{m}}^{2}(\floor{\sqrt[3]{m}}-1)^{2}\right\} +$$
+    $$\left\{
+        \frac{2}{4}\floor{\sqrt[3]{m}}(\floor{\sqrt[3]{m}}-1)[2(\floor{\sqrt[3]{m}}-1) +1]
+    \right\} +
+    \left\{\frac{2}{4}\floor{\sqrt[3]{m}}(\floor{\sqrt[3]{m}}-1)\right\} +$$
+    $$\floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$$
+    Algebraic simplification completes the derivation
+    $$\sum_{k=0}^{m} \floor{\sqrt[3]{k}} =
+    \floor{\sqrt[3]{m}}
+    \left[
+        \frac{1}{4}(\floor{\sqrt[3]{m}}^{2} - \floor{\sqrt[3]{m}})
+        (3\floor{\sqrt[3]{m}}+1)+(m - \floor{\sqrt[3]{m}}^{3} + 1)
+    \right]$$
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.4.36 ================================
+\begin{theorem*}[\textbf{2.4.36}]
+    A subset of a countable set is countable.
+\end{theorem*}
+
+\begin{proof}
+    Let $A$ and $B$ be sets such that $A \subseteq B$. $B$ is countable by the hypothesis, and 
+    so by the definition for countability $|B| \le \aleph_0$. By the definition of subset, 
+    $|A| \le |B| \therefore |A| \le \aleph_0$ and it follows that the subset of a countable set 
+    is countable.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.4.37 ================================
+\begin{theorem*}[\textbf{2.4.37}]
+    Let A, and B be sets such that $A \subseteq B$. If A is \newline uncountable, then B is 
+    uncountable.
+\end{theorem*}
+
+\begin{proof}
+    By the hypothesis, $|A| > \aleph_0$ by the definition for countability since $A$ is 
+    uncountable. By the definition for subset, the cardinality of $B$ is at least the cardinality 
+    of $A$. Therefore the least cardinality for $B$ is $|B| > \aleph_0$, and it follows that $B$ 
+    is uncountable.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.4.38 ================================
+\begin{theorem*}[\textbf{2.4.38}]
+    Let A, and B be sets with equal cardinality. \newline $|P(A)| = |P(B)|$. 
+\end{theorem*}
+
+\begin{proof}
+    The cardinality of a power set is $2$ to the power of the set cardinality. By the hypothesis, $|A| = |B| = n$. Therefore, $|P(A)| = 2^{n}$, and \newline $|P(B)| = 2^{n}$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.4.40 ================================
+\begin{theorem*}[\textbf{2.4.40}]
+    The union of two countable sets is countable.
+\end{theorem*}
+
+\begin{proof}
+    By cases. Let $A$, and $B$ be countable sets. There are three cases that must be considered. 
+    $(i)$ $A$ and $B$ are finite, $(ii)$ exclusively $A$ or $B$ is finite and the other is 
+    countably infinite, $(iii)$ $A$ and $B$ are both countably infinite.
+    \\ \\
+    $(i)$ Suppose $A$ and $B$ are finite. There exist natural numbers $m$, and $n$ such that 
+    $|A| = m$ and $|B| = n$. The maximum cardinality for $A \cup B$ occurs when $A$ and $B$ are 
+    disjoint, where the cardinality is $m + n$. $m+n$ is a natural number less than $\aleph_0$. 
+    Thus, $A \cup B$ is finite and countable by definition. 
+    \\ \\
+    $(ii)$ Without loss of generality suppose $A$ is finite with cardinality $n$, and $B$ is 
+    countably infinite. It must be that a sequence exists $\{a_i\} = \{a_0, a_1, \dots a_n\}$ 
+    containing all elements in $A$. Since a bijection exists between $B$ and $\mathbb{N}$ by the 
+    definition for countability, a sequence exists $\{b_i\} = \{b_0, b_1, b_2, \dots \}$ containing 
+    all elements in $B$. Clearly, for the union of $A$ and $B$ a sequence exists 
+    $\{c_i\} = \{a_0, a_1, \dots, a_n, b_0, b_1, b_2, \dots \}$. Infinite sequences are countable 
+    by definition, so $A \cup B$ is a countably infinite set.
+    \\ \\
+    $(iii)$ Suppose $A$ and $B$ are infinitely countable sets. Since the set cardinalities are 
+    $\aleph_0$, $A$ and $B$ are bijective with $\mathbb{N}$. Thus, the elements in $A$ can be 
+    ordered by the sequence $\{a_i\} = \{a_0, a_1, a_2, \dots\}$, and the elements in $B$ can be 
+    ordered by the sequence $\{b_i\} = \{b_0, b_1, b_2, \dots \}$. The union of $A$ and $B$ can be 
+    ordered by the sequence $\{c_i\} = \{a_0, b_0, a_1, b_1, a_2, b_2, \dots\}$. Thus a bijection 
+    exists between $\mathbb{N}$ and the union of $A$ and $B$, and the cardinality of that union is 
+    $\aleph_0$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.4.41 ================================
+\begin{theorem*}[\textbf{2.4.41}]
+    The union of a countable number of countable sets is countable.
+\end{theorem*}
+
+\begin{proof}
+    Let $A_i$ be a countable set, for integers $i=0$ to $n \leq \infty$ 
+    such that
+    $$S = \bigcup_{i=0}^{n} A_i$$ 
+    The function $f: \mathbb{N} \rightarrow A_i$ is the sequence 
+    $\{a_{ij}\} = a_{i0}, a_{i1}, a_{i2}, \dots$. 
+    Thus, by $f$, all elements $a_{ij}$ in $S$ can be listed in the second dimension
+    $$a_{00}, a_{01}, a_{02}, \dots$$
+    $$a_{10}, a_{11}, a_{12}, \dots$$
+    $$a_{20}, a_{21}, a_{22}, \dots$$
+    $$\vdots$$
+    By tracing the diagonal path along the two 
+    dimensional listing for $S$ we get the countable order 
+    $$a_{00}, a_{01}, a_{10}, a_{20}, a_{11}, a_{02}, \dots$$
+    $\therefore |S| \leq \aleph_0$, and indeed the union of a countable number of 
+    countable sets is countable.
+\end{proof}
+\begin{center}
+    \rule{5.4in}{1pt}
+\end{center}
+
+
+% ============================== Theorem 2.4.42 ================================
+\begin{theorem*}[\textbf{2.4.42}]
+    The cardinality of $\mathbb{Z^{+}} \times \mathbb{Z^{+}}$ is aleph null.
+\end{theorem*}
+
+\begin{proof}
+    $\mathbb{Z^{+}} \times \mathbb{Z^{+}}$ is defined as 
+    $\{\ord{x, y} | (x \in \mathbb{Z^{+}}) \land (y \in \mathbb{Z^{+}})\}$. 
+    Since $x$ and $y$ are positive integers, for every ordered pair $\ord{x, y}$ in 
+    $\mathbb{Z^{+}} \times \mathbb{Z^{+}}$, $\ord{x, y}$ exists if and only if the rational number 
+    $\frac{x}{y}$ exists. Thus, $\frac{x}{y}$ exists, and all elements in 
+    $\mathbb{Z^{+}} \times \mathbb{Z^{+}}$ can be represented by the two dimensional list
+    $$\ord{1,1} \iff \frac{1}{1}, \ord{1,2} \iff \frac{1}{2}, \ord{1,3} \iff \frac{1}{3}, \dots$$
+    $$\ord{2,1} \iff \frac{2}{1}, \ord{2,2} \iff \frac{2}{2}, \ord{2,3} \iff \frac{2}{3}, \dots$$
+    $$\ord{3,1} \iff \frac{3}{1}, \ord{3,2} \iff \frac{3}{2}, \ord{3,3} \iff \frac{3}{3}, \dots$$
+    $$\vdots$$
+    The hypotheses in the biconditional converse statements for each list entry are the list 
+    elements in the proof for the countability of rational numbers. That means 
+    $\mathbb{Z^{+}} \times \mathbb{Z^{+}}$ is countable if and only if the rational numbers are 
+    countable. We know the rational numbers are countable. Therefore the cardinality of 
+    $\mathbb{Z^{+}} \times \mathbb{Z^{+}}$ is $\aleph_0$.
+\end{proof}
+
+\pagebreak
+
+
+% ============================== Theorem 2.4.43 ================================
+\begin{theorem*}[\textbf{2.4.43}]
+    The set of all finite bit strings is countable.
+\end{theorem*}
+
+\begin{proof}
+    Let $\{a_{n-1}\}$ be the sequence of bits for any finite bit string $a($base-$2)$ of length $n$. 
+    The unique base-$2$ expansion for $\{a_{n-1}\}$ is the integer
+    $$a(\text{base-}10) = \sum_{i = 0}^{n-1} a_{i}2^{i}$$
+    Also, this integer can be converted to the unique base-$2$ bit string for \\ $a($base-$10)$ by 
+    $$a(\text{base-}2) = 
+    \sum_{i = 0}^{n-1}\left[a(\text{base-}10)(\text{mod } 2^{i+1})\right]10^{i}$$ 
+    Since an invertible function exists between each finite bit string and some positive integer, 
+    there exists, a one-to-one correspondence between $\mathbb{Z}$ and the set of all 
+    finite bit strings. Thus, the cardinality for the set of all finite bit strings is $\aleph_0$,
+    and the set of all finite bit strings is countable, by definition.
+\end{proof}
+
+
+
+
+\end{document}

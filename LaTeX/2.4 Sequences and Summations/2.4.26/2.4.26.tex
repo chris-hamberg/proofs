@@ -13,14 +13,52 @@
 
 \begin{document}
 	
-	\begin{theorem*}[2.4.26]
-		Let m be a positive integer. The closed form formula for $\sum_{k=0}^{m} \floor{\sqrt[3]{k}}$ is $\floor{\sqrt[3]{m}}[\frac{1}{4}(\floor{\sqrt[3]{m}}^{2} - \floor{\sqrt[3]{m}})(3\floor{\sqrt[3]{m}}+1)+(m - \floor{\sqrt[3]{m}}^{3} + 1)]$.
-	\end{theorem*}
-	
-	\begin{proof}
-		By the properties for floor functions there exists an integer $n = \floor{\sqrt[3]{k}}$ such that $n^{3} \le k < n^{3} + 3n^{2} + 3n + 1$. This means that each term less than $\floor{\sqrt[3]{m}}$ in the summation occurs exactly $3\floor{\sqrt[3]{k}}^{2} + 3\floor{\sqrt{k}} + 1$ times. Since the last term of summation occurs $(m - \floor{\sqrt[3]{m}}^{3} + 1)$ times, \newline $(\sum_{k=0}^{m} \floor{\sqrt[3]{k}}) - \floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1) = \newline \floor{\sqrt[3]{0}}(3\floor{\sqrt[3]{0}}^{2} + 3\floor{\sqrt{0}} + 1) +
-		\floor{\sqrt[3]{1}}(3\floor{\sqrt[3]{1}}^{2} + 3\floor{\sqrt{1}} + 1) +
-		\dots + \newline (\floor{\sqrt[3]{m}} - 1)[(3\floor{\sqrt[3]{m}}^{2}-1) + 3(\floor{\sqrt[3]{m}}-1) + 1)]$. By the pattern in the terms of that summation the following equation holds, $\sum_{k=0}^{m} \floor{\sqrt[3]{k}} = \newline [\sum_{k=0}^{\floor{\sqrt[3]{m}}-1} k(3k^{2} + 3k + 1)] + \floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$. The summation on the right-hand side is the summation of cubes, the summation of squares, and the summation of integers. Thus,  $\sum_{k=0}^{m} \floor{\sqrt[3]{k}} = \newline (3\sum_{k=0}^{\floor{\sqrt[3]{m}}-1} k^{3}) + (3\sum_{k=0}^{\floor{\sqrt[3]{m}}-1} k^{2}) + (\sum_{k=0}^{\floor{\sqrt[3]{m}}-1} k) + \floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$. By the closed form formulas for each individual summation we have, $\sum_{k=0}^{m} \floor{\sqrt[3]{k}} = \frac{3}{4}\floor{\sqrt[3]{m}}^{2}(\floor{\sqrt[3]{m}}-1)^{2} + \frac{2}{4}\floor{\sqrt[3]{m}}(\floor{\sqrt[3]{m}}-1)[2(\floor{\sqrt[3]{m}}-1) +1] + \newline \frac{2}{4}\floor{\sqrt[3]{m}}(\floor{\sqrt[3]{m}}-1) + \floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$. Algebraic simplification yields, \newline $\sum_{k=0}^{m} \floor{\sqrt[3]{k}} = \floor{\sqrt[3]{m}}[\frac{1}{4}(\floor{\sqrt[3]{m}}^{2} - \floor{\sqrt[3]{m}})(3\floor{\sqrt[3]{m}}+1)+(m - \floor{\sqrt[3]{m}}^{3} + 1)]$.
-	\end{proof}
+\begin{theorem*}[\textbf{2.4.26}]
+    Let m be a positive integer. The closed form formula for $\sum_{k=0}^{m} \floor{\sqrt[3]{k}}$ 
+    is $\floor{\sqrt[3]{m}}
+    [\frac{1}{4}(\floor{\sqrt[3]{m}}^{2} - \floor{\sqrt[3]{m}})(3\floor{\sqrt[3]{m}}+1)+
+    (m - \floor{\sqrt[3]{m}}^{3} + 1)]$.
+\end{theorem*}
+
+\begin{proof}
+    By the properties for floor functions there exists an integer $n_k = \floor{\sqrt[3]{k}}$ such 
+    that $n_{k}^{3} \le k < n_{k}^{3} + 3n_{k}^{2} + 3n_k + 1$. This means that each value less 
+    than $\floor{\sqrt[3]{m}}$ in the terms of summation occurs exactly 
+    $3\floor{\sqrt[3]{k}}^{2} + 3\floor{\sqrt[3]{k}} + 1$ times. The maximum value in the terms of 
+    summation occurs $(m - \floor{\sqrt[3]{m}}^{3} + 1)$ times. Subtracting those terms consisting 
+    of the maximum value produces the sequence
+    $$n_0(3n_{0}^{2} + 3n_0 + 1) + 
+    n_1(3n_{1}^{2} + 3n_{1} + 1) + 
+    \dots +
+    n_{\floor{\sqrt[3]{m}} - 1}
+    (3n_{\floor{\sqrt[3]{m}}-1}^{2} + 3_{\floor{\sqrt[3]{m}}-1} + 1)$$
+    Summarily expressed as
+    $$\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n(3n^2 + 3n + 1)$$
+    Thus,
+    $$\sum_{k=0}^{m} \floor{\sqrt[3]{k}} = 
+    \left(\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n(3n^{2} + 3n + 1)\right) + 
+    \floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$$ 
+    That is, the summation of cubes, squares, and integers
+    $$\sum_{k=0}^{m} \floor{\sqrt[3]{k}} =
+    \left(3\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n^{3}\right) + 
+    \left(3\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n^{2}\right) + 
+    \left(\sum_{n=0}^{\floor{\sqrt[3]{m}}-1} n\right) +$$
+    $$\floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$$
+    By the closed form formula for each individual summation we have, 
+    $$\sum_{k=0}^{m} \floor{\sqrt[3]{k}} = 
+    \left\{\frac{3}{4}\floor{\sqrt[3]{m}}^{2}(\floor{\sqrt[3]{m}}-1)^{2}\right\} +$$
+    $$\left\{
+        \frac{2}{4}\floor{\sqrt[3]{m}}(\floor{\sqrt[3]{m}}-1)[2(\floor{\sqrt[3]{m}}-1) +1]
+    \right\} +
+    \left\{\frac{2}{4}\floor{\sqrt[3]{m}}(\floor{\sqrt[3]{m}}-1)\right\} +$$
+    $$\floor{\sqrt[3]{m}}(m - \floor{\sqrt[3]{m}}^{3} + 1)$$
+    Algebraic simplification completes the derivation
+    $$\sum_{k=0}^{m} \floor{\sqrt[3]{k}} =
+    \floor{\sqrt[3]{m}}
+    \left[
+        \frac{1}{4}(\floor{\sqrt[3]{m}}^{2} - \floor{\sqrt[3]{m}})
+        (3\floor{\sqrt[3]{m}}+1)+(m - \floor{\sqrt[3]{m}}^{3} + 1)
+    \right]$$
+\end{proof}
 
 \end{document}

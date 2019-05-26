@@ -13,12 +13,20 @@
 
 \begin{document}
 	
-	\begin{theorem*}[2.4.21b]
-		The summation of natural numbers from 1 to n is $\frac{n(n+1)}{2}$.
-	\end{theorem*}
-	
-	\begin{proof}
-		By Theorem 2.4.21a we know that $\sum_{k=1}^{n} 2k - 1 = n^{2}$. This is the same as saying $-n + \sum_{k=1}^{n} 2k = n^{2} \equiv \sum_{k=1}^{n} 2k = n^{2} + n = n(n + 1)$. We can factor the coefficient $2$ out of the term of summation, $2 \sum_{k=1}^{n} k = n(n+1)$. And of course dividing both sides by $2$ gives $\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$. Thus, indeed, the summation of natural numbers from 1 to n is $\frac{n(n+1)}{2}$.
-	\end{proof}
+\begin{theorem*}[\textbf{2.4.21b}]
+    The summation of natural numbers from 1 to n is $$\frac{n(n+1)}{2}$$
+\end{theorem*}
+
+\begin{proof}
+    From Theorem 2.4.21a we know that $$\sum_{k=1}^{n} 2k - 1 = n^{2}$$
+    This is the same as saying 
+    $$n^{2} = \left(-n + \sum_{k=1}^{n} 2k \right) \equiv \left(\sum_{k=1}^{n} 2k \right) = (n^{2} + n) = n(n + 1)$$ 
+    We can factor the coefficient $2$ out of the term of summation, 
+    $$2 \sum_{k=1}^{n} k = n(n+1)$$
+    And of course dividing both sides by $2$ gives 
+    $$\sum_{k=1}^{n} k = \frac{n(n+1)}{2}$$ 
+    Thus, indeed, the summation of natural numbers 
+    from 1 to n is $\frac{n(n+1)}{2}$.
+\end{proof}
 
 \end{document}

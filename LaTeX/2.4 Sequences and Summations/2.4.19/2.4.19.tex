@@ -13,12 +13,19 @@
 
 \begin{document}
 	
-	\begin{theorem*}[2.4.19]
-		Let $\{a_n\}$ be a sequence of real numbers. \newline $\sum_{j=1}^{n} (a_j - a_{j-1}) = a_n - a_0$.
+	\begin{theorem*}[\textbf{2.4.19}]
+		Let $\{a_n\}$ be a sequence of real numbers.
+		$$\sum_{j=1}^{n} (a_j - a_{j-1}) = a_n - a_0$$.
 	\end{theorem*}
 	
 	\begin{proof}
-		$\sum_{j=1}^n (a_j - a_{j-1}) = \newline (a_n - a_{n-1}) + (a_{n-1} - a_{n-2}) + (a_{n-2} - a_{n-3}) + \dots + (a_1 - a_0)$. By the associativity for addition from the field axioms for real numbers, that is $\newline a_n + (-a_{n-1} + a_{n-1}) + (-a_{n-2} + a_{n-2}) + (-a_{n-3} + a_{n-3}) + \dots + (-a_1 + a_1) + -a_0$. Clearly the inner terms cancel out. Thus, $\sum_{j=1}^{n} (a_j - a_{j-1}) = a_n - a_0$.
+		$$\sum_{j=1}^n (a_j - a_{j-1}) =
+		(a_n - a_{n-1}) + (a_{n-1} - a_{n-2}) + \dots + (a_1 - a_0)$$ 
+		By associativity for addition from the field axioms for real numbers, that is 
+		$$a_n + (-a_{n-1} + a_{n-1}) + (-a_{n-2} + a_{n-2}) + (-a_{n-3} + a_{n-3}) + 
+		\dots + (-a_1 + a_1) + -a_0$$ 
+		Clearly the inner terms cancel out. Thus, 
+		$$\sum_{j=1}^{n} (a_j - a_{j-1}) = a_n - a_0$$
 	\end{proof}
 
 \end{document}

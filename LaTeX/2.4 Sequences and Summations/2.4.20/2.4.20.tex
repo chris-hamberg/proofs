@@ -13,16 +13,23 @@
 
 \begin{document}
 	
-	\begin{theorem*}[2.4.20]
-		$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \frac{n}{n+1}$.
-	\end{theorem*}
-	
-	\begin{proof}
-		$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \sum_{k=1}^{n} (\frac{1}{k} - \frac{1}{k+1})$ = \newline
-		$(\frac{1}{n} - \frac{1}{n+1}) + (\frac{1}{n-1} - \frac{1}{n}) + 
-		(\frac{1}{n-2} - \frac{1}{n-1}) + \dots + 
-		(\frac{1}{1} - \frac{1}{2})
-		$ By Theorem 2.4.19, that is, $-\frac{1}{n+1} + \frac{1}{1} = \frac{(-1) + (n+1)}{n+1} = \frac{n}{n+1}$.
-	\end{proof}
+\begin{theorem*}[\textbf{2.4.20}]
+    $$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \frac{n}{n+1}$$
+\end{theorem*}
+
+\begin{proof}
+    The identity of $\left(\frac{1}{k(k+1)}\right)$ is 
+    $\left(\frac{1}{k} - \frac{1}{(k+1)}\right)$. This can be 
+    demonstrated by the equation  
+    $$k\left(\frac{1}{k} - \frac{1}{(k+1)}\right) = \left(\frac{k+1}{k+1} - \frac{k}{k+1}\right)
+    = \left(\frac{k + 1 - k}{k+1}\right) = \left(\frac{1}{k+1}\right)$$ Dividing both sides of this equation by $k$ gives the desired
+    identity such that
+    $$\sum_{k=1}^n \frac{1}{k(k+1)} = \sum_{k=1}^{n} \left(\frac{1}{k} - \frac{1}{k+1}\right)$$
+    The sequence for which is the telescopic summation
+    $$\left(\frac{1}{n} - \frac{1}{n+1}\right) + \left(\frac{1}{n-1} - \frac{1}{n}\right) + 
+    \left(\frac{1}{n-2} - \frac{1}{n-1}\right) + \dots + \left(\frac{1}{1} - \frac{1}{2}\right)$$ 
+    Thus, by Theorem 2.4.19
+    $$\sum_{k=1}^{n} \frac{1}{k(k+1)} = \left(-\frac{1}{n+1} + \frac{1}{1}\right) = \left(\frac{(-1) + (n+1)}{n+1}\right) = \frac{n}{n+1}$$
+\end{proof}
 
 \end{document}

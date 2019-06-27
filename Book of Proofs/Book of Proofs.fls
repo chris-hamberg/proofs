@@ -5,16 +5,42 @@ INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.tex
 OUTPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.log
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/book.cls
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/ifetex/ifetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/plain/ifetex/ifetex.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mem10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/mem10.clo
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/delarray.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/delarray.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 INPUT /usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+INPUT /usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -63,20 +89,15 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/standalone/standalone.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/shellesc.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
@@ -95,6 +116,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/filehook/filehook.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-memoir.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/filehook/filehook-memoir.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/gincltex/gincltex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/gincltex/gincltex.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/gincltex/gincltex.sty
@@ -153,6 +176,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/memoir/memhfixc.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
@@ -163,9 +188,37 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fourier.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fourier.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fourier-orns.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fourier-orns.sty
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux
 OUTPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fmsfutm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fmsfutm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/t1futs.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/t1futs.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
@@ -184,62 +237,130 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
 INPUT ../resources/jpg/eulers_infinity.png
 INPUT ../resources/jpg/eulers_infinity.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1000.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1728.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecxc2488.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/eccc1200.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futrc8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futrc8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futbc8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futrc8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futrc8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT /var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm2488.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futbc8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futrc8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futbc8t.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.toc
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib5.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib6.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm
-OUTPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.toc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm2074.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx2074.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futbc8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futb8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecsx1000.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1.6.compilation/1.6.compilation.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1.6.compilation/1.6.compilation.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1440.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1601/1601.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1601/1601.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti1000.tfm
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmiib.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmiib.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmiib.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmib.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmib.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmib.tfm
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1602/1602.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1602/1602.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futrc8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futb8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futri8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-ita.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmii.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futsy.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1603/1603.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1603/1603.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1604/1604.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1604/1604.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/1.6.introduction.to.proofs/socrates.jpg
 INPUT ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg
 INPUT ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1605/1605.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1605/1605.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg
@@ -249,30 +370,43 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1606/1606.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1608/1608.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1608/1608.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg
 INPUT ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg
 INPUT ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmiib.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlitb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futbi8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmib.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futsy.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futb8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1609/1609.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1609/1609.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0700.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti0700.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0500.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecti0500.tfm
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8t.tfm
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1610/1610.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1610/1610.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/1.6.introduction.to.proofs/pythagoras.png
-INPUT ../resources/jpg/1.6.introduction.to.proofs/pythagoras.png
-INPUT ../resources/jpg/1.6.introduction.to.proofs/pythagoras.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg
+INPUT ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg
+INPUT ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmiib.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlitb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futbi8r.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1612/1612.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1612/1612.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1613/1613.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1613/1613.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/1.6.introduction.to.proofs/euclid.jpg
@@ -280,34 +414,62 @@ INPUT ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg
 INPUT ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1614/1614.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1614/1614.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1615/1615.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1615/1615.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1616/1616.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1616/1616.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/1.6.introduction.to.proofs/olympics.jpg
 INPUT ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg
 INPUT ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmii.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futsy.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futmi.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1617/1617.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1617/1617.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmii.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1618/1618.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1618/1618.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/sep.png
-INPUT ../resources/jpg/sep.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1625/1625.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1625/1625.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2.2.compilation/2.2.compilation.tex
@@ -316,6 +478,7 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2205/2205.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206a/2206a.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206a/2206a.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmi.vf
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206b/2206b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206b/2206b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2207a/2207a.tex
@@ -380,7 +543,9 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2223/2223.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2231/2231.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2231/2231.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi1000.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futbi8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futbi8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-boldita.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2224/2224.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2224/2224.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237d/2237d.tex
@@ -447,10 +612,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2346/2346.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2344/2344.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2344/2344.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi0700.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbi0500.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0700.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx0500.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futbi8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futbi8t.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2345/2345.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2345/2345.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347a/2347a.tex
@@ -475,6 +638,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367a/2367a.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmib.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmi.vf
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367b/2367b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367b/2367b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367c/2367c.tex
@@ -519,6 +684,12 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2401L/2401L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2404L/2404L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2404L/2404L.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futb8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futb8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt-bold.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2422/2422.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2422/2422.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2402L/2402L.tex
@@ -527,6 +698,13 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2405L/2405L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2425/2425.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2425/2425.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futsy.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ms.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mcl.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futmii.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-mlit.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-ml.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futri8r.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2426/2426.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2426/2426.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2440/2440.tex
@@ -546,15 +724,17 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3103.py
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3103.py
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3103.py
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm0900.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/public/fourier/futr8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/futr8r.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/fourier/fourier-alt.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3104/3104.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3104/3104.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3104.py
@@ -627,39 +807,30 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java
+OUTPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.toc
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc
+INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy7.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlb.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
-INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbi1000.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfcc1000.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfcc1200.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb
+INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb
 INPUT /usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb
-INPUT /usr/share/texmf/fonts/type1/public/cm-super/sfxc2488.pfb

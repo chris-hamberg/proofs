@@ -1,0 +1,68 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{lemma*}{Lemma}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{lemma*}[\textbf{2201}] \color{black}
+    Let \bm{$\mathrm{A}$}, and \bm{$\Lambda$} be sets.
+    \begin{equation*}
+        \bm{
+            \mathrm{A} \oplus \Lambda
+                =
+            \Big \langle \mathrm{A} \cup \Lambda \Big \rangle
+                \cap
+            \Big \langle 
+                \overline{\mathrm{A}} 
+                    \cup 
+                \overline{\Lambda} 
+            \Big \rangle
+        }
+    \end{equation*}
+\end{lemma*}
+\begin{proof} \color{black}
+    By Theorem 2235,
+    \bm{$
+        \big \langle \mathrm{A} \oplus \Lambda \big \rangle
+            \equiv
+        \big \langle \mathrm{A} \cup \Lambda \big \rangle
+            -
+        \big \langle \mathrm{A} \cap \Lambda \big \rangle
+    $}, 
+    and by Theorem 2219, that is
+    \bm{$
+        \big \langle \mathrm{A} \cup \Lambda \big \rangle
+            \cap
+        \big \langle \overline{\mathrm{A} \cap \Lambda} \big \rangle
+    $}.
+    By Demorgans law for the complement of set intersection,
+    \begin{equation*}
+        \Big \langle \mathrm{A} \cup \Lambda \Big \rangle
+            \cap
+        \Big \langle \overline{\mathrm{A} \cap \Lambda} \Big \rangle
+            \equiv
+        \Big \langle \mathrm{A} \cup \Lambda \Big \rangle
+            \cap
+        \Big \langle \overline{\mathrm{A}} \cup \overline{\Lambda} \Big \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+    \mathrm{A} \oplus \Lambda
+        =
+    \big \langle \mathrm{A} \cup \Lambda \big \rangle
+        \cap
+    \big \langle 
+        \overline{\mathrm{A}} 
+            \cup 
+        \overline{\Lambda} 
+    \big \rangle}$
+\color{lightgray} \end{proof}
+
+\end{document}

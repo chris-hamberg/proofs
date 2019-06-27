@@ -1,0 +1,188 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{lemma*}{Lemma}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{lemma*}[\textbf{2405}]
+    Let \bm{$\iota$} be a positive integers such that
+    \bm{$\big \lfloor \sqrt[3] \iota \big \rfloor = \lambda$}.
+    \begin{equation*}
+        \bm{
+            \Bigg(
+                3 \sum_{\phi=0}^{\lambda - 1} \phi ^3
+            \Bigg)
+                +
+            \Bigg(
+                3 \sum_{\phi=0}^{\lambda - 1} \phi ^2
+            \Bigg)
+                +
+            \Bigg(
+                \sum_{\phi=0}^{\lambda - 1} \phi
+            \Bigg)
+                \equiv
+            \frac{
+                \lambda ^3 - \lambda ^2
+            }
+            {4}
+            \Bigg[ 3 \lambda + 1 \Bigg]
+        }
+    \end{equation*}
+\end{lemma*}
+
+\begin{proof}
+    Let \bm{$\Phi$} be three times the summation of cubes from zero to lambda minus one.
+    Let \bm{$\mathrm{X}$} be three times the summation of squares from zero to lambda minus one.
+    Let \bm{$\Omega$} be the summation of integers from zero to lambda minus one.
+    By theorems 2422 and 2421b, 
+    by the closed formula for the summation of cubes,
+    and by shifting the index of summation,
+    \begin{equation*}
+        \Bigg \{
+            \Phi + \mathrm{X} + \Omega
+        \Bigg \}
+            \equiv
+        3
+        \Bigg[
+            \frac{
+                \lambda ^2
+                \big[ \lambda - 1 \big] ^2
+            }
+            {4}
+        \Bigg]
+            +
+        3
+        \Bigg[
+            \frac{
+                \lambda 
+                \big[ \lambda - 1 \big]
+                \big[ 2 \langle \lambda - 1 \rangle + 1 \big]
+            }
+            {6}
+        \Bigg]
+            +
+        \Bigg[
+            \frac{\lambda \big [ \lambda - 1 ]}
+            {2}
+        \Bigg]
+    \end{equation*} 
+    By the multiplicative identity law from the field axioms,
+    \begin{equation*}
+        \bigg \langle 
+            \frac{3}{6}
+        \bigg \rangle
+             = 
+        \bigg \langle
+            \frac{2 \cdot 3}{2 \cdot 6} 
+        \bigg \rangle 
+            = 
+        \bigg \langle
+            \frac{6}{12} 
+        \bigg \rangle 
+            = 
+        \bigg \langle
+            \frac{2}{4}
+        \bigg \rangle
+    \end{equation*}
+    \begin{equation*}
+        \bigg \langle 
+            \frac{1}{2}
+        \bigg \rangle
+            =
+        \bigg \langle
+            \frac{2 \cdot 1}{2 \cdot 2}
+        \bigg \rangle
+            =
+        \bigg \langle 
+            \frac{2}{4}
+        \bigg \rangle
+    \end{equation*}
+    Thus, by the identities for \bm{$\mathrm{X}$} and \bm{$\Omega$},
+    factoring 
+    \bm{$\frac{1}{4} \lambda \big \langle \lambda - 1 \big \rangle$}
+    out from the sum of \bm{$\Phi$}, \bm{$\mathrm{X}$}, and \bm{$\Omega$},
+    by the distributive laws from real numbers,
+    \begin{equation*}
+        \Bigg \{
+            \Phi + \mathrm{X} + \Omega
+        \Bigg \}
+                \equiv
+            \frac{
+                \lambda \big \langle \lambda - 1 \big \rangle
+            }
+            {4}
+            \Bigg[
+                3 \lambda \big[ \lambda - 1 \big]
+                    +
+                2 \bigg \langle 
+                    2 \big[ \lambda - 1 \big] + 1
+                \bigg \rangle
+                    +
+                2
+            \Bigg]    
+    \end{equation*}
+    By the distributive law for real numbers, 
+    and by the inverse law for addition from the field axioms,
+    \begin{equation*}
+        \bigg \{
+            2 \Big \langle 2 \big[ \lambda - 1 \big] + 1 \Big \rangle + 2
+        \bigg \}
+            =
+        \bigg \{
+            4 \big[ \lambda - 1 \big] + 2 + 2
+        \bigg \}
+            =
+        \bigg \{
+            4 \lambda - 4 + 4
+        \bigg \}
+            = 
+        \bigg \{
+            4 \lambda
+        \bigg \}
+    \end{equation*}
+    Hence, by the identity four lambda,
+    \begin{equation*}
+        \Bigg \{
+            \Phi + \mathrm{X} + \Omega
+        \Bigg \}
+            \equiv
+        \frac{
+            \lambda \big \langle \lambda - 1 \big \rangle
+        }
+        {4}
+        \Bigg[
+            3 \lambda \big[ \lambda - 1 \big]
+                +
+            4 \lambda
+        \Bigg]
+    \end{equation*}
+    Factoring out lambda and distributing three,
+    by the distributive laws for real numbers,
+    \begin{equation*}
+        \Bigg\{
+            \Phi + \mathrm{X} + \Omega
+        \Bigg\}
+                \equiv
+            \frac{
+                \lambda ^2 \big \langle \lambda - 1 \big \rangle
+            }
+            {4}
+            \Bigg[
+                3 \lambda - 3 + 4
+            \Bigg]
+    \end{equation*}
+    The proof is complete, 
+    by the distributive law for real numbers distributing
+    the second power of lambda,
+    and the inverse law for addition from the field axioms.
+\color{lightgray}\end{proof}
+
+\end{document}

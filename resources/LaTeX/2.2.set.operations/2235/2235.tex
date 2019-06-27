@@ -1,0 +1,154 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2235}] \color{black}
+    Let \bm{$\mathrm{A}$}, and \bm{$\Lambda$} be sets. 
+    \bm{$
+    \mathrm{A} \oplus \Lambda 
+        = 
+    \big \langle \mathrm{A} \cup \Lambda \big \rangle 
+        - 
+    \big \langle \mathrm{A} \cap \Lambda \big \rangle
+    $}.
+\end{theorem*}
+\begin{proof} \color{black}
+    Let \bm{$\lambda$} be an element in \bm{$\mathrm{A} \oplus \Lambda$}. 
+    By the definition for the symmetric difference of sets,
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle 
+                \land 
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+        \bigg] 
+            \lor 
+        \bigg[
+            \Big \langle \lambda \notin \mathrm{A} \Big \rangle
+                \land 
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    Distributing the right-hand side over the left-hand side,
+    by the distributive laws of logic, that is
+    \begin{equation*}
+        \Bigg\{
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \lor
+            \bigg[
+                \Big \langle \lambda \notin \mathrm{A} \Big \rangle
+                    \land 
+                \Big \langle \lambda \in \Lambda \Big \rangle
+            \bigg]
+        \Bigg\}
+            \land
+        \Bigg\{
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+                \lor
+            \bigg[
+                \Big \langle \lambda \notin \mathrm{A} \Big \rangle
+                    \land 
+                \Big \langle \lambda \in \Lambda \Big \rangle
+            \bigg]
+        \Bigg\}
+    \end{equation*}
+    Again, by the distributive law for logical disjunction over conjunction,
+    and by the associative law for logical conjunction, we have
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \lor
+            \Big \langle \lambda \notin \mathrm{A} \Big \rangle
+        \bigg]
+            \land
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \lor 
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]
+            \land
+        \bigg[
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+                \lor
+            \Big \langle \lambda \notin \mathrm{A} \Big \rangle
+        \bigg]
+            \land
+    \end{equation*}
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+                \lor 
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    The following identity is given by the negation laws of logic,
+    \begin{equation*}
+        \big \langle \top \big \rangle
+            \land
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \lor 
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]
+            \land
+        \bigg[
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+                \lor
+            \Big \langle \lambda \notin \mathrm{A} \Big \rangle
+        \bigg]
+            \land
+        \big \langle \top \big \rangle
+    \end{equation*}
+    By DeMorgans laws,
+    and by the identity law for logical conjunction, 
+    that is
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \lor 
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]
+            \land
+        \lnot \bigg[
+            \Big \langle \lambda \in \Lambda \Big \rangle
+                \land
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+        \bigg]
+    \end{equation*}
+    Which, by the definitions for set union, set intersection,
+    and set membership, is equivalent to
+    \begin{equation*}
+        \Bigg\{
+            \lambda \in \Big \langle \mathrm{A} \cup \Lambda \Big \rangle
+                \land
+            \lnot \bigg[ 
+                \lambda \in \Big \langle \Lambda \cap \mathrm{A} \Big \rangle
+            \bigg]
+        \Bigg\}
+            \equiv
+        \Bigg\{
+            \lambda \in \Big \langle \mathrm{A} \cup \Lambda \Big \rangle
+                \land
+            \lambda \notin \Big \langle \Lambda \cap \mathrm{A} \Big \rangle
+        \Bigg\}
+    \end{equation*}
+    $\therefore$ by the definition for set difference,
+    \bm{$
+    \mathrm{A} \oplus \Lambda 
+        = 
+    \big \langle \mathrm{A} \cup \Lambda \big \rangle 
+        - 
+    \big \langle \mathrm{A} \cap \Lambda \big \rangle
+    $}.
+\color{lightgray} \end{proof}
+
+\end{document}

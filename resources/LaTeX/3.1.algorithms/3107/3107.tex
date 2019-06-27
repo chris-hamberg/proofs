@@ -1,0 +1,28 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+\usepackage{mathtools}
+
+
+\DeclareMathOperator*{\nullspace}{null}
+
+
+\begin{document}
+
+    \begin{algorithmic}[0]
+        \Statex \color{white} x \color{black}
+        \Function{last even}{$\rho_1, \rho_2, \dots, \rho_\epsilon$: list of integers}
+        \State $\phi \gets \nullspace$
+        \For{$\iota = 1, \epsilon$}
+            \If {$\lnot \big [ \rho_\iota \langle $mod $ 2 \rangle \big ]$}
+                \State $\phi \gets \iota$
+            \EndIf
+        \EndFor
+        \State \Return{$\phi$}
+        \color{lightgray} \Comment{returns $\nullspace$ if every integer $\rho_\iota$ is odd}
+        \color{black}
+        \EndFunction
+    
+    \end{algorithmic}
+
+\end{document}

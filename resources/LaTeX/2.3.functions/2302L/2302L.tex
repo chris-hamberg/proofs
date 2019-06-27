@@ -1,0 +1,85 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{lemma*}{Lemma}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{lemma*}[\textbf{2302}]
+    Let \bm{$\lambda$} be a real number, 
+    such that \bm{$\big \lfloor \lambda \big \rfloor + \epsilon = \lambda$}.
+    \begin{equation*}
+        \bm{
+            \Bigg\{
+                \bigg \lfloor \lambda \bigg \rfloor 
+                    + 
+                \bigg \lfloor \lambda + \frac{1}{3} \bigg \rfloor 
+                    + 
+                \bigg \lfloor \lambda + \frac{2}{3} \bigg \rfloor
+            \Bigg\}
+                =
+            \Bigg\{
+                3 \lambda - 3 \epsilon 
+                    +
+                \bigg \lfloor \epsilon \bigg \rfloor 
+                    +
+                \bigg \lfloor \epsilon + \frac{1}{3} \bigg \rfloor
+                    +
+                \bigg \lfloor \epsilon + \frac{2}{3} \bigg \rfloor            
+            \Bigg\}
+        }
+    \end{equation*}
+\end{lemma*}
+
+\begin{proof}
+    Given the real number \bm{$\lambda$}, 
+    by the properties for floor functions
+    there exists a real number \bm{$\epsilon$}
+    and an integer \bm{$\lambda - \epsilon$} such that 
+    \bm{$\lfloor \lambda \rfloor = \lambda - \epsilon$}.
+    Thus, \bm{$\lambda = \lambda - \epsilon + \epsilon$}.
+    By the identity \bm{$\lambda$},
+    \begin{equation*}
+        \bigg \lfloor \lambda \bigg \rfloor 
+            + 
+        \bigg \lfloor \lambda + \frac{1}{3} \bigg \rfloor 
+            + 
+        \bigg \lfloor \lambda + \frac{2}{3} \bigg \rfloor
+            =
+    \end{equation*}
+    \begin{equation*}
+        \bigg \lfloor \lambda - \epsilon + \epsilon \bigg \rfloor 
+            + 
+        \bigg \lfloor \lambda - \epsilon + \epsilon + \frac{1}{3} \bigg \rfloor 
+            + 
+        \bigg \lfloor \lambda - \epsilon + \epsilon + \frac{2}{3} \bigg \rfloor
+    \end{equation*}
+    Since \bm{$\lambda - \epsilon$} is an integer, by Lemma 2301 that is
+    \begin{equation*}
+        \bigg \langle \lambda - \epsilon \bigg \rangle + \bigg \lfloor \epsilon \bigg \rfloor 
+            + 
+        \bigg \langle \lambda - \epsilon \bigg \rangle + \bigg \lfloor \epsilon + \frac{1}{3} \bigg \rfloor 
+            + 
+        \bigg \langle \lambda - \epsilon \bigg \rangle + \bigg \lfloor \epsilon + \frac{2}{3} \bigg \rfloor
+            =
+    \end{equation*}
+    \begin{equation*}
+        \bigg \langle 3 \lambda - 3 \epsilon \bigg \rangle
+            + 
+        \bigg \lfloor \epsilon \bigg \rfloor 
+            + 
+        \bigg \lfloor \epsilon + \frac{1}{3} \bigg \rfloor 
+            + 
+        \bigg \lfloor \epsilon + \frac{2}{3} \bigg \rfloor
+    \end{equation*}
+    This completes the proof.
+\color{lightgray} \end{proof}
+
+\end{document}

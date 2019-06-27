@@ -1,0 +1,70 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2421a}]
+    The summation of odd numbers from \bm{$1$} to \bm{$\phi$} is 
+    \bm{$\phi^{2}$}.
+\end{theorem*}
+
+\begin{proof}
+    There exists an integer \bm{$\lambda$}, by the definition of odd numbers, such that
+    the summation of odd numbers from \bm{$1$} to \bm{$\phi$} is given by, 
+    \begin{equation*}
+        \sum_{\lambda=1}^\phi 
+                2 \lambda - 1
+    \end{equation*}
+    The identity for \bm{$2 \lambda - 1$} is the difference of squares 
+    \bm{$\lambda ^2 - \big \langle \lambda - 1 \big \rangle ^2$}. 
+    This identity can be demonstrated by the statement 
+    \begin{equation*}
+        \bigg \langle \lambda ^2 - [ \lambda - 1 ] ^2 \bigg \rangle
+            = 
+        \bigg \langle 
+            \bigg[ 
+                \lambda  + \langle \lambda - 1 \rangle 
+            \bigg]
+            \bigg[
+                \lambda - \langle \lambda - 1 \rangle 
+            \bigg] 
+        \bigg \rangle
+            =
+    \end{equation*}
+    \begin{equation*} 
+        \bigg \langle 
+            \bigg[
+                2 \lambda - 1
+            \bigg]
+            \bigg[
+                \lambda + \langle - \lambda + 1 \rangle
+            \bigg]
+        \bigg \rangle
+            = 
+        \bigg \langle [ 2 \lambda - 1 ] 1 \bigg \rangle
+    \end{equation*}
+    So the summation of odd numbers from \bm{$1$} to \bm{$\phi$} 
+    is the telescoping summation
+    \begin{equation*}
+        \sum_{\lambda=1}^\phi 
+                \lambda ^2 - \langle \lambda - 1 \rangle ^2
+    \end{equation*}
+    By Theorem 2419, that is \bm{$\phi ^2 - 0 ^2 = \phi ^2$}. 
+    Thus, 
+    \begin{equation*}
+        \sum_{\lambda=1}^\phi 2 \lambda - 1 = \phi^2
+    \end{equation*}
+    and indeed the summation of odd numbers from \bm{$1$} to \bm{$\phi$} 
+    is \bm{$\phi ^2$}.
+\color{lightgray} \end{proof}
+
+\end{document}

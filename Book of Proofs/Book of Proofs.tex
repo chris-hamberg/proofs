@@ -1,0 +1,148 @@
+\documentclass[a5paper 12pt]{book}
+%\documentclass[a5paper 12pt]{memoir}
+%\usepackage[UTF-8]{inputenc}
+\usepackage[T1]{fontenc}
+%\usepackage[english]{bable}
+\usepackage{amssymb} 
+\usepackage{amsthm}
+\usepackage{mathtools}
+\usepackage{algorithm}
+\usepackage[noend]{algpseudocode}
+\usepackage{bm}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{standalone}
+\usepackage{fancyhdr}
+\usepackage[fit, breakall]{truncate}
+\usepackage{bookmark}
+\usepackage{titlesec}
+\usepackage[margin=1.5in]{geometry}
+
+
+\newtheorem{theorem}{Theorem}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem*{lemma*}{Lemma}
+
+
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclareMathOperator*{\nullspace}{null}
+\newcommand{\pluseq}{\mathrel{+}=}
+\newcommand{\minuseq}{\mathrel{-}=}
+\pdfstringdefDisableCommands{\let\bm=\relax}
+
+
+\newcommand{\sep}{
+    \begin{center}
+        \vspace{1\baselineskip}
+    \includegraphics[width=0.75cm]{../resources/jpg/sep.png}
+\end{center}
+}
+
+
+\makeatletter
+\newcommand\fs@nobottomruled{\def\@fs@cfont{\bfseries}\let\@fs@capt\floatc@ruled
+  \def\@fs@pre{\hrule height.8pt depth0pt \kern2pt}%
+  \def\@fs@post{}% Formerly \def\@fs@post{\kern2pt\hrule\relax}%
+  \def\@fs@mid{\kern2pt\hrule\kern2pt}%
+  \let\@fs@iftopcapt\iftrue}
+\makeatother
+
+
+\floatstyle{nobottomruled}
+\restylefloat{algorithm}
+
+
+\lstset{
+    numbers=left,
+    stepnumber=1,
+    numbersep=5pt,
+    numberstyle=\small\color{lightgray},
+    basicstyle=\ttfamily\color{black},
+    keywordstyle=\color{teal},
+    commentstyle=\color{lightgray},
+    stringstyle=\color{cyan},
+    identifierstyle=\color{black},
+    frame=none,
+    rulecolor=\color{darkgray},
+    tabsize=4,
+    backgroundcolor=\color{white}
+}
+
+
+\hypersetup{
+    pdftitle={Book of Proofs},
+    pdfsubject={Discrete Mathematics},
+    bookmarksnumbered=true,
+    bookmarksopenlevel=1,
+    hidelinks,
+    pdfstartview=Fit,
+    pdfpagemode=UseOutlines,
+    pdfpagelayout=TwoPageRight,
+    }
+
+
+\fancyhf{}
+\fancyhead[LE, RO]{\truncate{0.33 \textwidth} \rightmark}
+\fancyhead[RE, LO]{ \leftmark}
+
+
+\titlespacing*{\section}
+    {0pt}{5.5ex plus 1ex minus .2ex}{4.3ex plus .2ex}
+
+
+\begin{document}
+
+
+\pagestyle{fancy}
+\raggedbottom
+
+
+\frontmatter
+% =================================== Title ===================================
+\input{../resources/LaTeX/title/title.tex}
+\thispagestyle{empty}
+\cleardoublepage
+
+
+% ==================================== TOC ====================================
+\hypertarget{toc}{}
+\bookmark[dest=toc, level=chapter]{\contentsname}
+\tableofcontents
+\newpage
+\thispagestyle{empty}
+
+
+\mainmatter
+\cfoot{\thepage}
+% ================================= Chapter 1 =================================
+\chapter{Introduction to Proofs}
+\input{../resources/LaTeX/1.6.introduction.to.proofs/1.6.compilation/1.6.compilation.tex}
+\pagebreak
+
+
+% ================================= Chapter 2 =================================
+\chapter{Set Operations}
+\input{../resources/LaTeX/2.2.set.operations/2.2.compilation/2.2.compilation.tex}
+\pagebreak
+
+
+% ================================= Chapter 3 =================================
+\chapter{Functions}
+\input{../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex}
+\pagebreak
+
+% ================================= Chapter 4 =================================
+\chapter{Sequences and Summations}
+\input{../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex}
+\pagebreak
+
+
+% ================================= Chapter 5 =================================
+\chapter{Algorithms}
+\input{../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex}
+\pagebreak
+
+
+
+
+\end{document}

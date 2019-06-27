@@ -1,0 +1,296 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2372}]
+    Let \bm{$\lambda$} be a real number, such that
+    \bm{$\big \lfloor \lambda \big \rfloor + \epsilon = \lambda$}.
+    \begin{equation*}
+        \bm{
+            \bigg \lfloor 3 \lambda \bigg \rfloor
+                = 
+            \bigg \lfloor \lambda \bigg \rfloor
+                + 
+            \bigg \lfloor \lambda + \frac{1}{3} \bigg \rfloor
+                + 
+            \bigg \lfloor \lambda + \frac{2}{3} \bigg \rfloor
+        }
+    \end{equation*}
+\end{theorem*}
+
+\begin{proof}
+    By cases. By Lemma 2304, it is sufficent to prove
+    \begin{equation*}
+        \bigg \lfloor 3 \epsilon \bigg \rfloor
+            =
+        \Bigg \langle 
+            \mathrm{A} 
+                = 
+            \bigg \lfloor \epsilon \bigg \rfloor 
+        \Bigg \rangle
+            +
+        \Bigg \langle
+            \Lambda
+                = 
+            \bigg \lfloor \epsilon + \frac{1}{3} \bigg \rfloor 
+        \Bigg \rangle
+            +
+        \Bigg \langle
+            \Delta
+                = 
+            \bigg \lfloor \epsilon + \frac{2}{3} \bigg \rfloor
+        \Bigg \rangle
+    \end{equation*}
+    Let \bm{$p$} be the propostion: \bm{$\Delta \geq \Lambda \geq \mathrm{A} \geq 0$}.
+    The proof for which is trivial.
+    There are three cases:
+    \\ \\
+    \indent \indent \bm{$(i)$} \space \space
+    $
+        \Big \langle 0 \Big \rangle 
+            \le 
+        \Big \langle \epsilon \Big \rangle
+            < 
+        \Big \langle \frac{1}{3} \Big \rangle
+    $
+    \\ \\
+    \indent \indent \bm{$(ii)$} \space
+    $
+        \Big \langle \frac{1}{3} \Big \rangle 
+            \le 
+        \Big \langle \epsilon \Big \rangle
+            < 
+        \Big \langle \frac{2}{3} \Big \rangle
+    $ 
+    \\ \\
+    \indent \indent \bm{$(iii)$}
+    $ 
+        \Big \langle \frac{2}{3} \Big \rangle 
+            \le 
+        \Big \langle \epsilon \Big \rangle 
+            < 
+        \Big \langle 1 \Big \rangle
+    $
+    \\ \\
+    \bm{$(i)$}
+    Since \bm{$p$}, 
+    \bm{$\Delta$} is sufficient for inferring \bm{$\mathrm{A}$}, 
+    and \bm{$\Lambda$} in this case.
+    By the additive compatibility law from the order axioms, 
+    and by the law of transitivity from the order axioms,
+    \begin{equation*}
+        \bigg[
+            \bigg \langle \frac{0}{3} + \frac{2}{3} \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{2}{3} \bigg \rangle 
+                < 
+            \bigg \langle \frac{1}{3} + \frac{2}{3} \bigg \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \bigg \langle 0 \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{2}{3} \bigg \rangle 
+                < 
+            \bigg \langle 1 \bigg \rangle
+        \bigg]
+    \end{equation*}
+    Thus, \bm{$\Delta = 0$}, by the properties of floor functions. 
+    Hence, \bm{$\mathrm{A} + \Lambda + \Delta = 0$}, by \bm{$p$}. 
+    Also, by the multiplicative compatibility law from the order axioms,
+    and by the properties of floor functions,
+    \begin{equation*}
+        \bigg[
+            \bigg \langle 3 \cdot 0 \bigg \rangle
+                \leq
+            \bigg \langle 3 \cdot \epsilon \bigg \rangle
+                <
+            \bigg \langle 3 \cdot \frac{1}{3} \bigg \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \big \lfloor 3 \epsilon \big \rfloor
+                =
+            0
+        \bigg]
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \big \lfloor 3 \epsilon \big \rfloor
+            =
+        \mathrm{A} + \Lambda + \Delta
+    }$, by the identity \bm{$0$}, in this case.
+    \\ \\
+    \bm{$(ii)$}
+    Since \bm{$p$}, \bm{$\Lambda$} is sufficent for inferring \bm{$\mathrm{A}$} in this case.
+    By the additive compatibility law from the order axioms,
+    and by the law of transitivity,
+    \begin{equation*}
+        \bigg[
+            \bigg \langle \frac{1}{3} + \frac{1}{3} \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{1}{3} \bigg \rangle 
+                < 
+            \bigg \langle \frac{2}{3} + \frac{1}{3} \bigg \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \bigg \langle 0 \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{1}{3} \bigg \rangle 
+                < 
+            \bigg \langle 1 \bigg \rangle
+        \bigg]
+    \end{equation*}
+    Thus, \bm{$\Lambda = 0$}, by the properties of floor functions.
+    Hence, \bm{$\mathrm{A} + \Lambda = 0$}, by \bm{$p$}. 
+    Now, for \bm{$\Delta$}, 
+    by the additive compatibility law from the order axioms,
+    and by the law of transitivity from the order axioms,
+    \begin{equation*}
+        \bigg[
+            \bigg \langle \frac{1}{3} + \frac{2}{3} \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{2}{3} \bigg \rangle 
+                < 
+            \bigg \langle \frac{2}{3} + \frac{2}{3} \bigg \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \bigg \langle 1 \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{2}{3} \bigg \rangle 
+                < 
+            \bigg \langle 1 + 1 \bigg \rangle
+        \bigg]
+    \end{equation*}
+    Thus, \bm{$\Delta = 1$}, by the properties of floor functions. 
+    Hence, \bm{$\mathrm{A} + \Lambda + \Delta = 1$}.
+    Also, by the multiplicative compatibility law from the order axioms,
+    and by the properties of floor functions,
+    \pagebreak
+    \begin{equation*}
+        \bigg[
+            \bigg \langle 3 \cdot \frac{1}{3} \bigg \rangle
+                \leq
+            \bigg \langle 3 \cdot \epsilon \bigg \rangle
+                <
+            \bigg \langle 3 \cdot \frac{2}{3} \bigg \rangle
+        \bigg]
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \bigg[
+            \Big \langle 1 \Big \rangle
+                \leq
+            \Big \langle 3 \epsilon \Big \rangle
+                <
+            \Big \langle 1 + 1 \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \big \lfloor 3 \epsilon \big \rfloor
+                =
+            1
+        \bigg]
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lfloor 3 \epsilon \rfloor
+            =
+        \mathrm{A} + \Lambda + \Delta
+    }$, by the identity \bm{$1$}, in this case.
+    \\ \\
+    \bm{$(iii)$} 
+    \bm{$\mathrm{A} = 0$} can be inferred from the law of transitivity from the order axioms,
+    and by the properties of floor functions, in this case.
+    For \bm{$\Lambda$},
+    by the additive compatibility law from the order axioms,
+    and by the law of transitivity from the order axioms,
+    \begin{equation*}
+        \bigg[
+            \bigg \langle \frac{2}{3} + \frac{1}{3} \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{1}{3} \bigg \rangle 
+                < 
+            \bigg \langle \frac{3}{3} + \frac{1}{3} \bigg \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \bigg \langle 1 \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{1}{3} \bigg \rangle 
+                < 
+            \bigg \langle 1 + 1 \bigg \rangle
+        \bigg]
+    \end{equation*}
+    Thus, \bm{$\Lambda = 1$}, 
+    by the properties of floor functions.
+    For \bm{$\Delta$},
+    by the additive compatibility law from the order axioms,
+    and by the law of transitivity from the order axioms,
+    \begin{equation*}
+        \bigg[
+            \bigg \langle \frac{2}{3} + \frac{2}{3} \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{2}{3} \bigg \rangle 
+                < 
+            \bigg \langle \frac{3}{3} + \frac{2}{3} \bigg \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \bigg \langle 1 \bigg \rangle
+                \leq 
+            \bigg \langle \epsilon + \frac{2}{3} \bigg \rangle 
+                < 
+            \bigg \langle 1 + 1 \bigg \rangle
+        \bigg]
+    \end{equation*}
+    Thus, \bm{$\Delta = 1$}, 
+    by the properties of floor functions.
+    Hence, \bm{$\mathrm{A} + \Lambda + \Delta = 2$}.
+    Also, by the multiplicative compatibility law from the order axioms,
+    and by the properties of floor functions,
+    \begin{equation*}
+        \bigg[
+            \bigg \langle 3 \cdot \frac{2}{3} \bigg \rangle
+                \leq
+            \bigg \langle 3 \cdot \epsilon \bigg \rangle
+                <
+            \bigg \langle 3 \cdot 1 \bigg \rangle
+        \bigg]
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \bigg[
+            \bigg \langle 2 \bigg \rangle
+                \leq
+            \bigg \langle 3 \epsilon \bigg \rangle
+                <
+            \bigg \langle 2 + 1 \bigg \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \big \lfloor 3 \epsilon \big \rfloor
+                =
+            2
+        \bigg]
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lfloor 3 \epsilon \rfloor
+            =
+        \mathrm{A} + \Lambda + \Delta
+    }$, by the identity \bm{$2$}, in this case.
+    \\ \\
+    This completes the proof.
+\color{lightgray} \end{proof}
+
+\end{document}

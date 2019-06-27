@@ -1,0 +1,62 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2370a}]
+    Let \bm{$\lambda$} be a real number. 
+    \begin{equation*}
+        \bm{
+            \Big \lfloor \lceil \lambda \rceil \Big \rfloor 
+                = 
+            \lceil \lambda \rceil
+        }
+    \end{equation*}
+\end{theorem*}
+
+\begin{proof}
+    By the properties of ceiling functions,
+    there exists an integer \bm{$\iota$} such that
+    \bm{$\lceil \lambda \rceil = \iota$}, 
+    and by the identity \bm{$\iota$},
+    \begin{equation*}
+        \bigg \langle \lceil \lambda \rceil = \iota \bigg \rangle
+            \equiv
+        \bigg \langle 
+            \Big \lfloor \lceil \lambda \rceil \Big \rfloor
+                =
+            \big \lfloor \iota \big \rfloor
+        \bigg \rangle
+    \end{equation*}
+    \bm{$\iota$} is the largest integer that is less than or equal to \bm{$\iota$}.
+    Therefore, by the definition for the floor function
+    \bm{$\lfloor \iota \rfloor = \iota$}.
+    Hence,
+    \begin{equation*}
+        \bigg \langle \lceil \lambda \rceil = \iota \bigg \rangle
+            \land
+        \bigg \langle 
+            \Big \lfloor \lceil \lambda \rceil \Big \rfloor
+                =
+            \big \lfloor \iota \big \rfloor
+                =
+            \iota
+        \bigg \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \Big \lfloor \lceil \lambda \rceil \Big \rfloor 
+            = 
+        \lceil \lambda \rceil
+    }$, by the identity \bm{$\iota$}.
+\color{lightgray} \end{proof}
+
+\end{document}

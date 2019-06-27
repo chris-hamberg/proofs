@@ -1,0 +1,88 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2218d}] \color{black}
+    Let \bm{$\mathrm{A}$}, \bm{$\Lambda$}, and \bm{$\Delta$} be sets. 
+    \bm{$
+    \big \langle \mathrm{A} - \Delta \big \rangle
+        \cap 
+    \big \langle \Delta - \Lambda \big \rangle
+        = 
+    \varnothing
+    $}.
+\end{theorem*}
+\begin{proof} \color{black}
+    Let \bm{$\lambda$} be an element in 
+    \bm{$
+    \big \langle \mathrm{A} - \Delta \big \rangle
+        \cap 
+    \big \langle \Delta - \Lambda \big \rangle
+    $}.
+    By the definitions for set difference, and set intersection, that is
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Delta \Big \rangle
+        \bigg]
+            \land
+        \bigg[
+            \Big \langle \lambda \in \Delta \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    Since logical conjunction is associative, 
+    \bm{$\lambda$} is in \bm{$\Delta$},
+    and \bm{$\lambda$} is not in \bm{$\Delta$}. 
+    Thus, by the negation law of logic,
+    \begin{equation*}
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+            \land
+        \Big \langle \bot \Big \rangle
+            \land
+        \Big \langle \lambda \notin \Lambda \Big \rangle
+    \end{equation*}
+    This statement is \bm{$\bot$}, 
+    by the domination law for logical conjunction. 
+    And the logical identity for \bm{$\lambda \in \varnothing$} is trivially \bm{$\bot$},
+    since the empty set contains no members. 
+    Hence,
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Delta \Big \rangle
+        \bigg]
+            \land
+        \bigg[
+            \Big \langle \lambda \in \Delta \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+        \bigg]
+            \equiv
+        \Big \langle \lambda \in \varnothing \Big \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+    \big \langle \mathrm{A} - \Delta \big \rangle
+        \cap 
+    \big \langle \Delta - \Lambda \big \rangle
+        = 
+    \varnothing
+    }$,
+    by the definitions for the difference of sets, 
+    and for the intersection of sets.
+\color{lightgray} \end{proof}
+
+\end{document}

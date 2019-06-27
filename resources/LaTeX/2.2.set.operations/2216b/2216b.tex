@@ -1,0 +1,44 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2216b}] \color{black}
+    Let \bm{$\mathrm{A}$} and \bm{$\Lambda$} be sets. 
+    \bm{$
+    \mathrm{A} 
+        \subseteq 
+    \big \langle \mathrm{A} \cup \Lambda \big \rangle
+    $}.
+\end{theorem*}
+\begin{proof} \color{black}
+    Suppose there existed and element \bm{$\lambda$} such that 
+    \bm{$\lambda$} were a member of \bm{$\mathrm{A}$}.
+    It follows from the addition rule of inference that
+    \begin{equation*}
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+            \rightarrow
+        \bigg[ 
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \lor 
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    $\therefore$ by the definitons for set union and subsets,
+    \bm{$
+    \mathrm{A} 
+        \subseteq 
+    \big \langle \mathrm{A} \cup \Lambda \big \rangle
+    $}.
+\color{lightgray} \end{proof}
+
+\end{document}

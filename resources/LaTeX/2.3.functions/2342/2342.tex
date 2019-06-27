@@ -1,0 +1,163 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2342}]
+    Let \bm{$\zeta$} be a real number. 
+    \bm{$\lfloor \zeta + \frac{1}{2} \rfloor$}
+    is the closest integer to \bm{$\zeta$}, 
+    except when \bm{$\zeta$} is midway between two integers, 
+    when it is the larger of these two integers.
+\end{theorem*}
+
+\begin{proof}
+    By cases. By the properties of floor functions, 
+    there exists an integer \bm{$\lambda$} such that 
+    \begin{equation*}
+        \Big \langle \lambda \Big \rangle
+            \le 
+        \Big \langle \zeta \Big \rangle
+            < 
+        \Big \langle \lambda + 1 \Big \rangle
+    \end{equation*}
+    and 
+    \bm{$\zeta - \lfloor \zeta \rfloor = \epsilon$}.
+    \\ \\
+    \bm{$(i)$} Suppose the case in which \bm{$\zeta$} is midway between two integers, 
+    or is closest to the larger of two integers \bm{$\lambda$} and 
+    \bm{$\big \langle \lambda + 1 \big \rangle$}. 
+    Then, the inequality \bm{$\frac{1}{2} \leq \epsilon < 1$} must be true. Thus, 
+    \begin{equation*}
+        \bigg[
+            \Big \langle
+                \lambda + \frac{1}{2}
+            \Big \rangle
+                \leq 
+            \Big \langle
+                \lambda + \epsilon
+            \Big \rangle
+                <
+            \Big \langle
+                \lambda + 1
+            \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle    
+                \lambda + \frac{1}{2}
+            \Big \rangle
+                \leq
+            \Big \langle
+                \zeta
+            \Big \rangle
+                <
+            \Big \langle
+                \lambda + 1
+            \Big \rangle
+        \bigg]
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \bigg[
+            \Big \langle 
+                \lambda + 1
+            \Big \rangle
+                \leq
+            \Big \langle 
+                \zeta + \frac{1}{2}
+            \Big \rangle
+                <
+            \Big \langle
+                \lambda + 1 + \frac{1}{2}
+            \Big \rangle
+        \bigg]
+    \end{equation*}
+    Since 
+    \bm{$
+    \big \langle \lambda + 1 + \frac{1}{2} \big \rangle 
+        < 
+    \big \langle 
+        \lambda + 1 + 1
+    \big \rangle
+    $}, 
+    the integer \bm{$\lfloor \zeta + \frac{1}{2} \rfloor$} is 
+    \bm{$\big \langle \lambda + 1 \big \rangle$}, 
+    by the properties for floor functions,
+    and by the law of transitivity from the order axioms.
+    \\ \\
+    \bm{$(ii)$} Suppose the case in which \bm{$\zeta$} is closest to the integer \bm{$\lambda$}. 
+    Then the inequality \bm{$0 \leq \epsilon < \frac{1}{2}$}, 
+    must be true. Thus, 
+    \begin{equation*}
+        \bigg[
+            \Big \langle
+                \lambda + 0
+            \Big \rangle
+                \leq
+            \Big \langle
+                \lambda + \epsilon
+            \Big \rangle
+                <
+            \Big \langle
+                \lambda + \frac{1}{2}
+            \Big \rangle
+        \bigg]
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \bigg[
+            \Big \langle
+                \lambda
+            \Big \rangle
+                \leq
+            \Big \langle
+                \zeta
+            \Big \rangle
+                <
+            \Big \langle
+                \lambda + \frac{1}{2}
+            \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle
+                \lambda + \frac{1}{2}
+            \Big \rangle
+                \leq
+            \Big \langle
+                \zeta + \frac{1}{2}
+            \Big \rangle
+                <
+            \Big \langle
+                \lambda + 1
+            \Big \rangle
+        \bigg]
+    \end{equation*}
+    Since 
+    \bm{$
+    \big \langle \lambda \big \rangle 
+        \leq 
+    \big \langle \lambda + \frac{1}{2} \big \rangle
+    $},
+    the integer \bm{$\lfloor \zeta + \frac{1}{2} \rfloor$} is 
+    \bm{$\big \langle \lambda \big \rangle$}, 
+    by the properties for floor functions,
+    and by the law of transitivity from the order axioms.
+    $\therefore$
+    \bm{$\lfloor \zeta + \frac{1}{2} \rfloor$} 
+    is the closest integer to \bm{$\zeta$}, 
+    except when \bm{$\zeta$} is midway between two integers, 
+    when it is the larger of these two integers.
+\color{lightgray} \end{proof}
+
+\end{document}

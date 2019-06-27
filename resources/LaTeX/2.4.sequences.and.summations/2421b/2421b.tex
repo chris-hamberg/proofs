@@ -1,0 +1,89 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2421b}]
+    The summation of natural numbers from \bm{$1$} to \bm{$\lambda$} 
+    is 
+    \begin{equation*}
+        \bm{
+            \frac{ \lambda [ \lambda + 1 ]}{2}
+        }
+    \end{equation*}
+\end{theorem*}
+
+\begin{proof}
+    It is possible to derive the closed formula for the summation of natural numbers
+    from \bm{$1$} to \bm{$\lambda$} 
+    from the summation of odd numbers from \bm{$1$} to \bm{$\lambda$}.
+    By the definition for odd numbers, 
+    an integer \bm{$\phi$} exists such that,
+    by Theorem 2.4.21a
+    \begin{equation*}
+        \sum_{\phi=1}^\lambda 2 \phi - 1 
+            = 
+        \lambda ^2
+    \end{equation*}
+    By the associative law for addition from the field axioms,
+    \begin{equation*}
+        \bigg \langle \sum_{\phi=1}^\lambda 2 \phi - 1 \bigg \rangle
+            \equiv
+        \bigg \langle 
+            \sum_{\phi=1}^\lambda 2 \phi 
+                +
+            \sum_{\phi=1}^\lambda - 1
+        \bigg \rangle
+            \equiv
+        \bigg \langle 
+            -\lambda 
+                +
+            \sum_{\phi=1}^\lambda 2 \phi 
+        \bigg \rangle
+    \end{equation*}
+    Thus, by that identity, and by the inverse law for addition from the field axioms,
+    \begin{equation*}
+        \Bigg\{
+            \bigg \langle \lambda ^2 \bigg \rangle
+                = 
+            \bigg \langle 
+                -\lambda 
+                    + 
+                \sum_{\phi=1}^\lambda 2 \phi 
+            \bigg \rangle
+        \Bigg\}
+            \equiv 
+        \Bigg\{
+            \bigg \langle \sum_{\phi=1}^\lambda 2 \phi \bigg \rangle 
+                = 
+            \bigg \langle \lambda ^2 + \lambda \bigg \rangle 
+                = 
+            \lambda \bigg \langle \lambda + 1 \bigg \rangle
+        \Bigg\}
+    \end{equation*}
+    By the distributive laws for real numbers from the field axioms, that is
+    \begin{equation*}
+        2 \sum_{\phi=1}^\lambda \phi 
+            = 
+        \lambda \Big \langle \lambda + 1 \Big \rangle
+    \end{equation*} 
+    And by the inverse law for multiplication from the field axioms,
+    \begin{equation*}
+        \bm{
+            \sum_{\phi=1}^\lambda \phi 
+                = 
+            \frac{ \lambda [ \lambda + 1 ] }{2}
+        }
+    \end{equation*}
+\color{lightgray} \end{proof}
+
+\end{document}

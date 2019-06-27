@@ -1,0 +1,1275 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{bm}
+\usepackage{xcolor}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+\newtheorem*{lemma*}{Lemma}
+\newtheorem{lemma}{Lemma}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\ord}{\langle}{\rangle}
+
+\begin{document}
+
+
+% ============================== Theorem 2.4.26 ================================
+\begin{theorem*}[\textbf{2.4.26}]
+    Let m be a positive integer such that 
+    \bm{$\big \lfloor \sqrt[3] \phi \big \rfloor = \lambda$}.
+    The closed form formula for 
+    \bm{
+        $\Phi = \sum_{\iota=0}^\phi 
+                \big \lfloor \sqrt[3] \iota \big \rfloor
+    $} 
+    is 
+    \begin{equation*}
+        \bm{
+            \frac{
+                \lambda ^3 - \lambda ^2
+            }
+            {4}
+            \Bigg[ 3 \lambda + 1 \Bigg]
+                + 
+            \lambda
+            \Bigg[
+                \phi - \lambda ^3 + 1
+            \Bigg]
+        }
+    \end{equation*}
+\end{theorem*}
+\begin{proof}
+    Let \bm{$\mathrm{X}$} be the function 
+    \bm{$\mathrm{X}: \mathbb{N} \rightarrow \mathbb{N}$}
+    such that \bm{$\mathrm{X}[\beta] = 3 \beta ^2 + 3 \beta + 1$}.
+    By the associative law for addition from the field axioms,
+    \begin{equation*}
+        \Theta
+            =
+        \sum_{\iota=0}^{\lambda - 1}
+                \big \lfloor \sqrt[3] \iota \big \rfloor
+            =
+    \end{equation*}
+    \begin{equation*}
+        \Bigg(
+            \sum_{ \iota = 1 }^{ \mathrm{X} [\beta_0] }
+                \big \lfloor \sqrt[3] \iota \big \rfloor_0
+        \Bigg)
+            +
+        \Bigg(
+            \sum_{
+                \iota = 1 + \mathrm{X}[\beta_0]
+            }^{ 
+                \mathrm{X}[\beta_0] + \mathrm{X}[\beta_1]
+            }
+                \big \lfloor \sqrt[3] \iota \big \rfloor_1
+        \Bigg)
+            +
+        \dots
+            +
+        \Bigg(
+            \sum_{
+                \iota = 1 + \dots 
+                    + 
+                \mathrm{X}[\beta_{\lambda - 2}]
+            }^{ 
+                0 + \dots
+                    +
+                \mathrm{X}[\beta_{ \lambda - 1 }]
+            }
+                \big \lfloor \sqrt[3] \iota \big \rfloor_{ \langle \lambda - 1 \rangle }
+        \Bigg)
+    \end{equation*}
+    \bm{$\big \lfloor \sqrt[3] \iota \big \rfloor_\tau$}
+    is the unique integer \bm{$\beta_\tau$},
+    for \bm{$\tau = 0$} to 
+    \bm{$\big \langle \lambda - 1 \big \rangle$}.
+    Hence, by Lemma 2.4.4,
+    by the partitioning from above, 
+    and shifting the index of summation,
+    \begin{equation*}
+        \Theta
+            =
+        \Big \langle \beta_0 \mathrm{X} [\beta_0] \Big \rangle
+            +
+        \Big \langle \beta_1 \mathrm{X} [\beta_1] \Big \rangle
+            + 
+        \dots 
+            +
+        \Big \langle 
+            \beta_{\langle \lambda - 1 \rangle}
+            \mathrm{X} [\beta_{\langle \lambda - 1 \rangle}]
+        \Big \rangle
+    \end{equation*}
+    By the distributive law for real numbers from the field axioms,
+    and the commutative law for addition, that series is
+    three times the finite summation of cubes,
+    plus three times the finite summation of squares,
+    plus the finite summation of integers from zero to lambda minus one.
+    \begin{equation*}
+        \Theta 
+            = 
+        \sum_{\tau=0}^{\lambda - 1} 3 \tau ^3
+            +
+        \sum_{\tau=0}^{\lambda - 1} 3 \tau ^2
+            +
+        \sum_{\tau=0}^{\lambda - 1} \tau
+    \end{equation*}
+    Lambda occurs exactly  
+    \bm{$\big \langle \phi - \lambda^3 + 1 \big \rangle$}
+    times in big phi. 
+    Thus, by Lemma 2.4.5
+    and the distributive law for real numbers from the field axioms,
+    \begin{equation*}
+        \bm{
+            \Phi
+                =
+            \frac{
+                \lambda ^3 - \lambda ^2
+            }
+            {4}
+            \Bigg[ 3 \lambda + 1 \Bigg]
+                + 
+            \lambda
+            \Bigg[
+                \phi - \lambda ^3 + 1
+            \Bigg]
+        }
+    \end{equation*}
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+% ================================ Lemma 2.4.5 =================================
+\begin{lemma*}[\textbf{2.4.5}]
+    Let \bm{$\iota$} be a positive integers such that
+    \bm{$\big \lfloor \sqrt[3] \iota \big \rfloor = \lambda$}.
+    \begin{equation*}
+        \bm{
+            \Bigg(
+                3 \sum_{\phi=0}^{\lambda - 1} \phi ^3
+            \Bigg)
+                +
+            \Bigg(
+                3 \sum_{\phi=0}^{\lambda - 1} \phi ^2
+            \Bigg)
+                +
+            \Bigg(
+                \sum_{\phi=0}^{\lambda - 1} \phi
+            \Bigg)
+                \equiv
+            \frac{
+                \lambda ^3 - \lambda ^2
+            }
+            {4}
+            \Bigg[ 3 \lambda + 1 \Bigg]
+        }
+    \end{equation*}
+\end{lemma*}
+\begin{proof}
+    Let \bm{$\Phi$} be three times the summation of cubes from zero to lambda minus one.
+    Let \bm{$\mathrm{X}$} be three times the summation of squares from zero to lambda minus one.
+    Let \bm{$\Omega$} be the summation of integers from zero to lambda minus one.
+    By theorems 2.4.22 and 2.4.21b, 
+    by the closed formula for the summation of cubes,
+    and by shifting the index of summation,
+    \begin{equation*}
+        \Bigg \{
+            \Phi + \mathrm{X} + \Omega
+        \Bigg \}
+            \equiv
+        3
+        \Bigg[
+            \frac{
+                \lambda ^2
+                \big[ \lambda - 1 \big] ^2
+            }
+            {4}
+        \Bigg]
+            +
+        3
+        \Bigg[
+            \frac{
+                \lambda 
+                \big[ \lambda - 1 \big]
+                \big[ 2 \langle \lambda - 1 \rangle + 1 \big]
+            }
+            {6}
+        \Bigg]
+            +
+        \Bigg[
+            \frac{\lambda \big [ \lambda - 1 ]}
+            {2}
+        \Bigg]
+    \end{equation*} 
+    By the multiplicative identity law from the field axioms,
+    \begin{equation*}
+        \bigg \langle 
+            \frac{3}{6}
+        \bigg \rangle
+             = 
+        \bigg \langle
+            \frac{2 \cdot 3}{2 \cdot 6} 
+        \bigg \rangle 
+            = 
+        \bigg \langle
+            \frac{6}{12} 
+        \bigg \rangle 
+            = 
+        \bigg \langle
+            \frac{2}{4}
+        \bigg \rangle
+    \end{equation*}
+    \begin{equation*}
+        \bigg \langle 
+            \frac{1}{2}
+        \bigg \rangle
+            =
+        \bigg \langle
+            \frac{2 \cdot 1}{2 \cdot 2}
+        \bigg \rangle
+            =
+        \bigg \langle 
+            \frac{2}{4}
+        \bigg \rangle
+    \end{equation*}
+    Thus, by the identities for \bm{$\mathrm{X}$} and \bm{$\Omega$},
+    factoring 
+    \bm{$\frac{1}{4} \lambda \big \langle \lambda - 1 \big \rangle$}
+    out from the sum of \bm{$\Phi$}, \bm{$\mathrm{X}$}, and \bm{$\Omega$},
+    by the distributive laws from real numbers,
+    \begin{equation*}
+        \Bigg \{
+            \Phi + \mathrm{X} + \Omega
+        \Bigg \}
+                \equiv
+            \frac{
+                \lambda \big \langle \lambda - 1 \big \rangle
+            }
+            {4}
+            \Bigg[
+                3 \lambda \big[ \lambda - 1 \big]
+                    +
+                2 \bigg \langle 
+                    2 \big[ \lambda - 1 \big] + 1
+                \bigg \rangle
+                    +
+                2
+            \Bigg]    
+    \end{equation*}
+    By the distributive law for real numbers, 
+    and by the inverse law for addition from the field axioms,
+    \begin{equation*}
+        \bigg \{
+            2 \Big \langle 2 \big[ \lambda - 1 \big] + 1 \Big \rangle + 2
+        \bigg \}
+            =
+        \bigg \{
+            4 \big[ \lambda - 1 \big] + 2 + 2
+        \bigg \}
+            =
+        \bigg \{
+            4 \lambda - 4 + 4
+        \bigg \}
+            = 
+        \bigg \{
+            4 \lambda
+        \bigg \}
+    \end{equation*}
+    Hence, by the identity four lambda,
+    \begin{equation*}
+        \Bigg \{
+            \Phi + \mathrm{X} + \Omega
+        \Bigg \}
+            \equiv
+        \frac{
+            \lambda \big \langle \lambda - 1 \big \rangle
+        }
+        {4}
+        \Bigg[
+            3 \lambda \big[ \lambda - 1 \big]
+                +
+            4 \lambda
+        \Bigg]
+    \end{equation*}
+    Factoring out lambda and distributing three,
+    by the distributive laws for real numbers,
+    \begin{equation*}
+        \Bigg\{
+            \Phi + \mathrm{X} + \Omega
+        \Bigg\}
+                \equiv
+            \frac{
+                \lambda ^2 \big \langle \lambda - 1 \big \rangle
+            }
+            {4}
+            \Bigg[
+                3 \lambda - 3 + 4
+            \Bigg]
+    \end{equation*}
+    The proof is complete, 
+    by the distributive law for real numbers distributing
+    the second power of lambda,
+    and the inverse law for addition from the field axioms.
+\color{lightgray}\end{proof}
+\pagebreak
+
+
+% =============================== Theorem 1.6.25 ===============================
+\begin{theorem*}[\textbf{1.6.25}]
+    There does not exist a rational number \bm{$\rho$} such that 
+    \bm{$\rho^3 + \rho + 1 = 0$}.
+\end{theorem*}
+\begin{proof}
+    For the purpose of contradiction, 
+    assume that there exists a rational number \bm{$\rho$} satisfying the equation \bm{$\rho^3 + \rho + 1 = 0$}. 
+    By the definition for rational numbers, 
+    there exist integers \bm{$\alpha$} and \bm{$\beta$} (\bm{$\beta$} is nonzero,) such that 
+    \begin{equation*}
+        \left( 
+            \rho ^3 + \rho + 1 
+        \right) 
+            = 
+        \left( 
+            \frac{\alpha^3}{\beta^3} + \frac{\alpha}{\beta} + 1 
+        \right) 
+            = 
+        0
+    \end{equation*}
+    By the additive equality property for equations, that is
+    \begin{equation*}
+        \frac{\alpha^3}{\beta^3} 
+            = 
+        \left(
+            -1 - \frac{\alpha}{\beta}
+        \right)
+    \end{equation*}
+    It is possible to derive \bm{$\rho^2$} from \bm{$\rho^3$} 
+    by multiplying \bm{$\rho^3$} by the multiplicative inverse for \bm{$\rho$}. 
+    By the multiplicative equality property for equations,
+    \begin{equation*}
+        \frac{\alpha^3}{\beta^3} \cdot \frac{\beta}{\alpha}
+            =
+        \left(
+            -1 - \frac{\alpha}{\beta}
+        \right) 
+            \cdot 
+        \frac{\beta}{\alpha} 
+            =
+        \left\{
+            \frac{-\beta}{\alpha} 
+                - 
+            \frac{\alpha \beta}{\beta \alpha}
+        \right\}
+    \end{equation*}
+    Thus, by the field axioms, \bm{$\rho^2$} is
+    \begin{equation*}
+        \left\{
+            \frac{-\beta}{\alpha} 
+                - 
+            \frac{\alpha \beta}{\beta \alpha}
+        \right\}
+            = 
+        \left(
+            \frac{-\beta - \alpha}{\alpha}
+        \right)
+            = 
+        -1 
+            \cdot 
+        \left( 
+            \frac{\beta + \alpha}{\alpha}
+        \right)
+    \end{equation*}
+    Applying the square root to \bm{$\rho^2$} gives the identity for \bm{$\rho$}
+    \begin{equation*}
+        \sqrt{ \frac{\alpha^2}{\beta^2} } 
+            =
+        \sqrt{ -1 \cdot \left( \frac{\beta + \alpha}{\alpha} \right) } 
+            =
+        i \cdot \sqrt{ \left( \frac{\beta + \alpha}{\alpha} \right) }
+    \end{equation*}
+    \bm{$\rho$} is imaginary and rational. 
+    Thus, the negation of the hypothesis implies a contradiction. 
+    In other words, \bm{$\rho$} does not exist.
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+% ============================== Theorem 2.3.70e ===============================
+\begin{theorem*}[\textbf{2.3.70e}]
+    Let \bm{$\lambda$}, and \bm{$\iota$} be real numbers.
+    \begin{equation*}
+        \bm{
+            \big \lfloor \lambda \rfloor 
+                + 
+            \big \lfloor \iota \rfloor  
+                + 
+            \big \lfloor \lambda + \iota \rfloor 
+                \le 
+            \big \lfloor 2 \lambda \rfloor 
+                + 
+            \big \lfloor 2 \iota \rfloor
+        }
+    \end{equation*}
+\end{theorem*}
+\begin{proof}
+    By cases.
+    There exist real numbers \bm{$\epsilon$} and \bm{$\sigma$} such that
+    \bm{$\lambda - \lfloor \lambda \rfloor = \epsilon$}. 
+    By the property for floor functions,
+    \bm{$\lfloor \lambda \rfloor = \lambda - \epsilon$},
+    if and only if
+    \begin{equation*}
+        \Big \langle \lambda - \epsilon \Big \rangle
+            \leq 
+        \Big \langle \lambda \Big \rangle
+            < 
+        \Big \langle \lambda - \epsilon + 1 \Big \rangle
+    \end{equation*}
+    Without loss of generality with respect to \bm{$\iota$}, 
+    by the additive compatibility law from the order axioms,
+    there exists an integer 
+    \bm{$
+        \lfloor \lambda + \iota \rfloor 
+            = 
+        \big \langle \lambda - \epsilon \big \rangle
+            +
+        \big \langle \iota - \sigma \big \rangle$},
+    if and only if
+    \begin{equation*}
+        \Big \langle
+            \lambda - \epsilon
+                + 
+            \iota - \sigma
+        \Big \rangle
+            \leq 
+        \Big \langle \lambda + \iota \Big \rangle
+            < 
+        \Big \langle
+            \lambda - \epsilon
+                + 
+            \iota - \sigma
+                + 
+            1
+        \Big \rangle
+    \end{equation*}
+    Thus, by the identities for the floor of \bm{$\lambda$},
+    the floor of \bm{$\iota$}, 
+    and the floor of the sum of \bm{$\lambda$} and \bm{$\iota$},
+    we deduce 
+    \begin{equation*}
+        \big \lfloor \lambda \big \rfloor
+            +
+        \big \lfloor \iota \big \rfloor
+            +
+        \big \lfloor \lambda + \iota \big \rfloor
+            =
+        \Big[
+            \big \langle \lambda - \epsilon \big \rangle
+                +
+            \big \langle \iota - \sigma \big \rangle
+                +
+            \big \langle \lambda - \epsilon + \iota - \sigma \big \rangle
+        \Big]
+            =
+    \end{equation*}
+    \begin{equation*}
+        2 \big \langle \lambda + \iota \big \rangle 
+            -
+        2 \big \langle \epsilon + \sigma \big \rangle
+    \end{equation*}
+    Now, by multiplicative compatibility, 
+    and transitivity from the order axioms,
+    \begin{equation*}
+        \Big \langle \lambda - \epsilon \Big \rangle
+            \leq 
+        \Big \langle \lambda \Big \rangle
+            < 
+        \Big \langle \lambda - \epsilon + 1 \Big \rangle
+            \equiv
+        \Big \langle 2 \lambda - 2\epsilon \Big \rangle
+            \leq 
+        \Big \langle 2 \lambda \Big \rangle
+            < 
+        \Big \langle 2 \lambda - 2\epsilon + 2 \Big \rangle
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \Big \langle 2 \big[ \lambda - \epsilon \big] \Big \rangle
+            \leq
+        \Big \langle 2 \lambda \Big \rangle
+            \leq
+        \Big \langle 2 \big[ \lambda - \epsilon \big] + 1 \Big \rangle
+    \end{equation*}
+    So \bm{$
+        \big \lfloor 2 \lambda \big \rfloor
+    $}
+    is the integer
+    $(i)$ \bm{$
+        2 \big \langle \lambda - \epsilon \big \rangle
+    $}, 
+    or $(ii)$ \bm{$
+        2 \big \langle \lambda - \epsilon \big \rangle + 1
+    $}, by the properties for the floor function.
+    \\ \\
+    \bm{$(i)$} Let \bm{$
+        \big \lfloor 2 \lambda \big \rfloor 
+            = 
+        2 \big \langle \lambda - \epsilon \big \rangle
+    $}. 
+    Without loss of generality with respect to \bm{$\iota$},
+    \begin{equation*}
+        \Big \{ 
+            \big \lfloor 2 \lambda \big \rfloor 
+                + 
+            \big \lfloor 2 \iota \big \rfloor
+        \Big \}
+            =
+        \Big \{
+            2 \big \langle \lambda - \epsilon \big \rangle 
+                + 
+            2 \big \langle \iota - \sigma \big \rangle
+        \Big \}
+            =
+        \Big \{
+            2 \big \langle \lambda + \iota \big \rangle
+                - 
+            2 \big \langle \epsilon + \sigma \big \rangle
+        \Big \}
+            =
+    \end{equation*}
+    \begin{equation*}
+        \Big \{
+            \big \lfloor \lambda \big \rfloor
+                +
+            \big \lfloor \iota \big \rfloor
+                +
+            \big \lfloor \lambda + \iota \big \rfloor
+        \Big \}
+    \end{equation*}
+    \bm{$(ii)$} Let \bm{$
+    \big \lfloor 2 \lambda \big \rfloor
+        = 
+    2 \big \langle \lambda - \epsilon \big \rangle + 1
+    $}.
+    Without loss of generality with respect to \bm{$\iota$},
+    \begin{equation*}
+        \Big \{
+            \big \lfloor 2 \lambda \big \rfloor 
+                + 
+            \big \lfloor 2 \iota \big \rfloor
+        \Big \}
+            =
+        \Big \{
+            2 \big \langle \lambda - \epsilon \big \rangle + 1 
+                + 
+            2 \big \langle \iota - \sigma \big \rangle + 1
+        \Big \}
+            =
+        \Big \{
+            2 \big \langle \lambda + \iota + 1 \big \rangle 
+                - 
+            2 \big \langle \epsilon + \sigma \big \rangle
+        \Big \}
+    \end{equation*}
+    \begin{equation*}
+            >
+        \Big\{
+            \big \lfloor \lambda \big \rfloor
+                +
+            \big \lfloor \iota \big \rfloor
+                +
+            \big \lfloor \lambda + \iota \big \rfloor
+        \Big\}
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \big \lfloor \lambda \rfloor 
+            + 
+        \big \lfloor \iota \rfloor  
+            + 
+        \big \lfloor \lambda + \iota \rfloor 
+            \le 
+        \big \lfloor 2 \lambda \rfloor 
+            + 
+        \big \lfloor 2 \iota \rfloor 
+    }$.
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+% =============================== Theorem 1.6.8 ================================
+\begin{theorem*}[\textbf{1.6.8}]
+    If \bm{$\eta$} is a perfect square, 
+    then \bm{$\eta + 2$} is not a perfect square.
+\end{theorem*}
+\begin{proof}
+    Let \bm{$\eta$} be a perfect square. 
+    Assume \bm{$\eta + 2$} is a perfect square for the purpose of contradiction. 
+    By the definition of perfect square, 
+    \bm{$\sqrt{\eta}$} has to be an integer, 
+    and by our assumption there exists an integer \bm{$\zeta$} such that 
+    \bm{$\zeta^2 = \eta + 2$}. 
+    So the equivalence 
+    \bm{$\zeta^2 - \big \langle \sqrt{\eta} \big \rangle ^2 = 2$} must be the difference of squares 
+    \bm{$ \big \langle \zeta + \sqrt{\eta} \big \rangle 
+    \big \langle \zeta - \sqrt{\eta} \big \rangle = 2$}. 
+    Since integers are closed on addition and subtraction, 
+    it follows that the factors of \bm{$2$}, 
+    \bm{$\big \langle \zeta + \sqrt{\eta} \big \rangle$} and 
+    \bm{$\big \langle \zeta - \sqrt{\eta} \big \rangle$}, 
+    have to be integers. 
+    Because \bm{$2$} is prime, those integer factors can only be elements in the set
+    \bm{$\{-2, -1, 1, 2\}$}. Thus, there are exactly two possibilities:
+    \\ \\ \indent \indent \bm{$(i)$} $\zeta ^2 - \big \langle \sqrt{\eta} \big \rangle ^2 = 
+                            \big \langle 2 \big \rangle \big \langle 1 \big \rangle$,
+    \\ \indent \indent or \bm{$(ii)$} $\zeta ^2 - \big \langle \sqrt{\eta} \big \rangle ^2 = 
+                            \big \langle -1 \big \rangle \big \langle -2 \big \rangle.$
+    \\ \\ In case \bm{$(i)$}, without loss of generality, 
+    we have a system of linear equations in two variables \bm{$\zeta$} and \bm{$\sqrt{\eta}$}: 
+    \begin{equation*}
+        \zeta + \sqrt{\eta} = 2
+    \end{equation*}
+    \begin{equation*}
+        \zeta - \sqrt{\eta} = 1
+    \end{equation*}
+    The matrix of coefficients 
+    $\bm{\Psi =} \left[\begin{smallmatrix}
+        \bm{1} & \bm{1} \\
+        \bm{1} & \bm{-1} 
+    \end{smallmatrix}\right]$, 
+    the inverse for which is
+    $\bm{\Psi^{-1} =} \left[\begin{smallmatrix}
+        \bm{0.5} & \bm{0.5} \\
+        \bm{0.5} & \bm{-0.5}
+    \end{smallmatrix}\right]$. 
+    The product of \bm{$\Psi^{-1}$} and the matrix of solutions yields \bm{$\zeta = 1.5$}, 
+    which is not in \bm{$\mathbb{Z}$}; 
+    contradicting the assumption that \bm{$\zeta^2$} was a perfect square.
+    \\ \\ 
+    In case \bm{$(ii)$}, 
+    we are presented with a similar system of linear equations. 
+    The only difference in this system compared to \bm{$(i)$} is the matrix of solutions 
+    $\bm{\Phi =} \left[\begin{smallmatrix}
+        \bm{-1} \\
+        \bm{-2}
+    \end{smallmatrix}\right]$. 
+    \bm{$\Psi^{-1}\Phi$} yields \bm{$\zeta = -1.5$}, 
+    which is not in \bm{$\mathbb{Z}$}, 
+    a contradiction. 
+    Thus, the assumption that \bm{$\zeta^2$} was a perfect square must be false in this case, as well.
+    \\ \\
+    Since the assumption proves false in all possible cases, 
+    it is not possbile that both \bm{$\eta + 2$}, and \bm{$\eta$} are perfect squares.
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+% ============================== Theorem 2.3.71b ===============================
+\begin{theorem*}[\textbf{2.3.71b}]
+    Let \bm{$\lambda$} be a positive real number.
+    \begin{equation*}
+        \bm{
+            \bigg \lceil 
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil 
+                = 
+            \bigg \lceil \sqrt{ \strut \lambda } \bigg \rceil
+        }
+    \end{equation*}
+\end{theorem*}
+\begin{proof}
+    By the properties for ceiling functions,
+    there exists an integer
+    \bm{$\big \lceil \sqrt{ \lceil \lambda \rceil} \big \rceil$}
+    such that
+    \bm{$
+        \big \lceil \sqrt{ \lambda } \big \rceil
+            =
+        \big \lceil \sqrt{ \lceil \lambda \rceil} \big \rceil$
+    },
+    if and only if
+    \begin{equation*}
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+                -
+            1
+        \bigg \rangle
+            <
+        \bigg \langle
+            \sqrt{ \strut \lambda }
+        \bigg \rangle
+            \leq
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+        \bigg \rangle
+    \end{equation*}
+    By the multiplicative compatibility law from the order axioms, that is
+    \begin{equation*}
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+                -
+            1
+        \bigg \rangle
+            ^2
+            <
+        \bigg \langle
+            \lambda
+        \bigg \rangle
+            \leq
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+        \bigg \rangle
+            ^2
+    \end{equation*}
+    \bm{$\big \lceil \lambda \big \rceil$} is the smallest integer that is greater than or equal to \bm{$\lambda$},
+    so by the definition of the ceiling function, 
+    \bm{$\lambda \leq \big \lceil \lambda \big \rceil$}.
+    Also, 
+    \bm{$\big \lceil \sqrt{ \lceil \lambda \rceil} \big \rceil ^2$}
+    is an integer by the definition of floor functions,
+    since integers are closed under multiplication.
+    Hence,
+    \bm{$
+        \big \lceil \lambda \big \rceil
+            \leq
+        \big \lceil \sqrt{ \lceil \lambda \rceil} \big \rceil ^2
+    $}.
+    So by the transitivity law from the order axioms,
+    \begin{equation*}
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+                -
+            1
+        \bigg \rangle
+            ^2
+            <
+        \bigg \langle
+            \lambda
+        \bigg \rangle
+            \leq
+        \bigg \langle
+            \big \lceil \lambda \big \rceil
+        \bigg \rangle
+            \leq
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+        \bigg \rangle
+            ^2
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+                -
+            1
+        \bigg \rangle
+            ^2
+            <
+        \bigg \langle
+            \big \lceil \lambda \big \rceil
+        \bigg \rangle
+            \leq
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+        \bigg \rangle
+            ^2
+    \end{equation*}
+    By the multiplicative compatibility law from the order axioms,
+    the following is an equivalent statement,
+    \begin{equation*}
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+                -
+            1
+        \bigg \rangle
+            <
+        \bigg \langle
+            \sqrt{ \strut \big \lceil \lambda \big \rceil }
+        \bigg \rangle
+            \leq
+        \bigg \langle
+            \bigg \lceil
+                \sqrt{ \strut \big \lceil \lambda \big \rceil }
+            \bigg \rceil
+        \bigg \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \bigg \lceil 
+            \sqrt{ \strut \big \lceil \lambda \big \rceil }
+        \bigg \rceil 
+            = 
+        \bigg \lceil \sqrt{ \strut \lambda } \bigg \rceil
+    }$, by the properties of ceiling functions.
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+% ============================== Theorem 2.3.67b ===============================
+\begin{theorem*}[\textbf{2.3.67b}]
+    Suppose that \bm{$\mathrm{A}$}, and \bm{$\Lambda$} are sets with universal set \bm{$\Omega$}. 
+    Let \bm{$\lambda_{\mathrm{A} \cup \Lambda}$} be the characteristic function 
+    \bm{$\lambda_{\mathrm{A} \cup \Lambda} : \Omega \rightarrow \{0, 1\}$},
+    let \bm{$\lambda_{\mathrm{A}}$} be the characteristic function 
+    \bm{$\lambda_{\mathrm{A}} : \Omega \rightarrow \{0, 1\}$},
+    and let \bm{$\lambda_{\Lambda}$} be the characteristic function 
+    \bm{$\lambda_{\Lambda}: \Omega \rightarrow \{0, 1\}$}.
+    \begin{equation*}
+        \bm{
+            \lambda_{\mathrm{A} \cup \Lambda} \big[ \iota \big] 
+                = 
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                + 
+            \lambda_{\Lambda} \big[ \iota \big] 
+                - 
+            \lambda_{\mathrm{A}} \big[ \iota \big]
+                \times 
+            \lambda_{\Lambda} \big[ \iota \big]
+        }
+    \end{equation*}
+\end{theorem*}
+\begin{proof}
+    By cases. There are two major cases under consideration.
+    \\ \\
+    \bm{$(i)$} Assume \bm{$\iota$} is not an element in \bm{$\mathrm{A} \cup \Lambda$}. 
+    Note that, by the definition for characteristic functions, 
+    \bm{$\lambda_{\mathrm{A} \cup \Lambda}\big[ \iota \big] = 0$}.
+    Now, by the definition for set union 
+    \bm{$\iota$} is in neither \bm{$\mathrm{A}$} nor \bm{$\Lambda$}.
+    So \bm{$\lambda_{\mathrm{A}} \big[ \iota \big] = 0$}, 
+    and \bm{$\lambda_{\Lambda} \big[ \iota \big] = 0$}. 
+    Hence,
+    \begin{equation*}
+        \bigg \langle
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                + 
+            \lambda_{\Lambda} \big[ \iota \big] 
+                - 
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                \times 
+            \lambda_{\Lambda} \big[ \iota \big] 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            0 + 0 - 0 \times 0 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            0
+        \bigg \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lambda_{\mathrm{A} \cup \Lambda} \big[ \iota \big] 
+            = 
+        \lambda_{\mathrm{A}} \big[ \iota \big] 
+            + 
+        \lambda_{\Lambda} \big[ \iota \big] 
+            - 
+        \lambda_{\mathrm{A}} \big[ \iota \big]
+            \times 
+        \lambda_{\Lambda} \big[ \iota \big]
+    }$.
+    \\ \\
+    \bm{$(ii)$} Assume \bm{$\iota$} is an element in \bm{$\mathrm{A} \cup \Lambda$}. 
+    By the definition for characteristic functions 
+    \bm{$\lambda_{\mathrm{A} \cup \Lambda} \big[ \iota \big] = 1$}. 
+    Also, by the definition for set union 
+    \begin{equation*}        
+        \Big \langle \iota \in \mathrm{A} \Big \rangle 
+            \lor 
+        \Big \langle \iota \in \Lambda \Big \rangle
+    \end{equation*}
+    There are three subcases. 
+    \\ \\
+    \bm{$(a)$} Suppose \bm{$\iota$} is an element in \bm{$\mathrm{A}$}, but not in \bm{$\Lambda$}.
+    By the definition for characteristic functions 
+    \bm{$\lambda_{\mathrm{A}} \big[ \iota \big] = 1$}, 
+    and \bm{$\lambda_{\Lambda} \big[ \iota \big] = 0$}. 
+    Thus,
+    \begin{equation*}
+        \bigg \langle
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                + 
+            \lambda_{\Lambda} \big[ \iota \big] 
+                - 
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                \times 
+            \lambda_{\Lambda} \big[ \iota \big] 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            1 + 0 - 1 \times 0 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            1
+        \bigg \rangle
+    \end{equation*} 
+    \bm{$(b)$} Suppose \bm{$\iota$} is not an element in \bm{$\mathrm{A}$}, 
+    but is an element in \bm{$\Lambda$}. 
+    Without loss of generality this case has the same result as case $(a)$.
+    \\ \\
+    \bm{$(c)$} Suppose \bm{$\iota$} is in the intersection of \bm{$\mathrm{A}$} and \bm{$\Lambda$}.
+    \begin{equation*}
+        \bigg \langle
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                + 
+            \lambda_{\Lambda} \big[ \iota \big] 
+                - 
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                \times 
+            \lambda_{\Lambda} \big[ \iota \big] 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            1 + 1 - 1 \times 1 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            1
+        \bigg \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lambda_{\mathrm{A} \cup \Lambda} \big[ \iota \big] 
+            = 
+        \lambda_{\mathrm{A}} \big[ \iota \big] 
+            + 
+        \lambda_{\Lambda} \big[ \iota \big] 
+            - 
+        \lambda_{\mathrm{A}} \big[ \iota \big]
+            \times 
+        \lambda_{\Lambda} \big[ \iota \big]
+    }$.
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+% =============================== Theorem 2.2.24 ===============================
+\begin{theorem*}[\textbf{2.2.24}] \color{black}
+    Let \bm{$\mathrm{A}$}, \bm{$\Lambda$}, and \bm{$\Delta$} be sets. 
+    \begin{equation*}
+        \bm{
+            \Big \langle \mathrm{A} - \Lambda \Big \rangle - \Delta 
+                = 
+            \Big \langle \mathrm{A} - \Delta \Big \rangle 
+                - 
+            \Big \langle \Lambda - \Delta \Big \rangle
+        }
+    \end{equation*}
+\end{theorem*}
+\begin{proof} \color{black}
+    Let \bm{$\lambda$} be an element in 
+    \bm{$
+    \big \langle \mathrm{A} - \Lambda \big \rangle - \Delta 
+    $}. 
+    By the definition for set difference,
+    \begin{equation*} %\color{gray}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+        \bigg]
+            \land
+        \Big \langle \lambda \notin \Delta \Big \rangle
+    \end{equation*}
+    Note that, by the indentity law for logical disjunction, 
+    \bm{$
+    \lambda \notin \Lambda
+        \equiv 
+    \lambda \notin \Lambda
+        \lor 
+    \bot
+    $}.
+    And since
+    \bm{$
+    \lambda \in \Delta
+        \equiv 
+    \bot
+    $},
+    by definition,
+    it follows that
+    \begin{equation*} %\color{gray}
+        \Big \langle \lambda \notin \Lambda \Big \rangle
+            \equiv
+        \bigg[
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+                \lor
+            \Big \langle \bot \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+                \lor
+            \Big \langle \lambda \in \Delta \Big \rangle
+        \bigg]
+    \end{equation*}
+    Moreover, by the double negation law of logic, and by DeMorgans laws,
+    \begin{equation*} %\color{gray}
+        \Big \langle \lambda \notin \Lambda \Big \rangle
+            \equiv
+        \lnot \Bigg\{
+            \lnot \bigg[
+                \Big \langle \lambda \notin \Lambda \Big \rangle
+                    \lor
+                \Big \langle \lambda \in \Delta \Big \rangle
+            \bigg]
+        \Bigg\}
+            \equiv
+        \lnot \bigg[
+            \Big \langle \lambda \in \Lambda \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Delta \Big \rangle
+        \bigg]
+    \end{equation*}
+    Thus, the proposition
+    \bm{$
+    \lambda \in
+    \big \langle \mathrm{A} - \Lambda \big \rangle - \Delta 
+    $},
+    is equivalent to
+    \begin{equation*} %\color{gray}
+        \Bigg\{
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+            \land
+        \lnot \bigg[
+            \Big \langle \lambda \in \Lambda \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Delta \Big \rangle
+        \bigg]
+        \Bigg\}
+            \land
+        \Big \langle \lambda \notin \Delta \Big \rangle
+    \end{equation*}
+    By law of commutativity (and association) for logical conjunction, 
+    that is
+    \begin{equation*} %\color{gray}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Delta \Big \rangle
+        \bigg]
+            \land
+        \lnot \bigg[
+            \Big \langle \lambda \in \Lambda \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Delta \Big \rangle
+        \bigg]
+    \end{equation*}
+    By the definitions for the difference of sets, set complementation,
+    and the intersection of sets,
+    \begin{equation*} %\color{gray}
+        \bigg[
+        \Big \langle \mathrm{A} - \Lambda \Big \rangle - \Delta
+        \bigg]
+            \equiv
+        \bigg[
+        \Big \langle \mathrm{A} - \Delta \Big \rangle
+            \cap
+        \overline{
+            \Big \langle \Lambda - \Delta \Big \rangle
+        }
+        \bigg]
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+    \big \langle \mathrm{A} - \Lambda \big \rangle - \Delta 
+        = 
+    \big \langle \mathrm{A} - \Delta \big \rangle 
+        - 
+    \big \langle \Lambda - \Delta \big \rangle
+    }$, by Thereom 2.2.19
+
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+% ============================== Theorem 2.4.22 ================================
+\begin{theorem*}[\textbf{2.4.22}]
+    The sum of squares from \bm{$1$} to \bm{$\lambda$} is 
+    \begin{equation*}
+        \bm{
+            \frac{ 
+                \lambda 
+                \langle \lambda + 1 \rangle 
+                \langle 2 \lambda + 1 \rangle 
+            }
+            {6}
+        }
+    \end{equation*}
+\end{theorem*}
+\begin{proof}
+    The formula for the summation of squares 
+    from \bm{$1$} to \bm{$\lambda$} 
+    can be derived from the cube of \bm{$\lambda$}.
+    It is trivial that 
+    \bm{$\lambda ^3 = \lambda ^3 - \big \langle 1 - 1 \big \rangle ^3$}. 
+    By this identity for \bm{$\lambda$},
+    the cube of \bm{$\lambda$} is the telescopic summation given by theorem 2.4.19, 
+    \begin{equation*}
+        \lambda ^3 
+            = 
+        \sum_{\iota=1}^\lambda \iota ^3 - \big \langle \iota - 1 \big \rangle ^3    
+    \end{equation*}
+    The expansion for 
+    \bm{$\big \langle \iota - 1 \big \rangle ^3$} 
+    is 
+    \bm{$\iota ^3 - 3 \iota ^2 + 3 \iota - 1$}, 
+    by the Binomial Theorem. 
+    Thus, 
+    by the inverse law for addition from the field axioms,
+    yielding the algebraic identity
+    \begin{equation*}
+        \iota ^3 - \big \langle \iota - 1 \big \rangle ^3 
+            = 
+        3 \iota ^2 - 3 \iota + 1
+    \end{equation*}
+    Hence, 
+    \bm{$\lambda ^3 = \sum_{\iota=1}^\lambda 3 \iota ^2 - 3 \iota + 1$}.
+    By the commutative law for addition from the field axioms, 
+    and by the distributive law for real numbers,
+    that is
+    \begin{equation*}
+        \lambda ^3 
+            = 
+        \left( 3 \sum_{\iota=1}^\lambda \iota ^2 \right) 
+            - 
+        \left( 3 \sum_{\iota=1}^\lambda \iota \right) 
+            + 
+        \left( \sum_{\iota=1}^\lambda 1 \right)
+    \end{equation*}
+    Note that \bm{$
+        \sum_{\iota=1} ^\lambda 1 
+            = 
+        \lambda \big \langle 1 \big \rangle
+    $}. 
+    And by Theorem 2.4.21b, 
+    \bm{$
+        \sum_{\iota=1}^\lambda \iota 
+            = 
+        \frac{ \lambda \big \langle \lambda + 1 \big \rangle }{2}
+    $}. 
+    Thus, 
+    by those identities, 
+    and by the inverse law for addition from the field axioms
+    \begin{equation*}
+        \lambda ^3 
+            + 
+        3 \frac{ \lambda \big \langle \lambda + 1 \big \rangle }
+        {2} 
+            - 
+        \lambda 
+            = 
+        3 \sum_{\iota=1}^\lambda \iota ^2
+    \end{equation*}
+    Eliminating the coefficient \bm{$3$} from the right-hand side, 
+    by the inverse law for multiplication from the field axioms, 
+    gives us the sum of squares in terms of an equation, 
+    \begin{equation*}
+        \frac{1}{3}
+        \bigg[
+            \lambda ^3 
+                + 
+            3 \frac{ \lambda \big \langle \lambda + 1 \big \rangle }
+            {2} 
+                - 
+            \lambda
+        \bigg]
+            = 
+        \sum_{\iota=1}^\lambda \iota ^2
+    \end{equation*}
+    By Lemma 2.4.1, that is
+    \begin{equation*}
+        \bm{
+            \sum_{\iota=1}^\lambda \iota ^2 
+                = 
+            \frac{ 
+                \lambda \big \langle \lambda + 1 \big \rangle
+                \big \langle 2 \lambda + 1 \big \rangle 
+            }
+            {6}
+        }
+    \end{equation*}
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+% ============================== Theorem 2.4.19 ================================
+\begin{theorem*}[\textbf{2.4.19}]
+    Let \bm{$\{\lambda_\zeta\}$} be a sequence of real numbers.
+    \begin{equation*}
+        \bm{
+            \sum_{\iota=1}^\zeta \big \langle 
+                \lambda_\iota - \lambda_{\iota-1}
+            \big \rangle
+                = 
+            \lambda_\zeta - \lambda_0
+        }
+    \end{equation*}
+\end{theorem*}
+\begin{proof}
+    \begin{equation*}
+        \sum_{\iota=1}^\zeta \big \langle
+            \lambda_\iota - \lambda_{\iota-1}
+        \big \rangle
+            =
+        \big \langle \lambda_\zeta - \lambda_{\zeta-1} \big \rangle 
+            + 
+        \big \langle \lambda_{\zeta-1} - \lambda_{\zeta-2} \big \rangle 
+            + 
+        \dots 
+            + 
+        \big \langle \lambda_1 - \lambda_0 \big \rangle
+    \end{equation*}
+    By associativity for addition from the field axioms for real numbers, that is 
+    \begin{equation*}
+        \lambda_\zeta 
+            + 
+        \big \langle -\lambda_{\zeta-1} + \lambda_{\zeta-1} \big \rangle
+            + 
+        \big \langle -\lambda_{\zeta-2} + \lambda_{\zeta-2} \big \rangle
+        %    + 
+        %\big \langle -\lambda_{\zeta-3} + \lambda_{\zeta-3} \big \rangle
+            + 
+        \dots 
+            + 
+        \big \langle -\lambda_1 + \lambda_1 \big \rangle
+            + 
+        -\lambda_0
+    \end{equation*}
+    The inner terms cancel out 
+    by the inverse law for addition from the field axioms. 
+    $\therefore$
+    \begin{equation*}
+        \bm{
+            \sum_{\iota=1}^\zeta \big \langle 
+                \lambda_\iota - \lambda_{\iota-1}
+            \big \rangle
+                = 
+            \lambda_\zeta - \lambda_0
+        }
+    \end{equation*} 
+\color{lightgray} \end{proof}
+\pagebreak
+
+
+\end{document}

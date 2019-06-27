@@ -1,0 +1,21 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+
+
+\begin{document}
+    
+    \begin{algorithmic}[0]
+        \Statex \color{white} x \color{black}
+        \Function{swap}{$\lambda$: object; $\iota$: object}
+    
+        \State $\tau \gets \lambda$
+        \State $\lambda \gets \iota$
+        \State $\iota \gets \tau$
+
+        \State \Return{$\lambda, \iota$}
+        \EndFunction
+    
+    \end{algorithmic}
+
+\end{document}

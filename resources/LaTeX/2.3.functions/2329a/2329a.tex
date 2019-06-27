@@ -1,0 +1,68 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2329a}]
+    Let \bm{$\lambda$} be a function 
+    \bm{$\lambda: \Delta \rightarrow \mathrm{A}$}, 
+    and let \bm{$\epsilon$} be a function 
+    \bm{$\epsilon: \Lambda \rightarrow \Delta$}. 
+    If both \bm{$\lambda$} and \bm{$\epsilon$} are injective, 
+    then \bm{$\big \langle \lambda \circ \epsilon \big \rangle$} is injective.
+\end{theorem*}
+
+\begin{proof}
+    By the contrapositive.
+    Suppose it were not the case that 
+    \bm{$\big \langle \lambda \circ \epsilon \big \rangle$}
+    were injective. 
+    By the definition for injective functions, 
+    with domain of discourse 
+    \bm{$\big \langle \iota, \zeta \in \Lambda \big \rangle$}, that is
+    \begin{equation*}
+        \lnot \forall \iota \forall \zeta \bigg \langle 
+            \Big[
+                \big \langle \lambda \circ \epsilon \big \rangle [\iota] 
+                    = 
+                \big \langle \lambda \circ \epsilon \big \rangle [\zeta] 
+            \Big]
+                \rightarrow 
+            \big \langle \iota = \zeta \big \rangle 
+        \bigg \rangle
+    \end{equation*}
+    The composition of functions 
+    \bm{$\big \langle \lambda \circ \epsilon \big \rangle [\iota]$} 
+    is defined as \bm{$\lambda \big[ \epsilon (\iota) \big]$}. 
+    Thus, we have the equivalent universal quantification
+    \begin{equation*}
+        \lnot \forall \iota \forall \zeta \bigg \langle 
+            \Big[
+                \lambda \big[ \epsilon (\iota) \big] 
+                    = 
+                \lambda \big[ \epsilon (\zeta) \big] 
+            \Big]
+                \rightarrow
+            \big \langle \iota = \zeta \big \rangle
+        \bigg \rangle
+    \end{equation*}
+    In other words, it follows from the negation of the direct consequent that 
+    it is not the case that \bm{$\lambda$} is injective, 
+    by the definition for injective functions. 
+    This is sufficient to prove the logical negation of the direct hypothesis. 
+    Thus, if both \bm{$\lambda$} and \bm{$\epsilon$} are injective, 
+    then 
+    \bm{$\big \langle \lambda \circ \epsilon \big \rangle$} 
+    is injective.
+\color{lightgray} \end{proof}
+
+\end{document}

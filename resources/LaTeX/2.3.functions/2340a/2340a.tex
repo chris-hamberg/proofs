@@ -1,0 +1,82 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2340a}]
+    Let \bm{$\lambda$} be the function 
+    \bm{$\lambda : \Gamma \rightarrow \mathrm{A}$}. 
+    Let \bm{$\Lambda$}, and \bm{$\Delta$} 
+    be subsets of \bm{$\mathrm{A}$}.
+    \begin{equation*}
+        \bm{
+        \lambda ^{-1} \big[ \Lambda \cup \Delta \big] 
+            = 
+        \lambda ^{-1} 
+            \big[ \Lambda \big] 
+                \cup 
+            \lambda^{-1} \big[ \Delta \big]
+        }
+    \end{equation*}
+\end{theorem*}
+
+\begin{proof}
+    Let \bm{$\iota$} be an element in \bm{$\lambda ^{-1} \big[ \Lambda \cup \Delta \big]$}.
+    By the inverse function for
+    \bm{$\lambda ^{-1}$}, 
+    and by the definition for the union of sets, that is 
+    \begin{equation*}
+        \bigg \langle \lambda 
+            \big[ \iota \big] 
+                \in 
+            \lambda \Big[ 
+                \lambda ^{-1} \big[ \Lambda \cup \Delta \big]
+            \Big]
+        \bigg \rangle
+            \equiv
+        \bigg[
+            \Big \langle \lambda \big[ \iota \big] \in \Lambda \Big \rangle
+                \lor 
+            \Big \langle \lambda \big[ \iota \big] \in \Delta \Big \rangle
+        \bigg]
+    \end{equation*}
+    By \bm{$\lambda$} inverse, and by the definition for set union, that is
+    \begin{equation*}
+        \bigg[
+            \Big \langle
+                \iota \in \lambda^{-1} \big[ \Lambda \big] 
+            \Big \rangle
+                \lor 
+            \Big \langle
+                \iota \in \lambda^{-1} \big[ \Delta \big]
+            \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[ 
+            \iota \in \Big \langle
+                \lambda ^{-1} \big[ \Lambda \big] 
+                    \cup 
+                \lambda ^{-1} \big[ \Delta \big]
+            \Big \rangle
+        \bigg]
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+    \lambda ^{-1} \big[ \Lambda \cup \Delta \big] 
+        = 
+    \lambda ^{-1} 
+        \big[ \Lambda \big] 
+            \cup 
+        \lambda^{-1} \big[ \Delta \big]
+    }$.
+\color{lightgray} \end{proof}
+
+\end{document}

@@ -1,0 +1,159 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2344}]
+    Let \bm{$\lambda$} be a real number.
+    \begin{equation*}
+        \bm{\lceil \lambda \rceil 
+            - 
+        \lfloor \lambda \rfloor 
+            = 
+        1
+            \textbf{, if }
+        \lambda \notin \mathbb{Z} 
+            \textbf{. }
+        \lceil \lambda \rceil
+            - 
+        \lfloor \lambda \rfloor 
+            = 
+        0
+            \textbf{, if }
+        \lambda \in \mathbb{Z}}
+    \end{equation*} 
+\end{theorem*}
+
+\begin{proof}
+    Let \bm{$\lambda - \lfloor \lambda \rfloor = \sigma$}.
+    By the properties for ceiling functions,
+    there exists an integer \bm{$\zeta$} such that
+    \bm{$\lceil \lambda \rceil = \zeta$}, 
+    if and only if
+    \begin{equation*}
+        \Big \langle \zeta - 1 \Big \rangle
+            < 
+        \Big \langle \lambda \Big \rangle
+            \leq 
+        \Big \langle \zeta \Big \rangle
+    \end{equation*}
+    By the identity of \bm{$\zeta$}, 
+    and by the additive compatibility law from the order axioms
+    (subtracting \bm{$\lfloor \lambda \rfloor$} from every side,)
+    that is,
+    \begin{equation*}
+        \Big \langle \lceil \lambda \rceil - 1 \Big \rangle 
+            <
+        \Big \langle \lambda \Big \rangle
+            \leq 
+        \Big \langle \lceil \lambda \rceil \Big \rangle
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \Big \langle \lceil \lambda \rceil - \lfloor \lambda \rfloor - 1 \Big \rangle
+            < 
+        \Big \langle \lambda - \lfloor \lambda \rfloor \Big \rangle
+            \leq 
+        \Big \langle \lceil \lambda \rceil - \lfloor \lambda \rfloor \Big \rangle
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \Big \langle \lceil \lambda \rceil - \lfloor \lambda \rfloor - 1 \Big \rangle
+            < 
+        \Big \langle \sigma \Big \rangle
+            \leq 
+        \Big \langle \lceil \lambda \rceil - \lfloor \lambda \rfloor \Big \rangle
+    \end{equation*}
+    Hence, 
+    \bm{$
+        \lceil \sigma \rceil 
+            = 
+        \lceil \lambda \rceil - \lfloor \lambda \rceil
+    $},
+    by the properties for ceiling functions.
+    There are two cases under consideration: 
+    $(i)$ \bm{$\lambda$} is an integer, 
+    and $(ii)$ \bm{$\lambda$} is a real number not in integers. 
+    \\ \\
+    \bm{$(i)$} If \bm{$\lambda$} is an integer, 
+    then by the definition for the floor function,
+    the largest integer less than or equal to \bm{$\lambda$}
+    is \bm{$\lambda$}. Thus, 
+    \begin{equation*}
+        \Big \langle \lambda - \lfloor \lambda \rfloor \Big \rangle
+            = 
+        \Big \langle \lambda - \lambda \Big \rangle
+            = 
+        \Big \langle \sigma \Big \rangle
+    \end{equation*}
+    Clearly, \bm{$\sigma = 0$} in this case.
+    So,
+    by the definition for ceiling functions, 
+    since the smallest integer greater than or equal to \bm{$0$} is \bm{$0$},
+    \bm{$\lceil \sigma \rceil = 0$}. 
+    Thus, \bm{$\lceil \lambda \rceil - \lfloor \lambda \rfloor = 0$}, 
+    whenever \bm{$\lambda$} is an integer. 
+    \\ \\
+    \bm{$(ii)$} If \bm{$\lambda$} is a real number, but not an integer, 
+    then \bm{$\sigma$} has to be greater than zero, but less than one.
+    That is, 
+    \begin{equation*}
+        \bigg\{
+            \Big \langle 0 \Big \rangle 
+                < 
+            \Big \langle \sigma \Big \rangle 
+                <
+            \Big \langle 1 \Big \rangle
+        \bigg\}
+            \rightarrow
+        \bigg\{
+            \Big \langle 1 - 1 \Big \rangle 
+                < 
+            \Big \langle \sigma \Big \rangle
+                \leq 
+            \Big \langle 1 \Big \rangle
+        \bigg\}
+    \end{equation*}
+    By the properties for ceiling functions,
+    \bm{$
+        \lceil \lambda \rceil
+            - 
+        \lfloor \lambda \rfloor
+            =
+        \lceil \sigma \rceil
+            = 
+        1
+    $}, 
+    whenever \bm{$\lambda$} is a real number, but not an integer.
+    \\ \\
+    \bm{$
+        \therefore \text{\space}
+            \bm{\lceil \lambda \rceil 
+                - 
+            \lfloor \lambda \rfloor 
+                = 
+            1
+                \textbf{, if }
+            \lambda \notin \mathbb{Z} 
+                \textbf{. }
+            \lceil \lambda \rceil
+                - 
+            \lfloor \lambda \rfloor 
+                = 
+            0
+                \textbf{, if }
+            \lambda \in \mathbb{Z}}
+    $}.
+
+\color{lightgray} \end{proof}
+
+\end{document}

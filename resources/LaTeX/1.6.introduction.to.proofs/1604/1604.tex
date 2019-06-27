@@ -1,0 +1,43 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsmath, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{1604}]
+    The additive inverse of an even number is an even number.
+\end{theorem}
+
+\begin{proof}
+    Let \bm{$\chi$} be an even number. 
+    There exists an integer \bm{$\eta$} such that 
+    \bm{$\chi = 2\eta$}, 
+    by the definition for even numbers. 
+    The additive inverse for \bm{$\chi$} is,
+    \begin{equation*}
+        -1 \big \langle \chi \big \rangle
+            = 
+        -1 \big \langle 2 \eta \big \rangle
+    \end{equation*} 
+    By commutativity of multiplication that is,
+    \begin{equation*}
+        -1 \big \langle 2 \eta \big \rangle
+            = 
+        2 \big \langle - \eta \big \rangle
+    \end{equation*}
+    Since integers are closed under multiplication, 
+    the factor \bm{$\big \langle -\eta \big \rangle$} is an integer. 
+    It follows that the additive inverse of \bm{$\chi$} is an even number, 
+    by the definition for even numbers.
+\color{lightgray} \end{proof}
+
+
+\end{document}

@@ -1,0 +1,19 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+
+
+\begin{document}
+    \begin{algorithmic}[0]
+        \Statex \color{white} x \color{black}
+        \Function{palindrome}{$\rho_1, \rho_2, \dots, \rho_\epsilon$: string of characters}
+        \For{$\iota = 1, \big \lfloor \frac{\epsilon}{2} \big \rfloor$}
+            \If {$\rho_\iota \ne \rho_{\langle \epsilon+1 \rangle - \iota}$}
+                \State \Return{$\bot$}
+            \EndIf
+        \EndFor
+        \State \Return{$\top$}
+        \color{lightgray} \Comment{all of the characters matched} \color{black}
+        \EndFunction
+    \end{algorithmic}
+\end{document}

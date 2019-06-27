@@ -1,0 +1,56 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2218a}] \color{black}
+    Let \bm{$\mathrm{A}$}, \bm{$\Lambda$}, and \bm{$\Delta$} be sets. 
+    \bm{$
+    \big \langle \mathrm{A} \cup \Lambda \big \rangle
+        \subseteq 
+    \big \langle \mathrm{A} \cup \Lambda \cup \Delta \big \rangle
+    $}.
+\end{theorem*}
+\begin{proof} \color{black}
+    Let \bm{$\lambda$} be an element in \bm{$\mathrm{A} \cup \Lambda$}. 
+    By the defintion for the union of sets, that is
+    \begin{equation*}
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+            \lor 
+        \Big \langle \lambda \in \Lambda \Big \rangle
+    \end{equation*}
+    Let this statement be represented by the propositional variable \bm{$p$}. 
+    By the addition rule of inference, \bm{$p$} implies \bm{$p \lor q$}, 
+    for any propositional variable \bm{$q$}. 
+    Let \bm{$q$} be the statement \bm{$\lambda \in \Delta$}. 
+    Thus,
+    \begin{equation*}
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+            \lor 
+        \Big \langle \lambda \in \Lambda \Big \rangle
+            \rightarrow
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+            \lor 
+        \Big \langle \lambda \in \Lambda \Big \rangle
+            \lor
+        \Big \langle \lambda \in \Delta \Big \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+    \big \langle \mathrm{A} \cup \Lambda \big \rangle
+        \subseteq 
+    \big \langle \mathrm{A} \cup \Lambda \cup \Delta \big \rangle
+    }
+    $,
+    by the definitions for set union and subsets.
+\color{lightgray} \end{proof}
+
+\end{document}

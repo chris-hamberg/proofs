@@ -1,0 +1,49 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2216a}] \color{black}
+    Let \bm{$\mathrm{A}$} and \bm{$\Lambda$} be sets. 
+    \bm{$
+    \big \langle \mathrm{A} \cap \Lambda \big \rangle 
+        \subseteq 
+    \mathrm{A}
+    $}.
+\end{theorem*}
+\begin{proof} \color{black}
+    Let \bm{$\lambda$} be an element in \bm{$\mathrm{A} \cap \Lambda$}. 
+    By the definition for set intersection,
+    \begin{equation*}
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle 
+            \land 
+        \Big \langle \lambda \in \Lambda \Big \rangle   
+    \end{equation*}
+    It trivially follows from the simplification rule of inference that 
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle 
+                \land 
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]
+            \rightarrow
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+    \end{equation*}
+    $\therefore$ 
+    \bm{$
+    \big \langle \mathrm{A} \cap \Lambda \big \rangle 
+        \subseteq 
+    \mathrm{A}
+    $}, by the definition of subsets.
+\color{lightgray} \end{proof}
+
+\end{document}

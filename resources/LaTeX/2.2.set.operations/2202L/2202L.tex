@@ -1,0 +1,93 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{lemma*}{Lemma}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{lemma*}[\textbf{2202}] \color{black}
+    Let \bm{$\mathrm{A}$}, and \bm{$\Lambda$} be sets.
+    \begin{equation*}
+        \bm{
+            \bigg[
+                \Big \langle \mathrm{A} \cup \Lambda \Big \rangle
+                    \cap
+                \Big \langle 
+                    \overline{\mathrm{A}} 
+                        \cup 
+                    \overline{\Lambda} 
+                \Big \rangle
+            \bigg]
+                \cup
+            \Lambda
+                =
+            \mathrm{A} \cup \Lambda
+        }
+    \end{equation*}
+\end{lemma*}
+\begin{proof} \color{black}
+    Let \bm{$\Omega$} be the universe.
+    By the law of distribution for set union over intersection,
+    and by the associative law for set union,
+    \begin{equation*}
+        \bigg[
+            \Big \langle \mathrm{A} \cup \Lambda \Big \rangle
+                \cap
+            \Big \langle 
+                \overline{\mathrm{A}} 
+                    \cup 
+                \overline{\Lambda} 
+            \Big \rangle
+        \Big]
+            \cup
+        \Lambda
+            \equiv
+        \Big \langle \mathrm{A} \cup \Lambda \cup \Lambda \Big \rangle
+            \cap
+        \Big \langle 
+            \overline{\mathrm{A}} 
+                \cup 
+            \overline{\Lambda} 
+                \cup
+            \Lambda
+        \Big \rangle
+    \end{equation*}
+    By the idempotent law for set union, 
+    and by the complement law for set union, that is
+    \begin{equation*}
+        \Big \langle \mathrm{A} \cup \Lambda \Big \rangle
+            \cap
+        \Big \langle 
+            \overline{\mathrm{A}} 
+                \cup 
+            \Omega
+        \Big \rangle
+    \end{equation*}
+    The right-hand side of this intersection is dominated by the universe,
+    according to the domination law for set union. Thus, that is
+    \bm{$\mathrm{A} \cup \Lambda$} intersect \bm{$\Omega$}.
+    $\therefore \text{\space} \bm{
+    \big[
+        \big \langle \mathrm{A} \cup \Lambda \big \rangle
+            \cap
+        \big \langle 
+            \overline{\mathrm{A}} 
+                \cup 
+            \overline{\Lambda} 
+        \big \rangle
+    \big]
+        \cup
+    \Lambda
+        =
+    \mathrm{A} \cup \Lambda
+    }$, by the identity law for the intersection of sets.
+\color{lightgray} \end{proof}
+
+\end{document}

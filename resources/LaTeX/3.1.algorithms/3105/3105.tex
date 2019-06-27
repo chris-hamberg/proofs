@@ -1,0 +1,26 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+\usepackage{amssymb}
+
+
+\begin{document}
+
+
+\begin{algorithmic}[0]
+    
+    \Statex \color{white} x \color{black}
+    \Function{duplicates}{$\rho_1, \rho_2, \dots, \rho_\epsilon$: integers in nondecreasing order}
+    \State $\phi \gets \varnothing$
+    \For{$\iota = 1, \epsilon-1$}
+        \If {$\rho_\iota = \rho_{\iota+1}$}
+            \State $\phi \gets \phi \cup \{\rho_{\iota+1}\}$
+        \EndIf
+    \EndFor
+    \State \Return{$\phi$} 
+    \EndFunction
+    
+\end{algorithmic}
+
+
+\end{document}

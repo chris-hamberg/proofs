@@ -1,0 +1,59 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{1612}]
+    The product of a nonzero rational number and an irrational number is 
+    irrational.
+\end{theorem}
+
+\begin{proof}
+    For the purpose of contradiction, assume the negation of the hypothesis; 
+    the proposition 
+        $$\lnot p : \emph{the product of a nonzero rational number and an 
+        irrational number}$$
+        $\indent \indent \indent \emph{is rational}$
+        \\ \\
+    Let \bm{$\alpha$}, \bm{$\beta$}, \bm{$\gamma$}, and \bm{$\delta$} be integers such that 
+    \bm{$\alpha \neq 0$}, and let \bm{$\chi$} be an irrational number. 
+    Then the proposition \bm{$\lnot p$} states 
+    \begin{equation*}
+        \Bigg(
+            \frac{\alpha}{\beta} \space \cdot \space \chi 
+        \Bigg)
+            = 
+        \Bigg(
+            \frac{\gamma}{\delta}
+        \Bigg)
+    \end{equation*}    
+    By the multiplicative equality property for equations, that is
+    \begin{equation*}
+        \Bigg(
+            \chi
+        \Bigg) 
+            = 
+        \Bigg(
+            \frac{\gamma}{\delta} \space \cdot \space \frac{\beta}{\alpha} 
+        \Bigg)
+            =
+        \Bigg( 
+            \frac{\gamma\beta}{\delta\alpha}
+        \Bigg)
+    \end{equation*}
+    By Theorem 9 (the closure property for multplication on rational numbers,) 
+    \bm{$\chi$} is rational. 
+    Thus, \bm{$\lnot p$} implies \bm{$\chi$} is rational and irrational.
+\color{lightgray} \end{proof}
+\
+
+\end{document}

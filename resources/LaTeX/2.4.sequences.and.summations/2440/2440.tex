@@ -1,0 +1,87 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2440}]
+    The union of two countable sets is countable.
+\end{theorem*}
+
+\begin{proof}
+    By cases. Let \bm{$\mathrm{A}$}, and \bm{$\Lambda$} be countable sets. 
+    There are three possible cases. 
+    $(i)$ \bm{$\mathrm{A}$} and \bm{$\Lambda$} are finite, 
+    $(ii)$ exclusively \bm{$\mathrm{A}$} or \bm{$\Lambda$} is finite and the other is countably infinite, 
+    $(iii)$ \bm{$\mathrm{A}$} and \bm{$\Lambda$} are both countably infinite.
+    \\ \\
+    \bm{$(i)$} Assume \bm{$\mathrm{A}$} and \bm{$\Lambda$} are finite. 
+    There exist natural numbers \bm{$\lambda$}, and \bm{$\iota$} such that 
+    \bm{$\big |\mathrm{A} \big | = \lambda$} and 
+    \bm{$\big | \Lambda \big | = \iota$}. 
+    The maximum cardinality for \bm{$\mathrm{A} \cup \Lambda$} 
+    occurs when the intersection of \bm{$\mathrm{A}$} and \bm{$\Lambda$} is 
+    the empty set. The cardinality for such a union is \bm{$\lambda + \iota$}. 
+    \bm{$\lambda + \iota$} is a natural number by the closure property for addition on integers. 
+    Thus, \bm{$\lambda + \iota$} is less than \bm{$\aleph_0$}. 
+    By the definition for countably finite sets, \bm{$\mathrm{A} \cup \Lambda$} is countable. 
+    \\ \\
+    \bm{$(ii)$} Without loss of generality assume \bm{$\mathrm{A}$} is finite with cardinality \bm{$\lambda$}, 
+    and \bm{$\Lambda$} is countably infinite. 
+    A finite sequence 
+    \bm{$\big \{ \alpha_\iota \big \}$}
+    containing all members of \bm{$\mathrm{A}$},
+    and an infinite sequence 
+    \bm{$\big \{ \beta_{ \mathbb{N} } \big \}$}
+    containing all members of \bm{$\Lambda$}
+    exists.
+    For the union of \bm{$\mathrm{A}$} and \bm{$\Lambda$} 
+    there exists a sequence \bm{$ \big \{ \delta \big \} $} such that
+    \begin{equation*}
+        \{ 
+            \delta_\mathbb{N} 
+        \} 
+            = 
+        \{\alpha_0, \alpha_1, \dots, \alpha_\lambda, 
+        \beta_{\lambda+1}, \beta_{\lambda +2}, \beta_{\lambda + 3}, \dots \}
+    \end{equation*}
+    Clearly this is countably infinite by the definition for countability 
+    since \bm{$\lambda + \chi$} is a natural number 
+    for all \bm{$\chi$} in natural numbers, 
+    by the closure property for addition on natural numbers. 
+    \\ \\
+    \bm{$(iii)$} assume both \bm{$\mathrm{A}$} and \bm{$\Lambda$} are countable infinite sets. 
+    Since each set cardinality is \bm{$\aleph_0$}, 
+    an infinite sequence 
+    \bm{$\big \{ \alpha_\mathbb{N} \big \}$}
+    containing all members of \bm{$\mathrm{A}$},
+    and an infinite sequence 
+    \bm{$\big \{ \beta_{ \mathbb{N} } \big \}$}
+    containing all members of \bm{$\Lambda$}
+    exist.
+    For the union of \bm{$\mathrm{A}$} and \bm{$\Lambda$}
+    there exists a infinite sequence \bm{$\big \{ \delta \big \} $} such that
+    \begin{equation*}
+        \big \{ \delta_\mathbb{N} \big \} 
+            = 
+        \big \{
+            \alpha_{0_0}, \beta_{0_1}, 
+            \alpha_{1_2}, \beta_{1_3}, 
+            \alpha_{2_4}, \beta_{2_5}, 
+            \dots
+        \big \}    
+    \end{equation*}
+    Thus a bijection 
+    exists between \bm{$\mathbb{N}$} and the union of \bm{$\mathrm{A}$} and \bm{$\Lambda$}, 
+    and that union is countable by the definition for countability.
+\color{lightgray} \end{proof}
+
+\end{document}

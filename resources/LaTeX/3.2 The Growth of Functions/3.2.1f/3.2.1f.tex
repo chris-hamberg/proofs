@@ -1,0 +1,30 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[3.2.1f]
+		Let f be the function defined by f(x) = $\ceil{\frac{x}{2}}$. \newline f(x) is $\mathcal{O} (x)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $g$ be the function defined by $g(x) = x$. 
+		By the properties for ceiling functions 
+		there exists an integer 
+		$\ceil{\frac{x}{2}} = n$ 
+		such that $(2n-2) < x \le 2n$. 
+		Clearly, $n \le (2n-2)$ for all $n \ge 2$. 
+		Also, $n = \ceil{\frac{x}{2}} \ge 2$ whenever $x > 2$. So we have $\ceil{\frac{x}{2}} \le (2n-2) < x$, for all $x > 2$. From that, obviously $\ceil{\frac{x}{2}} \le x$, for all $x > 2$, and since $x > 2$ we know that $|\ceil{\frac{x}{2}}| \le 1|x|$ holds. By the definitions for $f$ and $g$ that is, $|f(x)| \le 1|g(x)|$, for all $x > 2$. Therefore $f(x)$ is $\mathcal{O}(x)$ with constant witnesses $C = 1$, and $k = 2$.
+	\end{proof}
+
+\end{document}

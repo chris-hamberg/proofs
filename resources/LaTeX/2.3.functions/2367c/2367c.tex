@@ -1,0 +1,95 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2367c}]
+    Let \bm{$\Lambda$} be a set with universal set \bm{$\Omega$}. 
+    Let \bm{$\lambda_{\overline{\Lambda}}$} be the characteristic function 
+    \bm{$\lambda_{\overline{\Lambda}}: \Omega \rightarrow \{0, 1\}$}. 
+    \begin{equation*}
+        \bm{
+            \lambda_{\overline{\Lambda}} \big[ \iota \big] 
+                = 
+            1 - \lambda_{\Lambda} \big[ \iota \big]
+        }
+    \end{equation*}
+
+\end{theorem*}
+
+\begin{proof}
+    By cases. There are two cases. 
+    Either $(i)$ \bm{$\iota$} is in \bm{$\Lambda$},
+    xor $(ii)$ \bm{$\iota$} is in \bm{$\overline{\Lambda}$}.
+    \\ \\
+    \bm{$(i)$} Let \bm{$\iota$} be an element in \bm{$\Lambda$}. 
+    By the double negation law, 
+    by the definition for set membership,
+    by the definition for set complement,
+    and again by the defintion for set membership, that is
+    \begin{equation*}
+        \lnot \bigg[ \lnot \Big \langle \iota \in \Lambda \Big \rangle \bigg]
+            \equiv
+        \lnot \Big \langle \iota \notin \Lambda \Big \rangle
+            \equiv
+        \lnot \Big \langle \iota \in \overline{\Lambda} \Big \rangle
+            \equiv
+        \Big \langle \iota \notin \overline{\Lambda} \Big \rangle
+    \end{equation*}
+    Thus, by the definition for characteristic functions 
+    \begin{equation*}
+        \Big \langle 
+            \lambda_{\overline{\Lambda}} \big[ \iota \big] = 0
+        \Big \rangle
+            \land
+        \Big \langle 
+            \lambda_{\Lambda} \big[ \iota \big] = 1
+        \Big \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lambda_{\overline{\Lambda}} \big[ \iota \big] 
+            = 
+        1 - \lambda_{\Lambda} \big[ \iota \big]
+    }$.
+    \\ \\
+    \bm{$(ii)$} Let \bm{$\iota$} be an element in \bm{$\overline{\Lambda}}$.
+    By the double negation law, 
+    by the definition for set membership,
+    by the definition for set complement,
+    and again by the defintion for set membership, that is
+    \begin{equation*}
+        \lnot \bigg[ \lnot \Big \langle \iota \in \overline{\Lambda} \Big \rangle \bigg]
+            \equiv
+        \lnot \Big \langle \iota \notin \overline{\Lambda} \Big \rangle
+            \equiv
+        \lnot \Big \langle \iota \in \Lambda \Big \rangle
+            \equiv
+        \Big \langle \iota \notin \Lambda \Big \rangle
+    \end{equation*}
+    Thus, by the definition for characteristic functions 
+    \begin{equation*}
+        \Big \langle 
+            \lambda_{\overline{\Lambda}} \big[ \iota \big] = 1
+        \Big \rangle
+            \land
+        \Big \langle 
+            \lambda_{\Lambda} \big[ \iota \big] = 0
+        \Big \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lambda_{\overline{\Lambda}} \big[ \iota \big] 
+            = 
+        1 - \lambda_{\Lambda} \big[ \iota \big]
+    }$.
+\color{lightgray} \end{proof}
+
+\end{document}

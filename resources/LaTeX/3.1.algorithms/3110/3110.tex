@@ -1,0 +1,32 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+
+
+\newcommand{\minuseq}{\mathrel{-}=}
+
+
+\begin{document}
+    
+    \begin{algorithmic}[0]
+        \Statex \color{white} x \color{black}
+        \Function{power}{$\lambda$: integer; $\beta$: real number}
+    
+        \State $\epsilon \gets \big|\lambda  \big|$
+        \State $\rho \gets 1$
+    
+        \While{$\epsilon > 0$} 
+        \color{lightgray}\Comment {multiply $\beta$ by itself $\big|\lambda\big|$ times} \color{black}
+            \State $\rho \gets \rho \times \beta$
+            \State $\epsilon \minuseq 1$
+        \EndWhile
+        \If {$\lambda < 0$} 
+        \color{lightgray} \Comment{$\lambda$ is negative so get the inverse} \color{black}
+            \State $\rho \gets \frac{1}{\rho}$
+        \EndIf
+        \State \Return{$\rho$}
+        \EndFunction
+    
+    \end{algorithmic}
+
+\end{document}

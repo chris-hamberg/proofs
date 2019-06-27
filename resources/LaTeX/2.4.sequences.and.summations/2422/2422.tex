@@ -1,0 +1,123 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2422}]
+    The sum of squares from \bm{$1$} to \bm{$\lambda$} is 
+    \begin{equation*}
+        \bm{
+            \frac{ 
+                \lambda 
+                \langle \lambda + 1 \rangle 
+                \langle 2 \lambda + 1 \rangle 
+            }
+            {6}
+        }
+    \end{equation*}
+\end{theorem*}
+
+\begin{proof}
+    The formula for the summation of squares 
+    from \bm{$1$} to \bm{$\lambda$} 
+    can be derived from the cube of \bm{$\lambda$}.
+    It is trivial that 
+    \bm{$\lambda ^3 = \lambda ^3 - \big \langle 1 - 1 \big \rangle ^3$}. 
+    By this identity for \bm{$\lambda$},
+    the cube of \bm{$\lambda$} is the telescopic summation given by Theorem 2419, 
+    \begin{equation*}
+        \lambda ^3 
+            = 
+        \sum_{\iota=1}^\lambda \iota ^3 - \big \langle \iota - 1 \big \rangle ^3    
+    \end{equation*}
+    The expansion for 
+    \bm{$\big \langle \iota - 1 \big \rangle ^3$} 
+    is 
+    \bm{$\iota ^3 - 3 \iota ^2 + 3 \iota - 1$}, 
+    by the Binomial Theorem. 
+    Thus, 
+    by the inverse law for addition from the field axioms,
+    yielding the algebraic identity
+    \begin{equation*}
+        \iota ^3 - \big \langle \iota - 1 \big \rangle ^3 
+            = 
+        3 \iota ^2 - 3 \iota + 1
+    \end{equation*}
+    Hence, 
+    \bm{$\lambda ^3 = \sum_{\iota=1}^\lambda 3 \iota ^2 - 3 \iota + 1$}.
+    By the commutative law for addition from the field axioms, 
+    and by the distributive law for real numbers,
+    that is
+    \begin{equation*}
+        \lambda ^3 
+            = 
+        \left( 3 \sum_{\iota=1}^\lambda \iota ^2 \right) 
+            - 
+        \left( 3 \sum_{\iota=1}^\lambda \iota \right) 
+            + 
+        \left( \sum_{\iota=1}^\lambda 1 \right)
+    \end{equation*}
+    Note that \bm{$
+        \sum_{\iota=1} ^\lambda 1 
+            = 
+        \lambda \big \langle 1 \big \rangle
+    $}. 
+    And by Theorem 2421b, 
+    \bm{$
+        \sum_{\iota=1}^\lambda \iota 
+            = 
+        \frac{ \lambda \big \langle \lambda + 1 \big \rangle }{2}
+    $}. 
+    Thus, 
+    by those identities, 
+    and by the inverse law for addition from the field axioms
+    \begin{equation*}
+        \lambda ^3 
+            + 
+        3 \frac{ \lambda \big \langle \lambda + 1 \big \rangle }
+        {2} 
+            - 
+        \lambda 
+            = 
+        3 \sum_{\iota=1}^\lambda \iota ^2
+    \end{equation*}
+    Eliminating the coefficient \bm{$3$} from the right-hand side, 
+    by the inverse law for multiplication from the field axioms, 
+    gives us the sum of squares in terms of an equation, 
+    \begin{equation*}
+        \frac{1}{3}
+        \bigg[
+            \lambda ^3 
+                + 
+            3 \frac{ \lambda \big \langle \lambda + 1 \big \rangle }
+            {2} 
+                - 
+            \lambda
+        \bigg]
+            = 
+        \sum_{\iota=1}^\lambda \iota ^2
+    \end{equation*}
+    By Lemma 2401, that is
+    \begin{equation*}
+        \bm{
+            \sum_{\iota=1}^\lambda \iota ^2 
+                = 
+            \frac{ 
+                \lambda \big \langle \lambda + 1 \big \rangle
+                \big \langle 2 \lambda + 1 \big \rangle 
+            }
+            {6}
+        }
+    \end{equation*}
+\color{lightgray} \end{proof}
+
+\end{document}

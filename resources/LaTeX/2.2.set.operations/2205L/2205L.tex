@@ -1,0 +1,77 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{lemma*}{Lemma}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{lemma*}[\textbf{2205}] \color{black}
+    Let \bm{$\Gamma$}, \bm{$\Pi$}, and \bm{$\Xi$} be sets.
+    \begin{equation*}
+        \bm{
+            \overline{
+                \Big \langle \Gamma \cup \Pi \Big \rangle
+                    \cap
+                \Big \langle \overline{\Gamma} \cup \overline{\Pi} \Big \rangle
+            }
+                \cap
+            \Xi
+                    =
+            \Big \langle \overline{\Gamma} \cap \overline{\Pi} \cap \Xi \Big \rangle
+                \cup
+            \Big \langle \Gamma \cap \Pi \cap \Xi \Big \rangle
+        }
+    \end{equation*}
+\end{lemma*}
+\begin{proof} \color{black}
+    By DeMorgans Law for sets, 
+    the expression occurring in the left-hand side of the equation in the lemma is
+    \begin{equation*}
+        \bigg[
+            \Big \langle \overline{\Gamma \cup \Pi} \Big \rangle
+                \cup
+            \Big \langle \overline{\overline{\Gamma} \cup \overline{\Pi}} \Big \rangle
+        \bigg]
+            \cap
+        \Xi
+    \end{equation*}
+    Which, again by DeMorgans law for sets, and by the complementation law for sets, is equivalent to
+    \begin{equation*}
+        \bigg[
+            \Big \langle \overline{\Gamma} \cap \overline{\Pi} \Big \rangle
+                \cup
+            \Big \langle \Gamma \cap \Pi \Big \rangle
+        \bigg]
+            \cap
+        \Xi
+    \end{equation*}
+    By the distributive law for set intersection over set union,
+    and by associative law for the intersection of sets, that is
+    \begin{equation*}
+        \Big \langle \overline{\Gamma} \cap \overline{\Pi} \cap \Xi \Big \rangle
+            \cup
+        \Big \langle \Gamma \cap \Pi \cap \Xi \Big \rangle
+    \end{equation*}
+    $\therefore \bm{
+        \overline{
+            \big \langle \Gamma \cup \Pi \big \rangle
+                \cap
+            \big \langle \overline{\Gamma} \cup \overline{\Pi} \big \rangle
+        }
+            \cap
+        \Xi
+            =
+        \big \langle \overline{\Gamma} \cap \overline{\Pi} \cap \Xi \big \rangle
+            \cup
+        \big \langle \Gamma \cap \Pi \cap \Xi \big \rangle
+    }$.
+\color{lightgray} \end{proof}
+
+\end{document}

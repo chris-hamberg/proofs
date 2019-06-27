@@ -1,0 +1,38 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{1609}]
+    The sum of an irrational number and a rational number is irrational.
+\end{theorem}
+
+\begin{proof}
+    By contradiction. Suppose that \bm{$\mu$} and \bm{$\zeta$} are rational numbers, 
+    and let \bm{$\chi$} be an irrational number. 
+    For the purpose of contradiction, 
+    assume the negation of the hypothesis. 
+    That is, the proposition 
+        $$\lnot p: \emph{the sum of an irrational number and a rational number 
+        is rational.}$$
+    Hence, \bm{$\chi + \mu = \zeta$}, 
+    by the assumption \bm{$\lnot p$}. 
+    Thus, 
+    \bm{$\chi = \zeta + \big \langle - \mu \big \rangle$}, 
+    by the additive equality property for equations. 
+    But rational numbers are closed under addition by the closure property for rational numbers. 
+    So \bm{$\lnot p$} implies \bm{$\chi$} is rational, 
+    and \bm{$\chi$} is irrational; a contradiction.
+\color{lightgray} \end{proof}
+
+
+\end{document}

@@ -1,0 +1,21 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+
+
+\newcommand{\pluseq}{\mathrel{+}=}
+
+
+\begin{document}
+    \begin{algorithmic}[0]
+        \Statex \color{white} x \color{black}
+        \Function{sum}{$\rho_1, \rho_2, \dots, \rho_\epsilon$: list of integers}
+            \State $\phi \gets 0$
+            \For{$\iota \gets 1, \epsilon$}
+                \State $\phi \pluseq \rho_\iota$
+            \EndFor
+            \State \Return{$\phi$}
+        \EndFunction        
+    \end{algorithmic}
+
+\end{document}

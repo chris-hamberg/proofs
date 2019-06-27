@@ -1,0 +1,112 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{lemma*}{Lemma}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{lemma*}[\textbf{2401}]
+    Let \bm{$\lambda$} be a positive integer.
+    \begin{equation*}
+        \bm{
+            \frac{1}{3} 
+            \bigg[ 
+                \lambda^3 
+                    + 
+                3 \bigg \langle 
+                    \frac{ \lambda [ \lambda + 1 ] }{2} 
+                \bigg \rangle
+                    - 
+                    \lambda 
+            \bigg] 
+                =
+            \bigg[
+                \frac{
+                    \lambda
+                    \langle \lambda + 1 \rangle 
+                    \langle 2 \lambda + 1 \rangle}
+                    {6}
+            \bigg]
+        }
+    \end{equation*}
+\end{lemma*}
+
+\begin{proof}
+    By the distributive laws for real numbers, 
+    and by the associative law for multiplication,
+    \begin{equation*}
+        3 \bigg \langle \frac{ \lambda [ \lambda + 1 ] }{2} \bigg \rangle 
+            = 
+        \bigg \langle \frac{3 \lambda ^2 + 3 \lambda }{2} \bigg \rangle
+    \end{equation*}
+    Since the rational number \bm{$\frac{2}{2} = 1$} 
+    by the inverse law for multiplication, 
+    by the multiplicative identity law from the field axioms,
+    (and by the identity established above,)
+    \begin{equation*} 
+            \bigg[ 
+                \lambda ^3 
+                    + 
+                3 \bigg \langle \frac{ \lambda [ \lambda + 1 ] }{2} \bigg \rangle
+                    - 
+                \lambda 
+            \bigg]
+            =
+            \bigg[
+                \frac{ 2 \lambda ^3 }{2} \
+                    + 
+                \frac{ 3 \lambda ^2 + 3 \lambda }{2} 
+                    - 
+                \frac{ 2 \lambda }{2}
+            \bigg]
+    \end{equation*}
+    By the distributive law for real numbers
+    \begin{equation*}
+            \frac{1}{3}
+            \bigg[
+                \frac{ 2 \lambda ^3 }{2} 
+                    + 
+                \frac{ 3 \lambda ^2 + 3 \lambda }{2} 
+                    - 
+                \frac{ 2 \lambda }{2}
+            \bigg]
+                =
+            \bigg[
+                \frac{ 2 \lambda ^3 + 3 \lambda ^2 + 3 \lambda - 2 \lambda }
+                {6}
+            \bigg]
+    \end{equation*}
+    Repeated factoring, 
+    by the distributive laws for real numbers,
+    completes the proof.
+    \begin{equation*}
+        \bigg[
+            \frac{ 2 \lambda ^3 + 3 \lambda ^2 + 3 \lambda - 2 \lambda }{6}
+        \bigg]
+            =
+        \bigg[
+            \frac{ \lambda \langle 2 \lambda ^2 + 2 \lambda + \lambda + 1 \rangle }{6}
+        \bigg]
+            =
+        \bigg[
+            \frac{ \lambda \langle 2 \lambda [\lambda + 1] + [\lambda + 1] \rangle }{6}
+        \bigg]
+    \end{equation*}
+    \begin{equation*}
+            =
+        \bm{
+            \bigg[
+                \frac{ \lambda \langle \lambda + 1 \rangle \langle 2 \lambda + 1 \rangle }{6}
+            \bigg]
+        }
+    \end{equation*}
+\color{lightgray} \end{proof}
+
+\end{document}

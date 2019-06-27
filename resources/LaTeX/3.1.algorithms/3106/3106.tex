@@ -1,0 +1,25 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+
+
+\newcommand{\pluseq}{\mathrel{+}=}
+
+
+\begin{document}
+
+\begin{algorithmic}[0]
+    \Statex \color{white} x \color{black}
+    \Function{negatives}{$\rho_1, \rho_2, \dots, \rho_\epsilon$: list of integers}
+    \State $\phi \gets 0$
+    \For{$\iota = 1, \epsilon$}
+        \If {$\rho_\iota < 0$}
+            \State $\phi \pluseq 1$
+        \EndIf
+    \EndFor
+    \State \Return{$\phi$}
+    \EndFunction
+    
+\end{algorithmic}
+
+\end{document}

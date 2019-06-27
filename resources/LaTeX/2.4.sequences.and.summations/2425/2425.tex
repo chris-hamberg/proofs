@@ -1,0 +1,142 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+\usepackage{xcolor}
+
+
+\newtheorem*{theorem*}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem*}[\textbf{2425}]
+    Let \bm{$\phi$} be a positive integer such that
+    \bm{$\lfloor \sqrt \phi \rfloor = \lambda$}.
+    The closed form formula for 
+    \bm{$
+        \Phi
+            = 
+        \sum_{\iota=0}^\phi 
+                \big \lfloor \sqrt \iota \big \rfloor
+    $} 
+    is 
+    \begin{equation*}
+        \bm{
+            \frac{
+                \lambda
+                \big \langle \lambda - 1 \big \rangle
+            }
+            {6}
+            \Bigg[
+                4 \lambda + 1
+            \Bigg]
+                +
+            \lambda
+            \Bigg[
+                \phi
+                    -
+                \lambda ^2
+                    +
+                1
+            \Bigg]
+        }
+    \end{equation*}
+\end{theorem*}
+
+\begin{proof}
+    By the associative law for addition from the field axioms,
+    \begin{equation*}
+        \Theta
+            = 
+        \sum_{\iota=0}^{\lambda - 1} 
+                \big \lfloor \sqrt \iota \big \rfloor 
+            =
+    \end{equation*}
+    \begin{equation*}
+        \Bigg (
+            \sum_{\iota=1}^{ 2 \beta_0 + 1 } 
+                    \big \lfloor \sqrt \iota \big \rfloor_0 
+        \Bigg )
+            +
+        \Bigg (
+            \sum_{\iota=1 + 2 \beta_0 + 1}^{ 2 \beta_0 + 1 + 2 \beta_1 + 1 } 
+                    \big \lfloor \sqrt \iota \big \rfloor_1 
+        \Bigg )
+            +
+        \dots
+            +
+        \Bigg (
+            \sum_{\iota=1 +  \dots + 2 \beta_{\langle \lambda - 2 \rangle} + 1 }
+                ^{0 + \dots + 2 \beta_{\langle \lambda - 1 \rangle} + 1} 
+                    \big \lfloor \sqrt \iota \big \rfloor_{
+                        \langle \lambda - 1 \rangle
+                    } 
+        \Bigg )
+    \end{equation*}
+    \bm{$\big \lfloor \sqrt \iota \big \rfloor_\tau$}
+    is the unique integer \bm{$\beta_\tau$}, 
+    for \bm{$\tau = 0$} to \bm{$\big \langle \lambda - 1 \big \rangle$}.
+    Hence, by Lemma 2403 and the distributive law for real numbers from the field axioms, 
+    by the partitioning from above, and shifting the index of summation,
+    \begin{equation*}
+        \Theta
+            =
+        \Big \langle 2 \beta_{0} ^2 + \beta_0 \Big \rangle
+            +
+        \Big \langle 2 \beta_{1} ^2 + \beta_1 \Big \rangle
+            +
+        \dots
+            +
+        \Big \langle 
+            2 \beta_{[ \lambda - 1 ]} ^2
+                +
+            \beta_{[ \lambda - 1 ]}
+        \Big \rangle
+    \end{equation*}
+    By the commutative law for addition from the field axioms,
+    that series is two times the finite summation of squares, 
+    plus the finite summation of integers from zero to lambda minus one.
+    \begin{equation*}
+        \Theta
+            = 
+        \sum_{\tau=0}^{ \lambda - 1 } 2 \tau ^2 
+            +
+        \sum_{\tau=0}^{ \lambda - 1 } \tau
+    \end{equation*}
+    Lambda occurs exactly 
+    \bm{$
+        \big \langle 
+            \phi - \lambda ^2 + 1
+        \big \rangle
+    $} 
+    times in big phi.
+    Thus, by Lemma 2402 and the distributive law for real numbers from the field axioms,
+    \begin{equation*}
+        \bm{
+            \Phi
+                =
+            \frac{
+                \lambda
+                \big \langle \lambda - 1 \big \rangle
+            }
+            {6}
+            \Bigg[
+                4 \lambda + 1
+            \Bigg]
+                +
+            \lambda
+            \Bigg[
+                \phi
+                    -
+                \lambda ^2
+                    +
+                1
+            \Bigg]
+        }
+    \end{equation*}
+\color{lightgray} \end{proof}
+
+\end{document}

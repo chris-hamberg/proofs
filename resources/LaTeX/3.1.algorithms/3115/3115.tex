@@ -1,0 +1,31 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+
+
+\newcommand{\minuseq}{\mathrel{-}=}
+
+
+\begin{document}
+    
+    \begin{algorithmic}[0]
+        \Statex \color{white} x \color{black}
+        \Function{insert}{$\lambda$: integer; $\rho_1, \dots, \rho_\epsilon$: integers in increasing order}
+        \If {$\rho_\epsilon \le \lambda$}
+            \State $\rho_{ \epsilon+1 } \gets x$
+        \Else
+            \State $\iota \gets \epsilon$
+            \While {$\iota \land \big \langle \lambda < \rho_\iota \big \rangle$} 
+            \color{lightgray} \Comment {make room for $\lambda$} \color{black}
+                \State $\rho_{\iota+1} \gets \rho_\iota$
+                \State $\iota \minuseq 1$
+            \EndWhile
+            \State $\rho_{\iota+1} \gets \lambda$
+        \EndIf
+
+        \State \Return{$\rho_1, \rho_2, \dots, \rho_{\epsilon+1}$}
+        \EndFunction
+    
+    \end{algorithmic}
+
+\end{document}

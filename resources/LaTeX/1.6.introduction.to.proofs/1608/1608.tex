@@ -2,7 +2,6 @@
 \usepackage{amssymb, amsthm}
 \usepackage{mathtools}
 \usepackage{bm}
-\usepackage{xcolor}
 
 
 \newtheorem{theorem}{Theorem}
@@ -14,30 +13,35 @@
 
 \begin{theorem} %[\textbf{1608}]
     If \bm{$\eta$} is a perfect square, 
-    then \bm{$\eta + 2$} is not a perfect square.
+    then \bm{$\eta \textbf{ + } 2$} is not a perfect square.
 \end{theorem}
 
 \begin{proof}
     Let \bm{$\eta$} be a perfect square. 
-    Assume \bm{$\eta + 2$} is a perfect square for the purpose of contradiction. 
+    Assume \bm{$\eta \textbf{ + } 2$} is a perfect square for the purpose of contradiction. 
     By the definition of perfect square, 
     \bm{$\sqrt{\eta}$} has to be an integer, 
     and by our assumption there exists an integer \bm{$\zeta$} such that 
-    \bm{$\zeta^2 = \eta + 2$}. 
+    \bm{$\zeta^2 \textbf{ = } \eta \textbf{ + } 2$}. 
     So the equivalence 
-    \bm{$\zeta^2 - \big \langle \sqrt{\eta} \big \rangle ^2 = 2$} must be the difference of squares 
-    \bm{$ \big \langle \zeta + \sqrt{\eta} \big \rangle 
-    \big \langle \zeta - \sqrt{\eta} \big \rangle = 2$}. 
+    \bm{$\zeta^2 \textbf{ - } \big \langle \sqrt{\eta} \big \rangle ^2 \textbf{ = } 2$} 
+    must be the difference of squares 
+    \begin{equation*}
+        \big \langle \zeta + \sqrt{\eta} \big \rangle 
+        \big \langle \zeta - \sqrt{\eta} \big \rangle 
+            =
+        2
+    \end{equation*}
     Since integers are closed on addition and subtraction, 
     it follows that the factors of \bm{$2$}, 
-    \bm{$\big \langle \zeta + \sqrt{\eta} \big \rangle$} and 
-    \bm{$\big \langle \zeta - \sqrt{\eta} \big \rangle$}, 
+    \bm{$\big \langle \zeta \textbf{ + } \sqrt{\eta} \big \rangle$} and 
+    \bm{$\big \langle \zeta \textbf{ - } \sqrt{\eta} \big \rangle$}, 
     have to be integers. 
     Because \bm{$2$} is prime, those integer factors can only be elements in the set
     \bm{$\{-2, -1, 1, 2\}$}. Thus, there are exactly two possibilities:
-    \\ \\ \indent \indent \bm{$(i)$} $\zeta ^2 - \big \langle \sqrt{\eta} \big \rangle ^2 = 
+    \\ \\ \indent \indent \bm{$(i)$} $\zeta ^2 \textbf{ - } \big \langle \sqrt{\eta} \big \rangle ^2 \textbf{ = } 
                             \big \langle 2 \big \rangle \big \langle 1 \big \rangle$,
-    \\ \indent \indent or \bm{$(ii)$} $\zeta ^2 - \big \langle \sqrt{\eta} \big \rangle ^2 = 
+    \\ \indent \indent or \bm{$(ii)$} $\zeta ^2 \textbf{ - } \big \langle \sqrt{\eta} \big \rangle ^2 \textbf{ = } 
                             \big \langle -1 \big \rangle \big \langle -2 \big \rangle.$
     \\ \\ In case \bm{$(i)$}, without loss of generality, 
     we have a system of linear equations in two variables \bm{$\zeta$} and \bm{$\sqrt{\eta}$}:
@@ -48,34 +52,34 @@
         \zeta - \sqrt{\eta} = 1
     \end{equation*}
     The matrix of coefficients 
-    $\bm{\Psi =} \left[\begin{smallmatrix}
+    $\bm{\Psi \textbf{ = }} \left[\begin{smallmatrix}
         \bm{1} & \bm{1} \\
         \bm{1} & \bm{-1} 
     \end{smallmatrix}\right]$, 
     the inverse for which is
-    $\bm{\Psi^{-1} =} \left[\begin{smallmatrix}
+    $\bm{\Psi^{-1} \textbf{ = }} \left[\begin{smallmatrix}
         \bm{0.5} & \bm{0.5} \\
         \bm{0.5} & \bm{-0.5}
     \end{smallmatrix}\right]$. 
-    The product of \bm{$\Psi^{-1}$} and the matrix of solutions yields \bm{$\zeta = 1.5$}, 
+    The product of \bm{$\Psi^{-1}$} and the matrix of solutions yields \bm{$\zeta \textbf{ = } 1.5$}, 
     which is not in \bm{$\mathbb{Z}$}; 
     contradicting the assumption that \bm{$\zeta^2$} was a perfect square.
     \\ \\ 
     In case \bm{$(ii)$}, 
     we are presented with a similar system of linear equations. 
     The only difference in this system compared to \bm{$(i)$} is the matrix of solutions 
-    $\bm{\Phi =} \left[\begin{smallmatrix}
+    $\bm{\Phi \textbf{ = }} \left[\begin{smallmatrix}
         \bm{-1} \\
         \bm{-2}
     \end{smallmatrix}\right]$. 
-    \bm{$\Psi^{-1}\Phi$} yields \bm{$\zeta = -1.5$}, 
+    \bm{$\Psi^{-1}\Phi$} yields \bm{$\zeta \textbf{ = } -1.5$}, 
     which is not in \bm{$\mathbb{Z}$}, 
     a contradiction. 
     Thus, the assumption that \bm{$\zeta^2$} was a perfect square must be false in this case, as well.
     \\ \\
     Since the assumption proves false in all possible cases, 
-    it is not possbile that both \bm{$\eta + 2$}, and \bm{$\eta$} are perfect squares.
-\color{lightgray} \end{proof}
+    it is not possbile that both \bm{$\eta \textbf{ + } 2$}, and \bm{$\eta$} are perfect squares.
+\end{proof}
 
 
 \end{document}

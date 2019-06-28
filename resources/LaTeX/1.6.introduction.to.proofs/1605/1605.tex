@@ -2,7 +2,6 @@
 \usepackage{amssymb, amsthm}
 \usepackage{mathtools}
 \usepackage{bm}
-\usepackage{xcolor}
 
 
 \newtheorem{theorem}{Theorem}
@@ -14,15 +13,15 @@
 
 \begin{theorem} %[\textbf{1605}]
     Let \bm{$\mu$}, \bm{$\zeta$}, and \bm{$\pi$} be integers. 
-    If \bm{$\mu + \zeta$} and \bm{$\zeta + \pi$} are even, 
-    then \bm{$\mu + \pi$} is even.
+    If \bm{$\mu \textbf{ + } \zeta$} and \bm{$\zeta \textbf{ + } \pi$} are even, 
+    then \bm{$\mu \textbf{ + } \pi$} is even.
 \end{theorem}
 
 \begin{proof}
     By the hypothesis, 
     there exist integers \bm{$\sigma$} and \bm{$\epsilon$} such that 
-    \bm{$\mu + \zeta = 2\sigma$}, 
-    and \bm{$\zeta + \pi = 2\epsilon$}. 
+    \bm{$\mu \textbf{ + } \zeta \textbf{ = } 2\sigma$}, 
+    and \bm{$\zeta \textbf{ + } \pi \textbf{ = } 2\epsilon$}. 
     Hence, 
     \begin{equation*}
         \big \langle \mu + \zeta \big \rangle 
@@ -46,12 +45,12 @@
     and \bm{$\zeta$} is an integer by the hypothesis. 
     Since addition and subtraction are closed on integers, 
     the factor 
-    \bm{$\big \langle \sigma + \epsilon - \zeta \big \rangle$} 
+    \bm{$\big \langle \sigma \textbf{ + } \epsilon \textbf{ - } \zeta \big \rangle$} 
     is an integer. 
-    It follows that \bm{$\mu + \pi$} is an even, 
+    It follows that \bm{$\mu \textbf{ + } \pi$} is an even, 
     by the definition for 
     even numbers.
-\color{lightgray} \end{proof}
+\end{proof}
 
 
 \end{document}

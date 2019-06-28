@@ -2,7 +2,6 @@
 \usepackage{amssymb, amsthm}
 \usepackage{mathtools}
 \usepackage{bm}
-\usepackage{xcolor}
 
 
 \newtheorem{theorem}{Theorem}
@@ -14,13 +13,16 @@
 
 \begin{theorem} %[\textbf{1615}]
     Let \bm{$\chi$} and \bm{$\zeta$} be real numbers. 
-    If \bm{$\chi + \zeta \ge 2$}, 
+    If \bm{$\chi \textbf{ + } \zeta \ge 2$}, 
     then 
     \bm{$
         \big \langle \chi \ge 1 \big \rangle 
-            \lor 
-        \big \langle \zeta \ge 1 \big \rangle$
-    }.
+            \lor
+    $}
+    \\
+    \bm{$
+        \big \langle \zeta \ge 1 \big \rangle
+    $}.
 \end{theorem}
 
 \begin{proof}
@@ -42,8 +44,7 @@
         \Big \rangle
     \end{equation*}
     This is the logical negation of the direct hypothesis. Thus concludes the proof.
-\color{lightgray} \end{proof}
-
+\end{proof}
 
 
 \end{document}

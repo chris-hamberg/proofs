@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.6.26)  27 JUN 2019 18:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.6.26)  28 JUN 2019 01:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -27,8 +27,8 @@ Package ifluatex Info: LuaTeX not detected.
 \stockwidth=\skip45
 \trimtop=\skip46
 \trimedge=\skip47
- (/usr/share/texlive/texmf-dist/tex/latex/memoir/mem10.clo
-File: mem10.clo 2008/01/30 v0.3 memoir class 10pt size option
+ (/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 )
 \binding=\skip48
 \spinemargin=\skip49
@@ -332,6 +332,10 @@ Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks22
+\inpenc@posthook=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
@@ -357,95 +361,95 @@ File: babel.def 2019/06/03 3.32 Babel common definitions
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks22
+\@emptytoks=\toks24
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks23
-\thm@bodyfont=\toks24
-\thm@headfont=\toks25
-\thm@notefont=\toks26
-\thm@headpunct=\toks27
-\thm@preskip=\skip185
-\thm@postskip=\skip186
-\thm@headsep=\skip187
-\dth@everypar=\toks28
-) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks29
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count140
-\calc@Bcount=\count141
-\calc@Adimen=\dimen148
-\calc@Bdimen=\dimen149
-\calc@Askip=\skip188
-\calc@Bskip=\skip189
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count142
-\calc@Cskip=\skip190
-) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip191
+\@mathmargin=\skip185
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks30
-\ex@=\dimen150
+\@emptytoks=\toks25
+\ex@=\dimen148
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
+\pmbraise@=\dimen149
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count143
+\inf@bad=\count140
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count144
-\leftroot@=\count145
+\uproot@=\count141
+\leftroot@=\count142
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count146
-\DOTSCASE@=\count147
+\classnum@=\count143
+\DOTSCASE@=\count144
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box32
 \strutbox@=\box33
-\big@size=\dimen152
+\big@size=\dimen150
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count148
-\c@MaxMatrixCols=\count149
+\macc@depth=\count145
+\c@MaxMatrixCols=\count146
 \dotsspace@=\muskip10
-\c@parentequation=\count150
-\dspbrk@lvl=\count151
-\tag@help=\toks31
-\row@=\count152
-\column@=\count153
-\maxfields@=\count154
-\andhelp@=\toks32
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
-\@envbody=\toks33
-\multlinegap=\skip192
-\multlinetaggap=\skip193
-\mathdisplay@stack=\toks34
+\c@parentequation=\count147
+\dspbrk@lvl=\count148
+\tag@help=\toks26
+\row@=\count149
+\column@=\count150
+\maxfields@=\count151
+\andhelp@=\toks27
+\eqnshift@=\dimen151
+\alignsep@=\dimen152
+\tagshift@=\dimen153
+\tagwidth@=\dimen154
+\totwidth@=\dimen155
+\lineht@=\dimen156
+\@envbody=\toks28
+\multlinegap=\skip186
+\multlinetaggap=\skip187
+\mathdisplay@stack=\toks29
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
+) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks30
+\thm@bodyfont=\toks31
+\thm@headfont=\toks32
+\thm@notefont=\toks33
+\thm@headpunct=\toks34
+\thm@preskip=\skip188
+\thm@postskip=\skip189
+\thm@headsep=\skip190
+\dth@everypar=\toks35
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks36
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count152
+\calc@Bcount=\count153
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip191
+\calc@Bskip=\skip192
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count154
+\calc@Cskip=\skip193
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
@@ -465,14 +469,14 @@ Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environ
  (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count156
-\float@exts=\toks35
+\float@exts=\toks37
 \float@box=\box34
-\@float@everytoks=\toks36
+\@float@everytoks=\toks38
 \@floatcapt=\box35
 ) (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\@float@every@algorithm=\toks37
+\@float@every@algorithm=\toks39
 \c@algorithm=\count157
 ) (/usr/share/texlive/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
@@ -520,7 +524,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 ) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count165
 \lst@gtempboxa=\box36
-\lst@token=\toks38
+\lst@token=\toks40
 \lst@length=\count166
 \lst@currlwidth=\dimen166
 \lst@column=\count167
@@ -570,8 +574,8 @@ Package shellesc Info: Restricted shell escape enabled on input line 69.
 ) (/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
  (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks39
-\XKV@tempa@toks=\toks40
+\XKV@toks=\toks41
+\XKV@tempa@toks=\toks42
 )
 \XKV@depth=\count175
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
@@ -664,7 +668,7 @@ Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footers
 \f@nch@O@orf=\skip267
 ) (/usr/share/texlive/texmf-dist/tex/latex/truncate/truncate.sty
 Package: truncate 2001/08/20  ver 3.6
-\@Trunc@RestHyph=\toks41
+\@Trunc@RestHyph=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdfescape.sty
@@ -778,7 +782,7 @@ Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
 \aftertitleunit=\skip270
 \ttl@plus=\dimen258
 \ttl@minus=\dimen259
-\ttl@toksa=\toks42
+\ttl@toksa=\toks44
 \titlewidth=\dimen260
 \titlewidthlast=\dimen261
 \titlewidthfirst=\dimen262
@@ -795,14 +799,14 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layoutheight=\dimen268
 \Gm@layouthoffset=\dimen269
 \Gm@layoutvoffset=\dimen270
-\Gm@dimlist=\toks43
+\Gm@dimlist=\toks45
 ) (/usr/share/texlive/texmf-dist/tex/latex/soul/soul.sty
 Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
-\SOUL@word=\toks44
-\SOUL@lasttoken=\toks45
-\SOUL@cmds=\toks46
-\SOUL@buffer=\toks47
-\SOUL@token=\toks48
+\SOUL@word=\toks46
+\SOUL@lasttoken=\toks47
+\SOUL@cmds=\toks48
+\SOUL@buffer=\toks49
+\SOUL@token=\toks50
 \SOUL@spaceskip=\skip271
 \SOUL@ttwidth=\dimen271
 \SOUL@uldp=\dimen272
@@ -1096,54 +1100,49 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 \dlf@normtxtw=\skip272
 \feline@chapter=\box42
 \c@theorem=\count266
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 115.
-
-
-LaTeX Warning: Unused global option(s):
-    [a5paper12pt].
-
-(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux)
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 117.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux)
 \openout1 = `"Book of Proofs.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 131.
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 131.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 131.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 133.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 133.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutm.fd
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 131.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 131.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 133.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmsfutm.fd
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 131.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 131.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 133.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 131.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 131.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 133.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 131.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 131.
+LaTeX Font Info:    ... okay on input line 133.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/t1futs.fd
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 ) (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1153,12 +1152,12 @@ File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
 \scratchbox=\box43
 \nofMPsegments=\count268
 \nofMParguments=\count269
-\everyMPshowfont=\toks49
+\everyMPshowfont=\toks51
 \MPscratchCnt=\count270
 \MPscratchDim=\dimen275
 \MPnumerator=\count271
 \makeMPintoPDFobject=\count272
-\everyMPtoPDFconversion=\toks50
+\everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
@@ -1176,7 +1175,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 131.
+Package hyperref Info: Link coloring OFF on input line 133.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
@@ -1186,32 +1185,32 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 131.
-LaTeX Info: Redefining \ref on input line 131.
-LaTeX Info: Redefining \pageref on input line 131.
-LaTeX Info: Redefining \nameref on input line 131.
+LaTeX Info: Redefining \nameref on input line 133.
+LaTeX Info: Redefining \ref on input line 133.
+LaTeX Info: Redefining \pageref on input line 133.
+LaTeX Info: Redefining \nameref on input line 133.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: <default>
+* paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(108.405pt, 397.485pt, 108.405pt)
-* v-part:(T,H,B)=(108.405pt, 578.15999pt, 108.405pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=397.485pt
-* \textheight=578.15999pt
+* h-part:(L,W,R)=(108.405pt, 380.69788pt, 108.405pt)
+* v-part:(T,H,B)=(108.405pt, 628.23685pt, 108.405pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=380.69788pt
+* \textheight=628.23685pt
 * \oddsidemargin=36.13501pt
 * \evensidemargin=36.13501pt
-* \topmargin=6.06752pt
-* \headheight=12.0pt
-* \headsep=18.06749pt
-* \topskip=10.0pt
-* \footskip=25.29494pt
-* \marginparwidth=128.0pt
+* \topmargin=1.76122pt
+* \headheight=14.5pt
+* \headsep=19.8738pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=92.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=12.0pt plus 4.0pt minus 4.0pt
@@ -1238,23 +1237,23 @@ LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <24> not available
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../resources/jpg/eulers_infinity.png>] [2
 
 ])
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 150.
-LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/futs/b/sc' tried instead on input line 150.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 152.
+LaTeX Font Info:    Font shape `T1/futs/bx/sc' in size <24.88> not available
+(Font)              Font shape `T1/futs/b/sc' tried instead on input line 152.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.toc
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
 LaTeX Font Info:    Try loading font information for FML+futmi on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmlfutmi.fd
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
+(Font)              scaled to size 11.03998pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
+(Font)              scaled to size 8.27998pt on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
+(Font)              scaled to size 6.43999pt on input line 2.
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1264,496 +1263,572 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 2.
+(Font)              scaled to size 11.03998pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 2.
+(Font)              scaled to size 8.27998pt on input line 2.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 2.
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-)pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
+(Font)              scaled to size 6.43999pt on input line 2.
+pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150 \newpage
-               [1
-
-]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.155 \cfoot
-            {\thepage} [2
+l.32 ...e strings of characters.}{96}{section.5.7}
+                                                  % [1
 
 ]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 157.
+Overfull \hbox (1.19994pt too wide) detected at line 35
+ \T1/futs/m/n/12 100
+ []
+
+)pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.152 \newpage
+               [2]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 159.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1.6.compilation/1.6.compilation.tex
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <15> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 20.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1601/1601.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 22.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1602/1602.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-) [1
-
-] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1603/1603.tex
-Missing character: There is no Å in font cmbsy10!
-)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 34.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1604/1604.tex
-Missing character: There is no Å in font cmbsy10!
-)
-<../resources/jpg/1.6.introduction.to.proofs/socrates.jpg, id=107, 1003.75pt x 501.875pt>
-File: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg Graphic file (type jpg)
-<use ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg  used on input line 42.
-(pdftex.def)             Requested size: 312.9803pt x 156.49094pt.
- [2 <../resources/jpg/1.6.introduction.to.proofs/socrates.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1605/1605.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-)
-<../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg, id=116, 1003.75pt x 669.50125pt>
-File: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg Graphic file (type jpg)
-<use ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg  used on input line 53.
-(pdftex.def)             Requested size: 312.9803pt x 208.75891pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1606/1606.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-) [3 <../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1608/1608.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--44
-
- []
-
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--78
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 49--78
-
- []
-
-)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 67.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
-<../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg, id=125, 965.6075pt x 198.7425pt>
-File: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg Graphic file (type jpg)
-<use ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg  used on input line 70.
-(pdftex.def)             Requested size: 369.88582pt x 76.12944pt.
- [4 <../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1609/1609.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 79.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1610/1610.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 85.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
-<../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg, id=136, 662.475pt x 301.125pt>
-File: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg Graphic file (type jpg)
-<use ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg  used on input line 88.
-(pdftex.def)             Requested size: 369.88582pt x 168.128pt.
- [5 <../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1612/1612.tex
-Missing character: There is no Å in font cmbsy10!
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--30
-
- []
-
-)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 97.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1613/1613.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [6]
-<../resources/jpg/1.6.introduction.to.proofs/euclid.jpg, id=150, 526.96875pt x 271.0125pt>
+<../resources/jpg/1.6.introduction.to.proofs/euclid.jpg, id=98, 526.96875pt x 271.0125pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg  used on input line 110.
-(pdftex.def)             Requested size: 327.20668pt x 168.28653pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1614/1614.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-)
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg  used on input line 23.
+(pdftex.def)             Requested size: 341.43306pt x 175.6019pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1601/1601.tex
+LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <12> not available
+(Font)              Font shape `T1/futs/b/it' tried instead on input line 16.
+) [1
+
+
+ <../resources/jpg/1.6.introduction.to.proofs/euclid.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1602/1602.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 115.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 33.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1615/1615.tex
-Missing character: There is no Ä in font cmbsy10!
-) [7 <../resources/jpg/1.6.introduction.to.proofs/euclid.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1616/1616.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-)
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1603/1603.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 127.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 39.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
-<../resources/jpg/1.6.introduction.to.proofs/olympics.jpg, id=159, 803.0pt x 602.25pt>
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1604/1604.tex) [2] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1605/1605.tex)
+<../resources/jpg/1.6.introduction.to.proofs/olympics.jpg, id=118, 803.0pt x 602.25pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg  used on input line 130.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg  used on input line 52.
 (pdftex.def)             Requested size: 170.71652pt x 128.03845pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1606/1606.tex) [3 <../resources/jpg/1.6.introduction.to.proofs/olympics.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1608/1608.tex
+Underfull \hbox (badness 10000) in paragraph at lines 34--48
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--48
+
+ []
+
+
+Overfull \hbox (7.16821pt too wide) in paragraph at lines 53--82
+\T1/futs/m/n/12 The ma-trix of co-ef-fi-cients $[][] []$, the in-verse for which is $[][][] []$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--82
+
+ []
+
+
+Overfull \hbox (19.44203pt too wide) in paragraph at lines 53--82
+\T1/futs/m/n/12 only dif-fer-ence in this sys-tem com-pared to $\OT1/cmr/bx/n/12 (\OML/cmm/b/it/12 i\OT1/cmr/bx/n/12 )$ \T1/futs/m/n/12 is the ma-trix of so-lu-tions $[][] []$.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--82
+
+ []
+
+)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 132.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 66.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 136.
+ [4] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1609/1609.tex)
+<../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg, id=136, 1003.75pt x 669.50125pt>
+File: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg Graphic file (type jpg)
+<use ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg>
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg  used on input line 75.
+(pdftex.def)             Requested size: 355.65944pt x 237.23022pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1610/1610.tex) [5 <../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1612/1612.tex
+Underfull \hbox (badness 10000) in paragraph at lines 23--29
+
+ []
+
+)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 89.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1613/1613.tex) [6] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1614/1614.tex)
+<../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg, id=150, 662.475pt x 301.125pt>
+File: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg Graphic file (type jpg)
+<use ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg>
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg  used on input line 103.
+(pdftex.def)             Requested size: 369.88582pt x 168.128pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1615/1615.tex) [7 <../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1616/1616.tex)
+<../resources/jpg/1.6.introduction.to.proofs/plato.jpg, id=159, 349.305pt x 529.98pt>
+File: ../resources/jpg/1.6.introduction.to.proofs/plato.jpg Graphic file (type jpg)
+<use ../resources/jpg/1.6.introduction.to.proofs/plato.jpg>
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato.jpg  used on input line 120.
+(pdftex.def)             Requested size: 241.84842pt x 366.94812pt.
+ [8 <../resources/jpg/1.6.introduction.to.proofs/plato.jpg>]
+LaTeX Font Info:    Calculating math sizes for size <15> on input line 127.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.79997pt on input line 136.
+(Font)              scaled to size 13.79997pt on input line 127.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.4879pt on input line 136.
+(Font)              scaled to size 10.4879pt on input line 127.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.28006pt on input line 136.
+(Font)              scaled to size 8.28006pt on input line 127.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 136.
+(Font)              size <14.4> substituted on input line 127.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <11.39992> not available
-(Font)              size <10.95> substituted on input line 136.
+(Font)              size <10.95> substituted on input line 127.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <15> not available
-(Font)              size <14.4> substituted on input line 136.
+(Font)              size <14.4> substituted on input line 127.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <11.39992> not available
-(Font)              size <10.95> substituted on input line 136.
+(Font)              size <10.95> substituted on input line 127.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <15> not available
-(Font)              size <14.4> substituted on input line 136.
+(Font)              size <14.4> substituted on input line 127.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <11.39992> not available
-(Font)              size <10.95> substituted on input line 136.
+(Font)              size <10.95> substituted on input line 127.
 
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.79997pt on input line 136.
+(Font)              scaled to size 13.79997pt on input line 127.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.4879pt on input line 136.
+(Font)              scaled to size 10.4879pt on input line 127.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.28006pt on input line 136.
-Missing character: There is no Ä in font cmbsy10!
+(Font)              scaled to size 8.28006pt on input line 127.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <11.39992> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 127.
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <9.00009> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 127.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 136.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\zeta' on input line 136.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 136.
+(hyperref)                removing `math shift' on input line 127.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 136.
+(hyperref)                removing `\zeta' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `superscript' on input line 127.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 127.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1617/1617.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 35.
 
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-) [8 <../resources/jpg/1.6.introduction.to.proofs/olympics.jpg>]
-Missing character: There is no Ä in font cmbsy10!
+)
+<../resources/jpg/1.6.introduction.to.proofs/socrates.jpg, id=166, 1003.75pt x 501.875pt>
+File: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg Graphic file (type jpg)
+<use ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg>
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg  used on input line 131.
+(pdftex.def)             Requested size: 376.99901pt x 188.50131pt.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 137.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\gamma' on input line 137.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 137.
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1618/1618.tex) [9 <../resources/jpg/1.6.introduction.to.proofs/socrates.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 143.
+(hyperref)                removing `\rho' on input line 143.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 143.
 
-(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1618/1618.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1625/1625.tex
+Overfull \hbox (0.8916pt too wide) in paragraph at lines 15--17
+[][]\T1/futs/b/n/12 Theorem 17. []\T1/futs/m/it/12 There does not ex-ist a ra-tio-nal num-ber $\OML/cmm/b/it/12 ^^Z$ \T1/futs/m/it/12 such that $\OML/cmm/b/it/12 ^^Z[][]^^Z[]\OT1/cmr/bx/n/12 1[]0$\T1/futs/m/it/12 . 
+ []
+
 )
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
 Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 145.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+<../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg, id=176, 965.6075pt x 198.7425pt>
+File: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg Graphic file (type jpg)
+<use ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg  used on input line 148.
+(pdftex.def)             Requested size: 284.52756pt x 58.5618pt.
+ [10 <../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2.2.compilation/2.2.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2205/2205.tex)
+<../resources/jpg/2.2.set.operations/set.jpg, id=183, 1284.8pt x 722.7pt>
+File: ../resources/jpg/2.2.set.operations/set.jpg Graphic file (type jpg)
+<use ../resources/jpg/2.2.set.operations/set.jpg>
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/set.jpg  used on input line 23.
+(pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
+ [11
 
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 149.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rho' on input line 149.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 149.
-
-(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/1625/1625.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
+ <../resources/jpg/2.2.set.operations/set.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206a/2206a.tex
 Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [12] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206b/2206b.tex
+Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 )
-Missing character: There is no Ä in font cmbsy10!
- [9]) [10
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 37--38
+ [] 
+ []
 
-] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2.2.compilation/2.2.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2205/2205.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206a/2206a.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
- [11]) [12] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206b/2206b.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2207a/2207a.tex
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2207a/2207a.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 ) [13] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2207b/2207b.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2208a/2208a.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2208b/2208b.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [14] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2209a/2209a.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no õ in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2209b/2209b.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [15] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2210a/2210a.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no õ in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2210b/2210b.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2211a/2211a.tex
-Missing character: There is no Å in font cmbsy10!
-) [16] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2211b/2211b.tex
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2212/2212.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2213/2213.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [17] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2215/2215.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216a/2216a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216b/2216b.tex) [18] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216c/2216c.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216d/2216d.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216e/2216e.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [19] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2217/2217.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218a/2218a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218b/2218b.tex) [20] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218c/2218c.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218d/2218d.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [21] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218e/2218e.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no õ in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2219/2219.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237a/2237a.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [22] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2220/2220.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2221/2221.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [23] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2222/2222.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2223/2223.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2231/2231.tex
-LaTeX Font Info:    Font shape `T1/futs/bx/it' in size <10> not available
-(Font)              Font shape `T1/futs/b/it' tried instead on input line 38.
-) [24] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2224/2224.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no õ in font cmbsy10!
-Missing character: There is no õ in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237d/2237d.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [25] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2235/2235.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2238a/2238a.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [26] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2236/2236.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2201L/2201L.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2202L/2202L.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [27] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2203L/2203L.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2238b/2238b.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [28] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2204L/2204L.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2205L/2205L.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [29] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237b/2237b.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237c/2237c.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2241/2241.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no õ in font cmbsy10!
-Missing character: There is no õ in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [30] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2240/2240.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [31]) [32
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 51--52
+ [] 
+ []
 
-] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2320/2320.tex
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2208a/2208a.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 60--61
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2208b/2208b.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [14] [15] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2209a/2209a.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no õ in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 74--75
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2209b/2209b.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [16] [17] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2210a/2210a.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no õ in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 88--89
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2210b/2210b.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 96--97
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2211a/2211a.tex [18]
+Missing character: There is no Å in font cmbsy10!
+) [19] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2211b/2211b.tex
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 110--111
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2212/2212.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 118--119
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2213/2213.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [20] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2215/2215.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 132--133
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216a/2216a.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 140--141
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216b/2216b.tex) [21] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216c/2216c.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 154--155
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216d/2216d.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 162--163
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216e/2216e.tex
+Missing character: There is no Å in font cmbsy10!
+ [22]
+Missing character: There is no Å in font cmbsy10!
+) [23] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2217/2217.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 176--177
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218a/2218a.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 184--185
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218b/2218b.tex [24]) [25] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218c/2218c.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 198--199
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218d/2218d.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [26] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218e/2218e.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no õ in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 212--213
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2219/2219.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 220--221
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237a/2237a.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [27] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2220/2220.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 234--235
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2221/2221.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [28] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2222/2222.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 248--249
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2223/2223.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 256--257
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2231/2231.tex [29]) [30] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2224/2224.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no õ in font cmbsy10!
+Missing character: There is no õ in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 270--271
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237d/2237d.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [31] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2235/2235.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 284--285
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2238a/2238a.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [32] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2236/2236.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 298--299
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2201L/2201L.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 306--307
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2202L/2202L.tex
+Missing character: There is no Å in font cmbsy10!
+
+Overfull \hbox (1.93375pt too wide) in paragraph at lines 61--64
+\T1/futs/m/n/12 By the idem-po-tent law for set union, and by the com-ple-ment law for set union,
+ []
+
+Missing character: There is no Å in font cmbsy10!
+[33]) [34] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2203L/2203L.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 320--321
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2238b/2238b.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [35] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2204L/2204L.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 334--335
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2205L/2205L.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [36] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237b/2237b.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 348--349
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237c/2237c.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 356--357
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2241/2241.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no õ in font cmbsy10!
+Missing character: There is no õ in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [37] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2240/2240.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [38]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2320/2320.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
-) [33] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2321/2321.tex
+) [39
+
+] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2321/2321.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2324/2324.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 37--38
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2324/2324.tex
 Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2325/2325.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 45--46
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2325/2325.tex
 Missing character: There is no Å in font cmbsy10!
-) [34] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329a/2329a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329b/2329b.tex) [35] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2330/2330.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336a/2336a.tex
+ [40]) [41] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329a/2329a.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 59--60
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329b/2329b.tex) [42] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2330/2330.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 73--74
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336a/2336a.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 81--82
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
@@ -1762,16 +1837,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--36
 
  []
 
-) [36] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336b/2336b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340a/2340a.tex
+[43]) [44] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336b/2336b.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 95--96
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340a/2340a.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340b/2340b.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 103--104
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340b/2340b.tex
+Missing character: There is no Å in font cmbsy10!
+ [45]
+Missing character: There is no Å in font cmbsy10!
+) [46] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2341/2341.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) [37] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2341/2341.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2342/2342.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 117--118
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2342/2342.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
@@ -1797,7 +1888,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--101
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) [38] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2343/2343.tex
+[47]) [48] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2343/2343.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
 
@@ -1812,14 +1903,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--104
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2346/2346.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 131--132
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2346/2346.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) [39] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2344/2344.tex
+ [49]) [50] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2344/2344.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no õ in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
@@ -1849,7 +1945,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--156
 
  []
 
-) [40] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2345/2345.tex
+) [51] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2345/2345.tex
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
@@ -1857,7 +1953,12 @@ Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347a/2347a.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 151--152
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347a/2347a.tex
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
@@ -1869,6 +1970,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--47
 
  []
 
+[52]
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
@@ -1877,7 +1979,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--71
 
  []
 
-) [41] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347b/2347b.tex
+) [53] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347b/2347b.tex
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
 Missing character: There is no Ç in font cmbsy10!
@@ -1896,17 +1998,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--72
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348a/2348a.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 165--166
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348a/2348a.tex
 Missing character: There is no É in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
-) [42] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348b/2348b.tex
+) [54] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348b/2348b.tex
 Missing character: There is no É in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
 Missing character: There is no É in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2366/2366.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 179--180
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2366/2366.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
@@ -1916,7 +2028,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--93
 
  []
 
-) [43] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2349/2349.tex
+) [55] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2349/2349.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
@@ -1934,12 +2046,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--73
  []
 
 Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369a/2369a.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 193--194
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369a/2369a.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) [44] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2350/2350.tex
+ [56]) [57] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2350/2350.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
@@ -1967,12 +2084,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--99
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370a/2370a.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 207--208
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370a/2370a.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) [45] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367a/2367a.tex
+) [58] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367a/2367a.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 
@@ -1991,14 +2113,24 @@ Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex
+
+Overfull \hbox (8.52231pt too wide) in paragraph at lines 107--121
+\T1/futs/m/n/12 from log-i-cal iden-tity, and from the mul-ti-plica-tive prop-erty for zero that $\OML/cmm/b/it/12 ^^U[][]^^S[] 
+ []
+
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 221--222
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) [46] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367b/2367b.tex
+ [59]) [60] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367b/2367b.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
@@ -2031,7 +2163,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--120
 
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) [47] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367c/2367c.tex
+) [61] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367c/2367c.tex
 Missing character: There is no Å in font cmbsy10!
 
 Underfull \hbox (badness 10000) in paragraph at lines 30--39
@@ -2045,7 +2177,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--69
  []
 
 Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2302L/2302L.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 241--242
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2302L/2302L.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
@@ -2061,7 +2198,7 @@ Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) [48] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367d/2367d.tex
+ [62]) [63] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367d/2367d.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 
@@ -2075,7 +2212,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--95
 
  []
 
-) [49] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369c/2369c.tex
+) [64] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369c/2369c.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
@@ -2111,7 +2248,7 @@ Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) [50] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370c/2370c.tex
+) [65] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370c/2370c.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 
@@ -2126,7 +2263,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--113
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2304L/2304L.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 267--268
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2304L/2304L.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
@@ -2139,7 +2281,7 @@ Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) [51] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370e/2370e.tex
+) [66] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370e/2370e.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
@@ -2162,15 +2304,15 @@ Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) [52] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371a/2371a.tex
+) [67] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371a/2371a.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) [53] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371b/2371b.tex
+) [68] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371b/2371b.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-) [54] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2372/2372.tex
+) [69] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2372/2372.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
@@ -2217,7 +2359,7 @@ Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-[55]
+[70]
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
@@ -2240,88 +2382,113 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--294
 
  []
 
-) [56]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2419/2419.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2436/2436.tex) [57
+) [71]) [72
 
-] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2403L/2403L.tex
+] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2419/2419.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 29--30
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2436/2436.tex) [73] [74] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2403L/2403L.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2420/2420.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 43--44
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2420/2420.tex
 Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [58] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421a/2421a.tex
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2437/2437.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2438/2438.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) [59] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421b/2421b.tex
-Missing character: There is no Å in font cmbsy10!
-) [60] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2401L/2401L.tex
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2404L/2404L.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-) [61] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2422/2422.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
+) [75] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421a/2421a.tex
 Missing character: There is no Å in font cmbsy10!
-) [62] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2402L/2402L.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-) [63] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2405L/2405L.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-) [64] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2425/2425.tex
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-) [65] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2426/2426.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 57--58
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2437/2437.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 65--66
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2438/2438.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+ [76]) [77] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421b/2421b.tex
+Missing character: There is no Å in font cmbsy10!
+) [78] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2401L/2401L.tex
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
-Missing character: There is no Ä in font cmbsy10!
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 88--89
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2404L/2404L.tex
+Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
+ [79]) [80] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2422/2422.tex
+Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
-) [66] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2440/2440.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+) [81] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2402L/2402L.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+) [82] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2405L/2405L.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+) [83] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2425/2425.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+) [84] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2426/2426.tex
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Å in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+Missing character: There is no Ä in font cmbsy10!
+) [85] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2440/2440.tex
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Å in font cmbsy10!
 Missing character: There is no Ä in font cmbsy10!
@@ -2343,7 +2510,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--72
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2443/2443.tex) [67] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2441/2441.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2442/2442.tex) [68]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex
+)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 132--133
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2443/2443.tex [86]) [87] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2441/2441.tex)
+Overfull \hbox (9.55968pt too wide) in paragraph at lines 146--147
+ [] 
+ []
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2442/2442.tex) [88]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 62.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3103/3103.tex) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
@@ -2351,11 +2528,31 @@ File: lstlang1.sty 2019/02/27 1.8b listings language file
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 68.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3103.py) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/02/27 1.8b listings language file
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java [69
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3103.py
+Overfull \hbox (4.53186pt too wide) in paragraph at lines 2--3
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
 
-]) [70] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3104/3104.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3104.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3104.java) [71] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3105/3105.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3105.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3105.java) [72] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3106/3106.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3106.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3106.java) [73] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3107/3107.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3107.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3107.java) [74] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3108/3108.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3108.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3108.java) [75] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3109/3109.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3109.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3109.java) [76]
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java [89
+
+]) [90] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3104/3104.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3104.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3104.java) [91] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3105/3105.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3105.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3105.java
+Overfull \hbox (4.53186pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [92] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3106/3106.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3106.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3106.java) [93] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3107/3107.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3107.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3107.java) [94] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3108/3108.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3108.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3108.java
+Overfull \hbox (26.75665pt too wide) in paragraph at lines 16--17
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [95] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3109/3109.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3109.py
+Overfull \hbox (26.75665pt too wide) in paragraph at lines 4--5
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3109.java) [96]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 211.
@@ -2376,14 +2573,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 211.
 
-(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3110/3110.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3110.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3110.java)
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3110/3110.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3110.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3110.java
 
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 12.78558pt.
+Package Fancyhdr Warning: \headheight is too small (14.5pt): 
+Make it at least 14.95602pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[77]
+[97]) [98]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 234.
@@ -2408,35 +2605,35 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 234.
 
-(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3111/3111.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3111.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3111.java) [78] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3115/3115.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3115.py) [79] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java)) [80]
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3111/3111.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3111.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3111.java) [99] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3115/3115.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3115.py) [100] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java)) [101]
 \tf@toc=\write4
 \openout4 = `"Book of Proofs.toc"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 189.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 189.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 187.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 187.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 189.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 189.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.6pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 187.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 189.
  ) 
 Here is how much of TeX's memory you used:
- 19856 strings out of 492609
- 359848 string characters out of 6131462
- 600546 words of memory out of 5000000
- 22247 multiletter control sequences out of 15000+600000
- 166530 words of font info for 167 fonts, out of 8000000 for 9000
+ 19957 strings out of 492609
+ 361559 string characters out of 6131462
+ 601144 words of memory out of 5000000
+ 22314 multiletter control sequences out of 15000+600000
+ 204398 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,15n,84p,488b,2157s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf" (84 pages, 1960725 bytes).
+ 67i,22n,84p,488b,2273s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfsx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf" (105 pages, 3362208 bytes).
 PDF statistics:
- 971 PDF objects out of 1000 (max. 8388607)
- 845 compressed objects within 9 object streams
- 369 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1074 PDF objects out of 1200 (max. 8388607)
+ 924 compressed objects within 10 object streams
+ 394 named destinations out of 1000 (max. 500000)
+ 334 words of extra memory for PDF output out of 10000 (max. 10000000)
 

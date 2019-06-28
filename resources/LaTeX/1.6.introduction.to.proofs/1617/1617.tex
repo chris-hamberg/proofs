@@ -2,7 +2,6 @@
 \usepackage{amssymb, amsmath, amsthm}
 \usepackage{mathtools}
 \usepackage{bm}
-\usepackage{xcolor}
 
 
 \newtheorem{theorem}{Theorem}
@@ -14,7 +13,8 @@
 
 \begin{theorem} %[\textbf{1617}]
     Let \bm{$\zeta$} be an integer. 
-    If \bm{$\zeta^3 + 5$} is odd, then \bm{$\zeta$} is even.
+    If \bm{$\zeta^3 \textbf{ + } 5$} is odd, 
+    then \bm{$\zeta$} is even.
 \end{theorem}
 
 \begin{proof}
@@ -22,7 +22,7 @@
     Suppose that \bm{$\zeta$} were odd. 
     By the definition for odd numbers, 
     there exists an integer \bm{$\gamma$} such that 
-    \bm{$\zeta = 2\gamma + 1$}. 
+    \bm{$\zeta \textbf{ = } 2\gamma \textbf{ + } 1$}. 
     By the Binomial Theorem,
     \begin{equation*}
         \Bigg \{
@@ -42,11 +42,10 @@
         \Bigg \}
     \end{equation*}
     The factor 
-    \bm{$\big \langle 4 \gamma ^3 - 6 \gamma ^2 + 3 \gamma + 3 \big \rangle$} 
+    \bm{$\big \langle 4 \gamma ^3 \textbf{ - } 6 \gamma ^2 \textbf{ + } 3 \gamma \textbf{ + } 3 \big \rangle$} 
     is an integer because integers are closed on addition and multiplication. 
-    Thus, \bm{$\zeta^3 + 5$} is even, by definition.
-\color{lightgray} \end{proof}
-
+    Thus, \bm{$\zeta^3 \textbf{ + } 5$} is even, by definition.
+\end{proof}
 
 
 \end{document}

@@ -2,7 +2,6 @@
 \usepackage{amssymb, amsthm}
 \usepackage{mathtools}
 \usepackage{bm}
-\usepackage{xcolor}
 
 
 \newtheorem{theorem}{Theorem}
@@ -14,13 +13,13 @@
 \begin{theorem} %[\textbf{1601}]
     Let \bm{$\chi$} and \bm{$\zeta$} be integers. 
     If \bm{$\chi$} and \bm{$\zeta$} are odd, 
-    then \bm{$\chi + \zeta$} is even.
+    then \bm{$\chi \textbf{ + } \zeta$} is even.
 \end{theorem}
 
 \begin{proof}
     By the definition for odd numbers, 
     there exists integers \bm{$\mu$} and \bm{$\nu$} such that 
-    \bm{$\chi = 2\mu + 1$} and \bm{$\zeta = 2\nu + 1$}. 
+    \bm{$\chi \textbf{ = } 2\mu \textbf{ + } 1$} and \bm{$\zeta \textbf{ = } 2\nu \textbf{ + } 1$}. 
     Hence,
     \begin{equation*}
         \chi + \zeta 
@@ -37,9 +36,9 @@
     \end{equation*} 
     Integers are closed under addition. 
     Thus, the factor 
-    \bm{$\big \langle \mu + \nu + 1 \big \rangle$} is an integer. 
-    It follows that \bm{$\chi + \zeta$} is even, 
+    \bm{$\big \langle \mu \textbf{ + } \nu \textbf{ + } 1 \big \rangle$} is an integer. 
+    It follows that \bm{$\chi \textbf{ + } \zeta$} is even, 
     by the definition for even numbers.
-\color{lightgray} \end{proof}
+\end{proof}
 
 \end{document}

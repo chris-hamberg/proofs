@@ -1,0 +1,61 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{1613}]
+    If \bm{$\chi$} is an irrational number, 
+    then \bm{$\frac{1}{\chi}$} is irrational.
+\end{theorem}
+
+\begin{proof}
+    By the contrapositive. 
+    Suppose that \bm{$\frac{1}{\chi}$} is a rational number. 
+    By the definition for rational numbers, 
+    there exist integers \bm{$\alpha$} and \bm{$\gamma$} such that 
+    \bm{$\frac{1}{\chi} = \frac{\alpha}{\gamma}$}. 
+    Note that \bm{$\alpha$} is nonzero (because \bm{$\frac{1}{\chi}$} is nonzero.) 
+    By the multiplicative property of equality for equations,
+    \begin{equation*}
+        \Bigg\{
+            \left(
+                \chi \cdot \frac{1}{\chi}
+            \right) 
+                = 
+            \left(
+                \chi \cdot \frac{\alpha}{\gamma}
+            \right)
+        \Bigg\} 
+            \equiv
+        \Bigg\{
+            \left(
+                \frac{\chi}{\chi} \cdot \frac{\gamma}{\alpha}
+            \right) 
+                = 
+            \left(
+                \frac{\chi \alpha}{\gamma} \cdot \frac{\gamma}{\alpha}
+            \right)
+        \Bigg\} 
+            \equiv
+        \Bigg\{
+            \frac{\gamma}{\alpha} 
+                = 
+            \chi
+        \Bigg\}
+    \end{equation*}
+    \bm{$\frac{\gamma}{\alpha} = \chi$} is rational, 
+    by definition. 
+    Thus, if \bm{$\frac{1}{\chi}$} is rational, 
+    then \bm{$\chi$} is rational.
+\end{proof}
+
+
+\end{document}

@@ -1,0 +1,58 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{1614}]
+    If \bm{$\chi$} is a rational number and 
+    \bm{$\chi \neq 0$}, 
+    then \bm{$\frac{1}{\chi}$} is rational.
+\end{theorem}
+
+\begin{proof}
+    Let \bm{$\alpha$} and \bm{$\gamma$} be nonzero integers. 
+    \bm{$\chi = \frac{\alpha}{\gamma}$}, 
+    by the definition for rational numbers. 
+    By the multiplicative property of equality for equations
+    \begin{equation*}
+        \left\{
+            \left(
+                \frac{1}{\chi} \cdot \chi
+            \right) 
+                = 
+            \left(
+                \frac{1}{\chi} \cdot \frac{\alpha}{\gamma}
+            \right)
+        \right\} 
+            \equiv 
+        \left\{
+            \left(
+                \frac{\chi}{\chi} \cdot \frac{\gamma}{\alpha}
+            \right) 
+                = 
+            \left(
+                \frac{\alpha}{\chi\gamma} \cdot \frac{\gamma}{\alpha}
+            \right)
+        \right\}
+            \equiv 
+        \left\{
+            \frac{\gamma}{\alpha} 
+                = 
+            \frac{1}{\chi}
+        \right\}
+    \end{equation*}
+    \bm{$\frac{\gamma}{\alpha} = \frac{1}{\chi}$} is rational, by definition. 
+    Thus, if \bm{$\chi$} is a rational number and \bm{$\chi \neq 0$}, 
+    then \bm{$\frac{1}{\chi}$} is rational.
+\end{proof}
+
+
+\end{document}

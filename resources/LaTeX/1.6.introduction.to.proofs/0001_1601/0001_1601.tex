@@ -1,0 +1,45 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+    
+\begin{theorem} %[\textbf{1601}]
+    Let \bm{$\chi$} and \bm{$\zeta$} be integers. 
+    If \bm{$\chi$} and \bm{$\zeta$} are odd, 
+    then \bm{$\chi + \zeta$} is even.
+\end{theorem}
+
+\begin{proof}
+    By the definition for odd numbers, 
+    there exists integers \bm{$\mu$} and \bm{$\nu$} such that 
+    \bm{$\chi = 2\mu + 1$} and \bm{$\zeta = 2\nu + 1$}. 
+    Hence,
+    \begin{equation*}
+        \chi + \zeta 
+            = 
+        \Big[
+            \big \langle 2 \mu + 1 \big \rangle 
+                + 
+            \big \langle 2 \nu + 1 \big \rangle
+        \Big]
+            = 
+        \Big[
+            2 \big \langle \mu + \nu + 1 \big \rangle
+        \Big]
+    \end{equation*} 
+    Integers are closed under addition. 
+    Thus, the factor 
+    \bm{$\big \langle \mu + \nu + 1 \big \rangle$} is an integer. 
+    It follows that \bm{$\chi + \zeta$} is even, 
+    by the definition for even numbers.
+\end{proof}
+
+
+\end{document}

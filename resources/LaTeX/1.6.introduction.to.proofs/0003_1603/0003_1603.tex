@@ -1,0 +1,38 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+    
+\begin{theorem} %[\textbf{1603}]
+    If \bm{$\chi$} is an even integer, 
+    then \bm{$\chi^2$} is an even integer.
+\end{theorem}
+
+\begin{proof}
+    By the definition for even numbers, 
+    there exists an integer \bm{$\eta$} such that 
+    \bm{$\chi = 2\eta$}. 
+    Hence,
+    \begin{equation*}
+        \big \langle 2 \eta \big \rangle ^2 
+            = 
+        4 \eta ^2 
+            = 
+        2 \big \langle 2 \eta ^2 \big \rangle
+    \end{equation*}
+    Integers are closed under multiplication. 
+    Thus, the factor 
+    \bm{$\big \langle 2 \eta ^2 \big \rangle$} is an integer. 
+    It follows that \bm{$\chi^2$} is even, by 
+    the definition for even numbers.
+\end{proof}
+
+
+\end{document}

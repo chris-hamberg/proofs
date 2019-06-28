@@ -1,7 +1,8 @@
 \documentclass[a4paper, 12pt]{memoir}
 \usepackage[utf8]{inputenc}
-\usepackage[T1]{fontenc}
 \usepackage[english]{babel}
+\usepackage{fouriernc,tgschola}
+\usepackage[T1]{fontenc}
 \usepackage{amssymb}
 \usepackage{amsmath}
 \usepackage{amsthm}
@@ -17,9 +18,10 @@
 \usepackage[fit, breakall]{truncate}
 \usepackage{bookmark}
 \usepackage{titlesec}
-\usepackage[margin=1.5in]{geometry}
+\usepackage[margin=1.3in]{geometry}
 
-\usepackage{color,calc,graphicx,soul,fourier}
+
+\usepackage{soul}
 \definecolor{nicered}{rgb}{0,.5,.55} %{.647,.129,.149}
 \makeatletter
 \newlength\dlf@normtxtw
@@ -127,7 +129,7 @@
 
 \definecolor{section}{rgb}{0,.5,.55}
 \titleformat{\section}
-    {\normalfont\fontsize{15}{15}\bfseries}{\color{section}\thesection}{1em}{}
+    {\normalfont\fontsize{15}{15}\bfseries\raggedright}{\color{section}\thesection}{1em}{}
 
 
 \begin{document}
@@ -157,13 +159,13 @@
 \cfoot{\thepage}
 % ================================= Chapter 1 =================================
 \chapter{Introduction to Proofs}
-\input{../resources/LaTeX/1.6.introduction.to.proofs/1.6.compilation/1.6.compilation.tex}
+\input{../resources/LaTeX/1.6.introduction.to.proofs/chapter.1/chapter.1.tex}
 \pagebreak
 
 
 % ================================= Chapter 2 =================================
 \chapter{Set Operations}
-\input{../resources/LaTeX/2.2.set.operations/2.2.compilation/2.2.compilation.tex}
+\input{../resources/LaTeX/2.2.set.operations/chapter.2/chapter.2.tex}
 \pagebreak
 
 

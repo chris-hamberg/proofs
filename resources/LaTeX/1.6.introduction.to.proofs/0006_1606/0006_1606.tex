@@ -1,0 +1,51 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{1606}]
+    The product of two odd numbers is odd.
+\end{theorem}
+
+\begin{proof}
+    Suppose that \bm{$\mu$} and \bm{$\zeta$} are odd numbers. 
+    By the definition for odd numbers, 
+    there exist integers \bm{$\sigma$} and \bm{$\epsilon$} such that 
+    \bm{$\mu = 2\sigma + 1$} and \bm{$\zeta = 2\epsilon + 1$}. 
+    Thus, the product of odd numbers \bm{$\mu \zeta$} is,
+    \begin{equation*}
+        \mu \zeta 
+            =
+        \Big[ 
+            \big \langle 2 \sigma + 1 \big \rangle 
+            \big \langle 2 \epsilon + 1 \big \rangle
+        \Big]
+            = 
+        \Big[% \langle
+            2 \sigma 2 \epsilon + 2 \sigma + 2 \epsilon + 1 
+        \Big]% \rangle
+            = 
+        \Big[
+            2 \big \langle 
+                \sigma \epsilon + \sigma + \epsilon 
+            \big \rangle 
+                + 1
+        \Big]
+    \end{equation*}     
+    The factor 
+    \bm{$\big \langle \sigma \epsilon + \sigma + \epsilon \big \rangle$} 
+    is an integer because \bm{$\sigma$} and \bm{$\epsilon$} are integers by definition, 
+    and integers are closed on addition. 
+    Therefore, \bm{$\mu \zeta$} is odd by the definition for odd numbers.
+\end{proof}
+
+
+\end{document}

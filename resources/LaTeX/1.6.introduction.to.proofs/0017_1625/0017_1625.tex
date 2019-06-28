@@ -1,0 +1,94 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{1625}]
+    There does not exist a rational number \bm{$\rho$} such that 
+    \bm{$\rho^3 + \rho + 1 = 0$}.
+\end{theorem}
+
+\begin{proof}
+    For the purpose of contradiction, 
+    assume that there exists a rational number \bm{$\rho$} satisfying the equation 
+    \bm{$\rho^3 + \rho + 1 = 0$}. 
+    By the definition for rational numbers, 
+    there exist integers \bm{$\alpha$} and \bm{$\beta$} (\bm{$\beta$} is nonzero,) such that 
+    \begin{equation*}
+        \left( 
+            \rho ^3 + \rho + 1 
+        \right) 
+            = 
+        \left( 
+            \frac{\alpha^3}{\beta^3} + \frac{\alpha}{\beta} + 1 
+        \right) 
+            = 
+        0
+    \end{equation*}
+    By the additive equality property for equations, that is
+    \begin{equation*}
+        \frac{\alpha^3}{\beta^3} 
+            = 
+        \left(
+            -1 - \frac{\alpha}{\beta}
+        \right)
+    \end{equation*}
+    It is possible to derive \bm{$\rho^2$} from \bm{$\rho^3$} 
+    by multiplying \bm{$\rho^3$} by the multiplicative inverse for \bm{$\rho$}. 
+    By the multiplicative equality property for equations,
+    \begin{equation*}
+        \frac{\alpha^3}{\beta^3} \cdot \frac{\beta}{\alpha}
+            =
+        \left(
+            -1 - \frac{\alpha}{\beta}
+        \right) 
+            \cdot 
+        \frac{\beta}{\alpha} 
+            =
+        \left\{
+            \frac{-\beta}{\alpha} 
+                - 
+            \frac{\alpha \beta}{\beta \alpha}
+        \right\}
+    \end{equation*}
+    Thus, by the field axioms, \bm{$\rho^2$} is
+    \begin{equation*}
+        \left\{
+            \frac{-\beta}{\alpha} 
+                - 
+            \frac{\alpha \beta}{\beta \alpha}
+        \right\}
+            = 
+        \left(
+            \frac{-\beta - \alpha}{\alpha}
+        \right)
+            = 
+        -1 
+            \cdot 
+        \left( 
+            \frac{\beta + \alpha}{\alpha}
+        \right)
+    \end{equation*}
+    Applying the square root to \bm{$\rho^2$} gives the identity for \bm{$\rho$}
+    \begin{equation*}
+        \sqrt{ \frac{\alpha^2}{\beta^2} } 
+            =
+        \sqrt{ -1 \cdot \left( \frac{\beta + \alpha}{\alpha} \right) } 
+            =
+        i \cdot \sqrt{ \left( \frac{\beta + \alpha}{\alpha} \right) }
+    \end{equation*}
+    \bm{$\rho$} is imaginary and rational. 
+    Thus, the negation of the hypothesis implies a contradiction. 
+    In other words, \bm{$\rho$} does not exist.
+\end{proof}
+
+
+\end{document}

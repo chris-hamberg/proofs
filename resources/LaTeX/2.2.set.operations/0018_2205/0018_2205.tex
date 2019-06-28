@@ -1,0 +1,56 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{2205}] \color{black}
+    Let \bm{$\Lambda$} be a subset of \space \bm{$\Omega$}.
+    \bm{$\overline{\overline{\Lambda}} = \Lambda$}.
+\end{theorem}
+\begin{proof} \color{black}
+    Suppose there exists an element \bm{$\chi$} such that \bm{$\chi$} is a member of 
+    \bm{$\overline{\overline{\Lambda}}$}. 
+    By the definition for set complementation, 
+    and by the defintion for set membership, 
+    that is 
+    \begin{equation*}
+        \Big \langle \chi \in \overline{\overline{\Lambda}} \Big \rangle 
+            \equiv
+        \Big \langle \chi \notin \overline{\Lambda} \Big \rangle 
+            \equiv
+        \lnot \Big \langle \chi \in \overline{\Lambda} \Big \rangle 
+            \equiv
+        \lnot \Big \langle \chi \notin \Lambda \Big \rangle 
+            \equiv
+        \lnot \Big \langle \lnot \big \langle \chi \in \Lambda \big \rangle \Big \rangle
+    \end{equation*}
+    By the logical law of double negation, $\bm{\chi \in \Lambda}$.
+    Since logical equivalence is biconditional by definition, 
+    this sequence of equivalencies proves both, that 
+    \begin{equation*}
+        \Big \langle 
+            \overline{\overline{\Lambda}}
+                \subseteq 
+            \Lambda
+        \Big \rangle 
+            \land 
+        \Big \langle 
+            \Lambda
+                \subseteq 
+            \overline{\overline{\Lambda}}
+        \Big \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{\overline{\overline{\Lambda}} = \Lambda$}; 
+    the complementation law for sets.
+\end{proof}
+
+
+\end{document}

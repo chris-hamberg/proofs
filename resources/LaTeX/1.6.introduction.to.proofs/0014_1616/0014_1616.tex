@@ -1,0 +1,51 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{1616}]
+    Let \bm{$\mu$} and \bm{$\zeta$} be integers. 
+    If the product \bm{$\mu\zeta$} is even, 
+    then \bm{$\mu$} is even or \bm{$\zeta$} is even.
+\end{theorem}
+
+\begin{proof}
+    For the purpose of contraposition, suppose the negation of the consequent 
+    \bm{$q$}
+        $$\lnot q : \mu \text{\emph{ is odd and }} \zeta \text{\emph{ is odd.}}$$ 
+    By definition, 
+    there exist integers \bm{$\sigma$} and \bm{$\epsilon$} such that 
+    \bm{$\mu = 2\sigma + 1$} and \bm{$\zeta = 2\epsilon + 1$}. 
+    Thus, 
+    \begin{equation*}
+        \mu\zeta 
+            =
+        \Big[ 
+            \big \langle 2 \sigma + 1 \big \rangle
+            \big \langle 2 \epsilon + 1 \big \rangle 
+        \Big]
+            =
+        \Big[ 
+            2 
+            \big \langle \sigma\epsilon + \sigma + \epsilon \big \rangle 
+                + 
+            1
+        \Big]
+    \end{equation*}
+    The factor 
+    \bm{$\big \langle \sigma \epsilon + \sigma + \epsilon \big \rangle$} 
+    is an integer, 
+    because integers are closed under addition and multiplication. 
+    Thus, the product \bm{$\mu \zeta$} is odd, by definition.
+\end{proof}
+
+
+\end{document}

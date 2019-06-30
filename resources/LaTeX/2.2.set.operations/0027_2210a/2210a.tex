@@ -1,0 +1,62 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2210a}]
+    Let \bm{$\Xi$} be a set. 
+    \bm{$\Xi - \varnothing = \Xi$}.
+\end{theorem}
+\begin{proof}
+    Suppose there exists an element \bm{$\zeta$} such that \bm{$\zeta$} is a member of 
+    \bm{$\Xi - \varnothing$}.
+    By the definition for set difference, that is
+    \begin{equation*}
+        \Big \langle \zeta \in \Xi \Big \rangle
+            \land 
+        \Big \langle \zeta \notin \varnothing \Big \rangle
+    \end{equation*}
+    It is trivial that the logical identity for the statement 
+    \bm{$\zeta \notin \varnothing$} is \bm{$\top$},
+    since the empty set contains no members. 
+    Thus, by that identity, 
+    and by the identity law for logical conjunction,
+    \begin{equation*}
+        \Bigg\{
+            \Big \langle \zeta \in \Xi \Big \rangle
+                \land 
+            \Big \langle \zeta \notin \varnothing \Big \rangle
+        \Bigg\}
+            \equiv
+        \Bigg\{
+            \Big \langle \zeta \in \Xi \Big \rangle
+                \land 
+            \Big \langle \top \Big \rangle
+                \equiv
+            \Big \langle \zeta \in \Xi \Big \rangle
+        \Bigg\}
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \Bigg\{
+            \Big \langle \zeta \in \Xi \Big \rangle
+                \land 
+            \Big \langle \zeta \notin \varnothing \Big \rangle
+                \equiv
+            \Big \langle \zeta \in \Xi \Big \rangle
+        \Bigg\}
+    \end{equation*}
+    $\therefore$ by the definition for set difference,
+    \bm{$\Xi - \varnothing = \Xi$}.
+\end{proof}
+
+
+\end{document}

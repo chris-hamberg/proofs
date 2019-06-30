@@ -1,35 +1,86 @@
 \babel@toc {english}{}
 \contentsline {chapter}{Contents}{i}{section*.1}% 
 \contentsline {chapter}{\chapternumberline {1}Introduction to Proofs}{1}{chapter.1}% 
-\contentsline {section}{\numberline {1.1}The sum of two odd integers is even.}{1}{section.1.1}% 
-\contentsline {section}{\numberline {1.2}The sum of two even integers is even.}{2}{section.1.2}% 
-\contentsline {section}{\numberline {1.3}The square of an even number is even.}{2}{section.1.3}% 
-\contentsline {section}{\numberline {1.4}The additive inverse of an even number.}{2}{section.1.4}% 
-\contentsline {section}{\numberline {1.5}Special even parity.}{3}{section.1.5}% 
-\contentsline {section}{\numberline {1.6}The product of two odd numbers is odd.}{3}{section.1.6}% 
-\contentsline {section}{\numberline {1.7}Two plus a perfect square is not perfect.}{4}{section.1.7}% 
-\contentsline {section}{\numberline {1.8}The sum of irrational and rational is irrational.}{5}{section.1.8}% 
-\contentsline {section}{\numberline {1.9}The product of two rational numbers is rational.}{5}{section.1.9}% 
-\contentsline {section}{\numberline {1.10}Irrational times rational is irrational.}{6}{section.1.10}% 
-\contentsline {section}{\numberline {1.11}An irrational multiplicative inverse.}{6}{section.1.11}% 
-\contentsline {section}{\numberline {1.12}A rational multiplicative inverse.}{7}{section.1.12}% 
-\contentsline {section}{\numberline {1.13}A special corollary from additive compatibility.}{7}{section.1.13}% 
-\contentsline {section}{\numberline {1.14}Divisors of an even number.}{8}{section.1.14}% 
-\contentsline {section}{\numberline {1.15}Odd integers of the form \bm {$\zeta ^3 + 5$}.}{9}{section.1.15}% 
-\contentsline {section}{\numberline {1.16}Even numbers of the form \bm {$3 \gamma + 2$}.}{9}{section.1.16}% 
-\contentsline {section}{\numberline {1.17}$\bm {\rho }$ does not exist.}{10}{section.1.17}% 
+\contentsline {section}{\numberline {1.1}Theorems}{1}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}The sum of two odd integers is even.}{1}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}The sum of two even integers is even.}{2}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}The square of an even number is even.}{2}{subsection.1.1.3}% 
+\contentsline {subsection}{\numberline {1.1.4}The additive inverse of an even number.}{2}{subsection.1.1.4}% 
+\contentsline {subsection}{\numberline {1.1.5}Special even parity.}{3}{subsection.1.1.5}% 
+\contentsline {subsection}{\numberline {1.1.6}The product of two odd numbers is odd.}{3}{subsection.1.1.6}% 
+\contentsline {subsection}{\numberline {1.1.7}Two plus a perfect square is not perfect.}{4}{subsection.1.1.7}% 
+\contentsline {subsection}{\numberline {1.1.8}The sum of irrational and rational is irrational.}{5}{subsection.1.1.8}% 
+\contentsline {subsection}{\numberline {1.1.9}The product of two rational numbers is rational.}{5}{subsection.1.1.9}% 
+\contentsline {subsection}{\numberline {1.1.10}Irrational times rational is irrational.}{6}{subsection.1.1.10}% 
+\contentsline {subsection}{\numberline {1.1.11}An irrational multiplicative inverse.}{6}{subsection.1.1.11}% 
+\contentsline {subsection}{\numberline {1.1.12}A rational multiplicative inverse.}{7}{subsection.1.1.12}% 
+\contentsline {subsection}{\numberline {1.1.13}A special corollary from additive compatibility.}{7}{subsection.1.1.13}% 
+\contentsline {subsection}{\numberline {1.1.14}Divisors of an even number.}{8}{subsection.1.1.14}% 
+\contentsline {subsection}{\numberline {1.1.15}Odd integers of the form \bm {$\zeta ^3 + 5$}.}{9}{subsection.1.1.15}% 
+\contentsline {subsection}{\numberline {1.1.16}Even numbers of the form \bm {$3 \gamma + 2$}.}{9}{subsection.1.1.16}% 
+\contentsline {subsection}{\numberline {1.1.17}$\bm {\rho }$ does not exist.}{10}{subsection.1.1.17}% 
 \contentsline {chapter}{\chapternumberline {2}Set Operations}{11}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}The set complementation law.}{11}{section.2.1}% 
-\contentsline {chapter}{\chapternumberline {3}Functions}{35}{chapter.3}% 
-\contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{63}{chapter.4}% 
-\contentsline {chapter}{\chapternumberline {5}Algorithms}{77}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{77}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{79}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{80}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{81}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Find the last even list entry.}{82}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{83}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{84}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{85}{section.5.8}% 
-\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{87}{section.5.9}% 
-\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{88}{section.5.10}% 
+\contentsline {section}{\numberline {2.1}Theorems}{11}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}The set complementation law.}{11}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}The identity law for set union.}{12}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}The identity law for set intersection.}{12}{subsection.2.1.3}% 
+\contentsline {subsection}{\numberline {2.1.4}Domination for set union.}{13}{subsection.2.1.4}% 
+\contentsline {subsection}{\numberline {2.1.5}Domination for set intersection.}{14}{subsection.2.1.5}% 
+\contentsline {subsection}{\numberline {2.1.6}Idempotence for the union of sets.}{14}{subsection.2.1.6}% 
+\contentsline {subsection}{\numberline {2.1.7}Idempotence for the intersection of sets.}{15}{subsection.2.1.7}% 
+\contentsline {subsection}{\numberline {2.1.8}The complement law for set union.}{15}{subsection.2.1.8}% 
+\contentsline {subsection}{\numberline {2.1.9}The complement law for set intersection.}{16}{subsection.2.1.9}% 
+\contentsline {subsection}{\numberline {2.1.10}Subtracting the empty set.}{16}{subsection.2.1.10}% 
+\contentsline {subsection}{\numberline {2.1.11}The empty set minus any set is empty.}{17}{subsection.2.1.11}% 
+\contentsline {subsection}{\numberline {2.1.12}Set union is commutative.}{17}{subsection.2.1.12}% 
+\contentsline {subsection}{\numberline {2.1.13}Set intersection is commutative.}{18}{subsection.2.1.13}% 
+\contentsline {subsection}{\numberline {2.1.14}Absorption for set union over intersection.}{18}{subsection.2.1.14}% 
+\contentsline {subsection}{\numberline {2.1.15}Absorption for set intersection over union.}{19}{subsection.2.1.15}% 
+\contentsline {subsection}{\numberline {2.1.16}DeMorgan's Law for a complemented union.}{19}{subsection.2.1.16}% 
+\contentsline {subsection}{\numberline {2.1.17}An intersection is a subset of its operands.}{20}{subsection.2.1.17}% 
+\contentsline {subsection}{\numberline {2.1.18}A set is a subset of its union.}{20}{subsection.2.1.18}% 
+\contentsline {subsection}{\numberline {2.1.19}Set difference is a subset of its left-hand side.}{20}{subsection.2.1.19}% 
+\contentsline {subsection}{\numberline {2.1.20}Alpha intersect lambda minus alpha is empty.}{21}{subsection.2.1.20}% 
+\contentsline {subsection}{\numberline {2.1.21}Alpha union lambda minus alpha.}{21}{subsection.2.1.21}% 
+\contentsline {subsection}{\numberline {2.1.22}DeMorgan's law for the union of complements.}{22}{subsection.2.1.22}% 
+\contentsline {subsection}{\numberline {2.1.23}Union is a subset of its greater union.}{22}{subsection.2.1.23}% 
+\contentsline {subsection}{\numberline {2.1.24}A greater intersection is a subset of its lesser.}{23}{subsection.2.1.24}% 
+\contentsline {subsection}{\numberline {2.1.25}Difference of outermost sets is a superset.}{23}{subsection.2.1.25}% 
+\contentsline {subsection}{\numberline {2.1.26}Alpha minus delta intersect delta minus.}{24}{subsection.2.1.26}% 
+\contentsline {subsection}{\numberline {2.1.27}Lambda minus alpha union delta minus alpha.}{25}{subsection.2.1.27}% 
+\contentsline {subsection}{\numberline {2.1.28}Alpha intersect complement lambda.}{25}{subsection.2.1.28}% 
+\contentsline {subsection}{\numberline {2.1.29}An identity for the set alpha.}{26}{subsection.2.1.29}% 
+\contentsline {subsection}{\numberline {2.1.30}The associative law for set union.}{26}{subsection.2.1.30}% 
+\contentsline {subsection}{\numberline {2.1.31}The associative law for set intersection.}{27}{subsection.2.1.31}% 
+\contentsline {subsection}{\numberline {2.1.32}Union is distributive over intersection.}{27}{subsection.2.1.32}% 
+\contentsline {subsection}{\numberline {2.1.33}The distribution of differences.}{28}{subsection.2.1.33}% 
+\contentsline {subsection}{\numberline {2.1.34}Complementation converts subset relations.}{29}{subsection.2.1.34}% 
+\contentsline {subsection}{\numberline {2.1.35}Symmetric difference is a set difference.}{30}{subsection.2.1.35}% 
+\contentsline {subsection}{\numberline {2.1.36}Symmetric difference is a union.}{31}{subsection.2.1.36}% 
+\contentsline {subsection}{\numberline {2.1.37}Symmetric difference between a set and itself.}{31}{subsection.2.1.37}% 
+\contentsline {subsection}{\numberline {2.1.38}Symmetric difference with the empty set.}{31}{subsection.2.1.38}% 
+\contentsline {subsection}{\numberline {2.1.39}Symmetric difference with the universe.}{32}{subsection.2.1.39}% 
+\contentsline {subsection}{\numberline {2.1.40}Symmetric difference with a complement.}{32}{subsection.2.1.40}% 
+\contentsline {subsection}{\numberline {2.1.41}Symmetric difference is associative.}{32}{subsection.2.1.41}% 
+\contentsline {subsection}{\numberline {2.1.42}An identity for gamma.}{33}{subsection.2.1.42}% 
+\contentsline {subsection}{\numberline {2.1.43}Symmetric difference is associative.}{34}{subsection.2.1.43}% 
+\contentsline {subsection}{\numberline {2.1.44}Gamma is pi.}{35}{subsection.2.1.44}% 
+\contentsline {section}{\numberline {2.2}Lemmas}{36}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Lemma 1.}{36}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Lemma 2.}{37}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Lemma 3.}{37}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}Lemma 4.}{38}{subsection.2.2.4}% 
+\contentsline {subsection}{\numberline {2.2.5}Lemma 5.}{39}{subsection.2.2.5}% 
+\contentsline {chapter}{\chapternumberline {3}Functions}{41}{chapter.3}% 
+\contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{75}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {5}Algorithms}{89}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{89}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{91}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{92}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{93}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Find the last even list entry.}{94}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{95}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{96}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{97}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{99}{section.5.9}% 
+\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{100}{section.5.10}% 

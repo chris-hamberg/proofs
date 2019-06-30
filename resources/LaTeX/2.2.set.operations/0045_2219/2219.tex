@@ -1,0 +1,53 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2219}]
+    Let \bm{$\mathrm{A}$}, and \bm{$\Lambda$} be sets. 
+    \bm{$
+    \mathrm{A} - \Lambda 
+        = 
+    \mathrm{A} \cap \overline{\Lambda}
+    $}.
+\end{theorem}
+\begin{proof}
+    Let \bm{$\lambda$} be an element in \bm{$\mathrm{A} - \Lambda$}. 
+    By the definition for set difference,
+    \begin{equation*}
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+            \land
+        \Big \langle \lambda \notin \Lambda \Big \rangle
+    \end{equation*}
+    By the definition for set complementation,
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \lambda \notin \Lambda \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \lambda \in \overline{\Lambda} \Big \rangle
+        \bigg]
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+    \mathrm{A} - \Lambda 
+        = 
+    \mathrm{A} \cap \overline{\Lambda}
+    }$,
+    by the definition for the intersection of sets.
+\end{proof}
+
+
+\end{document}

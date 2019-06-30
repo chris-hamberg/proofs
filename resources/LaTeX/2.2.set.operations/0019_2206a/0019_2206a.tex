@@ -1,0 +1,61 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{2206a}]
+    Let \bm{$\Xi$} be a set. 
+    The set identity for \bm{$\Xi$} is \bm{$\Xi \cup \varnothing = \Xi$}.
+\end{theorem}
+\begin{proof}
+    Suppose there exists an element \bm{$\zeta$} such that \bm{$\zeta$} is a member of 
+    \bm{$\Xi \cup \varnothing$}. 
+    By the definition of set union, that is 
+    \begin{equation*}
+        \Big \langle \zeta \in \Xi \Big \rangle 
+            \lor 
+        \Big \langle \zeta \in \varnothing \Big \rangle
+    \end{equation*}
+    The logical identity for the statement \bm{$\zeta \in \varnothing$} is trivially \bm{$\bot$}, 
+    because the empty set contains no members. 
+    Thus, by that identity, and by the identity law for logical disjunction,
+    \begin{equation*} 
+        \Bigg\{
+            \Big \langle \zeta \in \Xi \Big \rangle 
+                \lor 
+            \Big \langle \zeta \in \varnothing \Big \rangle
+        \Bigg\} 
+            \equiv
+        \Bigg\{
+            \Big \langle \zeta \in \Xi \Big \rangle 
+                \lor
+            \Big \langle \bot \Big \rangle 
+                \equiv
+            \Big \langle \zeta \in \Xi \Big \rangle
+        \Bigg\}
+            \equiv
+    \end{equation*}
+    \begin{equation*} 
+        \Bigg\{
+            \Big \langle \zeta \in \Xi \Big \rangle 
+                \lor 
+            \Big \langle \zeta \in \varnothing \Big \rangle
+                \equiv
+            \Big \langle \zeta \in \Xi \Big \rangle
+        \Bigg\}
+    \end{equation*}
+    $\therefore$ 
+    by the definition for set union,
+    the set identity for \bm{$\Xi$} is \bm{$\Xi \cup \varnothing = \Xi$}.
+\end{proof}
+
+
+\end{document}

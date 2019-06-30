@@ -1,0 +1,147 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2238b}]
+    Let \bm{$\Gamma$}, and \bm{$\Xi$} be sets.
+    \bm{$
+    \big \langle \Gamma \oplus \Xi \big \rangle
+        \oplus 
+    \Xi 
+        = 
+    \Gamma$}.
+\end{theorem}
+\begin{proof}
+    By Theorem 52, 
+    \begin{equation*}
+        \Big \langle \Gamma \oplus \Xi \Big \rangle 
+            \oplus 
+        \Xi 
+            = 
+        \bigg[
+            \Big \langle \Gamma \oplus \Xi \Big \rangle 
+                \cup 
+            \Xi
+        \bigg] 
+            - 
+        \bigg[
+            \Big \langle \Gamma \oplus \Xi \Big \rangle
+                \cap 
+            \Xi
+        \bigg]
+    \end{equation*}
+    By Lemma 1, that is
+    \begin{equation*}
+        \Bigg\{
+            \bigg[
+                \Big \langle \Gamma \cup \Xi \Big \rangle
+                    \cap
+                \Big \langle
+                    \overline{\Gamma} 
+                        \cup 
+                    \overline{\Xi} 
+                \Big \rangle
+            \bigg]
+                \cup
+            \Xi
+        \Bigg\}
+            -
+        \Bigg\{
+            \bigg[
+                \Big \langle \Gamma \cup \Xi \Big \rangle
+                    \cap
+                \Big \langle
+                    \overline{\Gamma} 
+                        \cup 
+                    \overline{\Xi} 
+                \Big \rangle
+            \bigg]
+                \cap
+            \Xi
+        \Bigg\}
+    \end{equation*}
+    Since set intersection is associative, 
+    by the associative law for the intersection of sets, 
+    the identities for the terms in the difference are given immediately
+    by Lemma 2, and Lemma 3. Thus, 
+    \begin{equation*}
+        \Big \langle \Gamma \oplus \Xi \Big \rangle 
+            \oplus 
+        \Xi
+            =
+        \Big \langle \Gamma \cup \Xi \Big \rangle
+            -
+        \Big \langle 
+            \Xi
+                \cap 
+            \overline{\Gamma} 
+        \Big \rangle
+    \end{equation*}
+    By Theorem 45, 
+    by DeMorgans law for the complement of intersections, 
+    and by the complementation law for sets, 
+    that is
+    \begin{equation*}
+        \bigg[
+            \Big \langle \Gamma \cup \Xi \Big \rangle
+                -
+            \Big \langle 
+                \Xi
+                    \cap 
+                \overline{\Gamma} 
+            \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle \Gamma \cup \Xi \Big \rangle
+                \cap
+            \Big \langle \overline{
+                \Xi
+                    \cap 
+                \overline{\Gamma} 
+            } \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle \Gamma \cup \Xi \Big \rangle
+                \cap
+            \Big \langle 
+                \overline{\Xi}
+                    \cup 
+                \Gamma
+            \Big \rangle
+        \bigg]
+    \end{equation*}
+    \bm{$\Gamma$} can be factored out,
+    by the distribution law for set union over intersection.
+    \begin{equation*}
+        \Big \langle \Gamma \oplus \Xi \Big \rangle
+            \oplus 
+        \Xi
+            \equiv
+        \Gamma 
+            \cup
+        \Big \langle \Xi \cap \overline{\Xi} \Big \rangle
+    \end{equation*}
+    \bm{$\Xi \cap \overline{\Xi}$} is empty, 
+    by the complement law for set intersection. 
+    And \bm{$\Gamma$} union the empty set is \bm{$\Gamma$},
+    by the identity law for set union $\therefore \bm{
+    \big \langle \Gamma \oplus \Xi \big \rangle
+        \oplus 
+    \Xi 
+        = 
+    \Gamma}$.
+\end{proof}
+
+
+\end{document}

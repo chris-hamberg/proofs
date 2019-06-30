@@ -1,0 +1,81 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2241}]
+    Let \bm{$\Gamma$}, \bm{$\Pi$}, and \bm{$\Xi$} be sets.
+    \begin{equation*}
+        \bm{ \text{If }
+            \Gamma \oplus \Xi 
+                = 
+            \Pi \oplus \Xi
+                \text{, then } 
+            \Gamma = \Pi
+        }    
+    \end{equation*}
+\end{theorem}
+\begin{proof} 
+By contraposition. Note that the statement 
+\bm{$
+    \Gamma \oplus \Xi 
+        = 
+    \Pi \oplus \Xi
+$}
+is by definition 
+\begin{equation*}
+    \Big \langle \Gamma \cap \overline{\Xi} \Big \rangle 
+        \cup 
+    \Big \langle \overline{\Gamma} \cap \Xi \Big \rangle 
+        \equiv
+    \Big \langle \Pi \cap \overline{\Xi} \Big \rangle 
+        \cup 
+    \Big \langle \overline{\Pi} \cap \Xi \Big \rangle
+\end{equation*}
+Assume there exists an element \bm{$\zeta$} 
+such that \bm{$\zeta \in \Gamma$} and \bm{$\zeta \notin \Pi$}. 
+Thus, \bm{$\Gamma \nsubseteq \Pi$},
+the negation of the consequent, by the definiton of subsets. 
+By that hypothesis, 
+\bm{$\zeta$} has to be in 
+\bm{$\Gamma \cap \overline{\Xi}$} 
+and cannot be in 
+\bm{$\overline{\Gamma} \cap \Xi$}. 
+This means that \bm{$\zeta$} is not in \bm{$\Xi$}. 
+Neither can \bm{$\zeta$} be in 
+\bm{$\Pi \cap \overline{\Xi}$}. 
+And since \bm{$\zeta \notin \Xi$}, 
+\bm{$\zeta$} cannot be in \bm{$\overline{\Pi} \cap \Xi$}. 
+So \bm{$\zeta$} is in \bm{$\Gamma \oplus \Xi$} 
+but not \bm{$\Pi \oplus \Xi$}. 
+Therefore, 
+\bm{$\Gamma \oplus \Xi \nsubseteq \Pi \oplus \Xi$},
+by the definition of subsets.
+The implication,
+\begin{equation*}
+    \Big \langle \Pi \not \subseteq \Gamma \Big \rangle
+        \rightarrow
+    \bigg[
+        \Big \langle \Pi \oplus \Xi \Big \rangle
+            \not \subseteq 
+        \Big \langle \Gamma \oplus \Xi \Big \rangle
+    \bigg]
+\end{equation*} 
+follows without loss of generality
+$\therefore \text{\space} \bm{
+    \Gamma \neq \Pi}$ 
+implies 
+\bm{$\Gamma \oplus \Xi \neq \Pi \oplus \Xi
+}$.
+\end{proof}
+
+
+\end{document}

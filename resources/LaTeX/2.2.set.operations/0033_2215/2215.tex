@@ -1,0 +1,74 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2215}]
+    Let \bm{$\mathrm{A}$} and \bm{$\Lambda$} be sets. 
+    \bm{$
+    \overline{\mathrm{A} \cup \Lambda} 
+        = 
+    \overline{\mathrm{A}} \cap \overline{\Lambda}
+    $}.
+\end{theorem}
+\begin{proof}
+    Let \bm{$\lambda$} be an element in \bm{$\overline{\mathrm{A} \cup \Lambda}$}. 
+    By the definitions for set complementation, and set membership, that is 
+    \bm{$\lnot 
+            \Big[
+                \lambda \in \big \langle \mathrm{A} \cup \Lambda \big \rangle 
+            \Big]
+    $}. 
+    Hence, by the definition of set union, 
+    \begin{equation*}
+        \lnot \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle 
+                \lor 
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]    
+    \end{equation*}
+    By DeMorgans law (from logic), 
+    and by the definitions for set complementation
+    and set membership
+    \begin{equation*}
+        \Bigg\{
+            \lnot \bigg[
+                \Big \langle \lambda \in \mathrm{A} \Big \rangle 
+                    \lor 
+                \Big \langle \lambda \in \Lambda \Big \rangle
+            \bigg]
+        \Bigg\}
+        \equiv
+        \Bigg\{
+            \lnot \Big \langle \lambda \in \mathrm{A} \Big \rangle 
+                \land 
+            \lnot \Big \langle \lambda \in \Lambda \Big \rangle
+        \Bigg\}
+        \equiv
+    \end{equation*}
+    \begin{equation*}
+        \Bigg\{
+            \Big \langle \lambda \in \overline{\mathrm{A}} \Big \rangle 
+                \land 
+            \Big \langle \lambda \in \overline{\Lambda} \Big \rangle
+        \Bigg\}
+    \end{equation*}
+    $\therefore$ by the definition of set intersection,
+    \bm{$
+    \overline{\mathrm{A} \cup \Lambda} 
+        = 
+    \overline{\mathrm{A}} \cap \overline{\Lambda}
+    $};
+    DeMorgans law for sets.
+\end{proof}
+
+
+\end{document}

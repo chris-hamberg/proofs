@@ -1,0 +1,41 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2237b}]
+    Let \bm{$\Gamma$} be a subset of the universal set \bm{$\Omega$}. 
+    \begin{equation*}
+        \bm{\Gamma \oplus \varnothing = \Gamma}
+    \end{equation*}
+\end{theorem}
+\begin{proof}
+    By Theorem 52, 
+    \bm{$
+    \Gamma \oplus \varnothing 
+        = 
+    \big \langle \Gamma \cup \varnothing \big \rangle
+        - 
+    \big \langle \Gamma \cap \varnothing \big \rangle
+    $}. 
+    By the identity law for set union, 
+    and by the set domination law for intersection, 
+    that is \bm{$\Gamma - \varnothing$}, 
+    which by Theorem 45 means 
+    \bm{$\Gamma \cap \overline{\bm{\varnothing}}$}. 
+    Because \bm{$\overline{\bm{\varnothing}} = \Omega$},
+    \bm{$\Gamma \cap \overline{\bm{\varnothing}} \equiv \Gamma \cap \Omega}$. 
+    Thus, by the set identity law for intersection, 
+    \bm{$\Gamma \oplus \varnothing = \Gamma$}.
+\end{proof}
+
+
+\end{document}

@@ -1,10 +1,10 @@
 \documentclass[a4paper, 12pt]{memoir}
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-\usepackage{fouriernc,tgschola}
+\usepackage{concmath}
+\usepackage{tgschola}
 \usepackage[T1]{fontenc}
 \usepackage{amssymb}
-\usepackage{amsmath}
 \usepackage{amsthm}
 \usepackage{mathtools}
 \usepackage{algorithm}
@@ -57,8 +57,16 @@
 \chapterstyle{daleif1}
 
 
+
+
+
+
+
+
+
 \newtheorem{theorem}{Theorem}
 \newtheorem*{theorem*}{Theorem}
+\newtheorem{lemma}{Lemma}
 \newtheorem*{lemma*}{Lemma}
 
 
@@ -107,29 +115,50 @@
 }
 
 
+\setsecnumdepth{subsection}
+
+
 \hypersetup{
     pdftitle={Book of Proofs},
     pdfsubject={Discrete Mathematics},
     bookmarksnumbered=true,
     bookmarksopenlevel=1,
+    bookmarksdepth=2,
     hidelinks,
     pdfstartview=Fit,
     pdfpagemode=UseOutlines,
     pdfpagelayout=TwoPageRight,
     }
 
+\bookmarksetup{depth=2}
+\setcounter{tocdepth}{2}
 
 \fancyhf{}
 \fancyhead[LE, RO]{\truncate{0.33 \textwidth} \rightmark}
 \fancyhead[RE, LO]{ \leftmark}
 
 
+\definecolor{section}{rgb}{0,.5,.55}
+
 \titlespacing*{\section}
     {0pt}{3.7ex plus 1ex minus .2ex}{4.3ex plus .2ex}
+\titleformat{\section}{
+    \normalfont\fontsize{18}{15}\bfseries\raggedright
+    }{
+        \textbf{Section }
+        \color{section}
+        \thesection\color{black}
+        \hspace{0cm}
+        \textbf{:}
+    }{1em}{}
 
-\definecolor{section}{rgb}{0,.5,.55}
-\titleformat{\section}
-    {\normalfont\fontsize{15}{15}\bfseries\raggedright}{\color{section}\thesection}{1em}{}
+\titlespacing*{\subsection}
+    {0pt}{3.7ex plus 1ex minus .2ex}{4.3ex plus .2ex}
+    
+\setsecnumformat{\csname #1secnumformat\endcsname}
+    \newcommand\subsectionsecnumformat{
+        \raggedleft\color{section}\thesubsection\hspace{.5cm}
+    }
 
 
 \begin{document}
@@ -140,19 +169,13 @@
 
 
 \frontmatter
-\pagenumbering{roman}
 % =================================== Title ===================================
 \input{../resources/LaTeX/title/title.tex}
-\thispagestyle{empty}
-\cleardoublepage
 
 
 % ==================================== TOC ====================================
-\hypertarget{toc}{}
-\bookmark[dest=toc, level=chapter]{\contentsname}
+\cfoot{\thepage}
 \tableofcontents
-\newpage
-\thispagestyle{empty}
 
 
 \mainmatter
@@ -184,8 +207,6 @@
 \chapter{Algorithms}
 \input{../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex}
 \pagebreak
-
-
 
 
 \end{document}

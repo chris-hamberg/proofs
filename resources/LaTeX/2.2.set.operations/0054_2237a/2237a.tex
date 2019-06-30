@@ -1,0 +1,38 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2237a}]
+    Let \bm{$\Gamma$} be a subset of the universal set \bm{$\Omega$}. 
+    \begin{equation*}
+        \bm{\Gamma \oplus \Gamma = \varnothing}
+    \end{equation*}
+\end{theorem}
+\begin{proof}
+    By Theorem 52, 
+    \bm{$
+    \Gamma \oplus \Gamma 
+        = 
+    \big \langle \Gamma \cup \Gamma \big \rangle
+        - 
+    \big \langle \Gamma \cap \Gamma \big \rangle
+    $}. 
+    By the set idempotent laws, 
+    that is \bm{$\Gamma - \Gamma$}, 
+    and by Theorem 45, equivalent to 
+    \bm{$\Gamma \cap \overline{\Gamma}$}. 
+    It follows immediately from the set complement law for the intersection of sets that 
+    \bm{$\Gamma \oplus \Gamma = \varnothing$}.
+\end{proof}
+
+
+\end{document}

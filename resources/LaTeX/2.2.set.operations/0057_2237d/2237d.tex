@@ -1,0 +1,39 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2237d}]
+    Let \bm{$\Xi$} be a subset of a universal set \bm{$\Omega$}. 
+    \begin{equation*}
+        \bm{\Xi \oplus \overline{\Xi} = \Omega}
+    \end{equation*}
+\end{theorem}
+\begin{proof}
+    By Theorem 52, 
+    \bm{$
+    \Xi \oplus \overline{\Xi} 
+        = 
+    \big \langle \Xi \cup \overline{\Xi} \big \rangle
+        - 
+    \big \langle \Xi \cap \overline{\Xi} \big \rangle
+    $}. 
+    By the set complement laws that is \bm{$\Omega - \varnothing$}. 
+    Rather, \bm{$\Omega \cap \overline{\bm{\varnothing}}$}, 
+    by Theorem 45. 
+    Since \bm{$\overline{\bm{\varnothing}} = \Omega$}, that is 
+    \bm{$\Omega \cap \Omega$}. Which is \bm{$\Omega$}, 
+    by the idempotent law for set intersection.
+    Thus, \bm{$\Xi \oplus \overline{\Xi} = \Omega$}.
+\end{proof}
+
+
+\end{document}

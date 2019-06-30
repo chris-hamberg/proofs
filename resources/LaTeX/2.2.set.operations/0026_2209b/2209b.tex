@@ -1,0 +1,62 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2209b}]
+    Let \bm{$\Xi$} be a set. 
+    \bm{$\Xi \cap \overline{\Xi} = \varnothing$}.
+\end{theorem}
+\begin{proof}
+    Let \bm{$\zeta$} be an element in \bm{$\Xi \cap \overline{\Xi}$}. 
+    By the definition for the intersection of sets, that is
+    \begin{equation*}
+        \Big \langle \zeta \in \Xi \Big \rangle 
+            \land 
+        \Big \langle \zeta \in \overline{\Xi} \Big \rangle
+    \end{equation*} 
+    According to the definitions for set complementation and set membership, 
+    and by the negation law of logic, that is
+    \begin{equation*}
+        \Bigg\{
+            \Big \langle \zeta \in \Xi \Big \rangle 
+                \land 
+            \Big \langle \zeta \in \overline{\Xi} \Big \rangle
+        \Bigg\}
+            \equiv
+        \Bigg\{
+            \Big \langle \zeta \in \Xi \Big \rangle 
+                \land 
+            \lnot \Big \langle \zeta \in \Xi \Big \rangle
+                \equiv
+            \Big \langle \bot \Big \rangle
+        \Bigg\}
+    \end{equation*}
+    \bm{$\big \langle \bot \big \rangle$} is trivially the logical identity for 
+    the statement \bm{$\zeta \in \varnothing$}, 
+    since the empty set contains no members. 
+    Thus, 
+    by that identity, 
+    and following from the series of equivalencies from above,
+    \begin{equation*}
+        \Big \langle \zeta \in \Xi \Big \rangle 
+            \land 
+        \Big \langle \zeta \in \overline{\Xi} \Big \rangle 
+            \equiv
+        \Big \langle \zeta \in \varnothing \Big \rangle
+    \end{equation*}
+    $\therefore$ the complement law for sets, 
+    \bm{$\Xi \cap \overline{\Xi} = \varnothing$}, 
+    follows immediately from the definition for the intersection of sets.
+\end{proof}
+
+
+\end{document}

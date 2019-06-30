@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.6.26)  28 JUN 2019 18:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.6.26)  29 JUN 2019 21:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -352,317 +352,44 @@ File: babel.def 2019/06/03 3.32 Babel common definitions
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
-)) (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fouriernc.sty
-Package: fouriernc 2005/12/20 1.0 fouriernc package
- (/usr/share/texlive/texmf-dist/tex/latex/fourier/fourier.sty
-Package: fourier 2005/01/01 1.4 fourier-GUTenberg package
-Now handling font encoding FML ...
-... no UTF-8 mapping file for font encoding FML
-Now handling font encoding FMS ...
-... no UTF-8 mapping file for font encoding FMS
-Now handling font encoding FMX ...
-... no UTF-8 mapping file for font encoding FMX
- (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
-File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
-LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) (/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
-Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
-Package textcomp Info: Sub-encoding information:
-(textcomp)               5 = only ISO-Adobe without \textcurrency
-(textcomp)               4 = 5 + \texteuro
-(textcomp)               3 = 4 + \textohm
-(textcomp)               2 = 3 + \textestimated + \textcurrency
-(textcomp)               1 = TS1 - \textcircled - \t
-(textcomp)               0 = TS1 (full)
-(textcomp)             Font families with sub-encoding setting implement
-(textcomp)             only a restricted character set as indicated.
-(textcomp)             Family '?' is the default used for unknown fonts.
-(textcomp)             See the documentation for details.
-Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-Now handling font encoding TS1 ...
-... processing UTF-8 mapping file for font encoding TS1
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
-   defining Unicode char U+00A2 (decimal 162)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00A4 (decimal 164)
-   defining Unicode char U+00A5 (decimal 165)
-   defining Unicode char U+00A6 (decimal 166)
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00A8 (decimal 168)
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AC (decimal 172)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00AF (decimal 175)
-   defining Unicode char U+00B0 (decimal 176)
-   defining Unicode char U+00B1 (decimal 177)
-   defining Unicode char U+00B2 (decimal 178)
-   defining Unicode char U+00B3 (decimal 179)
-   defining Unicode char U+00B4 (decimal 180)
-   defining Unicode char U+00B5 (decimal 181)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+00B9 (decimal 185)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+00BC (decimal 188)
-   defining Unicode char U+00BD (decimal 189)
-   defining Unicode char U+00BE (decimal 190)
-   defining Unicode char U+00D7 (decimal 215)
-   defining Unicode char U+00F7 (decimal 247)
-   defining Unicode char U+0192 (decimal 402)
-   defining Unicode char U+02C7 (decimal 711)
-   defining Unicode char U+02D8 (decimal 728)
-   defining Unicode char U+02DD (decimal 733)
-   defining Unicode char U+0E3F (decimal 3647)
-   defining Unicode char U+2016 (decimal 8214)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+203B (decimal 8251)
-   defining Unicode char U+203D (decimal 8253)
-   defining Unicode char U+2044 (decimal 8260)
-   defining Unicode char U+204E (decimal 8270)
-   defining Unicode char U+2052 (decimal 8274)
-   defining Unicode char U+20A1 (decimal 8353)
-   defining Unicode char U+20A4 (decimal 8356)
-   defining Unicode char U+20A6 (decimal 8358)
-   defining Unicode char U+20A9 (decimal 8361)
-   defining Unicode char U+20AB (decimal 8363)
-   defining Unicode char U+20AC (decimal 8364)
-   defining Unicode char U+20B1 (decimal 8369)
-   defining Unicode char U+2103 (decimal 8451)
-   defining Unicode char U+2116 (decimal 8470)
-   defining Unicode char U+2117 (decimal 8471)
-   defining Unicode char U+211E (decimal 8478)
-   defining Unicode char U+2120 (decimal 8480)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2126 (decimal 8486)
-   defining Unicode char U+2127 (decimal 8487)
-   defining Unicode char U+212E (decimal 8494)
-   defining Unicode char U+2190 (decimal 8592)
-   defining Unicode char U+2191 (decimal 8593)
-   defining Unicode char U+2192 (decimal 8594)
-   defining Unicode char U+2193 (decimal 8595)
-   defining Unicode char U+2329 (decimal 9001)
-   defining Unicode char U+232A (decimal 9002)
-   defining Unicode char U+2422 (decimal 9250)
-   defining Unicode char U+25E6 (decimal 9702)
-   defining Unicode char U+25EF (decimal 9711)
-   defining Unicode char U+266A (decimal 9834)
-   defining Unicode char U+FEFF (decimal 65279)
-))
-LaTeX Info: Redefining \oldstylenums on input line 334.
-Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
-Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
-Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
-Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
-Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
-Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
-Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
-Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
-Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
-Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
-Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
-Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
-Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
-Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
-Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
-Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
-Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
-Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
-Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
-Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
-Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
-Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
-Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
-Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
-Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
-Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
-Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
-Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
-Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
-Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
-Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
-Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
-Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
-Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
-Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
-Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
-Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
-Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
-Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
-Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
-Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
-Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
-Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
-Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
-Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
-Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
-Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
-Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
-Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
-Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
-Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
-Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
-Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
-Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
-Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
-Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
-Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
-Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
-Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
-Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
-Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-) (/usr/share/texlive/texmf-dist/tex/latex/fourier/fourier-orns.sty
-Package: fourier-orns 2004/01/30 1.1 fourier-ornaments package
-)
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 50.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 50.
+)) (/usr/share/texlive/texmf-dist/tex/latex/concmath/concmath.sty
+Package: concmath 1999/03/10 v2.0b LaTeX package for Concrete math fonts
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> T1/futs/m/n on input line 50.
-LaTeX Font Info:    Encoding `OT1' has changed to `T1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 50.
+(Font)                  OT1/cmr/m/n --> OT1/ccr/m/n on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/m/n on input line 50.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/m/n --> T1/futs/b/n on input line 51.
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 59.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `normal' on input line 59.
+(Font)                  OT1/cmr/bx/n --> OT1/ccr/m/n on input line 43.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 44.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  OML/cmm/m/it --> FML/futmi/m/it on input line 59.
-LaTeX Font Info:    Encoding `OML' has changed to `FML' for symbol font
-(Font)              `letters' in the math version `bold' on input line 59.
+(Font)                  OML/cmm/m/it --> OML/ccm/m/it on input line 44.
 LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  OML/cmm/b/it --> FML/futmi/m/it on input line 59.
-\symotherletters=\mathgroup4
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/m/it --> FML/futmi/b/it on input line 61.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/m/it --> FML/futm/b/it on input line 62.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 64.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 65.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 66.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 67.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 68.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 69.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 70.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 71.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 72.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 73.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 113.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 113.
+(Font)                  OML/cmm/b/it --> OML/ccm/m/it on input line 44.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 45.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> FMS/futm/m/n on input line 113.
-LaTeX Font Info:    Encoding `OMS' has changed to `FMS' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 113.
+(Font)                  OMS/cmsy/m/n --> OMS/ccsy/m/n on input line 45.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> FMS/futm/m/n on input line 113.
-LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 114.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 114.
+(Font)                  OMS/cmsy/b/n --> OMS/ccsy/m/n on input line 45.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
-LaTeX Font Info:    Encoding `OMX' has changed to `FMX' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 114.
+(Font)                  OMX/cmex/m/n --> OMX/ccex/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> FMX/futm/m/n on input line 114.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 115.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> T1/futs/bx/n on input line 115.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 116.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 117.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> T1/futs/m/it on input line 117.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> T1/futs/m/it on input line 117.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 118.
-LaTeX Font Info:    Redeclaring math symbol \parallel on input line 134.
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 148.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 186.
-LaTeX Font Info:    Redeclaring math symbol \varvarrho on input line 187.
-LaTeX Font Info:    Redeclaring math delimiter \Vert on input line 210.
-LaTeX Font Info:    Redeclaring math delimiter \vert on input line 215.
-LaTeX Font Info:    Redeclaring math delimiter \Downarrow on input line 225.
-LaTeX Font Info:    Redeclaring math delimiter \backslash on input line 227.
-LaTeX Font Info:    Redeclaring math delimiter \rangle on input line 229.
-LaTeX Font Info:    Redeclaring math delimiter \langle on input line 231.
-LaTeX Font Info:    Redeclaring math delimiter \rbrace on input line 233.
-LaTeX Font Info:    Redeclaring math delimiter \lbrace on input line 235.
-LaTeX Font Info:    Redeclaring math delimiter \rceil on input line 237.
-LaTeX Font Info:    Redeclaring math delimiter \lceil on input line 239.
-LaTeX Font Info:    Redeclaring math delimiter \rfloor on input line 241.
-LaTeX Font Info:    Redeclaring math delimiter \lfloor on input line 243.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 247.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 248.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 249.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 250.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 251.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 252.
-LaTeX Font Info:    Redeclaring math accent \check on input line 253.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 254.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 255.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
-\symUfutm=\mathgroup5
-)
-LaTeX Font Info:    Redeclaring symbol font `letters' on input line 16.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
-(Font)                  FML/futmi/m/it --> FML/fncmi/m/it on input line 16.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/futmi/b/it --> FML/fncmi/m/it on input line 16.
-LaTeX Font Info:    Redeclaring symbol font `otherletters' on input line 17.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `normal'
-(Font)                  FML/futm/m/it --> FML/fncm/m/it on input line 17.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/futm/b/it --> FML/fncm/m/it on input line 17.
-LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
-(Font)                  FML/fncmi/m/it --> FML/fncmi/b/it on input line 18.
-LaTeX Font Info:    Overwriting symbol font `otherletters' in version `bold'
-(Font)                  FML/fncm/m/it --> FML/fncm/b/it on input line 19.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 32.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 32.
+(Font)                  OMX/cmex/m/n --> OMX/ccex/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/futs/b/n --> T1/fnc/m/n on input line 32.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  T1/fnc/m/n --> T1/fnc/b/n on input line 33.
-LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 34.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
+(Font)                  OT1/ccr/m/n --> OT1/ccr/bx/n on input line 47.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/ccm/m/it --> OML/ccm/b/it on input line 48.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 34.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 35.
+(Font)                  OMS/ccsy/m/n --> OMS/ccsy/b/n on input line 49.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
+(Font)                  OT1/cmr/bx/n --> OT1/ccr/bx/n on input line 53.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/futs/bx/n --> T1/fnc/b/n on input line 35.
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  T1/futs/m/n --> T1/fnc/m/n on input line 36.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 37.
+(Font)                  OT1/cmr/bx/n --> OT1/ccr/bx/n on input line 53.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
+(Font)                  OT1/cmr/m/it --> OT1/ccr/m/it on input line 54.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/futs/m/it --> T1/fnc/m/it on input line 37.
-LaTeX Font Info:    Redeclaring math alphabet \mathcal on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `normal'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
-LaTeX Font Info:    Overwriting math alphabet `\mathcal' in version `bold'
-(Font)                  FMS/futm/m/n --> FMS/fncm/m/n on input line 38.
+(Font)                  OT1/cmr/bx/it --> OT1/ccr/m/it on input line 54.
 ) (/usr/share/texmf/tex/latex/tex-gyre/tgschola.sty
 Package: tgschola 2009/09/27 v1.2 TeX Gyre Schola as default roman family
  (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
@@ -692,115 +419,91 @@ Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks25
-\symAMSa=\mathgroup6
-\symAMSb=\mathgroup7
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-LaTeX Font Info:    Redeclaring math symbol \square on input line 141.
-)
-LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 48.
-LaTeX Font Info:    Redeclaring math symbol \vDash on input line 60.
-LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 63.
-LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 64.
-LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 101.
-LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 108.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 120.
-LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 121.
-LaTeX Font Info:    Redeclaring math symbol \complement on input line 165.
-LaTeX Font Info:    Redeclaring math symbol \intercal on input line 166.
-LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 181.
-LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 182.
-LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 203.
-LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 207.
-LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 215.
-LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 221.
-LaTeX Font Info:    Redeclaring math symbol \nexists on input line 235.
-LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 251.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 257.
-LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 258.
-LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 260.
-LaTeX Font Info:    Redeclaring math symbol \hslash on input line 262.
+)) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks26
+\thm@bodyfont=\toks27
+\thm@headfont=\toks28
+\thm@notefont=\toks29
+\thm@headpunct=\toks30
+\thm@preskip=\skip185
+\thm@postskip=\skip186
+\thm@headsep=\skip187
+\dth@everypar=\toks31
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
+ (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count140
+\calc@Bcount=\count141
+\calc@Adimen=\dimen148
+\calc@Bdimen=\dimen149
+\calc@Askip=\skip188
+\calc@Bskip=\skip189
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count142
+\calc@Cskip=\skip190
+) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
+Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2018/12/01 v2.17b AMS math features
-\@mathmargin=\skip185
+\@mathmargin=\skip191
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
  (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks26
-\ex@=\dimen148
+\@emptytoks=\toks32
+\ex@=\dimen150
 )) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen149
+\pmbraise@=\dimen151
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count140
+\inf@bad=\count143
 LaTeX Info: Redefining \frac on input line 223.
-\uproot@=\count141
-\leftroot@=\count142
+\uproot@=\count144
+\leftroot@=\count145
 LaTeX Info: Redefining \overline on input line 385.
-\classnum@=\count143
-\DOTSCASE@=\count144
+\classnum@=\count146
+\DOTSCASE@=\count147
 LaTeX Info: Redefining \ldots on input line 482.
 LaTeX Info: Redefining \dots on input line 485.
 LaTeX Info: Redefining \cdots on input line 606.
 \Mathstrutbox@=\box32
 \strutbox@=\box33
-\big@size=\dimen150
+\big@size=\dimen152
 LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
-\macc@depth=\count145
-\c@MaxMatrixCols=\count146
+\macc@depth=\count148
+\c@MaxMatrixCols=\count149
 \dotsspace@=\muskip10
-\c@parentequation=\count147
-\dspbrk@lvl=\count148
-\tag@help=\toks27
-\row@=\count149
-\column@=\count150
-\maxfields@=\count151
-\andhelp@=\toks28
-\eqnshift@=\dimen151
-\alignsep@=\dimen152
-\tagshift@=\dimen153
-\tagwidth@=\dimen154
-\totwidth@=\dimen155
-\lineht@=\dimen156
-\@envbody=\toks29
-\multlinegap=\skip186
-\multlinetaggap=\skip187
-\mathdisplay@stack=\toks30
+\c@parentequation=\count150
+\dspbrk@lvl=\count151
+\tag@help=\toks33
+\row@=\count152
+\column@=\count153
+\maxfields@=\count154
+\andhelp@=\toks34
+\eqnshift@=\dimen153
+\alignsep@=\dimen154
+\tagshift@=\dimen155
+\tagwidth@=\dimen156
+\totwidth@=\dimen157
+\lineht@=\dimen158
+\@envbody=\toks35
+\multlinegap=\skip192
+\multlinetaggap=\skip193
+\mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2844.
 LaTeX Info: Redefining \] on input line 2845.
-) (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks31
-\thm@bodyfont=\toks32
-\thm@headfont=\toks33
-\thm@notefont=\toks34
-\thm@headpunct=\toks35
-\thm@preskip=\skip188
-\thm@postskip=\skip189
-\thm@headsep=\skip190
-\dth@everypar=\toks36
-) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
- (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count152
-\calc@Bcount=\count153
-\calc@Adimen=\dimen157
-\calc@Bdimen=\dimen158
-\calc@Askip=\skip191
-\calc@Bskip=\skip192
-LaTeX Info: Redefining \setlength on input line 80.
-LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count154
-\calc@Cskip=\skip193
-) (/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2017/03/31 v1.3 programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
@@ -849,9 +552,9 @@ Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (/usr/share/texlive/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
-\symboldoperators=\mathgroup8
-\symboldletters=\mathgroup9
-\symboldotherletters=\mathgroup10
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
 LaTeX Info: Redefining \bm on input line 207.
 ) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -1156,60 +859,37 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \dlf@normtxtw=\skip272
 \feline@chapter=\box42
 \c@theorem=\count266
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 119.
+\c@lemma=\count267
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 131.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux)
 \openout1 = `"Book of Proofs.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for FML/fncmi/m/it on input line 135.
-LaTeX Font Info:    Try loading font information for FML+fncmi on input line 135.
- (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncmi.fd
-File: fmlfncmi.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncmi.
-)
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for FMS/fncm/m/n on input line 135.
-LaTeX Font Info:    Try loading font information for FMS+fncm on input line 135.
- (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmsfncm.fd
-File: fmsfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FMS/fncm.
-)
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 135.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 135.
- (/usr/share/texlive/texmf-dist/tex/latex/fourier/fmxfutm.fd
-File: fmxfutm.fd futm-extension
-)
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 135.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 135.
- (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
-File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    ... okay on input line 135.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 135.
-LaTeX Font Info:    ... okay on input line 135.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 164.
+LaTeX Font Info:    ... okay on input line 164.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count267
+\scratchcounter=\count268
 \scratchdimen=\dimen274
 \scratchbox=\box43
-\nofMPsegments=\count268
-\nofMParguments=\count269
+\nofMPsegments=\count269
+\nofMParguments=\count270
 \everyMPshowfont=\toks51
-\MPscratchCnt=\count270
+\MPscratchCnt=\count271
 \MPscratchDim=\dimen275
-\MPnumerator=\count271
-\makeMPintoPDFobject=\count272
+\MPnumerator=\count272
+\makeMPintoPDFobject=\count273
 \everyMPtoPDFconversion=\toks52
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
@@ -1223,25 +903,25 @@ Package grfext Info: Graphics extension search list:
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-\c@lstlisting=\count273
+\c@lstlisting=\count274
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box44
-Package hyperref Info: Link coloring OFF on input line 135.
+Package hyperref Info: Link coloring OFF on input line 164.
  (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
  (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count274
+\c@section@level=\count275
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 135.
-LaTeX Info: Redefining \ref on input line 135.
-LaTeX Info: Redefining \pageref on input line 135.
-LaTeX Info: Redefining \nameref on input line 135.
+LaTeX Info: Redefining \nameref on input line 164.
+LaTeX Info: Redefining \ref on input line 164.
+LaTeX Info: Redefining \pageref on input line 164.
+LaTeX Info: Redefining \nameref on input line 164.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1288,32 +968,28 @@ Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input lin
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../resources/jpg/eulers_infinity.png>] [2
 
 ]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.toc
-LaTeX Font Info:    Try loading font information for T1+fnc on input line 2.
- (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/t1fnc.fd
-File: t1fnc.fd 2005/12/13 scaled font definitions for T1/fnc.
+LaTeX Font Info:    Try loading font information for OT1+ccr on input line 2.
+ (/usr/share/texlive/texmf-dist/tex/latex/concmath/ot1ccr.fd
+File: ot1ccr.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 11.15991pt on input line 2.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.36993pt on input line 2.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 6.50995pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 2.
-LaTeX Font Info:    Try loading font information for FML+fncm on input line 2.
- (/usr/share/texlive/texmf-dist/tex/latex/fouriernc/fmlfncm.fd
-File: fmlfncm.fd 2005/12/20 Fontinst v1.928 font definitions for FML/fncm.
+LaTeX Font Info:    Try loading font information for OML+ccm on input line 2.
+ (/usr/share/texlive/texmf-dist/tex/latex/concmath/omlccm.fd
+File: omlccm.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
 )
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 2.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 2.
+LaTeX Font Info:    Try loading font information for OMS+ccsy on input line 2.
+ (/usr/share/texlive/texmf-dist/tex/latex/concmath/omsccsy.fd
+File: omsccsy.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    Try loading font information for OMX+ccex on input line 2.
+ (/usr/share/texlive/texmf-dist/tex/latex/concmath/omxccex.fd
+File: omxccex.fd 1999/03/10 v2.0b LaTeX font defs for Concrete math fonts
+)
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <12> on input line 2.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <8> on input line 2.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <6> on input line 2.
 LaTeX Font Info:    Try loading font information for U+msa on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1322,55 +998,71 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 2.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 11.15991pt on input line 2.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 8.36993pt on input line 2.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 6.50995pt on input line 2.
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <8> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <6> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <12> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <8> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <6> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2.
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <6> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 2.
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 ...a $} and \bm {$\iota $}.}{87}{section.5.9}
-                                                  % [1
-
-])pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
+l.36 ...on is commutative.}{18}{subsection.2.1.13}
+                                                  % [1]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \newpage
-               [2]
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 161.
+l.79 ... duplicate list entries.}{92}{section.5.3}
+                                                  % [2]
+Overfull \hbox (1.41595pt too wide) detected at line 86
+ \T1/qcs/m/n/12 100
+ []
+
+) [3] [4
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 184.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 
 LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
-(Font)              using `T1/cmss/m/n' instead on input line 161.
+(Font)              using `T1/cmss/m/n' instead on input line 184.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/chapter.1/chapter.1.tex
-<../resources/jpg/1.6.introduction.to.proofs/euclid.jpg, id=99, 526.96875pt x 271.0125pt>
+<../resources/jpg/1.6.introduction.to.proofs/euclid.jpg, id=210, 526.96875pt x 271.0125pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg  used on input line 11.
-(pdftex.def)             Requested size: 341.43306pt x 175.6019pt.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg  used on input line 9.
+(pdftex.def)             Requested size: 284.52756pt x 146.33629pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0001_1601/0001_1601.tex) [1
-
 
  <../resources/jpg/1.6.introduction.to.proofs/euclid.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0002_1602/0002_1602.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 21.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 22.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0003_1603/0003_1603.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 27.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 28.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0004_1604/0004_1604.tex) [2] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0005_1605/0005_1605.tex)
-<../resources/jpg/1.6.introduction.to.proofs/olympics.jpg, id=119, 803.0pt x 602.25pt>
+<../resources/jpg/1.6.introduction.to.proofs/olympics.jpg, id=234, 803.0pt x 602.25pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg  used on input line 40.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg  used on input line 41.
 (pdftex.def)             Requested size: 170.71652pt x 128.03845pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0006_1606/0006_1606.tex) [3 <../resources/jpg/1.6.introduction.to.proofs/olympics.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0007_1608/0007_1608.tex
 Underfull \hbox (badness 10000) in paragraph at lines 20--50
@@ -1395,13 +1087,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--84
 )
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 54.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 55.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  [4] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0008_1609/0008_1609.tex)
-<../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg, id=135, 1003.75pt x 669.50125pt>
+<../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg, id=248, 1003.75pt x 669.50125pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg  used on input line 63.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg  used on input line 64.
 (pdftex.def)             Requested size: 355.65944pt x 237.23022pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0009_1610/0009_1610.tex) [5 <../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0010_1612/0010_1612.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--29
@@ -1411,62 +1103,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--29
 )
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 77.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 78.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0011_1613/0011_1613.tex) [6] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0012_1614/0012_1614.tex)
-<../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg, id=150, 662.475pt x 301.125pt>
+<../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg, id=262, 662.475pt x 301.125pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg  used on input line 91.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg  used on input line 92.
 (pdftex.def)             Requested size: 369.88582pt x 168.128pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0013_1615/0013_1615.tex) [7 <../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0014_1616/0014_1616.tex)
-<../resources/jpg/1.6.introduction.to.proofs/plato.jpg, id=159, 349.305pt x 529.98pt>
+<../resources/jpg/1.6.introduction.to.proofs/plato.jpg, id=271, 349.305pt x 529.98pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/plato.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/plato.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato.jpg  used on input line 108.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato.jpg  used on input line 109.
 (pdftex.def)             Requested size: 241.84842pt x 366.94812pt.
  [8 <../resources/jpg/1.6.introduction.to.proofs/plato.jpg>]
-LaTeX Font Info:    Calculating math sizes for size <15> on input line 115.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 13.94989pt on input line 115.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 10.60184pt on input line 115.
-LaTeX Font Info:    Font shape `T1/fnc/m/n' will be
-(Font)              scaled to size 8.37001pt on input line 115.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 13.79997pt on input line 115.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.4879pt on input line 115.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.28006pt on input line 115.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 13.79997pt on input line 115.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.4879pt on input line 115.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.28006pt on input line 115.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 13.94989pt on input line 115.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 10.60184pt on input line 115.
-LaTeX Font Info:    Font shape `T1/fnc/b/n' will be
-(Font)              scaled to size 8.37001pt on input line 115.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <14.4> on input line 116.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <10> on input line 116.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <7> on input line 116.
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <7> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <14.4> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <10> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <7> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <14.4> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <7> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 115.
+(hyperref)                removing `math shift' on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\zeta' on input line 115.
+(hyperref)                removing `\zeta' on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 115.
+(hyperref)                removing `superscript' on input line 116.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 115.
+(hyperref)                removing `math shift' on input line 116.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0015_1617/0015_1617.tex
 
@@ -1475,63 +1166,258 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                 on input line 35.
 
 )
-<../resources/jpg/1.6.introduction.to.proofs/socrates.jpg, id=166, 1003.75pt x 501.875pt>
+<../resources/jpg/1.6.introduction.to.proofs/socrates.jpg, id=278, 1003.75pt x 501.875pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg  used on input line 119.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg  used on input line 120.
 (pdftex.def)             Requested size: 376.99901pt x 188.50131pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 125.
+(hyperref)                removing `math shift' on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\gamma' on input line 125.
+(hyperref)                removing `\gamma' on input line 126.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 125.
+(hyperref)                removing `math shift' on input line 126.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0016_1618/0016_1618.tex) [9 <../resources/jpg/1.6.introduction.to.proofs/socrates.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 131.
+(hyperref)                removing `math shift' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\rho' on input line 131.
+(hyperref)                removing `\rho' on input line 132.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 131.
+(hyperref)                removing `math shift' on input line 132.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0017_1625/0017_1625.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 133.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 134.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
-<../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg, id=175, 965.6075pt x 198.7425pt>
+<../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg, id=289, 965.6075pt x 198.7425pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg  used on input line 136.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg  used on input line 137.
 (pdftex.def)             Requested size: 284.52756pt x 58.5618pt.
- [10 <../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/chapter.2/chapter.2.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0018_2205/0018_2205.tex)
-<../resources/jpg/2.2.set.operations/set.jpg, id=182, 1284.8pt x 722.7pt>
+ [10 <../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/chapter.2/chapter.2.tex
+<../resources/jpg/2.2.set.operations/set.jpg, id=296, 1284.8pt x 722.7pt>
 File: ../resources/jpg/2.2.set.operations/set.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/set.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/set.jpg  used on input line 24.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/set.jpg  used on input line 9.
 (pdftex.def)             Requested size: 170.71652pt x 96.02747pt.
- [11
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0018_2205/0018_2205.tex) [11
 
- <../resources/jpg/2.2.set.operations/set.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206a/2206a.tex) [12] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2206b/2206b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2207a/2207a.tex) [13] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2207b/2207b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2208a/2208a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2208b/2208b.tex) [14] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2209a/2209a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2209b/2209b.tex) [15] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2210a/2210a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2210b/2210b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2211a/2211a.tex) [16] [17] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2211b/2211b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2212/2212.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2213/2213.tex) [18] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2215/2215.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216a/2216a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216b/2216b.tex) [19] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216c/2216c.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216d/2216d.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2216e/2216e.tex) [20] [21] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2217/2217.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218a/2218a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218b/2218b.tex) [22] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218c/2218c.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218d/2218d.tex) [23] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2218e/2218e.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2219/2219.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237a/2237a.tex) [24] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2220/2220.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2221/2221.tex) [25] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2222/2222.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2223/2223.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2231/2231.tex) [26] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2224/2224.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237d/2237d.tex) [27] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2235/2235.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2238a/2238a.tex) [28] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2236/2236.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2201L/2201L.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2202L/2202L.tex) [29] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2203L/2203L.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2238b/2238b.tex) [30] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2204L/2204L.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2205L/2205L.tex) [31] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237b/2237b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2237c/2237c.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2241/2241.tex) [32] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/2240/2240.tex) [33]) [34
+ <../resources/jpg/2.2.set.operations/set.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0019_2206a/0019_2206a.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 22.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0020_2206b/0020_2206b.tex) [12] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0021_2207a/2207a.tex) [13] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0022_2207b/2207b.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 40.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0023_2208a/2208a.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 46.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [14] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0024_2208b/2208b.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 53.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0025_2209a/2209a.tex) [15] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0026_2209b/2209b.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 65.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0027_2210a/2210a.tex) [16] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0028_2210b/2210b.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 77.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0029_2211a/2211a.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 83.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [17] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0030_2211b/2211b.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 90.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0031_2212/2212.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 95.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [18] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0032_2213/2213.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 102.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0033_2215/2215.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 108.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [19] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0034_2216a/2216a.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 115.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0035_2216b/2216b.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 121.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0036_2216c/2216c.tex) [20] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0037_2216d/2216d.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 133.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0038_2216e/2216e.tex) [21] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0039_2217/2217.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 144.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0040_2218a/2218a.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 150.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [22] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0041_2218b/2218b.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 157.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0042_2218c/2218c.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 163.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [23] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0043_2218d/2218d.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 170.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [24] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0044_2218e/2218e.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 177.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0045_2219/2219.tex) [25] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0046_2220/2220.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 188.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0047_2221/2221.tex) [26] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0048_2222/2222.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 200.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0049_2223/2223.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 206.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [27] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0050_2224/2224.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 213.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [28] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0051_2231/2231.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 220.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [29] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0052_2235/2235.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 227.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [30] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0053_2236/2236.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 234.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0054_2237a/2237a.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 240.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0055_2237b/2237b.tex) [31] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0056_2237c/2237c.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 252.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0057_2237d/2237d.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 258.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0058_2238a/2238a.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 264.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [32] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0059_2238b/2238b.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 271.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [33] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0060_2240/2240.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 278.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [34] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0061_2241/2241.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 284.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [35]
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 289.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0001L_2201L/0001L_2201L.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 295.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [36] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0002L_2202L/0002L_2202L.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 302.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0003L_2203L/0003L_2203L.tex) [37] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0004L_2204L/0004L_2204L.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 314.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [38] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0005L_2205L/0005L_2205L.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 321.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [39]) [40
 
-] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2320/2320.tex) [35] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2321/2321.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2324/2324.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2325/2325.tex [36]) [37] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329a/2329a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329b/2329b.tex) [38] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2330/2330.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336a/2336a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
+] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2320/2320.tex) [41] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2321/2321.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2324/2324.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2325/2325.tex [42]) [43] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329a/2329a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329b/2329b.tex) [44] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2330/2330.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336a/2336a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
 Underfull \hbox (badness 10000) in paragraph at lines 26--36
 
  []
 
-[39]) [40] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336b/2336b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340a/2340a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340b/2340b.tex) [41] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2341/2341.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2342/2342.tex
+[45]) [46] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336b/2336b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340a/2340a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340b/2340b.tex [47]) [48] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2341/2341.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2342/2342.tex
 Underfull \hbox (badness 10000) in paragraph at lines 32--40
 
  []
@@ -1541,7 +1427,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--101
 
  []
 
-) [42] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2343/2343.tex
+[49]) [50] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2343/2343.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--43
 
  []
@@ -1551,7 +1437,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--104
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2346/2346.tex) [43] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2344/2344.tex
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2346/2346.tex [51]) [52] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2344/2344.tex
 Underfull \hbox (badness 10000) in paragraph at lines 75--91
 
  []
@@ -1566,17 +1452,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--156
 
  []
 
-) [44] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2345/2345.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347a/2347a.tex
+) [53] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2345/2345.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347a/2347a.tex
 Underfull \hbox (badness 10000) in paragraph at lines 37--47
 
  []
 
-
+[54]
 Underfull \hbox (badness 10000) in paragraph at lines 63--71
 
  []
 
-[45]) [46] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347b/2347b.tex
+) [55] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347b/2347b.tex
 Underfull \hbox (badness 10000) in paragraph at lines 38--48
 
  []
@@ -1586,12 +1472,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--72
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348a/2348a.tex) [47] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348b/2348b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2366/2366.tex
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348a/2348a.tex) [56] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348b/2348b.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2366/2366.tex
 Underfull \hbox (badness 10000) in paragraph at lines 77--93
 
  []
 
-) [48] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2349/2349.tex
+) [57] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2349/2349.tex
 Underfull \hbox (badness 10000) in paragraph at lines 34--42
 
  []
@@ -1601,7 +1487,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--73
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369a/2369a.tex) [49] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2350/2350.tex
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369a/2369a.tex [58]) [59] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2350/2350.tex
 Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
@@ -1616,7 +1502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--99
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370a/2370a.tex) [50] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367a/2367a.tex
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370a/2370a.tex) [60] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367a/2367a.tex
 Underfull \hbox (badness 10000) in paragraph at lines 35--45
 
  []
@@ -1626,7 +1512,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--75
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex) [51] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367b/2367b.tex
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex [61]) [62] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367b/2367b.tex
 Underfull \hbox (badness 10000) in paragraph at lines 39--49
 
  []
@@ -1646,7 +1532,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--120
 
  []
 
-) [52] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367c/2367c.tex
+) [63] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367c/2367c.tex
 Underfull \hbox (badness 10000) in paragraph at lines 30--39
 
  []
@@ -1656,7 +1542,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--69
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2302L/2302L.tex [53]) [54] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367d/2367d.tex
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2302L/2302L.tex [64]) [65] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367d/2367d.tex
 Underfull \hbox (badness 10000) in paragraph at lines 37--43
 
  []
@@ -1666,7 +1552,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 87--95
 
  []
 
-) [55] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369c/2369c.tex
+) [66] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369c/2369c.tex
 Underfull \hbox (badness 10000) in paragraph at lines 33--41
 
  []
@@ -1676,7 +1562,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--145
 
  []
 
-) [56] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370c/2370c.tex
+) [67] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370c/2370c.tex
 Underfull \hbox (badness 10000) in paragraph at lines 48--58
 
  []
@@ -1686,12 +1572,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--113
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2304L/2304L.tex) [57] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370e/2370e.tex
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2304L/2304L.tex [68]) [69] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370e/2370e.tex
 Underfull \hbox (badness 10000) in paragraph at lines 120--138
 
  []
 
-) [58] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371a/2371a.tex) [59] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371b/2371b.tex) [60] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2372/2372.tex
+) [70] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371a/2371a.tex) [71] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371b/2371b.tex
+Overfull \hbox (2.48882pt too wide) in paragraph at lines 29--39
+[]\T1/qcs/m/n/12 By the prop-er-ties for ceil-ing func-tions, there ex-ists an in-te-ger $[][][]$
+ []
+
+) [72] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2372/2372.tex
 Underfull \hbox (badness 10000) in paragraph at lines 53--91
 
  []
@@ -1716,7 +1607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--137
 
  []
 
-[61]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 205--218
 
  []
@@ -1726,9 +1617,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 286--294
 
  []
 
-) [62]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2419/2419.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2436/2436.tex) [63
+) [74]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2419/2419.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2436/2436.tex) [75
 
-] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2403L/2403L.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2420/2420.tex) [64] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421a/2421a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2437/2437.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2438/2438.tex) [65] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421b/2421b.tex) [66] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2401L/2401L.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2404L/2404L.tex) [67] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2422/2422.tex) [68] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2402L/2402L.tex) [69] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2405L/2405L.tex) [70] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2425/2425.tex) [71] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2426/2426.tex) [72] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2440/2440.tex
+] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2403L/2403L.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2420/2420.tex) [76] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421a/2421a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2437/2437.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2438/2438.tex) [77] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421b/2421b.tex) [78] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2401L/2401L.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2404L/2404L.tex) [79] [80] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2422/2422.tex) [81] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2402L/2402L.tex) [82] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2405L/2405L.tex) [83] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2425/2425.tex) [84] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2426/2426.tex) [85] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2440/2440.tex
 Underfull \hbox (badness 10000) in paragraph at lines 20--48
 
  []
@@ -1743,9 +1634,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--72
 
  []
 
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2443/2443.tex [73]) [74] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2441/2441.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2442/2442.tex) [75]) [76
-
-] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2443/2443.tex [86]) [87] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2441/2441.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2442/2442.tex) [88]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex
 Package hyperref Info: bookmark level for unknown algorithm defaults to 0 on input line 62.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3103/3103.tex) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
@@ -1755,7 +1644,83 @@ LaTeX Font Info:    Try loading font information for T1+cmtt on input line 68.
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3103.py) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2019/02/27 1.8b listings language file
-) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java [77]) [78] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3104/3104.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3104.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3104.java) [79] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3105/3105.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3105.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3105.java) [80] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3106/3106.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3106.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3106.java) [81] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3107/3107.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3107.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3107.java) [82] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3108/3108.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3108.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3108.java) [83] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3109/3109.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3109.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3109.java) [84]
+) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java [89
+
+]) [90] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3104/3104.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3104.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3104.java) [91] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3105/3105.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3105.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3105.java) [92] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3106/3106.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3106.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3106.java) [93] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3107/3107.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3107.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3107.java) [94] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3108/3108.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3108.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3108.java) [95] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3109/3109.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3109.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3109.java) [96]
+LaTeX Font Info:    Calculating math sizes for size <18> on input line 211.
+
+
+LaTeX Font Warning: Font shape `OT1/ccr/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 211.
+
+
+LaTeX Font Warning: Font shape `OT1/ccr/m/n' in size <12.59995> not available
+(Font)              size <12> substituted on input line 211.
+
+
+LaTeX Font Warning: Font shape `OML/ccm/m/it' in size <18> not available
+(Font)              size <17.28> substituted on input line 211.
+
+
+LaTeX Font Warning: Font shape `OML/ccm/m/it' in size <12.59995> not available
+(Font)              size <12> substituted on input line 211.
+
+
+LaTeX Font Warning: Font shape `OMS/ccsy/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 211.
+
+
+LaTeX Font Warning: Font shape `OMS/ccsy/m/n' in size <12.59995> not available
+(Font)              size <12> substituted on input line 211.
+
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <18> on input line 211.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <12.59995> on input line 211.
+LaTeX Font Info:    External font `xccex10' loaded for size
+(Font)              <9> on input line 211.
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <18> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 211.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 211.
+
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <12.59995> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 211.
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <12.59995> not available
+(Font)              size <12> substituted on input line 211.
+
+LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <9> not available
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 211.
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <18> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 211.
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <18> not available
+(Font)              size <17.28> substituted on input line 211.
+
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <12.59995> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 211.
+
+LaTeX Font Warning: Font shape `OML/cmm/b/it' in size <12.59995> not available
+(Font)              size <12> substituted on input line 211.
+
+LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <9> not available
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 211.
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <18> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 211.
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 211.
+
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <12.59995> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 211.
+
+LaTeX Font Warning: Font shape `OMS/cmsy/b/n' in size <12.59995> not available
+(Font)              size <12> substituted on input line 211.
+
+LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 211.
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 211.
@@ -1776,14 +1741,7 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 211.
 
-(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3110/3110.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3110.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3110.java)
-
-Package Fancyhdr Warning: \headheight is too small (14.5pt): 
-Make it at least 14.67302pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
-[85] [86]
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3110/3110.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3110.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3110.java) [97] [98]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 234.
@@ -1808,34 +1766,38 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 234.
 
-(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3111/3111.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3111.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3111.java) [87] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3115/3115.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3115.py) [88] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java)) [89]
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3111/3111.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3111.py) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3111.java) [99] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3115/3115.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3115.py) [100] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java)) [101]
 \tf@toc=\write4
 \openout4 = `"Book of Proofs.toc"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 191.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 191.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 212.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 212.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 191.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 191.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 212.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 212.
+
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 0.72pt have occurred.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 191.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 212.
  ) 
 Here is how much of TeX's memory you used:
- 19939 strings out of 492609
- 362569 string characters out of 6131462
- 604575 words of memory out of 5000000
- 22318 multiletter control sequences out of 15000+600000
- 136839 words of font info for 160 fonts, out of 8000000 for 9000
+ 19436 strings out of 492609
+ 356819 string characters out of 6131462
+ 598849 words of memory out of 5000000
+ 21761 multiletter control sequences out of 15000+600000
+ 96078 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 67i,19n,84p,454b,2155s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc}{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mcl.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-mlitb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fourier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf" (93 pages, 3493849 bytes).
+ 67i,15n,84p,468b,2155s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc} </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi6.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy6.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr6.600pk>{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy8.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi8.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy10.720pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr8.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccex10.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr10.720pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi10.720pk>{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf" (107 pages, 3573033 bytes).
 PDF statistics:
- 1015 PDF objects out of 1200 (max. 8388607)
- 881 compressed objects within 9 object streams
- 382 named destinations out of 1000 (max. 500000)
- 334 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1623 PDF objects out of 1728 (max. 8388607)
+ 1274 compressed objects within 13 object streams
+ 494 named destinations out of 1000 (max. 500000)
+ 734 words of extra memory for PDF output out of 10000 (max. 10000000)
 

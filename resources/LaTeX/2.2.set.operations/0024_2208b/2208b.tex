@@ -1,0 +1,41 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem} %[\textbf{2208b}]
+    Let \bm{$\Lambda$} be a set.
+    \bm{$\Lambda$} is idempotent such that 
+    \bm{$\Lambda \cap \Lambda = \Lambda$}.
+\end{theorem}
+\begin{proof}
+    Let \bm{$\mu$} be an element in \bm{$\Lambda \cap \Lambda$}. 
+    By the definition for set intersection,
+    \begin{equation*}
+        \Big \langle \mu \in \Lambda \Big \rangle 
+            \land 
+        \Big \langle \mu \in \Lambda \Big \rangle
+    \end{equation*}
+    Thus, by the idempotent law for logical conjunction,
+    \begin{equation*}
+        \Big \langle \mu \in \Lambda \Big \rangle 
+            \land 
+        \Big \langle \mu \in \Lambda \big \rangle 
+            \equiv 
+        \Big \langle \mu \in \Lambda \Big \rangle
+    \end{equation*}
+    $\therefore$ by the definition for the intersection of sets,
+    \bm{$\Lambda$} is idempotent such that 
+    \bm{$\Lambda \cap \Lambda = \Lambda$}.
+\end{proof}
+
+
+\end{document}

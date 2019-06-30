@@ -1,0 +1,41 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2231}]
+    Let \bm{$\mathrm{A}$}, and \bm{$\Lambda$} be subsets of a universal set \bm{$\Omega$}. 
+    \begin{equation*}
+        \bm{
+            \mathrm{A} \subseteq \Lambda
+                \text{ if and only if } 
+            \overline{\Lambda} \subseteq \overline{\mathrm{A}}
+            }
+    \end{equation*}
+\end{theorem}
+\begin{proof}
+    The proposition \bm{$\mathrm{A} \subseteq \Lambda$} is defined by the universal quantification% statement 
+    \begin{equation*}
+        \forall \lambda \Big \langle \lambda \in \mathrm{A} \rightarrow \lambda \in \Lambda \Big \rangle
+    \end{equation*}
+    Where \bm{$\lambda$} is an element in the domain of discourse \bm{$\Omega$}.
+    It is a tautology that the truth value for the predicate is equivalent to its contrapositive. 
+    Thus,  
+    \begin{equation*}
+        \forall \lambda \Big \langle \lambda \notin \Lambda \rightarrow \lambda \notin \mathrm{A} \Big \rangle
+    \end{equation*} 
+    By the definition for set complementation, and subsets
+    \bm{$\lambda \in \overline{\Lambda} \subseteq \overline{\mathrm{A}}$} 
+    $\therefore$ \bm{$\mathrm{A} \subseteq \Lambda$} \textbf{\emph{ iff }} \bm{$\overline{\Lambda} \subseteq \overline{\mathrm{A}}$}.
+\end{proof}
+
+
+\end{document}

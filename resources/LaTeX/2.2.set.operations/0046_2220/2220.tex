@@ -1,0 +1,102 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2220}]
+    Let \bm{$\mathrm{A}$}, and \bm{$\Lambda$} be sets. 
+    \bm{$
+    \big \langle \mathrm{A} \cap \Lambda \big \rangle 
+        \cup 
+    \big \langle \mathrm{A} \cap \overline{\Lambda} \big \rangle 
+        = 
+    \mathrm{A}
+    $}.
+\end{theorem}
+\begin{proof}
+    Let \bm{$\lambda$} be an element in 
+    \bm{$
+    \big \langle \mathrm{A} \cap \Lambda \big \rangle 
+        \cup 
+    \big \langle \mathrm{A} \cap \overline{\Lambda} \big \rangle
+    $}.
+    By the definitions for the union of sets, and set intersection, that is,
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \lambda \in \Lambda \Big \rangle
+        \bigg]
+            \lor
+        \bigg[
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \lambda \in \overline{\Lambda} \Big \rangle
+        \bigg]
+    \end{equation*} 
+    By the law of distribution for logical conjunction over disjunction,
+    we can factor out the term \bm{$\lambda \in \mathrm{A}$}. 
+    Hence, the following statement is equivalent,
+    \begin{equation*}
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+            \land
+        \bigg[
+            \Big \langle \lambda \in \Lambda \Big \rangle
+                \lor
+            \Big \langle \lambda \in \overline{\Lambda} \Big \rangle
+        \bigg]
+    \end{equation*}
+    \bm{$
+    \lambda \in \Lambda 
+        \lor 
+    \lambda \in \overline{\Lambda} 
+        \equiv 
+    \top
+    $},
+    by the negation laws of logic.
+    Thus, by the identity law for logical conjunction,
+    \begin{equation*}
+        \Bigg\{
+            \bigg[
+                \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                    \land
+                \Big \langle \lambda \in \Lambda \Big \rangle
+            \bigg]
+                \lor
+            \bigg[
+                \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                    \land
+                \Big \langle \lambda \in \overline{\Lambda} \Big \rangle
+            \bigg]
+        \Bigg\}
+            \equiv
+        \Bigg\{
+            \Big \langle \lambda \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \top \Big \rangle
+        \Bigg\}
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \Big \langle \lambda \in \mathrm{A} \Big \rangle
+    \end{equation*}
+    $
+    \therefore \text{\space} \bm{
+    \big \langle \mathrm{A} \cap \Lambda \big \rangle 
+        \cup 
+    \big \langle \mathrm{A} \cap \overline{\Lambda} \big \rangle
+        = 
+    \mathrm{A}
+    }$.
+\end{proof}
+
+
+\end{document}

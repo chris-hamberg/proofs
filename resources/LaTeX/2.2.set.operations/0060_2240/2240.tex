@@ -1,0 +1,162 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2240}]
+    Let \bm{$\Gamma$}, \bm{$\Pi$}, and \bm{$\Xi$} be sets. 
+    The symmetric difference for sets is associative such that 
+    \begin{equation*}
+        \bm{
+            \Big \langle \Gamma \oplus \Pi \Big \rangle
+                \oplus 
+            \Xi 
+                = 
+            \Gamma 
+                \oplus 
+            \Big \langle \Pi \oplus \Xi \Big \rangle
+        }
+    \end{equation*}
+\end{theorem}
+\begin{proof}
+    Let \bm{$\zeta$} be an element in 
+    \bm{$
+        \big \langle \Gamma \oplus \Pi \big \rangle
+            \oplus 
+        \Xi 
+    $}. 
+    By the definition for the symmetric 
+    difference of sets, \bm{$\zeta$} is in
+    \begin{equation*}
+        \bigg[
+            \Big \langle \Gamma \oplus \Pi \Big \rangle
+                \cap
+            \overline{\Xi}
+        \bigg]
+            \cup
+        \bigg[
+            \Big \langle \overline{
+                \Gamma \oplus \Pi
+            } \Big \rangle 
+                \cap
+            \Xi
+        \bigg]
+    \end{equation*}
+    By Lemma 1, \bm{$\zeta$} is an element of
+    \begin{equation*}
+        \Bigg\{
+            \bigg[
+                \Big \langle \Gamma \cup \Pi \Big \rangle
+                    \cap
+                \Big \langle \overline{\Gamma} \cup \overline{\Pi} \Big \rangle
+            \bigg]
+                \cap
+            \overline{\Xi}
+        \Bigg\}
+            \cup
+        \Bigg\{
+            \bigg[ \overline{
+                \Big \langle \Gamma \cup \Pi \Big \rangle
+                \cap
+            \Big \langle \overline{\Gamma} \cup \overline{\Pi} \Big \rangle
+            } \bigg]
+                \cap
+            \Xi
+        \Bigg\}
+    \end{equation*}
+    Each superset on either side of this union is described either by Lemma 4,
+    or by Lemma 5. Thus, by Lemma 4, and 5, \bm{$\zeta$} is in
+    \begin{equation*}
+        \Big \langle \Pi \cap \overline{\Gamma} \cap \overline{\Xi} \Big \rangle
+            \cup
+        \Big \langle \Gamma \cap \overline{\Pi} \cap \overline{\Xi} \Big \rangle
+            \cup
+        \Big \langle \overline{\Gamma} \cap \overline{\Pi} \cap \Xi \Big \rangle
+            \cup
+        \Big \langle \Gamma \cap \Pi \cap \Xi \Big \rangle
+            \equiv
+        \Delta
+    \end{equation*}
+    Now, suppose it were the case that \bm{$\zeta$} were an element in
+    \bm{$
+        \Gamma 
+            \oplus 
+    \big \langle \Pi \oplus \Xi \big \rangle
+    $}. Because set intersection and set union are commutative,
+    from the definition for the symmetric difference of sets,
+    \bm{$\zeta$} would have to be in
+    \begin{equation*}
+        \bigg[
+            \Big \langle \Pi \oplus \Xi \Big \rangle
+                \cap
+            \overline{\Gamma}
+        \bigg]
+            \cup
+        \bigg[
+            \Big \langle \overline{
+                \Pi \oplus \Xi
+            } \Big \rangle
+                \cap
+            \Gamma 
+        \bigg]
+    \end{equation*}
+    By Lemma 1, \bm{$\zeta$} is an element of
+    \begin{equation*}
+        \Bigg\{
+            \bigg[
+                \Big \langle \Pi \cup \Xi \Big \rangle
+                    \cap
+                \Big \langle \overline{\Pi} \cup \overline{\Xi} \Big \rangle
+            \bigg]
+                \cap
+            \overline{\Gamma}
+        \Bigg\}
+            \cup
+        \Bigg\{
+            \bigg[ \overline{
+                \Big \langle \Pi \cup \Xi \Big \rangle
+                \cap
+            \Big \langle \overline{\Pi} \cup \overline{\Xi} \Big \rangle
+            } \bigg]
+                \cap
+            \Gamma
+        \Bigg\}
+    \end{equation*}
+    And by Lemma 4, and Lemma 5, \bm{$\zeta$} is an element in
+    \begin{equation*}
+        \Big \langle \Xi \cap \overline{\Pi} \cap \overline{\Gamma} \Big \rangle
+            \cup
+        \Big \langle \Pi \cap \overline{\Xi} \cap \overline{\Gamma} \Big \rangle
+            \cup
+        \Big \langle \overline{\Pi} \cap \overline{\Xi} \cap \Gamma \Big \rangle
+            \cup
+        \Big \langle \Pi \cap \Xi \cap \Gamma \Big \rangle
+            \equiv
+        \Delta
+    \end{equation*}
+    Because \bm{$\zeta$} is in \bm{$\Delta$} whenever \bm{$\zeta$} is in
+    \bm{$\big \langle \Gamma \oplus \Pi \big \rangle \oplus \Xi$}, 
+    and because \bm{$\zeta$} is in \bm{$\Delta$} whenever \bm{$\zeta$} is in
+    \bm{$\Gamma \oplus \big \langle \Pi \oplus \Xi \big \rangle$}, 
+    it follows immediately that the symmetric difference for sets is associative such that 
+    \bm{$
+        \big \langle \Gamma \oplus \Pi \big \rangle
+            \oplus 
+        \Xi 
+            = 
+        \Gamma 
+            \oplus 
+        \big \langle \Pi \oplus \Xi \big \rangle
+    $}.
+\end{proof}
+
+
+\end{document}

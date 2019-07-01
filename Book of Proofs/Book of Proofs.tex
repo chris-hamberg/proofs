@@ -57,17 +57,27 @@
 \chapterstyle{daleif1}
 
 
+\definecolor{section}{rgb}{0,.5,.55}
 
 
-
-
-
-
-
-\newtheorem{theorem}{Theorem}
+%\newtheorem{theorem}{Theorem}
 \newtheorem*{theorem*}{Theorem}
 \newtheorem{lemma}{Lemma}
 \newtheorem*{lemma*}{Lemma}
+
+\newtheoremstyle{style}
+{0pt}
+{12pt}
+{\centering\itshape\color{black}}
+{}
+{\color{white}}
+{.}
+{0em}
+{\centering}
+
+\theoremstyle{style}
+\newtheorem{theorem}{Theorem}
+%\newtheorem{lemma}{Lemma}
 
 
 \renewcommand\qedsymbol{$\blacksquare$}
@@ -115,7 +125,7 @@
 }
 
 
-\setsecnumdepth{subsection}
+%\setsecnumdepth{subsection}
 
 
 \hypersetup{
@@ -138,7 +148,7 @@
 \fancyhead[RE, LO]{ \leftmark}
 
 
-\definecolor{section}{rgb}{0,.5,.55}
+%\definecolor{section}{rgb}{0,.5,.55}
 
 \titlespacing*{\section}
     {0pt}{3.7ex plus 1ex minus .2ex}{4.3ex plus .2ex}
@@ -153,12 +163,15 @@
     }{1em}{}
 
 \titlespacing*{\subsection}
-    {0pt}{3.7ex plus 1ex minus .2ex}{4.3ex plus .2ex}
-    
-\setsecnumformat{\csname #1secnumformat\endcsname}
-    \newcommand\subsectionsecnumformat{
-        \raggedleft\color{section}\thesubsection\hspace{.5cm}
-    }
+    {0pt}{3.7ex plus 1ex minus .2ex}{3.3ex plus .2ex}
+
+% \setsecnumformat{\csname #1secnumformat\endcsname}
+%     \newcommand\subsectionsecnumformat{
+%         \raggedleft
+%         \color{section}
+%         \thesubsection
+%         \hspace{0.5cm}
+%     }
 
 
 \begin{document}

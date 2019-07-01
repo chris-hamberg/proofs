@@ -387,6 +387,11 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0020_2206b/0020_2206b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0021_2207a/2207a.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0021_2207a/2207a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/2.2.set.operations/georg_cantor.jpg
+INPUT ../resources/jpg/2.2.set.operations/georg_cantor.jpg
+INPUT ../resources/jpg/2.2.set.operations/georg_cantor.jpg
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0022_2207b/2207b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0022_2207b/2207b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
@@ -441,16 +446,18 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0036_2216c/2216c.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0036_2216c/2216c.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0037_2216d/2216d.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0037_2216d/2216d.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
 INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0038_2216e/2216e.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0038_2216e/2216e.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0039_2217/2217.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0039_2217/2217.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
 INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0039_2217/2217.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0039_2217/2217.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0040_2218a/2218a.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0040_2218a/2218a.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
@@ -546,6 +553,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0003L_2203L/0003L_2203L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0003L_2203L/0003L_2203L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0004L_2204L/0004L_2204L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0004L_2204L/0004L_2204L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
@@ -793,12 +802,13 @@ INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/x
 INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy6.600pk
 INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr6.600pk
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc
+INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi10.864pk
 INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy8.600pk
 INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi8.600pk
 INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy10.720pk
-INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr8.600pk
 INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccex10.600pk
 INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr10.720pk
+INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr8.600pk
 INPUT /home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi10.720pk
 INPUT /usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec-sc.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb

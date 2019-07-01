@@ -26,43 +26,43 @@
 \contentsline {subsection}{The identity law for set intersection.}{12}{theorem.19}% 
 \contentsline {subsection}{Domination for set union.}{13}{theorem.20}% 
 \contentsline {subsection}{Domination for set intersection.}{14}{figure.caption.9}% 
-\contentsline {subsection}{Idempotence for the union of sets.}{14}{theorem.22}% 
+\contentsline {subsection}{Idempotence for the union of sets.}{14}{figure.caption.10}% 
 \contentsline {subsection}{Idempotence for the intersection of sets.}{15}{theorem.23}% 
 \contentsline {subsection}{The complement law for set union.}{15}{theorem.24}% 
 \contentsline {subsection}{The complement law for set intersection.}{16}{theorem.25}% 
 \contentsline {subsection}{Subtracting the empty set.}{16}{theorem.26}% 
 \contentsline {subsection}{The empty set minus any set is empty.}{17}{theorem.27}% 
-\contentsline {subsection}{Set union is commutative.}{17}{theorem.28}% 
+\contentsline {subsection}{Set union is commutative.}{17}{figure.caption.11}% 
 \contentsline {subsection}{Set intersection is commutative.}{18}{theorem.29}% 
-\contentsline {subsection}{Absorption for union over intersection.}{18}{theorem.30}% 
+\contentsline {subsection}{Absorption for union over intersection.}{18}{figure.caption.12}% 
 \contentsline {subsection}{Absorption for intersection over union.}{19}{theorem.31}% 
-\contentsline {subsection}{DeMorgan's Law for a complemented union.}{19}{theorem.32}% 
+\contentsline {subsection}{DeMorgan's Law for a complemented union.}{19}{figure.caption.13}% 
 \contentsline {subsection}{Intersection is a subset of its operands.}{20}{theorem.33}% 
-\contentsline {subsection}{A set is a subset of its union.}{20}{theorem.34}% 
+\contentsline {subsection}{A set is a subset of its union.}{20}{figure.caption.14}% 
 \contentsline {subsection}{Set difference is a subset of its left-hand side.}{21}{theorem.35}% 
-\contentsline {subsection}{Alpha intersect lambda minus alpha is empty.}{21}{theorem.36}% 
+\contentsline {subsection}{Alpha intersect lambda minus alpha is empty.}{21}{figure.caption.15}% 
 \contentsline {subsection}{Alpha union lambda minus alpha.}{22}{theorem.37}% 
 \contentsline {subsection}{DeMorgan's law for a union of complements.}{22}{theorem.38}% 
 \contentsline {subsection}{Union is a subset of its greater union.}{23}{theorem.39}% 
-\contentsline {subsection}{Intersection is a subset of its lesser.}{23}{theorem.40}% 
-\contentsline {subsection}{Difference of outermost sets is a superset.}{24}{theorem.41}% 
-\contentsline {subsection}{Alpha minus delta intersect delta $\dots $}{25}{theorem.42}% 
-\contentsline {subsection}{Lambda minus alpha union delta $\dots $}{26}{theorem.43}% 
+\contentsline {subsection}{Intersection is a subset of its lesser.}{23}{figure.caption.16}% 
+\contentsline {subsection}{Outermost sets in a difference is a superset.}{24}{theorem.41}% 
+\contentsline {subsection}{Alpha minus delta intersect delta $\dots $}{25}{figure.caption.17}% 
+\contentsline {subsection}{Lambda minus alpha union delta $\dots $}{26}{figure.caption.18}% 
 \contentsline {subsection}{Alpha intersect complement lambda.}{26}{theorem.44}% 
 \contentsline {subsection}{An identity for the set alpha.}{27}{theorem.45}% 
 \contentsline {subsection}{The associative law for set union.}{27}{theorem.46}% 
 \contentsline {subsection}{The associative law for set intersection.}{28}{theorem.47}% 
-\contentsline {subsection}{Union is distributive over intersection.}{28}{theorem.48}% 
+\contentsline {subsection}{Union is distributive over intersection.}{28}{figure.caption.19}% 
 \contentsline {subsection}{The distribution of differences.}{29}{theorem.49}% 
-\contentsline {subsection}{Complementation converts subsets.}{30}{theorem.50}% 
-\contentsline {subsection}{Symmetric difference is a set difference.}{31}{theorem.51}% 
+\contentsline {subsection}{Subsets are contrapositive.}{30}{theorem.50}% 
+\contentsline {subsection}{Symmetric difference is a set difference.}{31}{figure.caption.20}% 
 \contentsline {subsection}{Symmetric difference is a union.}{32}{theorem.52}% 
 \contentsline {subsection}{Symmetric difference between a set and itself.}{32}{theorem.53}% 
 \contentsline {subsection}{Symmetric difference with the empty set.}{32}{theorem.54}% 
 \contentsline {subsection}{Symmetric difference with the universe.}{33}{theorem.55}% 
 \contentsline {subsection}{Symmetric difference with a complement.}{33}{theorem.56}% 
-\contentsline {subsection}{Symmetric difference is associative.}{33}{theorem.57}% 
-\contentsline {subsection}{An identity for gamma.}{34}{theorem.58}% 
+\contentsline {subsection}{Symmetric difference is associative.}{33}{figure.caption.21}% 
+\contentsline {subsection}{An identity for gamma.}{34}{figure.caption.22}% 
 \contentsline {subsection}{Symmetric difference is associative.}{35}{theorem.59}% 
 \contentsline {subsection}{Gamma is pi.}{36}{theorem.60}% 
 \contentsline {section}{\numberline {2.2}Lemmas}{37}{section.2.2}% 

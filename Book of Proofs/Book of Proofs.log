@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.6.26)  1 JUL 2019 19:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.6.26)  1 JUL 2019 23:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -858,8 +858,8 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 )
 \dlf@normtxtw=\skip272
 \feline@chapter=\box42
-\c@lemma=\count266
-\c@theorem=\count267
+\c@theorem=\count266
+\c@lemma=\count267
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 141.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux)
 \openout1 = `"Book of Proofs.aux"'.
@@ -1023,9 +1023,9 @@ l.36 ...ersection is commutative.}{18}{theorem.29}
                                                   % [1]pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 ... \bm {$\beta ^\lambda $}}{97}{section.5.8}
+l.79 ... duplicate list entries.}{92}{section.5.3}
                                                   % [2]
-Overfull \hbox (1.41595pt too wide) detected at line 81
+Overfull \hbox (1.41595pt too wide) detected at line 86
  \T1/qcs/m/n/12 100
  []
 
@@ -1041,7 +1041,7 @@ LaTeX Font Warning: Font shape `T1/cmss/b/n' undefined
 (Font)              using `T1/cmss/m/n' instead on input line 198.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/chapter.1/chapter.1.tex
-<../resources/jpg/1.6.introduction.to.proofs/euclid.jpg, id=201, 526.96875pt x 271.0125pt>
+<../resources/jpg/1.6.introduction.to.proofs/euclid.jpg, id=211, 526.96875pt x 271.0125pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg>
 Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/euclid.jpg  used on input line 9.
@@ -1059,7 +1059,7 @@ File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 28.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0004_1604/0004_1604.tex) [2] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0005_1605/0005_1605.tex)
-<../resources/jpg/1.6.introduction.to.proofs/olympics.jpg, id=219, 803.0pt x 602.25pt>
+<../resources/jpg/1.6.introduction.to.proofs/olympics.jpg, id=229, 803.0pt x 602.25pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg>
 Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/olympics.jpg  used on input line 41.
@@ -1085,15 +1085,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--84
  []
 
 )
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 55.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- [4] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0008_1609/0008_1609.tex)
-<../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg, id=230, 1003.75pt x 669.50125pt>
+<../resources/jpg/1.6.introduction.to.proofs/zeus.jpg, id=234, 513.92pt x 610.28pt>
+File: ../resources/jpg/1.6.introduction.to.proofs/zeus.jpg Graphic file (type jpg)
+<use ../resources/jpg/1.6.introduction.to.proofs/zeus.jpg>
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/zeus.jpg  used on input line 57.
+(pdftex.def)             Requested size: 56.9055pt x 67.56866pt.
+ [4 <../resources/jpg/1.6.introduction.to.proofs/zeus.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0008_1609/0008_1609.tex)
+<../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg, id=242, 1003.75pt x 669.50125pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg  used on input line 64.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg  used on input line 67.
 (pdftex.def)             Requested size: 355.65944pt x 237.23022pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0009_1610/0009_1610.tex) [5 <../resources/jpg/1.6.introduction.to.proofs/plato-republic.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0010_1612/0010_1612.tex
 Underfull \hbox (badness 10000) in paragraph at lines 23--29
@@ -1103,45 +1104,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--29
 )
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 78.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 81.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0011_1613/0011_1613.tex) [6] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0012_1614/0012_1614.tex)
-<../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg, id=240, 662.475pt x 301.125pt>
+<../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg, id=252, 662.475pt x 301.125pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg  used on input line 92.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg  used on input line 95.
 (pdftex.def)             Requested size: 369.88582pt x 168.128pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0013_1615/0013_1615.tex) [7 <../resources/jpg/1.6.introduction.to.proofs/pythagoras.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0014_1616/0014_1616.tex)
-<../resources/jpg/1.6.introduction.to.proofs/plato.jpg, id=247, 349.305pt x 529.98pt>
+<../resources/jpg/1.6.introduction.to.proofs/plato.jpg, id=259, 349.305pt x 529.98pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/plato.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/plato.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato.jpg  used on input line 109.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/plato.jpg  used on input line 112.
 (pdftex.def)             Requested size: 241.84842pt x 366.94812pt.
  [8 <../resources/jpg/1.6.introduction.to.proofs/plato.jpg>]
 LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <14.4> on input line 120.
+(Font)              <14.4> on input line 123.
 LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <10> on input line 120.
+(Font)              <10> on input line 123.
 LaTeX Font Info:    External font `xccex10' loaded for size
-(Font)              <7> on input line 120.
+(Font)              <7> on input line 123.
 LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 120.
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 120.
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OT1/ccr/bx/n' in size <7> not available
-(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 120.
+(Font)              Font shape `OT1/cmr/bx/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <14.4> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 120.
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <10> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 120.
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OML/ccm/b/it' in size <7> not available
-(Font)              Font shape `OML/cmm/b/it' tried instead on input line 120.
+(Font)              Font shape `OML/cmm/b/it' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <14.4> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 120.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 120.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 123.
 LaTeX Font Info:    Font shape `OMS/ccsy/b/n' in size <7> not available
-(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 120.
+(Font)              Font shape `OMS/cmsy/b/n' tried instead on input line 123.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0015_1617/0015_1617.tex
 
 Package amsmath Warning: Foreign command \atopwithdelims;
@@ -1149,32 +1150,28 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                 on input line 35.
 
 )
-<../resources/jpg/1.6.introduction.to.proofs/socrates.jpg, id=253, 1003.75pt x 501.875pt>
+<../resources/jpg/1.6.introduction.to.proofs/socrates.jpg, id=265, 1003.75pt x 501.875pt>
 File: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg Graphic file (type jpg)
 <use ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg  used on input line 124.
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/socrates.jpg  used on input line 127.
 (pdftex.def)             Requested size: 376.99901pt x 188.50131pt.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 134.
+(hyperref)                removing `math shift' on input line 137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 134.
+(hyperref)                removing `math shift' on input line 137.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0016_1618/0016_1618.tex) [9 <../resources/jpg/1.6.introduction.to.proofs/socrates.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/1.6.introduction.to.proofs/0017_1625/0017_1625.tex)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 146.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
-<../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg, id=262, 965.6075pt x 198.7425pt>
-File: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg Graphic file (type jpg)
-<use ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>
-Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg  used on input line 149.
-(pdftex.def)             Requested size: 284.52756pt x 58.5618pt.
- [10 <../resources/jpg/1.6.introduction.to.proofs/know_thyself.jpg>]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/chapter.2/chapter.2.tex
-<../resources/jpg/2.2.set.operations/set.jpg, id=269, 1284.8pt x 722.7pt>
+<../resources/jpg/1.6.introduction.to.proofs/hades.jpg, id=274, 247.78285pt x 247.78285pt>
+File: ../resources/jpg/1.6.introduction.to.proofs/hades.jpg Graphic file (type jpg)
+<use ../resources/jpg/1.6.introduction.to.proofs/hades.jpg>
+Package pdftex.def Info: ../resources/jpg/1.6.introduction.to.proofs/hades.jpg  used on input line 152.
+(pdftex.def)             Requested size: 113.81102pt x 113.81136pt.
+ [10 <../resources/jpg/1.6.introduction.to.proofs/hades.jpg>]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/chapter.2/chapter.2.tex
+<../resources/jpg/2.2.set.operations/set.jpg, id=281, 1284.8pt x 722.7pt>
 File: ../resources/jpg/2.2.set.operations/set.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/set.jpg>
 Package pdftex.def Info: ../resources/jpg/2.2.set.operations/set.jpg  used on input line 9.
@@ -1186,216 +1183,243 @@ File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
 Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 28.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0020_2206b/0020_2206b.tex) [12] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0021_2207a/2207a.tex)
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0020_2206b/0020_2206b.tex) [12] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0021_2207a/0021_2207a.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
 Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 46.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
-<../resources/jpg/2.2.set.operations/georg_cantor.jpg, id=278, 622.325pt x 349.305pt>
+<../resources/jpg/2.2.set.operations/georg_cantor.jpg, id=290, 622.325pt x 349.305pt>
 File: ../resources/jpg/2.2.set.operations/georg_cantor.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/georg_cantor.jpg>
 Package pdftex.def Info: ../resources/jpg/2.2.set.operations/georg_cantor.jpg  used on input line 49.
-(pdftex.def)             Requested size: 398.33858pt x 223.58641pt.
- [13 <../resources/jpg/2.2.set.operations/georg_cantor.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0022_2207b/2207b.tex)
-<../resources/jpg/2.2.set.operations/border1.jpg, id=285, 95.3964pt x 19.272pt>
+(pdftex.def)             Requested size: 391.22539pt x 219.59427pt.
+ [13 <../resources/jpg/2.2.set.operations/georg_cantor.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0022_2207b/0022_2207b.tex)
+<../resources/jpg/2.2.set.operations/border1.jpg, id=297, 95.3964pt x 19.272pt>
 File: ../resources/jpg/2.2.set.operations/border1.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/border1.jpg>
 Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border1.jpg  used on input line 64.
-(pdftex.def)             Requested size: 284.52756pt x 57.49294pt.
+(pdftex.def)             Requested size: 170.71652pt x 34.48988pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0023_2208a/2208a.tex) [14 <../resources/jpg/2.2.set.operations/border1.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0024_2208b/2208b.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 83.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 84.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0025_2209a/2209a.tex) [15] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0026_2209b/2209b.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 101.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 102.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0027_2210a/2210a.tex) [16] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0028_2210b/2210b.tex)
-<../resources/jpg/2.2.set.operations/border2.jpg, id=299, 93.4692pt x 13.2495pt>
+<../resources/jpg/2.2.set.operations/border2.jpg, id=311, 93.4692pt x 13.2495pt>
 File: ../resources/jpg/2.2.set.operations/border2.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/border2.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border2.jpg  used on input line 122.
-(pdftex.def)             Requested size: 284.52756pt x 40.33241pt.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border2.jpg  used on input line 123.
+(pdftex.def)             Requested size: 227.62204pt x 32.266pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0029_2211a/2211a.tex) [17 <../resources/jpg/2.2.set.operations/border2.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0030_2211b/2211b.tex)
-<../resources/jpg/2.2.set.operations/border3.jpg, id=305, 89.6148pt x 15.6585pt>
+<../resources/jpg/2.2.set.operations/border3.jpg, id=318, 89.6148pt x 15.6585pt>
 File: ../resources/jpg/2.2.set.operations/border3.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/border3.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border3.jpg  used on input line 144.
-(pdftex.def)             Requested size: 256.0748pt x 44.75444pt.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border3.jpg  used on input line 146.
+(pdftex.def)             Requested size: 199.16928pt x 34.80283pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0031_2212/2212.tex) [18 <../resources/jpg/2.2.set.operations/border3.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0032_2213/2213.tex)
-<../resources/jpg/2.2.set.operations/border4.jpg, id=312, 91.0602pt x 10.8405pt>
+<../resources/jpg/2.2.set.operations/border4.jpg, id=324, 91.0602pt x 10.8405pt>
 File: ../resources/jpg/2.2.set.operations/border4.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/border4.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border4.jpg  used on input line 166.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border4.jpg  used on input line 168.
 (pdftex.def)             Requested size: 256.0748pt x 30.4946pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0033_2215/2215.tex) [19 <../resources/jpg/2.2.set.operations/border4.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0034_2216a/2216a.tex)
-<../resources/jpg/2.2.set.operations/russel.jpg, id=319, 1152.305pt x 471.7625pt>
+<../resources/jpg/2.2.set.operations/russel.jpg, id=331, 1152.305pt x 471.7625pt>
 File: ../resources/jpg/2.2.set.operations/russel.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/russel.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/russel.jpg  used on input line 189.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/russel.jpg  used on input line 191.
 (pdftex.def)             Requested size: 398.33858pt x 163.08217pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0035_2216b/2216b.tex) [20 <../resources/jpg/2.2.set.operations/russel.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0036_2216c/2216c.tex)
-<../resources/jpg/2.2.set.operations/border5.jpg, id=325, 92.5056pt x 11.0814pt>
+<../resources/jpg/2.2.set.operations/border5.jpg, id=337, 92.5056pt x 11.0814pt>
 File: ../resources/jpg/2.2.set.operations/border5.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/border5.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border5.jpg  used on input line 212.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border5.jpg  used on input line 214.
 (pdftex.def)             Requested size: 227.62204pt x 27.2687pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0037_2216d/2216d.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 223.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 225.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  [21 <../resources/jpg/2.2.set.operations/border5.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0038_2216e/2216e.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 233.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 235.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0039_2217/2217.tex) [22] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0040_2218a/2218a.tex)
-<../resources/jpg/2.2.set.operations/border6.jpg, id=335, 355.3275pt x 80.3pt>
+<../resources/jpg/2.2.set.operations/border6.jpg, id=347, 355.3275pt x 80.3pt>
 File: ../resources/jpg/2.2.set.operations/border6.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/border6.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border6.jpg  used on input line 254.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border6.jpg  used on input line 256.
 (pdftex.def)             Requested size: 256.0748pt x 57.87108pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0041_2218b/2218b.tex) [23 <../resources/jpg/2.2.set.operations/border6.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0042_2218c/2218c.tex)
-<../resources/jpg/2.2.set.operations/zermelo.jpg, id=341, 154.07144pt x 111.9642pt>
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0041_2218b/2218b.tex) [23 <../resources/jpg/2.2.set.operations/border6.jpg>]
+<../resources/jpg/2.2.set.operations/zermelo.jpg, id=354, 154.07144pt x 111.9642pt>
 File: ../resources/jpg/2.2.set.operations/zermelo.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/zermelo.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/zermelo.jpg  used on input line 277.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/zermelo.jpg  used on input line 273.
 (pdftex.def)             Requested size: 384.1122pt x 279.14952pt.
- [24 <../resources/jpg/2.2.set.operations/zermelo.jpg>]
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0042_2218c/2218c.tex) [24 <../resources/jpg/2.2.set.operations/zermelo.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 288.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 287.
+(hyperref)                removing `math shift' on input line 288.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0043_2218d/2218d.tex)
-<../resources/jpg/2.2.set.operations/fraenkel.jpg, id=347, 488.75087pt x 391.34348pt>
+<../resources/jpg/2.2.set.operations/fraenkel.jpg, id=359, 488.75087pt x 391.34348pt>
 File: ../resources/jpg/2.2.set.operations/fraenkel.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/fraenkel.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/fraenkel.jpg  used on input line 292.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/fraenkel.jpg  used on input line 293.
 (pdftex.def)             Requested size: 270.30118pt x 216.43982pt.
  [25 <../resources/jpg/2.2.set.operations/fraenkel.jpg>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 302.
+(hyperref)                removing `math shift' on input line 303.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 302.
+(hyperref)                removing `math shift' on input line 303.
 
 (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0044_2218e/2218e.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 304.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 305.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0045_2219/2219.tex) [26] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0046_2220/2220.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 323.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 324.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0047_2221/2221.tex) [27] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0048_2222/2222.tex)
-<../resources/jpg/2.2.set.operations/border7.jpg, id=363, 382.42876pt x 97.36375pt>
+<../resources/jpg/2.2.set.operations/border7.jpg, id=375, 382.42876pt x 97.36375pt>
 File: ../resources/jpg/2.2.set.operations/border7.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/border7.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border7.jpg  used on input line 344.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/border7.jpg  used on input line 345.
 (pdftex.def)             Requested size: 199.16928pt x 50.70668pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0049_2223/2223.tex) [28 <../resources/jpg/2.2.set.operations/border7.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0050_2224/2224.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 364.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 365.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  [29] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0051_2231/2231.tex)
-<../resources/jpg/2.2.set.operations/dedekind.png, id=373, 120.45pt x 97.20316pt>
+<../resources/jpg/2.2.set.operations/dedekind.png, id=385, 120.45pt x 97.20316pt>
 File: ../resources/jpg/2.2.set.operations/dedekind.png Graphic file (type png)
 <use ../resources/jpg/2.2.set.operations/dedekind.png>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/dedekind.png  used on input line 377.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/dedekind.png  used on input line 378.
 (pdftex.def)             Requested size: 369.88582pt x 298.52785pt.
  [30 <../resources/jpg/2.2.set.operations/dedekind.png>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0052_2235/2235.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 389.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 390.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  [31] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0053_2236/2236.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 399.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 400.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0054_2237a/2237a.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 408.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 409.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0055_2237b/2237b.tex) [32] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0056_2237c/2237c.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 426.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 427.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0057_2237d/2237d.tex)
-<../resources/jpg/2.2.set.operations/horus.png, id=389, 566.115pt x 415.5525pt>
+<../resources/jpg/2.2.set.operations/horus.png, id=401, 566.115pt x 415.5525pt>
 File: ../resources/jpg/2.2.set.operations/horus.png Graphic file (type png)
 <use ../resources/jpg/2.2.set.operations/horus.png>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/horus.png  used on input line 437.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/horus.png  used on input line 438.
 (pdftex.def)             Requested size: 85.35826pt x 62.65356pt.
  (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0058_2238a/2238a.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 447.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 448.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- [33 <../resources/jpg/2.2.set.operations/horus.png>]
-<../resources/jpg/2.2.set.operations/ankh.jpg, id=397, 308.352pt x 173.448pt>
+ [33 <../resources/jpg/2.2.set.operations/horus.png>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0059_2238b/2238b.tex)
+<../resources/jpg/2.2.set.operations/ankh.jpg, id=408, 308.352pt x 173.448pt>
 File: ../resources/jpg/2.2.set.operations/ankh.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/ankh.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/ankh.jpg  used on input line 454.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/ankh.jpg  used on input line 460.
 (pdftex.def)             Requested size: 256.0748pt x 144.04384pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0059_2238b/2238b.tex) [34 <../resources/jpg/2.2.set.operations/ankh.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0060_2240/2240.tex)
+ [34 <../resources/jpg/2.2.set.operations/ankh.jpg>] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0060_2240/2240.tex)
 File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
 <use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 470.
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 471.
 (pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- [35] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0061_2241/2241.tex)
-<../resources/jpg/2.2.set.operations/neumann.jpg, id=406, 524.85446pt x 446.43382pt>
+ [35]
+<../resources/jpg/2.2.set.operations/neumann.jpg, id=419, 524.85446pt x 446.43382pt>
 File: ../resources/jpg/2.2.set.operations/neumann.jpg Graphic file (type jpg)
 <use ../resources/jpg/2.2.set.operations/neumann.jpg>
-Package pdftex.def Info: ../resources/jpg/2.2.set.operations/neumann.jpg  used on input line 482.
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/neumann.jpg  used on input line 483.
 (pdftex.def)             Requested size: 327.20668pt x 278.3188pt.
- [36 <../resources/jpg/2.2.set.operations/neumann.jpg>]
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 489.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0001L_2201L/0001L_2201L.tex)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 495.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0002L_2202L/0002L_2202L.tex)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 501.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- [37] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0003L_2203L/0003L_2203L.tex)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 508.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0004L_2204L/0004L_2204L.tex)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 514.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- [38] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0005L_2205L/0005L_2205L.tex)
-File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
-<use ../resources/jpg/eulers_infinity.png>
-Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 521.
-(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
- [39]) [40
+ (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0061_2241/2241.tex) [36 <../resources/jpg/2.2.set.operations/neumann.jpg>]
+<../resources/jpg/2.2.set.operations/sun.jpg, id=426, 301.125pt x 168.63pt>
+File: ../resources/jpg/2.2.set.operations/sun.jpg Graphic file (type jpg)
+<use ../resources/jpg/2.2.set.operations/sun.jpg>
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/sun.jpg  used on input line 498.
+(pdftex.def)             Requested size: 398.33858pt x 223.09145pt.
 
-] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2320/2320.tex) [41] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2321/2321.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2324/2324.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2325/2325.tex [42]) [43] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329a/2329a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329b/2329b.tex) [44] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2330/2330.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336a/2336a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 503.
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0001L_2201L/0001L_2201L.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 506.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [37 <../resources/jpg/2.2.set.operations/sun.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 511.
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0002L_2202L/0002L_2202L.tex)
+<../resources/jpg/2.2.set.operations/scarab.png, id=432, 963.6pt x 226.8475pt>
+File: ../resources/jpg/2.2.set.operations/scarab.png Graphic file (type png)
+<use ../resources/jpg/2.2.set.operations/scarab.png>
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/scarab.png  used on input line 515.
+(pdftex.def)             Requested size: 227.62204pt x 53.58607pt.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 520.
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0003L_2203L/0003L_2203L.tex) [38 <../resources/jpg/2.2.set.operations/scarab.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 526.
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0004L_2204L/0004L_2204L.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 528.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+<../resources/jpg/2.2.set.operations/bird.png, id=439, 1265.72874pt x 752.8125pt>
+File: ../resources/jpg/2.2.set.operations/bird.png Graphic file (type png)
+<use ../resources/jpg/2.2.set.operations/bird.png>
+Package pdftex.def Info: ../resources/jpg/2.2.set.operations/bird.png  used on input line 532.
+(pdftex.def)             Requested size: 227.62204pt x 135.37404pt.
+ [39 <../resources/jpg/2.2.set.operations/bird.png>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@ifnextchar' on input line 539.
+
+(/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0005L_2205L/0005L_2205L.tex)
+File: ../resources/jpg/eulers_infinity.png Graphic file (type png)
+<use ../resources/jpg/eulers_infinity.png>
+Package pdftex.def Info: ../resources/jpg/eulers_infinity.png  used on input line 541.
+(pdftex.def)             Requested size: 21.33955pt x 12.33351pt.
+ [40]) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2320/2320.tex) [41
+
+] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2321/2321.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2324/2324.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2325/2325.tex [42]) [43] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329a/2329a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329b/2329b.tex) [44] (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2330/2330.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336a/2336a.tex) (/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
 Underfull \hbox (badness 10000) in paragraph at lines 26--36
 
  []
@@ -1769,18 +1793,18 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 226.
  ) 
 Here is how much of TeX's memory you used:
- 19455 strings out of 492609
- 359201 string characters out of 6131462
- 600675 words of memory out of 5000000
- 21816 multiletter control sequences out of 15000+600000
+ 19485 strings out of 492609
+ 360178 string characters out of 6131462
+ 600918 words of memory out of 5000000
+ 21838 multiletter control sequences out of 15000+600000
  96078 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  67i,15n,84p,439b,2155s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc} </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi6.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy6.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr6.600pk>{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec.enc} </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi10.864pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy8.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi8.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccsy10.720pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccex10.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr10.720pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr8.600pk> </home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concmath-fonts/xccmi10.720pk>{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-ec-sc.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmbsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsb.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qcsri.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfss1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf" (107 pages, 5846587 bytes).
+Output written on "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf" (107 pages, 5907077 bytes).
 PDF statistics:
- 1562 PDF objects out of 1728 (max. 8388607)
- 1197 compressed objects within 12 object streams
- 443 named destinations out of 1000 (max. 500000)
- 769 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1594 PDF objects out of 1728 (max. 8388607)
+ 1222 compressed objects within 13 object streams
+ 447 named destinations out of 1000 (max. 500000)
+ 829 words of extra memory for PDF output out of 10000 (max. 10000000)
 

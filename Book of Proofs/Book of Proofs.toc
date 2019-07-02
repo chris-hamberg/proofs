@@ -66,11 +66,11 @@
 \contentsline {subsection}{Symmetric difference is associative.}{35}{figure.caption.23}% 
 \contentsline {subsection}{Gamma is pi.}{36}{figure.caption.24}% 
 \contentsline {section}{\numberline {2.2}Lemmas}{37}{section.2.2}% 
-\contentsline {subsection}{\color {section}Lemma 1}{37}{figure.caption.25}% 
-\contentsline {subsection}{\color {section}Lemma 2}{38}{lemma.1}% 
-\contentsline {subsection}{\color {section}Lemma 3}{38}{figure.caption.26}% 
-\contentsline {subsection}{\color {section}Lemma 4}{39}{lemma.3}% 
-\contentsline {subsection}{\color {section}Lemma 5}{40}{figure.caption.27}% 
+\contentsline {subsection}{Lemma 1}{37}{figure.caption.25}% 
+\contentsline {subsection}{Lemma 2}{38}{lemma.1}% 
+\contentsline {subsection}{Lemma 3}{38}{figure.caption.26}% 
+\contentsline {subsection}{Lemma 4}{39}{lemma.3}% 
+\contentsline {subsection}{Lemma 5}{40}{figure.caption.27}% 
 \contentsline {chapter}{\chapternumberline {3}Functions}{41}{chapter.3}% 
 \contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{75}{chapter.4}% 
 \contentsline {chapter}{\chapternumberline {5}Algorithms}{89}{chapter.5}% 

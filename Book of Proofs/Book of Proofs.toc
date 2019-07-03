@@ -78,37 +78,37 @@
 \contentsline {subsection}{Exponentiation is not invertible.}{42}{theorem.63}% 
 \contentsline {subsection}{Absolute value is not invertible.}{43}{theorem.64}% 
 \contentsline {subsection}{The composition of injective functions is injective.}{43}{theorem.65}% 
-\contentsline {subsection}{The composition of surjective functions is surjective.}{44}{theorem.66}% 
-\contentsline {subsection}{The subject function in an injective composition is injective.}{45}{theorem.67}% 
+\contentsline {subsection}{The composition of surjective functions is surjective.}{44}{figure.caption.28}% 
+\contentsline {subsection}{The subject function in an injective composition is injective.}{45}{figure.caption.29}% 
 \contentsline {subsection}{The image of a union under the function lambda.}{46}{theorem.68}% 
 \contentsline {subsection}{The image of an intersection under lambda.}{46}{theorem.69}% 
 \contentsline {subsection}{The inverse image of a union under lambda.}{47}{theorem.70}% 
 \contentsline {subsection}{The inverse image of an intersection under lambda.}{47}{theorem.71}% 
-\contentsline {subsection}{The inverse image of a complement under lambda.}{48}{theorem.72}% 
+\contentsline {subsection}{The inverse image of a complement under lambda.}{48}{figure.caption.30}% 
 \contentsline {subsection}{The floor of zeta plus one half.}{49}{theorem.73}% 
-\contentsline {subsection}{The ceiling of zeta minus one half.}{50}{theorem.74}% 
+\contentsline {subsection}{The ceiling of zeta minus one half.}{50}{figure.caption.31}% 
 \contentsline {subsection}{The difference between a ceiling and a floor.}{51}{theorem.75}% 
 \contentsline {subsection}{The second property of floor functions.}{52}{theorem.76}% 
-\contentsline {subsection}{The ceiling of a real number and an integer.}{53}{theorem.77}% 
+\contentsline {subsection}{The ceiling of a real number and an integer.}{53}{figure.caption.32}% 
 \contentsline {subsection}{If a floor is less than an integer.}{53}{theorem.78}% 
 \contentsline {subsection}{If an interger is less than a ceiling.}{54}{theorem.79}% 
 \contentsline {subsection}{If a ceiling is less than or equal to...}{54}{theorem.80}% 
-\contentsline {subsection}{If an integer is less than or equal to...}{55}{theorem.81}% 
+\contentsline {subsection}{If an integer is less than or equal to...}{55}{figure.caption.33}% 
 \contentsline {subsection}{Parity for flooring a half.}{56}{theorem.82}% 
-\contentsline {subsection}{The ceiling and floor of negative numbers.}{57}{theorem.83}% 
-\contentsline {subsection}{The inverse of compositions.}{58}{theorem.84}% 
-\contentsline {subsection}{Characteristic functions on intersections.}{59}{theorem.85}% 
-\contentsline {subsection}{Characteristic functions on unions.}{60}{theorem.86}% 
+\contentsline {subsection}{The ceiling and floor of negative numbers.}{57}{figure.caption.34}% 
+\contentsline {subsection}{The inverse of compositions.}{58}{figure.caption.36}% 
+\contentsline {subsection}{Characteristic functions on intersections.}{59}{figure.caption.37}% 
+\contentsline {subsection}{Characteristic functions on unions.}{60}{figure.caption.38}% 
 \contentsline {subsection}{Characteristic functions on a complement.}{61}{theorem.87}% 
-\contentsline {subsection}{Characteristic functions on symmetric difference.}{62}{theorem.88}% 
+\contentsline {subsection}{Characteristic functions on symmetric difference.}{62}{figure.caption.39}% 
 \contentsline {subsection}{With equal cardinality, injection or surjection implies bijection.}{63}{theorem.89}% 
-\contentsline {subsection}{The ceiling of a floor is that floor.}{63}{theorem.90}% 
+\contentsline {subsection}{The ceiling of a floor is that floor.}{63}{figure.caption.40}% 
 \contentsline {subsection}{A special fact about ceilings.}{64}{theorem.91}% 
-\contentsline {subsection}{The floor of a ceiling is that ceiling.}{65}{theorem.92}% 
+\contentsline {subsection}{The floor of a ceiling is that ceiling.}{65}{figure.caption.41}% 
 \contentsline {subsection}{The ceiling of a quarter.}{66}{theorem.93}% 
-\contentsline {subsection}{A special fact about floors.}{67}{theorem.94}% 
+\contentsline {subsection}{A special fact about floors.}{67}{figure.caption.42}% 
 \contentsline {subsection}{The floor of a square root.}{68}{theorem.95}% 
-\contentsline {subsection}{The ceiling of a square root.}{69}{theorem.96}% 
+\contentsline {subsection}{The ceiling of a square root.}{69}{figure.caption.44}% 
 \contentsline {subsection}{The floor of integers divisible by 3.}{70}{theorem.97}% 
 \contentsline {section}{\numberline {3.2}Lemmas}{72}{section.3.2}% 
 \contentsline {subsection}{Lemma 6}{72}{section.3.2}% 

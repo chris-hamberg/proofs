@@ -1,0 +1,27 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+\begin{document}
+	
+	\begin{theorem*}[2.2.36b]
+		Let f be the function $f: A \implies B$. Let S, and T be subsets of A. 
+		$f(S \cap T) \subseteq f(S) \cap f(T)$.
+	\end{theorem*}
+	
+	\begin{proof}
+		Let $a$ be an element in $A$ such that $f(a) \in f(S \cap T)$. Hence, by the definition 
+		for the image of $(S \cap T)$ under the function $f$, $a \in (S \cap T)$. The set 
+		intersection is defined as $(a \in S) \land (a \in T)$. Of course \newline 
+		$[f(a) \in f(S)] \land [f(a) \in f(T)]$. That is, $f(a) \in [f(S) \cap f(T)]$, and indeed 
+		$f(S \cap T) \subseteq f(S) \cap f(T)$.
+	\end{proof}
+
+\end{document}

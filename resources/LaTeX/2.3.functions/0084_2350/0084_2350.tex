@@ -1,0 +1,102 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2350}]
+    Let \bm{$\zeta$} be a real number. 
+    \begin{equation*}
+        \bm{
+            \lfloor - \zeta \rfloor 
+                = 
+            - \lceil \zeta \rceil
+                \textbf{, and }
+            \lceil - \zeta \rceil
+                = 
+            - \lfloor \zeta \rfloor
+        }.
+    \end{equation*}
+\end{theorem}
+
+
+\begin{proof}
+    By cases.
+    \\ \\
+    \bm{$(i)$} By the multiplicative compatibility laws from the order axioms,
+    and by the properties for ceiling functions,
+    there exists an integer \bm{$\lceil \zeta \rceil = \lambda$} such that
+    \begin{equation*}
+        \Bigg\{
+            \Big \langle \lambda - 1 \Big \rangle
+                <
+            \Big \langle \zeta \Big \rangle
+                \leq
+            \Big \langle \lambda \Big \rangle
+        \Bigg\}
+            \equiv
+        \Bigg\{
+            \Big \langle - \lambda + 1 \Big \rangle 
+                > 
+            \Big \langle - \zeta \Big \rangle
+                \ge 
+            \Big \langle - \lambda \Big \rangle
+        \Bigg\}
+    \end{equation*}
+    By the properties for floor functions, 
+    \bm{$\lfloor - \zeta \rfloor = - \lambda$}.
+    And \bm{$-1 \times \lceil \zeta \rceil = - \lambda$}, 
+    by the multiplicative equality property for equations.
+    Thus, \bm{$\lfloor - \zeta \rfloor = - \lceil \zeta \rceil$}, 
+    by the identity \bm{$- \lambda$}.
+    \\ \\
+    \bm{$(ii)$} By the multiplicative compatibility laws from the order axioms,
+    and by the properties of floor functions,
+    there exists an integer \bm{$\lfloor \zeta \rfloor = \lambda$} such that
+    \begin{equation*}
+        \Bigg\{
+            \Big \langle \lambda \Big \rangle
+                \le 
+            \Big \langle \zeta \Big \rangle
+                < 
+            \Big \langle \lambda + 1 \Big \rangle
+        \Bigg\}
+            \equiv
+        \Bigg\{
+            \Big \langle - \lambda \Big \rangle
+                \ge 
+            \Big \langle - \zeta \Big \rangle
+                > 
+            \Big \langle - \lambda - 1 \Big \rangle
+        \Bigg\}
+    \end{equation*}
+    By the properties of ceiling functions,
+    \bm{$\lceil - \zeta \rceil = - \lambda$}. 
+    And  
+    \bm{$- 1 \times \lfloor \zeta \rfloor = - \lambda$}, 
+    by the multiplicative property for equations.
+    Thus,
+    \bm{$\lceil - \zeta \rceil = - \lfloor \zeta \rfloor$},
+    by the identity \bm{$- \lambda$}.
+    \\ \\
+    $\therefore \text{\space}
+    \bm{
+            \lfloor - \zeta \rfloor 
+                = 
+            - \lceil \zeta \rceil
+                \textbf{, and }
+            \lceil - \zeta \rceil
+                = 
+            - \lfloor \zeta \rfloor
+    }$.
+\end{proof}
+
+
+\end{document}

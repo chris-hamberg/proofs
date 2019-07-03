@@ -1,0 +1,101 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2321}]
+    Let \bm{$\gamma$} be the function \bm{$\gamma : \mathbb{R} \rightarrow \mathbb{R^+}$}.
+    %, such that 
+    % \begin{equation*}
+    %     \forall \alpha \Big \langle
+    %         \gamma[ \alpha ] > 0 \Big \rangle    
+    % \end{equation*} 
+    \\
+    Let \bm{$\delta$} be the function \bm{$\delta : \mathbb{R} \rightarrow \mathbb{R}$} 
+    defined by \bm{$\delta[\alpha] = \frac{1}{\gamma[\alpha]}$}. 
+    \begin{center}
+        \bm{$\gamma[\alpha]$} is strictly decreasing 
+            if and only if 
+        \bm{$\delta[\alpha]$} is strictly increasing.
+    \end{center}
+\end{theorem}
+
+\begin{proof}
+    Suppose there exist real numbers \bm{$\alpha$} and \bm{$\beta$} such that 
+    \bm{$\alpha < \beta$}, and suppose that 
+    \bm{$\gamma[ \alpha ] > \gamma[ \beta ]$}. \bm{$\gamma$} is a strictly decreasing real-valued function by definition. 
+    By the multiplicative compatibility law from the order axioms, 
+    Multiplying both sides of the latter inequality by \bm{$\frac{1}{\gamma[\alpha] \cdot \gamma[\beta]}$}
+    \begin{equation*}
+        \Bigg\{
+            \left(
+                \frac{\gamma[\alpha]}{\gamma[\alpha] \cdot \gamma[\beta]}
+            \right)
+                >
+            \left(
+                \frac{\gamma[\beta]}{\gamma[\alpha] \cdot \gamma[\beta]}
+            \right)  
+        \Bigg\}
+            \equiv
+        \Bigg\{
+            \left(
+                \frac{1}{\gamma[\beta]}
+            \right)
+                >
+            \left(
+                \frac{1}{\gamma[\alpha]}
+            \right)
+        \Bigg\}
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \Bigg\{
+            \bigg(
+                \delta[\beta]
+            \bigg)
+                >
+            \bigg(
+                \delta[\alpha]
+            \bigg)
+        \Bigg\}
+    \end{equation*}
+    Thus, \bm{$\delta$} is a strictly increasing real-valued function,
+    by defintion.
+    The converse can be proven by multiplying that inequality
+    \bm{$\delta[\alpha] < \delta[\beta]$} by \bm{$\gamma[\alpha]\gamma[\beta]$},
+    by the multiplicative compatibility law from the order axioms,
+    \begin{equation*}
+        \Bigg\{
+            \bigg(
+                \frac{1 \cdot \gamma[\alpha] \cdot \gamma[\beta]}{\gamma[\alpha]}
+                    <
+                \frac{1 \cdot \gamma[\alpha] \cdot \gamma[\beta]}{\gamma[\beta]}
+            \bigg)
+        \Bigg\}
+            \equiv
+        \Bigg\{
+            \bigg(
+                \gamma[\beta]
+            \bigg)
+                <
+            \bigg(
+                \gamma[\alpha]
+            \bigg)
+        \Bigg\} 
+    \end{equation*}
+    Thus, \bm{$\gamma$} is a strictly decreasing real-valued function, by defintion
+    \bm{$\therefore \text{\space} \gamma[\alpha]$} is strictly decreasing
+    if and only if
+    \bm{$\delta[\alpha]$} is strictly increasing.
+\end{proof}
+
+
+\end{document}

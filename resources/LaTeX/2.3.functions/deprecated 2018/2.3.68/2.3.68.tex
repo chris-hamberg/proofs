@@ -1,0 +1,42 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.68]
+		Let f be a function $f: A \implies B$, where A and B are finite sets, and $|A| = |B|$. f 
+		is injective if and only if f is surjective.
+	\end{theorem*}
+	
+	\begin{proof}
+		Direct form by the contrapositive. Suppose the negation of the \newline statement given by 
+		the definition for surjective functions, $\exists y \forall x (f(x) \ne y)$. This statement 
+		can only be true if either $|A| < |B|$ (contradicting the \newline hypothesis,) or $\exists 
+		x \exists y ((f(x) = f(y)) \land (x \ne y))$. Since contradiction is $\bot$ by the law for 
+		logical negation, by the identity law for logical disjunction, $f$ is defined as not 
+		injective. Thus, if $f$ is injective, then $f$ is surjective.
+		
+		Converse form by the contrapositive. Suppose the negation of the \newline statement given 
+		by the definition for injective functions, \newline 
+		$\exists x \exists y ((f(x) = f(y)) \land (x \ne y))$. 
+		This statement can only be true if either $|A| > |B|$ (contradicting the hypothesis,) or 
+		$\exists y \forall x (f(x) \ne y)$. Since \newline contradiction is $\bot$ by the law for 
+		logical negation, by the identity law for logical disjunction, $f$ is defined as not 
+		surjective. Thus, if $f$ is surjective, then $f$ is injective.
+		
+		$\therefore \forall x \forall y ((f(x) = f(y)) \implies 
+		(x = y)) \iff \forall y \exists x (f(x) = y)$, whenever $f$ is a function $f: A \implies B$, 
+		where $A$ and $B$ are finite sets, and $|A| = |B|$.
+	\end{proof}
+
+\end{document}

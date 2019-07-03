@@ -1,0 +1,40 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2324}]
+    Let \bm{$\alpha$} be the function 
+    \bm{$\alpha: \mathbb{R} \rightarrow \mathbb{R}$}
+    defined by \bm{$\alpha[\lambda] = \epsilon ^\lambda$}. 
+    \begin{center}
+        \bm{$\alpha[\lambda]$} is not invertible.
+    \end{center}
+\end{theorem}
+
+\begin{proof}
+    \begin{equation*}
+        \Big \langle \alpha[\lambda] = \epsilon ^\lambda \Big \rangle
+            \rightarrow
+        \bigg[
+            \Big \langle \alpha ^{-1}[\lambda] \Big \rangle 
+                =
+            \Big \langle \log_{\epsilon} \lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    The domain for \bm{$\alpha ^{-1}[\lambda]$} is \bm{$\mathbb{R}$}, by definition. 
+    But logarithmic functions are undefined for negative-valued domains.
+    Thus, \bm{$\alpha[\lambda]$} cannot be bijective, 
+    so \bm{$\alpha[\lambda]$} is not invertible.
+\end{proof}
+
+
+\end{document}

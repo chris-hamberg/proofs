@@ -1,0 +1,69 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2341}]
+    Let \bm{$\lambda$} be the function 
+    \bm{$\lambda : \Delta \rightarrow \mathrm{A}$}. 
+    Let \bm{$\Lambda$} be a subset of \bm{$\mathrm{A}$}. 
+    \begin{equation*}
+        \bm{
+        \lambda ^{-1} \big[ \overline{\Lambda} \big] 
+            = 
+        \overline{ \lambda ^{-1} \big[ \Lambda \big]}
+        }
+    \end{equation*}
+\end{theorem}
+
+\begin{proof}
+    Let \bm{$\alpha$} be an element in 
+    \bm{$\lambda ^{-1} \big[ \overline{\Lambda} \big]$}.
+    By \bm{$\lambda ^{-1}$} inverse, by the definition of set complement,
+    by \bm{$\lambda$} inverse, and again by the defintion of set complement,
+    \begin{equation*}
+        \Big \langle
+            \alpha \in \lambda ^{-1} \big[ \overline{\Lambda} \big]
+        \Big \rangle
+            \equiv
+        \Big \langle
+            \lambda \big[ \alpha \big] \in \overline{\Lambda}
+        \Big \rangle
+            \equiv
+        \Big \langle
+            \lambda \big[ \alpha \big] \notin \Lambda
+        \Big \rangle
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \Big \langle 
+            \alpha 
+                \notin 
+            \lambda ^{-1} \big[ \Lambda \big]
+        \Big \rangle
+            \equiv
+        \Big \langle
+            \alpha 
+                \in
+            \overline{
+                \lambda ^{-1} \big[ \Lambda \big]
+            }
+        \Big \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lambda ^{-1} \big[ \overline{\Lambda} \big] 
+            = 
+        \overline{ \lambda ^{-1} \big[ \Lambda \big]}
+    }$.
+\end{proof}
+
+
+\end{document}

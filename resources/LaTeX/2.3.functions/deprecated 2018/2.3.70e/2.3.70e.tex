@@ -1,0 +1,59 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.70e]
+		Let x, and y be real numbers. 
+		$\floor{x} + \floor{y} + \floor{x + y} \le \floor{2x} + \floor{2y}.$
+	\end{theorem*}
+	
+	\begin{proof}
+		There are four possible cases that could be considered in this proof, but only two of 
+		those cases require consideration. Case $(i)$ demonstrating the minimum possible amount 
+		occurring on the right-hand side will establish truth for equality expressed by the 
+		theorem. Case $(ii)$ demonstrating the maximum possible amount occurring on the right-hand 
+		side will establish truth for inequality expressed by the theorem. In all cases the 
+		left-hand side remains relatively constant.
+		
+		First we establish the necessary preliminary facts. Let $\epsilon$ and $\sigma$ be real 
+		numbers such that $x - \floor{x} = \epsilon$, and $y - \floor{y} = \sigma$. Of course, 
+		$x - \epsilon = \floor{x}$. By the properties for floor functions we know that 
+		$x-\epsilon \le x < (x - \epsilon) + 1$. And, again by the properties for floor functions,
+		$2(x-\epsilon) \le 2x < 2[(x - \epsilon) + 1] \implies \floor{2x}$. This means that $(i)$ 
+		$\floor{2x} = 2x-2\epsilon$, or (logical) $(ii)$ $\floor{2x} = 2x - 2\epsilon + 2$. 
+		Without loss of generality, all of these equations remain true whenever predicated of $y$ 
+		and $\sigma$. Also, note that the left-hand side has a constant form, 
+		$\floor{x} + \floor{y} + \floor{x + y} = 2(x + y) - 2(\epsilon + \sigma)$.
+		\newline
+		\newline
+		\indent $(i)$ Suppose it were the case that $\floor{2x} = 2x-2\epsilon$, and 
+		$\floor{2y} = 2y-2\sigma$. \indent These are the least amounts possible for the right-hand 
+		side of the \newline \indent inequality expressed by the theorem. The sum being 
+		$2(x + y) - 2(\epsilon + \sigma)$, \indent equal to the left-hand side. In this case 
+		$(i)$ the theorem proves true.
+		\newline
+		\newline
+		\indent $(ii)$ Suppose it were the case that $\floor{2x} = 2x - 2\epsilon + 2$, and 
+		\newline \indent $\floor{2y} = 2y - 2\sigma + 2$. These are the greatest amounts possible 
+		for the \indent right-hand side of the inequality expressed by the theorem. The sum 
+		\newline \indent being $2(x + y + 2) - 2(\epsilon + \sigma)$. This is clearly greater than 
+		the left-hand \indent side. In this case $(ii)$ the theorem proves true.
+		\newline
+		\newline
+		Since the entire range of all possible values are covered by cases $(i)$ and $(ii)$, and 
+		the statement remains true throughout, it is proven that \newline 
+		$\floor{x} + \floor{y} + \floor{x + y} \le \floor{2x} + \floor{2y}.$
+	\end{proof}
+
+\end{document}

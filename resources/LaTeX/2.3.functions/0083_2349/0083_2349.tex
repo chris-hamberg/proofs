@@ -1,0 +1,108 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2349}]
+    Let \bm{$\zeta$} be an integer. 
+    \begin{equation*}
+        \textbf{If } \bm{\zeta} \textbf{ is even, then } 
+        \bm{
+            \bigg \lfloor \frac{\zeta}{2} \bigg \rfloor
+                = 
+            \frac{\zeta}{2}
+        }
+        \textbf{; if } \bm{\zeta} \textbf{ is odd, then } 
+        \bm{
+            \bigg \lfloor \frac{\zeta}{2} \bigg \rfloor 
+                = 
+            \frac{ \big \langle \zeta - 1 \big \rangle }{2}
+        }
+    \end{equation*}
+\end{theorem}
+
+\begin{proof}
+    By cases. 
+    \\ \\
+    \bm{$(i)$} Assume \bm{$\zeta$} is even.
+    By the definition for even numbers,
+    there exists an integer \bm{$\iota$} such that 
+    \bm{$\zeta = 2 \iota$}. 
+    Thus, by that identity for \bm{$\zeta$}, 
+    and by the multiplicative inverse from the field axioms,
+    \begin{equation*}
+        \bigg( \frac{\zeta}{2} \bigg)
+            = 
+        \bigg( \frac{2 \iota}{2} \bigg)
+            = 
+        \Big \langle \iota \Big \rangle
+    \end{equation*}
+    By that identity \bm{$\iota$}, 
+    and by the definition for the floor function,
+    \begin{equation*}
+        \Big \lfloor \frac{\zeta}{2} \Big \rfloor
+            =
+        \Big \lfloor \iota \Big \rfloor 
+            = 
+        \Big \langle \iota \Big \rangle
+    \end{equation*}
+    $\therefore \textbf{if } \bm{\zeta} \textbf{ is even, then } 
+        \bm{
+            \Big \lfloor \frac{\zeta}{2} \Big \rfloor
+                = 
+            \frac{\zeta}{2}
+    }$, 
+    by the identity \bm{$\iota$}.
+    \\ \\
+    \bm{$(ii)$} Assume \bm{$\zeta$} is odd. 
+    By the definition for odd numbers,
+    there exists an integer \bm{$\iota$} such that 
+    \bm{$\zeta = 2 \iota + 1$}.
+    Thus, by that identity for \bm{$\zeta$}, 
+    by the multiplicative inverse from the field axioms,
+    and by the definition for floor functions,
+    \begin{equation*}
+        \bigg \lfloor 
+            \frac{\zeta}{2}
+        \bigg \rfloor 
+            = 
+        \bigg \lfloor 
+            \frac{2 \iota + 1}{2}
+        \bigg \rfloor 
+            = 
+        \bigg \lfloor
+            \iota + \frac{1}{2}
+        \bigg \rfloor 
+            = 
+        \Big \langle \iota \Big \rangle
+    \end{equation*}
+    Also, by that identity for \bm{$\zeta$},
+    and by the additive and multiplicative inverse from the field axioms,
+    \begin{equation*}
+        \Bigg( \frac{\big \langle \zeta - 1 \big \rangle }{2} \Bigg)
+            = 
+        \Bigg( \frac{\big[ \big \langle 2 \iota + 1 \big \rangle - 1 \big]}{2} \Bigg)
+            = 
+        \Bigg( \frac{2 \iota}{2} \Bigg)
+            = 
+        \Big \langle \iota \Big \rangle
+    \end{equation*} 
+    $\therefore \textbf{if } \bm{\zeta} \textbf{ is odd, then } 
+    \bm{
+        \Big \lfloor \frac{\zeta}{2} \Big \rfloor 
+            = 
+        \frac{ \langle \zeta - 1 \rangle }{2}
+    }$, 
+    by the identity \bm{$\iota$}.
+\end{proof}
+
+
+\end{document}

@@ -565,82 +565,110 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.2.set.operations/0005L_2205L/0005L_2205L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
 INPUT ../resources/jpg/eulers_infinity.png
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2.3.compilation/2.3.compilation.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2320/2320.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2320/2320.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2321/2321.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2321/2321.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2324/2324.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2324/2324.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2325/2325.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2325/2325.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329a/2329a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329a/2329a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329b/2329b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2329b/2329b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2330/2330.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2330/2330.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336a/2336a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336a/2336a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336b/2336b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2336b/2336b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340a/2340a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340a/2340a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340b/2340b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2340b/2340b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2341/2341.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2341/2341.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2342/2342.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2342/2342.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2343/2343.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2343/2343.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2346/2346.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2346/2346.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2344/2344.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2344/2344.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/chapter.3/chapter.3.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/chapter.3/chapter.3.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0062_2320/0062_2320.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0062_2320/0062_2320.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0063_2321/0063_2321.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0063_2321/0063_2321.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0064_2324/0064_2324.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0064_2324/0064_2324.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0065_2325/0065_2325.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0065_2325/0065_2325.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0066_2329a/0066_2329a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0066_2329a/0066_2329a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0067_2329b/0067_2329b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0067_2329b/0067_2329b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0068_2330/0068_2330.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0068_2330/0068_2330.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0069_2336a/0069_2336a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0069_2336a/0069_2336a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0070_2336b/0070_2336b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0070_2336b/0070_2336b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0071_2340a/0071_2340a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0071_2340a/0071_2340a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0072_2340b/0072_2340b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0072_2340b/0072_2340b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0073_2341/0073_2341.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0073_2341/0073_2341.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0074_2342/0074_2342.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0074_2342/0074_2342.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0075_2343/0075_2343.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0075_2343/0075_2343.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0076_2344/0076_2344.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0076_2344/0076_2344.tex
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qcsbi.tfm
 INPUT /usr/share/texmf/fonts/tfm/public/tex-gyre/ec-qcsbi.tfm
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2345/2345.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2345/2345.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347a/2347a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347a/2347a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347b/2347b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2347b/2347b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348a/2348a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348a/2348a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348b/2348b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2348b/2348b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2366/2366.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2366/2366.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2349/2349.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2349/2349.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369a/2369a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369a/2369a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2350/2350.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2350/2350.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370a/2370a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370a/2370a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367a/2367a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367a/2367a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0077_2345/0077_2345.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0077_2345/0077_2345.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0078_2346/0078_2346.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0078_2346/0078_2346.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0079_2347a/0079_2347a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0079_2347a/0079_2347a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0080_2347b/0080_2347b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0080_2347b/0080_2347b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0081_2348a/0081_2348a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0081_2348a/0081_2348a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0082_2348b/0082_2348b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0082_2348b/0082_2348b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0083_2349/0083_2349.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0083_2349/0083_2349.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0084_2350/0084_2350.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0084_2350/0084_2350.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0085_2366/0085_2366.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0085_2366/0085_2366.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0086_2367a/0086_2367a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0086_2367a/0086_2367a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367b/2367b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367b/2367b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367c/2367c.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367c/2367c.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2302L/2302L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2302L/2302L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367d/2367d.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2367d/2367d.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2368/2368.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369a/2369a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369a/2369a.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369c/2369c.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2369c/2369c.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370a/2370a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370a/2370a.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370c/2370c.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370c/2370c.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2304L/2304L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2304L/2304L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370e/2370e.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2370e/2370e.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371a/2371a.tex
@@ -649,6 +677,14 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2371b/2371b.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2372/2372.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2372/2372.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2301L/2301L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2302L/2302L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2302L/2302L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2303L/2303L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2303L/2303L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2304L/2304L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/2304L/2304L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2419/2419.tex

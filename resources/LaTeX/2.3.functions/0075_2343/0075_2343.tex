@@ -1,0 +1,170 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2343}]
+    Let \bm{$\zeta$} be a real number. 
+    \begin{center}
+        \bm{$\lceil \zeta - \frac{1}{2} \rceil$} is the closest integer to \bm{$\zeta$}, 
+        except when \bm{$\zeta$} is midway between two integers, 
+        when it is the smaller of these two integers.
+    \end{center}
+\end{theorem}
+
+\begin{proof}
+    By cases. By the properties of ceiling functions, 
+    there exists an integer \bm{$\lambda$} such that 
+    \begin{equation*}
+        \Big \langle \lambda - 1 \Big \rangle
+            < 
+        \Big \langle \zeta \Big \rangle
+            \leq 
+        \Big \langle \lambda \Big \rangle
+    \end{equation*}
+    and 
+    \bm{$\lceil \zeta \rceil - \zeta = \epsilon$}. 
+    \\ \\
+    \bm{$(i)$} Suppose the case in which 
+    \bm{$\zeta$} is midway between two integers, 
+    or is closest to the smaller of two integers 
+    \bm{$\big \langle \lambda -1 \big \rangle$} and
+    \bm{$\lambda$}. 
+    Then, the inequality,
+    \bm{$1 > \epsilon \geq \frac{1}{2}$} 
+    must be true. Thus, 
+    \begin{equation*}
+        \bigg[
+            \Big \langle
+                \lambda - 1
+            \Big \rangle
+                <
+            \Big \langle
+                \lambda - \epsilon
+            \Big \rangle
+                \leq
+            \Big \langle
+                \lambda - \frac{1}{2}
+            \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle
+                \lambda - 1
+            \Big \rangle
+                <
+            \Big \langle
+                \zeta
+            \Big \rangle
+                \leq
+            \Big \langle    
+                \lambda - \frac{1}{2}
+            \Big \rangle
+        \bigg]
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \bigg[
+            \Big \langle
+                \lambda - 1 - \frac{1}{2}
+            \Big \rangle
+                <
+            \Big \langle 
+                \zeta - \frac{1}{2}
+            \Big \rangle
+                \leq
+            \Big \langle 
+                \lambda - 1
+            \Big \rangle
+        \bigg]
+    \end{equation*}
+    Since 
+    \bm{$
+    \big \langle \lambda - 1 - 1 \big \rangle 
+        < 
+    \big \langle \lambda - 1 - \frac{1}{2} \big \rangle
+    $},
+    the integer \bm{$\lceil \zeta - \frac{1}{2} \rceil$} is 
+    \bm{$\big \langle \lambda - 1 \big \rangle$}, 
+    by the properties for ceiling functions,
+    and by the law of transitivity from the order axioms.
+    \\ \\
+    \bm{$(ii)$} Suppose the case in which 
+    \bm{$\zeta$} is closest to the integer \bm{$\lambda$}. 
+    Then, the inequality 
+    \bm{$\frac{1}{2} > \epsilon \geq 0$}
+    must be true. Thus, 
+    \begin{equation*}
+        \bigg[
+            \Big \langle
+                \lambda - \frac{1}{2}
+            \Big \rangle
+                <
+            \Big \langle
+                \lambda - \epsilon
+            \Big \rangle
+                \leq
+            \Big \langle
+                \lambda - 0
+            \Big \rangle
+        \bigg]
+            \equiv
+    \end{equation*}
+    \begin{equation*}
+        \bigg[
+            \Big \langle
+                \lambda - \frac{1}{2}
+            \Big \rangle
+                <
+            \Big \langle
+                \zeta
+            \Big \rangle
+                \leq
+            \Big \langle
+                \lambda
+            \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle
+                \lambda - 1
+            \Big \rangle
+                <
+            \Big \langle
+                \zeta - \frac{1}{2}
+            \Big \rangle
+                \leq
+            \Big \langle
+                \lambda - \frac{1}{2}
+            \Big \rangle
+        \bigg]
+    \end{equation*}
+    Since 
+    \bm{$
+    \big \langle \lambda - \frac{1}{2} \big \rangle 
+        \leq
+    \big \langle 
+        \lambda
+    \big \rangle
+    $}, 
+    the integer \bm{$\lceil \zeta - \frac{1}{2} \rceil$} is 
+    \bm{$\big \langle \lambda \big \rangle$}, 
+    by the properties for ceiling functions,
+    and by the law of transitivity from the order axioms
+    $\therefore \text{\space} \bm{
+    \lceil \zeta - \frac{1}{2} \rceil}$ 
+    is the closest integer to \bm{$\zeta$}, 
+    except when \bm{$\zeta$} is midway between two integers, 
+    when it is the smaller of these two integers.
+\end{proof}
+
+
+\end{document}

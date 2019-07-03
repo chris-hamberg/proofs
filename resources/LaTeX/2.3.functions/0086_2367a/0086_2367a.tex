@@ -1,0 +1,126 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2367a}]
+    Suppose that \bm{$\mathrm{A}$}, and \bm{$\Lambda$} are sets with universal set \bm{$\Omega$}. 
+    \begin{center}
+    Let \bm{$\lambda_{\mathrm{A} \cap \Lambda}$} be the characteristic function 
+    \bm{$\lambda_{\mathrm{A} \cap \Lambda}: \Omega \rightarrow \{0, 1\}$}, 
+    let \bm{$\lambda_{\mathrm{A}}$} be the characteristic function 
+    \bm{$\lambda_{\mathrm{A}}: \Omega \rightarrow \{0, 1\}$},
+    and let \bm{$\lambda_{\Lambda}$} be the characteristic function  
+    \bm{$\lambda_{\Lambda}: \Omega \rightarrow \{0, 1\}$}.
+    \end{center}
+    \vspace{1\baselineskip}
+    \begin{equation*}
+        \bm{
+            \lambda_{\mathrm{A} \cap \Lambda}\big[ \iota \big] 
+                = 
+            \lambda_{\mathrm{A}}\big[ \iota \big] 
+                \times 
+            \lambda_{\Lambda}\big[ \iota \big]
+            }
+    \end{equation*}
+\end{theorem}
+
+\begin{proof}
+    By cases. There are two cases under consideration. 
+    $(i)$ \bm{$\iota$} is a member of \bm{$\mathrm{A} \cap \Lambda$}, or 
+    $(ii)$ it is not the case that \bm{$\iota$} is a member of \bm{$\mathrm{A} \cap \Lambda$}.
+    \\ \\
+    \bm{$(i)$} Suppose \bm{$\iota$} were an element in \bm{$\mathrm{A} \cap \Lambda$}.
+    Note that, 
+    \bm{$\lambda_{\mathrm{A} \cap \Lambda}\big[ \iota \big] = 1$},
+    by the definition for characteristic functions.
+    Now, by the definition for the intersection of sets, 
+    and by the definition for characteristic functions,
+    \begin{equation*}
+        \bigg[
+            \Big \langle \iota \in \mathrm{A} \Big \rangle 
+                \land 
+            \Big \langle \iota \in \Lambda \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle \lambda_\mathrm{A} \big[ \iota \big] = 1 \Big \rangle
+                \land
+            \Big \langle \lambda_{\Lambda} \big[ \iota \big] = 1 \Big \rangle
+        \bigg]
+    \end{equation*}
+    It follows immediately from logical identity, 
+    and by multiplicative identity 
+    from the field axioms that 
+    \bm{$
+        \lambda_{\mathrm{A} \cap \Lambda} \big[ \iota \big] 
+            = 
+        \lambda_{\mathrm{A}} \big[ \iota \big] 
+            \times 
+        \lambda_{\Lambda} \big[ \iota \big]
+    $}, in this case.
+    \\ \\
+    \bm{$(ii)$} Suppose it were not the case that \bm{$\iota$} were an element in 
+    \bm{$\mathrm{A} \cap \Lambda$}.
+    Note that, \bm{$\lambda_{\mathrm{A} \cap \Lambda} \big[ \iota \big] = 0$},
+    by the definition for characteristic functions.
+    Now. by the definitions for set intersection and set membership, 
+    and by DeMorgans law for set intersection,
+    \begin{equation*}
+        \bigg[
+            \iota \notin \Big \langle 
+                \mathrm{A} \cap \Lambda 
+            \Big \rangle
+        \bigg]
+            \equiv
+        \lnot \bigg[
+            \Big \langle \iota \in \mathrm{A} \Big \rangle
+                \land
+            \Big \langle \iota \in \Lambda \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle \iota \notin \mathrm{A} \Big \rangle
+                \lor
+            \Big \langle \iota \notin \Lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    And, by the definition for characteristic functions,
+    \begin{equation*}
+        \bigg[
+            \Big \langle \iota \notin \mathrm{A} \Big \rangle
+                \lor
+            \Big \langle \iota \notin \Lambda \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle \lambda_{\mathrm{A}} \big[ \iota \big] = 0 \Big \rangle 
+                \lor 
+            \Big \langle \lambda_{\Lambda} \big[ \iota \big] = 0 \Big \rangle
+        \bigg]
+    \end{equation*}
+    Without loss of generality we can suppose 
+    \bm{$\lambda_{\mathrm{A}} \big[ \iota \big] = 0$}. 
+    It follows immediately from logical identity, 
+    and from the multiplicative property for zero that 
+    \bm{$\lambda_{\mathrm{A} \cap \Lambda} \big[ \iota \big] 
+        = 
+     0 \times \lambda_{\mathrm{A}} \big[ \iota \big] = 0$}. 
+    Thus, 
+    \bm{$\lambda_{\mathrm{A} \cap \Lambda} \big[ \iota \big] 
+        = 
+    \lambda_{\mathrm{A}} \big[ \iota \big] 
+        \times 
+    \lambda_{\Lambda} \big[ \iota \big]$}, in this case.
+\end{proof}
+
+
+\end{document}

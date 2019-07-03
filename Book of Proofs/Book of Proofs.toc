@@ -72,15 +72,41 @@
 \contentsline {subsection}{Lemma 4}{39}{lemma.3}% 
 \contentsline {subsection}{Lemma 5}{40}{figure.caption.27}% 
 \contentsline {chapter}{\chapternumberline {3}Functions}{41}{chapter.3}% 
-\contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{75}{chapter.4}% 
-\contentsline {chapter}{\chapternumberline {5}Algorithms}{89}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{89}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{91}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{92}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{93}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Find the last even list entry.}{94}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{95}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{96}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{97}{section.5.8}% 
-\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{99}{section.5.9}% 
-\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{100}{section.5.10}% 
+\contentsline {section}{\numberline {3.1}Theorems}{41}{section.3.1}% 
+\contentsline {subsection}{$\gamma [\alpha ]$ is strictly increasing... }{41}{section.3.1}% 
+\contentsline {subsection}{$\gamma [\alpha ]$ is strictly decreasing... }{42}{theorem.62}% 
+\contentsline {subsection}{Exponentiation is not invertible.}{42}{theorem.63}% 
+\contentsline {subsection}{Absolute value is not invertible.}{43}{theorem.64}% 
+\contentsline {subsection}{The composition of injective functions is injective.}{43}{theorem.65}% 
+\contentsline {subsection}{The composition of surjective functions is surjective.}{44}{theorem.66}% 
+\contentsline {subsection}{The subject function in an injective composition is injective.}{45}{theorem.67}% 
+\contentsline {subsection}{The image of a union under the function lambda.}{46}{theorem.68}% 
+\contentsline {subsection}{The image of an intersection under lambda.}{46}{theorem.69}% 
+\contentsline {subsection}{The inverse image of a union under lambda.}{47}{theorem.70}% 
+\contentsline {subsection}{The inverse image of an intersection under lambda.}{47}{theorem.71}% 
+\contentsline {subsection}{The inverse image of a complement under lambda.}{48}{theorem.72}% 
+\contentsline {subsection}{The floor of zeta plus one half.}{49}{theorem.73}% 
+\contentsline {subsection}{The ceiling of zeta minus one half.}{50}{theorem.74}% 
+\contentsline {subsection}{The difference between a ceiling and a floor.}{51}{theorem.75}% 
+\contentsline {subsection}{The second property of floor functions.}{52}{theorem.76}% 
+\contentsline {subsection}{The ceiling of a real number and an integer.}{53}{theorem.77}% 
+\contentsline {subsection}{If a floor is less than an integer.}{53}{theorem.78}% 
+\contentsline {subsection}{If an interger is less than a ceiling.}{54}{theorem.79}% 
+\contentsline {subsection}{If a ceiling is less than or equal to...}{54}{theorem.80}% 
+\contentsline {subsection}{If an integer is less than or equal to...}{55}{theorem.81}% 
+\contentsline {subsection}{Parity for flooring a half.}{56}{theorem.82}% 
+\contentsline {subsection}{The ceiling and floor of negative numbers.}{57}{theorem.83}% 
+\contentsline {subsection}{The inverse of compositions.}{58}{theorem.84}% 
+\contentsline {subsection}{Characteristic functions on intersection.}{59}{theorem.85}% 
+\contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{73}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {5}Algorithms}{87}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{87}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{89}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{90}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{91}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Find the last even list entry.}{92}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{93}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{94}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{95}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{97}{section.5.9}% 
+\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{98}{section.5.10}% 

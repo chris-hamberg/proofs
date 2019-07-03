@@ -1,0 +1,32 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+	\begin{theorem*}[2.3.43]
+		Let x be a real number. $\ceil{x - \frac{1}{2}}$ is the closest integer to x, except when 
+		x is midway between two integers, when it is the smaller of these two integers.
+	\end{theorem*}
+	
+	\begin{proof}
+		By cases. Let $n$ be the integer such that $n \le x < n+1$ and \newline 
+		$\ceil{x - \frac{1}{2}} = \ceil{(n + \epsilon) - \frac{1}{2})}$. $\epsilon$ is the decimal 
+		part of $x$.
+		\newline \newline $(i)$ If $\epsilon > \frac{1}{2}$, then 
+		$\epsilon - \frac{1}{2} > \frac{1}{2} - \frac{1}{2} = 0$. So 
+		$\ceil{(n + \epsilon) - \frac{1}{2}} = n + 1.$ \newline \newline $(ii)$ If 
+		$\epsilon \le \frac{1}{2}$, then $\epsilon - \frac{1}{2} \le 0$. So 
+		$(n - 1) \le [(n + \epsilon) - \frac{1}{2}] < n$, and $\ceil{x - \frac{1}{2}} = n$.
+	\end{proof}
+
+\end{document}

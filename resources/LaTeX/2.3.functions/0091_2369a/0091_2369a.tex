@@ -1,0 +1,62 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2369a}]
+    Let \bm{$\lambda$} be a real number. 
+    \begin{equation*}
+        \bm{
+            \Big \lceil \lfloor \lambda \rfloor \Big \rceil 
+                = 
+            \lfloor \lambda \rfloor
+        }
+    \end{equation*}
+\end{theorem}
+
+\begin{proof}
+    By the properties of floor functions, 
+    there exists an integer \bm{$\iota$} such that
+    \bm{$\lfloor \lambda \rfloor = \iota$}, 
+    and by the identity \bm{$\iota$},
+    \begin{equation*}
+        \bigg \langle \lfloor \lambda \rfloor = \iota \bigg \rangle
+            \equiv
+        \bigg \langle 
+            \Big \lceil \lfloor \lambda \rfloor \Big \rceil
+                =
+            \big \lceil \iota \big \rceil
+        \bigg \rangle
+    \end{equation*}
+    \bm{$\iota$} is the smallest integer that is greater than or equal to \bm{$\iota$}.
+    Therefore, by the definition for the ceiling function 
+    \bm{$\lceil \iota \rceil = \iota$}.
+    Hence,
+    \begin{equation*}
+        \bigg \langle \lfloor \lambda \rfloor = \iota \bigg \rangle
+            \land
+        \bigg \langle 
+            \Big \lceil \lfloor \lambda \rfloor \Big \rceil
+                =
+            \lceil \iota \rceil
+                =
+            \iota
+        \bigg \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \Big \lceil \lfloor \lambda \rfloor \Big \rceil 
+            = 
+        \lfloor \lambda \rfloor
+    }$, by the identity \bm{$\iota$}.
+\end{proof}
+
+
+\end{document}

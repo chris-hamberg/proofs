@@ -1,0 +1,79 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{lemma}{Lemma}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{lemma}[\textbf{2303}]
+    Let \bm{$\lambda$} be a real number, 
+    such that \bm{$\big \lfloor \lambda \big \rfloor + \epsilon = \lambda$}.
+    \begin{equation*}
+        \bm{
+            \big \lfloor 3 \lambda \big \rfloor 
+                =
+            \big \langle 
+                3 \lambda - 3 \epsilon 
+            \big \rangle
+                +
+            \big \lfloor 3 \epsilon \big \rfloor 
+        }
+    \end{equation*}
+\end{lemma}
+
+\begin{proof}
+    Given the real number \bm{$\lambda$}, 
+    by the properties for floor functions
+    there exists a real number \bm{$\epsilon$}
+    and an integer \bm{$\lambda - \epsilon$} such that 
+    \bm{$\lfloor \lambda \rfloor = \lambda - \epsilon$}.
+    Thus, \bm{$\lambda = \lambda - \epsilon + \epsilon$}.
+    By the identity \bm{$\lambda$},
+    \begin{equation*}
+        \Big \lfloor 3 \lambda \Big \rfloor 
+            =
+        \Big \lfloor 
+                3 
+                \big \langle 
+                    \lambda - \epsilon + \epsilon 
+                \big \rangle 
+        \Big \rfloor
+            =
+        \Big \lfloor 
+            3 \lambda - 3 \epsilon + 3 \epsilon 
+        \Big \rfloor
+    \end{equation*}
+    \bm{$3 \lambda - 3 \epsilon$} is an integer 
+    since \bm{$\lambda - \epsilon$} is an integer, 
+    and integers are closed under multiplication.
+    Thus, by Lemma 2301
+    \begin{equation*} 
+        \Big \lfloor 
+                3 \lambda - 3 \epsilon + 3 \epsilon 
+        \Big \rfloor
+            =
+        \Big \langle 3 \lambda - 3 \epsilon \Big \rangle
+            + 
+        \Big \lfloor            
+            3 \epsilon 
+        \Big \rfloor
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \big \lfloor 3 \lambda \big \rfloor 
+            =
+        \big \langle 
+            3 \lambda - 3 \epsilon 
+        \big \rangle
+            +
+        \big \lfloor 3 \epsilon \big \rfloor
+    }$.
+\end{proof}
+
+
+\end{document}

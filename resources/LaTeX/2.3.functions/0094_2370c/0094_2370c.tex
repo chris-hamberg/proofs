@@ -1,0 +1,115 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2370c}]
+    Let \bm{$\iota$} be a real number.
+    \begin{equation*}
+        \bm{
+            \Bigg \lceil \bigg \lceil \frac{\iota}{2} \bigg \rceil \div 2 \Bigg \rceil 
+                = 
+            \Bigg \lceil \frac{\iota}{4} \Bigg \rceil
+        }
+    \end{equation*}
+\end{theorem}
+
+\begin{proof}
+    By cases.
+    By the properties for ceiling functions there exists an integer \bm{$\lambda$} such that
+    \bm{$\big \lceil \frac{\iota}{4} \big \rceil = \lambda$}, 
+    (and by the multiplicative compatibility laws from the order axioms,)
+    if and only if
+    \begin{equation*}
+        \bigg[
+            \Big \langle \lambda - 1 \Big \rangle
+                < 
+            \Big \langle \frac{\iota}{4} \Big \rangle 
+                \le 
+            \Big \langle \lambda \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle 2 \lambda - 2 \Big \rangle
+                < 
+            \Big \langle \frac{\iota}{2} \Big \rangle 
+                \le 
+            \Big \langle 2 \lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    There are two cases to consider. 
+    by the definition for the ceiling function, 
+    \bm{$\big \lceil \frac{\iota}{2} \big \rceil$} is the integer
+    $(i)$ \bm{$2 \lambda$}, or $(ii)$ \bm{$2 \lambda - 1$},
+    \\ \\
+    \bm{$(i)$} If \bm{$\big \lceil \frac{\iota}{2} \big \rceil$} is \bm{$2 \lambda$},
+    then the proof is trivial. By the identity \bm{$\lambda$}, 
+    the multiplicative inverse from the field axioms, 
+    and by the definition of ceiling functions, 
+    \begin{equation*}
+        \bigg \lceil \Big \lceil \frac{\iota}{2} \Big \rceil \div 2 \bigg \rceil
+            =
+        \bigg \langle \big \lceil 2 \lambda \div 2 \big \rceil \bigg \rangle
+            =
+        \bigg \langle \big \lceil \lambda \big \rceil \bigg \rangle
+            =
+        \bigg \langle \lambda \bigg \rangle
+    \end{equation*}
+    \bm{$(ii)$} Suppose \bm{$\big \lceil \frac{\iota}{2} \big \rceil = 2 \lambda - 1$}.
+    By the properties for ceiling functions,
+    and by the law of transitivity from the order axioms,
+    \begin{equation*}
+        \bigg[
+            \Big \langle 2 \lambda - 2 \Big \rangle
+                < 
+            \Big \langle \Big \lceil \frac{\iota}{2} \Big \rceil \Big \rangle
+                \le 
+            \Big \langle 2 \lambda - 1\Big \rangle
+        \bigg]
+            \rightarrow
+        \bigg[
+            \Big \langle 2 \lambda - 2 \Big \rangle
+                < 
+            \Big \langle \Big \lceil \frac{\iota}{2} \Big \rceil \Big \rangle
+                \le 
+            \Big \langle 2 \lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    Thus, by the multiplicative compatibility law from the order axioms,
+    \begin{equation*}
+        \bigg[
+            \Big \langle 2 \lambda - 2 \Big \rangle
+                < 
+            \Big \langle \Big \lceil \frac{\iota}{2} \Big \rceil \Big \rangle
+                \le 
+            \Big \langle 2 \lambda \Big \rangle
+        \bigg]
+            \equiv
+        \bigg[
+            \Big \langle \lambda - 1 \Big \rangle
+                < 
+            \Big \langle \Big \lceil \frac{\iota}{2} \Big \rceil \div 2 \Big \rangle
+                \le 
+            \Big \langle \lambda \Big \rangle
+        \bigg]
+    \end{equation*}
+    By the properties for ceiling functions, 
+    $\big \lceil \big \lceil \frac{\iota}{2} \big \rceil \div 2 \big \rceil = \lambda$.
+    \\ \\
+    $\therefore \text{\space} \bm{
+        \bigg \lceil \Big \lceil \frac{\iota}{2} \Big \rceil \div 2 \bigg \rceil 
+            = 
+        \Big \lceil \frac{\iota}{4} \Big \rceil
+    }$
+\end{proof}
+
+
+\end{document}

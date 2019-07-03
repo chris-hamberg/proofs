@@ -1,0 +1,154 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2367b}]
+    Suppose that \bm{$\mathrm{A}$}, and \bm{$\Lambda$} are sets with universal set \bm{$\Omega$}.
+    \begin{center}
+        Let \bm{$\lambda_{\mathrm{A} \cup \Lambda}$} be the characteristic function 
+        \bm{$\lambda_{\mathrm{A} \cup \Lambda} : \Omega \rightarrow \{0, 1\}$},
+        let \bm{$\lambda_{\mathrm{A}}$} be the characteristic function 
+        \bm{$\lambda_{\mathrm{A}} : \Omega \rightarrow \{0, 1\}$},
+        and let \bm{$\lambda_{\Lambda}$} be the characteristic function 
+        \bm{$\lambda_{\Lambda}: \Omega \rightarrow \{0, 1\}$}.
+    \end{center}
+    \begin{equation*}
+        \bm{
+            \lambda_{\mathrm{A} \cup \Lambda} \big[ \iota \big] 
+                = 
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                + 
+            \lambda_{\Lambda} \big[ \iota \big] 
+                - 
+            \lambda_{\mathrm{A}} \big[ \iota \big]
+                \times 
+            \lambda_{\Lambda} \big[ \iota \big]
+        }
+    \end{equation*}
+\end{theorem}
+
+\begin{proof}
+    By cases. There are two major cases under consideration.
+    \\ \\
+    \bm{$(i)$} Assume \bm{$\iota$} is not an element in \bm{$\mathrm{A} \cup \Lambda$}. 
+    Note that, by the definition for characteristic functions, 
+    \bm{$\lambda_{\mathrm{A} \cup \Lambda}\big[ \iota \big] = 0$}.
+    Now, by the definition for set union 
+    \bm{$\iota$} is in neither \bm{$\mathrm{A}$} nor \bm{$\Lambda$}.
+    So \bm{$\lambda_{\mathrm{A}} \big[ \iota \big] = 0$}, 
+    and \bm{$\lambda_{\Lambda} \big[ \iota \big] = 0$}. 
+    Hence,
+    \begin{equation*}
+        \bigg \langle
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                + 
+            \lambda_{\Lambda} \big[ \iota \big] 
+                - 
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                \times 
+            \lambda_{\Lambda} \big[ \iota \big] 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            0 + 0 - 0 \times 0 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            0
+        \bigg \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lambda_{\mathrm{A} \cup \Lambda} \big[ \iota \big] 
+            = 
+        \lambda_{\mathrm{A}} \big[ \iota \big] 
+            + 
+        \lambda_{\Lambda} \big[ \iota \big] 
+            - 
+        \lambda_{\mathrm{A}} \big[ \iota \big]
+            \times 
+        \lambda_{\Lambda} \big[ \iota \big]
+    }$.
+    \\ \\
+    \bm{$(ii)$} Assume \bm{$\iota$} is an element in \bm{$\mathrm{A} \cup \Lambda$}. 
+    By the definition for characteristic functions 
+    \bm{$\lambda_{\mathrm{A} \cup \Lambda} \big[ \iota \big] = 1$}. 
+    Also, by the definition for set union 
+    \begin{equation*}        
+        \Big \langle \iota \in \mathrm{A} \Big \rangle 
+            \lor 
+        \Big \langle \iota \in \Lambda \Big \rangle
+    \end{equation*}
+    There are three subcases. 
+    \\ \\
+    \bm{$(a)$} Suppose \bm{$\iota$} is an element in \bm{$\mathrm{A}$}, but not in \bm{$\Lambda$}.
+    By the definition for characteristic functions 
+    \bm{$\lambda_{\mathrm{A}} \big[ \iota \big] = 1$}, 
+    and \bm{$\lambda_{\Lambda} \big[ \iota \big] = 0$}. 
+    Thus,
+    \begin{equation*}
+        \bigg \langle
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                + 
+            \lambda_{\Lambda} \big[ \iota \big] 
+                - 
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                \times 
+            \lambda_{\Lambda} \big[ \iota \big] 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            1 + 0 - 1 \times 0 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            1
+        \bigg \rangle
+    \end{equation*} 
+    \bm{$(b)$} Suppose \bm{$\iota$} is not an element in \bm{$\mathrm{A}$}, 
+    but is an element in \bm{$\Lambda$}. 
+    Without loss of generality this case has the same result as case $(a)$.
+    \\ \\
+    \bm{$(c)$} Suppose \bm{$\iota$} is in the intersection of \bm{$\mathrm{A}$} and \bm{$\Lambda$}.
+    \begin{equation*}
+        \bigg \langle
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                + 
+            \lambda_{\Lambda} \big[ \iota \big] 
+                - 
+            \lambda_{\mathrm{A}} \big[ \iota \big] 
+                \times 
+            \lambda_{\Lambda} \big[ \iota \big] 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            1 + 1 - 1 \times 1 
+        \bigg \rangle
+            =
+        \bigg \langle 
+            1
+        \bigg \rangle
+    \end{equation*}
+    $\therefore \text{\space} \bm{
+        \lambda_{\mathrm{A} \cup \Lambda} \big[ \iota \big] 
+            = 
+        \lambda_{\mathrm{A}} \big[ \iota \big] 
+            + 
+        \lambda_{\Lambda} \big[ \iota \big] 
+            - 
+        \lambda_{\mathrm{A}} \big[ \iota \big]
+            \times 
+        \lambda_{\Lambda} \big[ \iota \big]
+    }$.
+\end{proof}
+
+
+\end{document}

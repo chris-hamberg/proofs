@@ -97,16 +97,33 @@
 \contentsline {subsection}{Parity for flooring a half.}{56}{theorem.82}% 
 \contentsline {subsection}{The ceiling and floor of negative numbers.}{57}{theorem.83}% 
 \contentsline {subsection}{The inverse of compositions.}{58}{theorem.84}% 
-\contentsline {subsection}{Characteristic functions on intersection.}{59}{theorem.85}% 
-\contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{73}{chapter.4}% 
-\contentsline {chapter}{\chapternumberline {5}Algorithms}{87}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{87}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{89}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{90}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{91}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Find the last even list entry.}{92}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{93}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{94}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{95}{section.5.8}% 
-\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{97}{section.5.9}% 
-\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{98}{section.5.10}% 
+\contentsline {subsection}{Characteristic functions on intersections.}{59}{theorem.85}% 
+\contentsline {subsection}{Characteristic functions on unions.}{60}{theorem.86}% 
+\contentsline {subsection}{Characteristic functions on a complement.}{61}{theorem.87}% 
+\contentsline {subsection}{Characteristic functions on symmetric difference.}{62}{theorem.88}% 
+\contentsline {subsection}{With equal cardinality, injection or surjection implies bijection.}{63}{theorem.89}% 
+\contentsline {subsection}{The ceiling of a floor is that floor.}{63}{theorem.90}% 
+\contentsline {subsection}{A special fact about ceilings.}{64}{theorem.91}% 
+\contentsline {subsection}{The floor of a ceiling is that ceiling.}{65}{theorem.92}% 
+\contentsline {subsection}{The ceiling of a quarter.}{66}{theorem.93}% 
+\contentsline {subsection}{A special fact about floors.}{67}{theorem.94}% 
+\contentsline {subsection}{The floor of a square root.}{68}{theorem.95}% 
+\contentsline {subsection}{The ceiling of a square root.}{69}{theorem.96}% 
+\contentsline {subsection}{The floor of integers divisible by 3.}{70}{theorem.97}% 
+\contentsline {section}{\numberline {3.2}Lemmas}{72}{section.3.2}% 
+\contentsline {subsection}{Lemma 6}{72}{section.3.2}% 
+\contentsline {subsection}{Lemma 7}{72}{lemma.6}% 
+\contentsline {subsection}{Lemma 8}{73}{lemma.7}% 
+\contentsline {subsection}{Lemma 9}{73}{lemma.8}% 
+\contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{75}{chapter.4}% 
+\contentsline {chapter}{\chapternumberline {5}Algorithms}{89}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{89}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{91}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{92}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{93}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Find the last even list entry.}{94}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{95}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{96}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{97}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{99}{section.5.9}% 
+\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{100}{section.5.10}% 

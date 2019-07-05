@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1562361748 "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.tex" "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf" "Book of Proofs" 1562361758
+["pdflatex"] 1562361863 "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.tex" "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf" "Book of Proofs" 1562361875
   "../resources/Java/3.1.algorithms/j3103.java" 1561175539 675 9fe645220bfb19cd785f2b61ce2c202f ""
   "../resources/Java/3.1.algorithms/j3104.java" 1561175566 794 9791c151e0c73c3321e63662ac0f67d7 ""
   "../resources/Java/3.1.algorithms/j3105.java" 1561175588 805 cdbfdeb55b3a2d2756d9d7184ca92ba2 ""
@@ -218,8 +218,8 @@
   "/home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr10.720pk" 1561749457 12344 5fa51484634d40c68d4d45e29a45d336 ""
   "/home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr6.600pk" 1561749420 6300 5523c037980a052fd08e5d29f350e95f ""
   "/home/chris/.texlive2019/texmf-var/fonts/pk/ljfour/public/concrete/ccr8.600pk" 1561749460 8008 7a1064a6467ce36d1acf4ffd9f44cfe7 ""
-  "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux" 1562361757 60692 63755efc0d8fb39eea987164816f3736 ""
-  "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.tex" 1562360593 5582 42e87d468b496d7e0ba5004315a01adf ""
+  "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux" 1562361874 60692 63755efc0d8fb39eea987164816f3736 ""
+  "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.tex" 1562361861 5581 070956c869c525430cc4b66833629b5a ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecss1200.tfm" 1136768653 3584 db562fb1d1c474cc55f0ce8a1dd94fe7 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ectt1000.tfm" 1136768653 1536 06717a2b50de47d4087ac0e6cd759455 ""
@@ -401,13 +401,13 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1559742076 35073 2a40cfca74fcd5e2568b569ccaadf3f1 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1561571973 4386502 1ce8337bfa06af81761932b02a7f33ef ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1561572040 4264501 2b3086cedb34f38bfa0df16dfc75956c ""
-  "Book of Proofs.aux" 1562361757 60692 63755efc0d8fb39eea987164816f3736 ""
-  "Book of Proofs.tex" 1562360593 5582 42e87d468b496d7e0ba5004315a01adf ""
-  "Book of Proofs.toc" 1562361757 12362 ffdccf2339634b5eaa7719aa73eb31a4 ""
+  "Book of Proofs.aux" 1562361874 60692 63755efc0d8fb39eea987164816f3736 ""
+  "Book of Proofs.tex" 1562361861 5581 070956c869c525430cc4b66833629b5a ""
+  "Book of Proofs.toc" 1562361874 12362 ffdccf2339634b5eaa7719aa73eb31a4 ""
   (generated)
-  "Book of Proofs.aux"
   "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.pdf"
+  "Book of Proofs.log"
+  "Book of Proofs.aux"
   "/home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.log"
   "Book of Proofs.toc"
   "Book of Proofs.pdf"
-  "Book of Proofs.log"

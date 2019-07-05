@@ -116,14 +116,35 @@
 \contentsline {subsection}{Lemma 8}{73}{lemma.7}% 
 \contentsline {subsection}{Lemma 9}{73}{lemma.8}% 
 \contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{75}{chapter.4}% 
-\contentsline {chapter}{\chapternumberline {5}Algorithms}{89}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{89}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{91}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{92}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{93}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Find the last even list entry.}{94}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{95}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{96}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{97}{section.5.8}% 
-\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{99}{section.5.9}% 
-\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{100}{section.5.10}% 
+\contentsline {section}{\numberline {4.1}Theorems}{75}{section.4.1}% 
+\contentsline {subsection}{Telescopic summations.}{75}{section.4.1}% 
+\contentsline {subsection}{Lambda divided by lambda plus one is telescopic.}{76}{theorem.99}% 
+\contentsline {subsection}{The summation of odd numbers is a square.}{77}{theorem.100}% 
+\contentsline {subsection}{The summation of natural numbers.}{78}{theorem.101}% 
+\contentsline {subsection}{The summation of squares.}{79}{theorem.102}% 
+\contentsline {subsection}{The summation of floors of square roots.}{80}{theorem.103}% 
+\contentsline {subsection}{The summation of floors of cube roots.}{81}{theorem.104}% 
+\contentsline {subsection}{Subsets of countable sets are countable.}{82}{theorem.105}% 
+\contentsline {subsection}{Uncountable subsets imply an uncountable superset.}{82}{theorem.106}% 
+\contentsline {subsection}{Power set cardinality.}{82}{theorem.107}% 
+\contentsline {subsection}{Union of countable sets is countable.}{83}{theorem.108}% 
+\contentsline {subsection}{A countable union of countable sets is countable.}{84}{theorem.109}% 
+\contentsline {subsection}{The Cartesian product of positive integers.}{85}{theorem.110}% 
+\contentsline {subsection}{The set of all finite bit strings is countable.}{85}{theorem.111}% 
+\contentsline {section}{\numberline {4.2}Lemmas}{86}{section.4.2}% 
+\contentsline {subsection}{Lemma 10}{86}{section.4.2}% 
+\contentsline {subsection}{Lemma 11}{87}{lemma.10}% 
+\contentsline {subsection}{Lemma 12}{88}{lemma.11}% 
+\contentsline {subsection}{Lemma 13}{88}{lemma.12}% 
+\contentsline {subsection}{Lemma 14}{89}{lemma.13}% 
+\contentsline {chapter}{\chapternumberline {5}Algorithms}{91}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{91}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{93}{section.5.2}% 
+\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{94}{section.5.3}% 
+\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{95}{section.5.4}% 
+\contentsline {section}{\numberline {5.5}Find the last even list entry.}{96}{section.5.5}% 
+\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{97}{section.5.6}% 
+\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{98}{section.5.7}% 
+\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{99}{section.5.8}% 
+\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{101}{section.5.9}% 
+\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{102}{section.5.10}% 

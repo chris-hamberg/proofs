@@ -1,0 +1,140 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2426}]
+    \raggedright Let \bm{$\phi$} be a positive integer such that 
+    \raggedright \bm{$\big \lfloor \sqrt[3] \phi \big \rfloor = \lambda$}.
+    \raggedright The closed form formula for 
+    \raggedright \bm{
+        $\Phi = \sum_{\iota=0}^\phi 
+                \big \lfloor \sqrt[3] \iota \big \rfloor
+    $} 
+    is 
+    \begin{equation*}
+        \bm{
+            \frac{
+                \lambda ^3 - \lambda ^2
+            }
+            {4}
+            \Bigg[ 3 \lambda + 1 \Bigg]
+                + 
+            \lambda
+            \Bigg[
+                \phi - \lambda ^3 + 1
+            \Bigg]
+        }
+    \end{equation*}
+\end{theorem}
+
+\begin{proof}
+    Let \bm{$\mathrm{X}$} be the function 
+    \bm{$\mathrm{X}: \mathbb{N} \rightarrow \mathbb{N}$}
+    such that \bm{$\mathrm{X}[\beta] = 3 \beta ^2 + 3 \beta + 1$}.
+    By the associative law for addition from the field axioms,
+    \begin{equation*}
+        \Theta
+            =
+        \sum_{\iota=0}^{\lambda - 1}
+                \big \lfloor \sqrt[3] \iota \big \rfloor
+            =
+    \end{equation*}
+    \begin{equation*}
+        \Bigg(
+            \sum_{ \iota = 1 }^{ \mathrm{X} [\beta_0] }
+                \big \lfloor \sqrt[3] \iota \big \rfloor_0
+        \Bigg)
+            +
+        \Bigg(
+            \sum_{
+                \iota = 1 + \mathrm{X}[\beta_0]
+            }^{ 
+                \mathrm{X}[\beta_0] + \mathrm{X}[\beta_1]
+            }
+                \big \lfloor \sqrt[3] \iota \big \rfloor_1
+        \Bigg)
+            +
+        \dots
+            +
+        \Bigg(
+            \sum_{
+                \iota = 1 + \dots 
+                    + 
+                \mathrm{X}[\beta_{\lambda - 2}]
+            }^{ 
+                0 + \dots
+                    +
+                \mathrm{X}[\beta_{ \lambda - 1 }]
+            }
+                \big \lfloor \sqrt[3] \iota \big \rfloor_{ \langle \lambda - 1 \rangle }
+        \Bigg)
+    \end{equation*}
+    \bm{$\big \lfloor \sqrt[3] \iota \big \rfloor_\tau$}
+    is the unique integer \bm{$\beta_\tau$},
+    for \bm{$\tau = 0$} to 
+    \bm{$\big \langle \lambda - 1 \big \rangle$}.
+    Hence, by Lemma 2404,
+    by the partitioning from above, 
+    and shifting the index of summation,
+    \begin{equation*}
+        \Theta
+            =
+        \Big \langle \beta_0 \mathrm{X} [\beta_0] \Big \rangle
+            +
+        \Big \langle \beta_1 \mathrm{X} [\beta_1] \Big \rangle
+            + 
+        \dots 
+            +
+        \Big \langle 
+            \beta_{\langle \lambda - 1 \rangle}
+            \mathrm{X} [\beta_{\langle \lambda - 1 \rangle}]
+        \Big \rangle
+    \end{equation*}
+    By the distributive law for real numbers from the field axioms,
+    and the commutative law for addition, that series is
+    three times the finite summation of cubes,
+    plus three times the finite summation of squares,
+    plus the finite summation of integers from zero to lambda minus one.
+    \begin{equation*}
+        \Theta 
+            = 
+        \sum_{\tau=0}^{\lambda - 1} 3 \tau ^3
+            +
+        \sum_{\tau=0}^{\lambda - 1} 3 \tau ^2
+            +
+        \sum_{\tau=0}^{\lambda - 1} \tau
+    \end{equation*}
+    Lambda occurs exactly  
+    \bm{$\big \langle \phi - \lambda^3 + 1 \big \rangle$}
+    times in big phi. 
+    Thus, by Lemma 2405
+    and the distributive law for real numbers from the field axioms,
+    \begin{equation*}
+        \bm{
+            \Phi
+                =
+            \frac{
+                \lambda ^3 - \lambda ^2
+            }
+            {4}
+            \Bigg[ 3 \lambda + 1 \Bigg]
+                + 
+            \lambda
+            \Bigg[
+                \phi - \lambda ^3 + 1
+            \Bigg]
+        }
+    \end{equation*}
+\end{proof}
+
+
+\end{document}

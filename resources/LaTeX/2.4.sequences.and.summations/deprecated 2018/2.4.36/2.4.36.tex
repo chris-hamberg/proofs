@@ -1,0 +1,27 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+\begin{theorem*}[\textbf{2.4.36}]
+    A subset of a countable set is countable.
+\end{theorem*}
+
+\begin{proof}
+    Let $A$ and $B$ be sets such that $A \subseteq B$. $B$ is countable by the hypothesis, and 
+    so by the definition for countability $|B| \le \aleph_0$. By the definition of subset, 
+    $|A| \le |B| \therefore |A| \le \aleph_0$ and it follows that the subset of a countable set 
+    is countable.
+\end{proof}
+
+\end{document}

@@ -1,0 +1,37 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2441}]
+    The union of a countable number of countable sets is countable.
+\end{theorem}
+
+\begin{proof}
+    Let $A_i$ be a countable set, for integers $i=0$ to $n \leq \infty$ 
+    such that
+    $$S = \bigcup_{i=0}^{n} A_i$$ 
+    The function $f: \mathbb{N} \rightarrow A_i$ is the sequence 
+    $\{a_{ij}\} = a_{i0}, a_{i1}, a_{i2}, \dots$. 
+    Thus, by $f$, all elements $a_{ij}$ in $S$ can be listed in the second dimension
+    $$a_{00}, a_{01}, a_{02}, \dots$$
+    $$a_{10}, a_{11}, a_{12}, \dots$$
+    $$a_{20}, a_{21}, a_{22}, \dots$$
+    $$\vdots$$
+    By tracing the diagonal path along the two 
+    dimensional listing for $S$ we get the countable order 
+    $$a_{00}, a_{01}, a_{10}, a_{20}, a_{11}, a_{02}, \dots$$
+    $\therefore |S| \leq \aleph_0$, and indeed the union of a countable number of 
+    countable sets is countable.
+\end{proof}
+
+
+\end{document}

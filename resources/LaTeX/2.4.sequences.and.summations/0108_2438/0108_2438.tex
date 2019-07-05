@@ -1,0 +1,52 @@
+\documentclass[preview]{standalone}
+\usepackage{amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{bm}
+
+
+\newtheorem{theorem}{Theorem}
+\renewcommand\qedsymbol{$\blacksquare$}
+
+
+\begin{document}
+
+
+\begin{theorem}[\textbf{2438}]
+    Let \bm{$\mathrm{A}$}, and \bm{$\Lambda$} be sets with equal cardinality. 
+    \begin{equation*}
+        \bm{
+            \Big| 
+                \mathcal{P}\big \langle \mathrm{A} \big \rangle 
+            \Big| 
+                = 
+            \Big|
+                \mathcal{P} \big \langle \Lambda \big \rangle 
+            \Big|
+        }
+    \end{equation*}
+\end{theorem}
+
+\begin{proof}
+    By the hypothesis, and by the defintion for set cardinality,
+    there exists an integer \bm{$\iota$} such that 
+    \bm{$
+        \big| \mathrm{A} \big| 
+            = 
+        \big| \Lambda \big| 
+            = \iota
+    $}. 
+    The cardinality of a power set is $2$ to the power of the set cardinality. 
+    Thus,
+    \begin{equation*}
+        \bm{
+            \big | \mathcal{P} \big \langle \mathrm{A} \big \rangle \big | 
+                = 
+            \big | \mathcal{P} \big \langle \Lambda \big \rangle \big | 
+                = 
+            2^{\iota}
+        }        
+    \end{equation*} 
+\end{proof}
+
+
+\end{document}

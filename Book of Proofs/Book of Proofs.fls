@@ -721,46 +721,80 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0009L_2304L/0009L_2304L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.3.functions/0009L_2304L/0009L_2304L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2.4.compilation/2.4.compilation.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2419/2419.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2419/2419.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2436/2436.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2436/2436.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2403L/2403L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2403L/2403L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2420/2420.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2420/2420.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421a/2421a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421a/2421a.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2437/2437.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2437/2437.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2438/2438.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2438/2438.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421b/2421b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2421b/2421b.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2401L/2401L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2401L/2401L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2404L/2404L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2404L/2404L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2422/2422.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2422/2422.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2402L/2402L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2402L/2402L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2405L/2405L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2405L/2405L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2425/2425.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2425/2425.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2426/2426.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2426/2426.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2440/2440.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2440/2440.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2443/2443.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2443/2443.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2441/2441.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2441/2441.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2442/2442.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/2442/2442.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/chapter.4/chapter.4.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/chapter.4/chapter.4.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0099_2419/0099_2419.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0099_2419/0099_2419.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0100_2420/0100_2420.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0100_2420/0100_2420.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0101_2421a/0101_2421a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0101_2421a/0101_2421a.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0102_2421b/0102_2421b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0102_2421b/0102_2421b.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0103_2422/0103_2422.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0103_2422/0103_2422.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0104_2425/0104_2425.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0104_2425/0104_2425.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0105_2426/0105_2426.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0105_2426/0105_2426.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0106_2436/0106_2436.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0106_2436/0106_2436.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0107_2437/0107_2437.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0107_2437/0107_2437.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0108_2438/0108_2438.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0108_2438/0108_2438.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0109_2440/0109_2440.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0109_2440/0109_2440.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0110_2441/0110_2441.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0110_2441/0110_2441.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0111_2442/0111_2442.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0111_2442/0111_2442.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0112_2443/0112_2443.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0112_2443/0112_2443.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0010L_2401L/0010L_2401L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0010L_2401L/0010L_2401L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0011L_2402L/0011L_2402L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0011L_2402L/0011L_2402L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0012L_2403L/0012L_2403L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0012L_2403L/0012L_2403L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0013L_2404L/0013L_2404L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0013L_2404L/0013L_2404L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/eulers_infinity.png
+INPUT ../resources/jpg/eulers_infinity.png
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0014L_2405L/0014L_2405L.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0014L_2405L/0014L_2405L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3103/3103.tex

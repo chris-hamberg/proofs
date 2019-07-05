@@ -1,0 +1,33 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+\theoremstyle{plain}
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{theorem}{Theorem}
+
+\usepackage{mathtools}
+\renewcommand\qedsymbol{$\blacksquare$}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+\begin{document}
+	
+\begin{theorem*}[\textbf{2.4.43}]
+    The set of all finite bit strings is countable.
+\end{theorem*}
+
+\begin{proof}
+    Let $\{a_{n-1}\}$ be the sequence of bits for any finite bit string $a($base-$2)$ of length $n$. 
+    The unique base-$2$ expansion for $\{a_{n-1}\}$ is the integer
+    $$a(\text{base-}10) = \sum_{i = 0}^{n-1} a_{i}2^{i}$$
+    Also, this integer can be converted to the unique base-$2$ bit string for \\ $a($base-$10)$ by 
+    $$a(\text{base-}2) = 
+    \sum_{i = 0}^{n-1}\left[a(\text{base-}10)(\text{mod } 2^{i+1})\right]10^{i}$$ 
+    Since an invertible function exists between each finite bit string and some positive integer, 
+    there exists, a one-to-one correspondence between $\mathbb{Z}$ and the set of all 
+    finite bit strings. Thus, the cardinality for the set of all finite bit strings is $\aleph_0$,
+    and the set of all finite bit strings is countable, by definition.
+\end{proof}
+
+\end{document}

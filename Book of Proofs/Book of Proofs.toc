@@ -118,23 +118,23 @@
 \contentsline {chapter}{\chapternumberline {4}Sequences and Summations}{75}{chapter.4}% 
 \contentsline {section}{\numberline {4.1}Theorems}{75}{section.4.1}% 
 \contentsline {subsection}{Telescopic summations.}{75}{section.4.1}% 
-\contentsline {subsection}{Lambda divided by lambda plus one is telescopic.}{76}{theorem.99}% 
-\contentsline {subsection}{The summation of odd numbers is a square.}{77}{theorem.100}% 
-\contentsline {subsection}{The summation of natural numbers.}{78}{theorem.101}% 
+\contentsline {subsection}{Lambda divided by lambda plus one is telescopic.}{76}{figure.caption.45}% 
+\contentsline {subsection}{The summation of odd numbers is a square.}{77}{figure.caption.46}% 
+\contentsline {subsection}{The summation of natural numbers.}{78}{figure.caption.47}% 
 \contentsline {subsection}{The summation of squares.}{79}{theorem.102}% 
 \contentsline {subsection}{The summation of floors of square roots.}{80}{theorem.103}% 
-\contentsline {subsection}{The summation of floors of cube roots.}{81}{theorem.104}% 
-\contentsline {subsection}{Subsets of countable sets are countable.}{82}{theorem.105}% 
+\contentsline {subsection}{The summation of floors of cube roots.}{81}{figure.caption.48}% 
+\contentsline {subsection}{Subsets of countable sets are countable.}{82}{figure.caption.49}% 
 \contentsline {subsection}{Uncountable subsets imply an uncountable superset.}{82}{theorem.106}% 
 \contentsline {subsection}{Power set cardinality.}{82}{theorem.107}% 
-\contentsline {subsection}{Union of countable sets is countable.}{83}{theorem.108}% 
-\contentsline {subsection}{A countable union of countable sets is countable.}{84}{theorem.109}% 
+\contentsline {subsection}{Union of countable sets is countable.}{83}{figure.caption.50}% 
+\contentsline {subsection}{A countable union of countable sets is countable.}{84}{figure.caption.52}% 
 \contentsline {subsection}{The Cartesian product of positive integers.}{85}{theorem.110}% 
 \contentsline {subsection}{The set of all finite bit strings is countable.}{85}{theorem.111}% 
 \contentsline {section}{\numberline {4.2}Lemmas}{86}{section.4.2}% 
 \contentsline {subsection}{Lemma 10}{86}{section.4.2}% 
-\contentsline {subsection}{Lemma 11}{87}{lemma.10}% 
-\contentsline {subsection}{Lemma 12}{88}{lemma.11}% 
+\contentsline {subsection}{Lemma 11}{87}{figure.caption.53}% 
+\contentsline {subsection}{Lemma 12}{88}{figure.caption.54}% 
 \contentsline {subsection}{Lemma 13}{88}{lemma.12}% 
 \contentsline {subsection}{Lemma 14}{89}{lemma.13}% 
 \contentsline {chapter}{\chapternumberline {5}Algorithms}{91}{chapter.5}% 

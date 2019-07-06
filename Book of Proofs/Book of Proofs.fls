@@ -799,8 +799,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT ../resources/jpg/eulers_infinity.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0014L_2405L/0014L_2405L.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/2.4.sequences.and.summations/0014L_2405L/0014L_2405L.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex
-INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3.1.compilation/3.1.compilation.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/chapter.5/chapter.5.tex
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/chapter.5/chapter.5.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3103/3103.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3103/3103.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
@@ -817,6 +817,9 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3103.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/border1.png
+INPUT ../resources/jpg/3.1.algorithms/border1.png
+INPUT ../resources/jpg/3.1.algorithms/border1.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3104/3104.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3104/3104.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3104.py
@@ -825,6 +828,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3104.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3104.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3104.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/border1.png
+INPUT ../resources/jpg/3.1.algorithms/border1.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3105/3105.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3105/3105.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3105.py
@@ -833,6 +838,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3105.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3105.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3105.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/border1.png
+INPUT ../resources/jpg/3.1.algorithms/border1.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3106/3106.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3106/3106.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3106.py
@@ -841,6 +848,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3106.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3106.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3106.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/border1.png
+INPUT ../resources/jpg/3.1.algorithms/border1.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3107/3107.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3107/3107.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3107.py
@@ -849,6 +858,9 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3107.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3107.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3107.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/border2.jpg
+INPUT ../resources/jpg/3.1.algorithms/border2.jpg
+INPUT ../resources/jpg/3.1.algorithms/border2.jpg
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3108/3108.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3108/3108.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3108.py
@@ -857,6 +869,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3108.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3108.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3108.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/border1.png
+INPUT ../resources/jpg/3.1.algorithms/border1.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3109/3109.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3109/3109.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3109.py
@@ -865,24 +879,6 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3109.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3109.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3109.java
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concrete/ccr10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concrete/ccr9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concmath-fonts/xccmi10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concmath-fonts/xccmi9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concmath-fonts/xccsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/concmath-fonts/xccsy9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbx9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmmib9.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy9.tfm
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3110/3110.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3110/3110.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3110.py
@@ -891,6 +887,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3110.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3110.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3110.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/border1.png
+INPUT ../resources/jpg/3.1.algorithms/border1.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3111/3111.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3111/3111.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3111.py
@@ -899,6 +897,8 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3111.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3111.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3111.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/border1.png
+INPUT ../resources/jpg/3.1.algorithms/border1.png
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3115/3115.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/LaTeX/3.1.algorithms/3115/3115.tex
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Python/3.1.algorithms/3115.py
@@ -907,6 +907,9 @@ INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Pr
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/Java/3.1.algorithms/j3115.java
+INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/../resources/jpg/3.1.algorithms/kunth.jpg
+INPUT ../resources/jpg/3.1.algorithms/kunth.jpg
+INPUT ../resources/jpg/3.1.algorithms/kunth.jpg
 OUTPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.toc
 INPUT /home/chris/Documents/Discrete Mathematics and its Applications/Book of Proofs/Book of Proofs.aux
 INPUT /usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc

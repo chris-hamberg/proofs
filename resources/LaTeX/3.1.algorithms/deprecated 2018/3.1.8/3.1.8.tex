@@ -1,0 +1,38 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amssymb, amsmath, amsthm}
+
+\usepackage{algorithmicx,algorithm,algpseudocode}
+
+\def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+\newcommand{\pluseq}{\mathrel{+}=}
+
+\begin{document}
+	
+	\begin{algorithm}
+
+		\renewcommand{\thealgorithm}{3.1.8}
+		
+		\caption{find the largest even list entry}
+		
+		\begin{algorithmic}[1]
+			
+			\Procedure{largest even}{$a_1, a_2, \dots, a_n$: list of integers}
+			\State $index \gets 0$
+			\For{\texttt{i = 1 to n}}
+				\If {not $a_{i}($mod $2)$}
+					\If {$(index = 0) \lor (a_{i} > a_{index})$}
+						\State $index \gets i$
+					\EndIf
+				\EndIf
+			\EndFor
+			\State \textbf{return} $index$ \Comment{returns 0 if every integer is odd}
+			\EndProcedure
+			
+		\end{algorithmic}
+
+	\end{algorithm}
+
+\end{document}

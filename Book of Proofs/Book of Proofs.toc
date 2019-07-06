@@ -138,13 +138,13 @@
 \contentsline {subsection}{Lemma 13}{88}{lemma.12}% 
 \contentsline {subsection}{Lemma 14}{89}{lemma.13}% 
 \contentsline {chapter}{\chapternumberline {5}Algorithms}{91}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}The sum of integers in a list.}{91}{section.5.1}% 
-\contentsline {section}{\numberline {5.2}Max adjacent list entry difference.}{93}{section.5.2}% 
-\contentsline {section}{\numberline {5.3}Find duplicate list entries.}{94}{section.5.3}% 
-\contentsline {section}{\numberline {5.4}Count negative valued list entries.}{95}{section.5.4}% 
-\contentsline {section}{\numberline {5.5}Find the last even list entry.}{96}{section.5.5}% 
-\contentsline {section}{\numberline {5.6}Find the largest even list entry.}{97}{section.5.6}% 
-\contentsline {section}{\numberline {5.7}Palindrome strings of characters.}{98}{section.5.7}% 
-\contentsline {section}{\numberline {5.8}Compute \bm {$\beta ^\lambda $}}{99}{section.5.8}% 
-\contentsline {section}{\numberline {5.9}Swap \bm {$\lambda $} and \bm {$\iota $}.}{101}{section.5.9}% 
-\contentsline {section}{\numberline {5.10}Insert an integer into a list.}{102}{section.5.10}% 
+\contentsline {subsection}{The sum of integers in a list.}{91}{chapter.5}% 
+\contentsline {subsection}{Max adjacent list entry difference.}{92}{figure.caption.55}% 
+\contentsline {subsection}{Find duplicate list entries.}{93}{figure.caption.56}% 
+\contentsline {subsection}{Count negative valued list entries.}{94}{figure.caption.57}% 
+\contentsline {subsection}{Find the last even list entry.}{95}{figure.caption.58}% 
+\contentsline {subsection}{Find the largest even list entry.}{96}{figure.caption.59}% 
+\contentsline {subsection}{Palindrome strings of characters.}{97}{figure.caption.60}% 
+\contentsline {subsection}{Compute beta to the power of lambda.}{98}{lstnumber.-14.11}% 
+\contentsline {subsection}{Swap lambda with iota.}{99}{figure.caption.61}% 
+\contentsline {subsection}{Insert an integer into a list.}{100}{figure.caption.62}% 

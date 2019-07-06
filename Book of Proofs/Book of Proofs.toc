@@ -148,3 +148,4 @@
 \contentsline {subsection}{Compute beta to the power of lambda.}{98}{lstnumber.-14.11}% 
 \contentsline {subsection}{Swap lambda with iota.}{99}{figure.caption.61}% 
 \contentsline {subsection}{Insert an integer into a list.}{100}{figure.caption.62}% 
+\contentsline {subsection}{Find the least element in a sequence.}{102}{figure.caption.64}% 

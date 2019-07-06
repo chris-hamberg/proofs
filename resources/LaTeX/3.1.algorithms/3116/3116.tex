@@ -1,0 +1,18 @@
+\documentclass[preview]{standalone}
+\usepackage{xcolor}
+\usepackage[noend]{algpseudocode}
+
+\begin{document}
+		\begin{algorithmic}[0]
+			\Statex \color{white} x \color{black}
+			\Function{min}{$\rho_1$, $\rho_2$, $\dots$, $\rho_\lambda$: finite sequence of natural numbers}
+			\State $\mu \gets \rho_1$
+			\For {$\iota = 2, \lambda$}
+				\If {$\rho_\iota < \mu$}
+					\State $\mu \gets \rho_\iota$
+			    \EndIf
+			\EndFor
+			\State \Return{$\mu$}
+			\EndFunction
+		\end{algorithmic}
+\end{document}

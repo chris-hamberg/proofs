@@ -1,0 +1,24 @@
+\documentclass[preview]{standalone}
+
+\begin{document}
+			
+		\begin{algorithmic}[0]
+			
+			\Function{first max}{$\rho_1$, $\rho_2$, $\dots$, $\rho_\omega$: finite list of integers}
+			
+			\State $\lambda \gets 1$
+			\State $\mu \gets \rho_\lambda$
+			
+			\For {$\iota = 2, \omega$}
+				\If {$\rho_\iota > \mu$}
+					\State $\lambda \gets \iota$
+					\State $\mu \gets \rho_\iota$
+				\EndIf
+			\EndFor
+			
+			\State \Return{$\lambda$}
+			\EndFunction
+			
+		\end{algorithmic}
+
+\end{document}

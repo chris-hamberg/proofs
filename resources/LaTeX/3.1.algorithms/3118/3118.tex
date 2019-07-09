@@ -1,0 +1,25 @@
+\documentclass[preview]{standalone}
+
+
+\begin{document}
+		
+		\begin{algorithmic}[0]
+			
+			\Function{last min}{$\rho_1$, $\rho_2$, $\dots$, $\rho_\omega$: finite list of integers}
+			
+			\State $\lambda \gets \omega$
+			\State $\mu \gets \rho_\omega$
+			
+			\For {$\iota = \omega-1, 1$}
+				\If {$\rho_\iota < \mu$}
+					\State $\lambda \gets \iota$
+					\State $\mu \gets \rho_\iota$
+				\EndIf
+			\EndFor
+			
+			\State \Return{$\lambda$}
+			\EndFunction
+			
+		\end{algorithmic}
+
+\end{document}

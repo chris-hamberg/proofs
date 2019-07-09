@@ -138,14 +138,18 @@
 \contentsline {subsection}{Lemma 13}{88}{lemma.12}% 
 \contentsline {subsection}{Lemma 14}{89}{lemma.13}% 
 \contentsline {chapter}{\chapternumberline {5}Algorithms}{91}{chapter.5}% 
-\contentsline {subsection}{The sum of integers in a list.}{91}{chapter.5}% 
-\contentsline {subsection}{Max adjacent list entry difference.}{92}{figure.caption.55}% 
-\contentsline {subsection}{Find duplicate list entries.}{93}{figure.caption.56}% 
-\contentsline {subsection}{Count negative valued list entries.}{94}{figure.caption.57}% 
-\contentsline {subsection}{Find the last even list entry.}{95}{figure.caption.58}% 
-\contentsline {subsection}{Find the largest even list entry.}{96}{figure.caption.59}% 
-\contentsline {subsection}{Palindrome strings of characters.}{97}{figure.caption.60}% 
-\contentsline {subsection}{Compute beta to the power of lambda.}{98}{lstnumber.-14.11}% 
-\contentsline {subsection}{Swap lambda with iota.}{99}{figure.caption.61}% 
-\contentsline {subsection}{Insert an integer into a list.}{100}{figure.caption.62}% 
-\contentsline {subsection}{Find the least element in a sequence.}{102}{figure.caption.64}% 
+\contentsline {section}{\numberline {5.1}Algorithms}{91}{section.5.1}% 
+\contentsline {subsection}{The sum of integers in a list.}{92}{figure.caption.56}% 
+\contentsline {subsection}{Max adjacent list entry difference.}{93}{lstnumber.-2.8}% 
+\contentsline {subsection}{Find duplicate list entries.}{94}{figure.caption.57}% 
+\contentsline {subsection}{Count negative valued list entries.}{95}{figure.caption.58}% 
+\contentsline {subsection}{Find the last even list entry.}{96}{figure.caption.60}% 
+\contentsline {subsection}{Find the largest even list entry.}{97}{lstnumber.-10.10}% 
+\contentsline {subsection}{Palindrome strings of characters.}{98}{lstnumber.-12.13}% 
+\contentsline {subsection}{Compute beta to the power of lambda.}{99}{figure.caption.61}% 
+\contentsline {subsection}{Swap lambda with iota.}{100}{figure.caption.62}% 
+\contentsline {subsection}{Insert an integer into a list.}{101}{figure.caption.63}% 
+\contentsline {subsection}{The least element in a sequence.}{103}{figure.caption.65}% 
+\contentsline {subsection}{The first largest integer from a finite list.}{104}{figure.caption.66}% 
+\contentsline {subsection}{The last smallest integer from a finite list.}{105}{figure.caption.67}% 
+\contentsline {subsection}{Maximum, medium, mean, and mininum.}{106}{figure.caption.68}% 

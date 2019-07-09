@@ -4,19 +4,18 @@ public class j3107 {
 
     public static void main(String[] a) {
         int[] integers = converter(a);
-        Integer result = lastEven(integers);
+        Object result = lastEven(integers);
         System.out.println(result);
     }
 
-public static Integer lastEven(int[] a) {
+public static Object lastEven(int[] a) {
     // Find the last even list entry.
-    Integer index = null;
-    for (int i = 0; i < a.length; i++) {
+    for (int i = a.length - 1; i > 0; i--) {
         if (a[i] % 2 == 0) {
-            index = i;
+            return i;
         }
     }
-    return index;
+    return null;
 }
 
     public static int[] converter(String[] a){

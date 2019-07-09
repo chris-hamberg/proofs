@@ -1,7 +1,6 @@
 def last_even(a):
     ''' Find the last even list entry. '''
-    index = None
-    for i in range(len(a)):
+    for i in range(len(a)-1, -1, -1):
         if not a[i] % 2:
-            index = i
-    return index
+            return i
+    return None

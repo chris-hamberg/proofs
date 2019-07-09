@@ -1,0 +1,53 @@
+\documentclass[preview]{standalone}
+% \usepackage[utf8]{inputenc}
+% \usepackage[english]{babel}
+% \usepackage{amssymb, amsmath, amsthm}
+% \usepackage{mathtools}
+
+% \DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+% \DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+
+% \usepackage{algorithmicx,algorithm,algpseudocode}
+
+% \def\NoNumber#1{{\def\alglinenumber##1{}\State#1}\addtocounter{ALG@line}{-1}}
+
+% \newcommand{\pluseq}{\mathrel{+}=}
+% \newcommand{\minuseq}{\mathrel{-}=}
+
+\begin{document}
+		
+	\begin{center}
+		\centering
+		\text{\emph{Find the maximum, median, mean, and minimum}}
+		\text{\emph{from a set of three integers.}}
+		\vspace{1\baselineskip}
+	\end{center}
+
+		\begin{algorithmic}[0]
+			
+			\Function{stats}{$\mu$: integer; $\nu$: integer; $\rho$: integer}
+			
+			\State $\alpha_1 \gets \mu$
+			\State $\alpha_2 \gets \nu$
+			\State $\alpha_3 \gets \rho$
+			
+			\For {$\iota = 1$ to $3 - 1$}
+			\color{lightgray}\Comment{Bubble sort $\alpha_1$, $\alpha_2$, $\alpha_3$}\color{black}
+				\For {$\epsilon = 1$ to $3 - \iota$}
+					\If {$\alpha_\epsilon > \alpha_{\epsilon+1}$}
+						\State swap $\alpha_\epsilon$ and $\alpha_{\epsilon + 1}$
+					\EndIf
+				\EndFor
+			\EndFor
+			
+			\State $minimum \gets \alpha_1$
+			\State $maximum \gets \alpha_3$
+			\State $median \gets \alpha_2$	
+			\State $mean \gets \frac{\alpha_1 + \alpha_2 + \alpha_3}{3}$
+			
+			\State \Return{$maximum, median, mean, minimum$}
+			\EndFunction
+			
+		\end{algorithmic}
+
+\end{document}

@@ -1,0 +1,13 @@
+{
+    "configurations": [
+
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - j3117",
+            "request": "launch",
+            "mainClass": "j3117",
+            "console": "integratedTerminal"
+
+        }
+    ]
+}

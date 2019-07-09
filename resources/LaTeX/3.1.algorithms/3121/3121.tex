@@ -1,0 +1,29 @@
+\documentclass[preview]{standalone}
+
+
+\begin{document}
+	
+	\begin{center}
+		\text{\emph{Sort the first three terms in a sequence of integers.}}
+		\vspace{0.5\baselineskip}
+	\end{center}
+
+	\begin{algorithmic}[0]
+			
+		\Function{partial sort}{$\rho_1$, $\rho_2$, $\dots$, $\rho_\lambda$: sequence of integers}
+			
+			\For {$\sigma = 1, 2$}
+				\For {$\iota = 1, 3 - \sigma$}
+					\color{lightgray} \Comment {Bubble Sort $\rho_1$, $\rho_2$, $\rho_3$ and then stop} \color{black}
+					\If {$\rho_\iota > \rho_{\iota+1}$}
+						\State swap $\rho_\iota$ and $\rho_{\iota+1}$
+					\EndIf
+				\EndFor
+			\EndFor
+			
+			\State \Return{$\rho_1, \rho_2, \dots, \rho_\lambda$}
+		\EndFunction
+			
+	\end{algorithmic}
+
+\end{document}

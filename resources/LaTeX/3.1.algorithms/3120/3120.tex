@@ -1,0 +1,34 @@
+\documentclass[preview]{standalone}
+
+\begin{document}
+
+	\begin{center}
+		\centering
+		\text{\emph{Find the largest, and the smallest integer}}
+		\\
+		\text{\emph{from a finite sequence of integers.}}
+		\vspace{1\baselineskip}
+	\end{center}
+
+		
+	\begin{algorithmic}[0]
+			
+			\Function{extrema}{$\alpha_1$, $\alpha_2$, $\dots$, $\alpha_\lambda$: finite sequence of integers}
+			
+			\State $\mu \gets \alpha_1$
+			\State $\nu \gets \alpha_1$
+			
+			\For {$\iota = 2, \lambda$}
+				\If {$\alpha_\iota < \mu$}
+					\State $\mu \gets \alpha_\iota$
+				\ElsIf {$\alpha_\iota > \nu$}
+					\State $\nu \gets \alpha_\iota$
+				\EndIf
+			\EndFor
+			
+			\State \Return{$\mu$, $\nu$}
+			\EndFunction
+			
+		\end{algorithmic}
+
+\end{document}

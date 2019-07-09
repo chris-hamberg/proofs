@@ -153,3 +153,4 @@
 \contentsline {subsection}{The first largest integer from a finite list.}{104}{figure.caption.66}% 
 \contentsline {subsection}{The last smallest integer from a finite list.}{105}{figure.caption.67}% 
 \contentsline {subsection}{Maximum, medium, mean, and mininum.}{106}{figure.caption.68}% 
+\contentsline {subsection}{The extrema of a discrete finite set.}{108}{figure.caption.70}% 

@@ -155,3 +155,4 @@
 \contentsline {subsection}{Maximum, medium, mean, and mininum.}{106}{figure.caption.68}% 
 \contentsline {subsection}{The extrema of a discrete finite set.}{108}{figure.caption.70}% 
 \contentsline {subsection}{Partial sort.}{110}{figure.caption.72}% 
+\contentsline {subsection}{Find the longest word.}{111}{figure.caption.73}% 
